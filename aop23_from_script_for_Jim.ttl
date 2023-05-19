@@ -1,0 +1,216 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology ;
+   owl:imports <http://purl.obolibrary.org/obo/go/releases/2022-01-13/go.owl> ,
+               <http://purl.obolibrary.org/obo/ro/releases/2022-01-20/ro.owl>
+ ] .
+
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PC_:0000001
+	<http://purl.obolibrary.org/obo/PC_:0000001> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PC_0000008
+	<http://purl.obolibrary.org/obo/PC_0000008> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000004191
+	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0004882
+	<http://purl.obolibrary.org/obo/GO_0004882> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI:17347
+	<http://purl.obolibrary.org/obo/CHEBI:17347> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0061370
+	<http://purl.obolibrary.org/obo/GO_0061370> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI:16469
+	<http://purl.obolibrary.org/obo/CHEBI:16469> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006703
+	<http://purl.obolibrary.org/obo/GO_0006703> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/D014819
+	<http://purl.obolibrary.org/obo/D014819> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009306
+	<http://purl.obolibrary.org/obo/GO_0009306> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/VT_1000294
+	<http://purl.obolibrary.org/obo/VT_1000294> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006898
+	<http://purl.obolibrary.org/obo/GO_0006898> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0001555
+	<http://purl.obolibrary.org/obo/GO_0001555> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048599
+	<http://purl.obolibrary.org/obo/GO_0048599> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI:81568
+	<http://purl.obolibrary.org/obo/CHEBI:81568> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI:81569
+	<http://purl.obolibrary.org/obo/CHEBI:81569> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
+<http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :androgen_receptor_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity
+<http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004882> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Luteinizing_hormone  ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Follicle_stimulating_hormone  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
+<http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI:81568> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :testosterone_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Follicle_stimulating_hormone
+<http://www.co-ode.org/ontologies/ont.owl#Follicle_stimulating_hormone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI:81569> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :testosterone_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone
+<http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI:17347> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :testosterone_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0061370> ;
+	<http://purl.obolibrary.org/obo/RO_0002410:Causally_related_to> :estrogen_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI:16469> ;
+	<http://purl.obolibrary.org/obo/None> :estrogen_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006703> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :17beta-estradiol  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI:16469> ;
+	<http://purl.obolibrary.org/obo/None> :gene_expression  ;
+	<http://purl.obolibrary.org/obo/None> :protein_secretion  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://purl.obolibrary.org/obo/None> :gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :vitellogenins  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://purl.obolibrary.org/obo/None> :protein_secretion  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein_secretion
+<http://www.co-ode.org/ontologies/ont.owl#protein_secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0009306> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :vitellogenins  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://purl.obolibrary.org/obo/None> :receptor-mediated_endocytosis  ;
+	<http://purl.obolibrary.org/obo/None> :oocyte_growth  ;
+	<http://purl.obolibrary.org/obo/None> :oocyte_development  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://purl.obolibrary.org/obo/None> :receptor-mediated_endocytosis  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis
+<http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006898> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :egg_quantity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#oocyte_growth
+<http://www.co-ode.org/ontologies/ont.owl#oocyte_growth> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001555> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :egg_quantity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#oocyte_development
+<http://www.co-ode.org/ontologies/ont.owl#oocyte_development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0048599> ;
+	<http://purl.obolibrary.org/obo/RO_0019000:Regulates_characteristic> :egg_quantity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
+<http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_1000294> ;
+	<http://purl.obolibrary.org/obo/RO_0003303:Causes_condition|RO_0002610:Correlated_with> :population_growth_rate  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PC_:0000001> ;
+	<http://purl.obolibrary.org/obo/None> :population_growth_rate  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
+<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PC_:0000008> .
+
+
+
+#################################################################
+#   Objects
+#################################################################
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+
