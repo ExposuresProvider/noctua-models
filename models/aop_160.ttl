@@ -1,0 +1,125 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+<https://noctua.apps.renci.org/model/AOP_160> a owl:Ontology
+    
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/D009026
+	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17996
+	<http://purl.obolibrary.org/obo/CHEBI_17996> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0022851
+	<http://purl.obolibrary.org/obo/GO_0022851> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060080
+	<http://purl.obolibrary.org/obo/GO_0060080> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0000753
+	<http://purl.obolibrary.org/obo/MP_0000753> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_1902476
+	<http://purl.obolibrary.org/obo/GO_1902476> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_1902710
+	<http://purl.obolibrary.org/obo/GO_1902710> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050805
+	<http://purl.obolibrary.org/obo/GO_0050805> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/NBO_0000079
+	<http://purl.obolibrary.org/obo/NBO_0000079> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#paralysis
+<http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0000753> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :feeding_behavior ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :feeding_behavior  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D009026> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chloride
+<http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_transmembrane_transport  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport
+<http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_1902476> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :negative_regulation_of_synaptic_transmission  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_complex
+<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_1902710> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :negative_regulation_of_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :negative_regulation_of_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :negative_regulation_of_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :negative_regulation_of_synaptic_transmission  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_synaptic_transmission
+<http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_synaptic_transmission> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050805> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :inhibitory_postsynaptic_potential  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#inhibitory_postsynaptic_potential
+<http://www.co-ode.org/ontologies/ont.owl#inhibitory_postsynaptic_potential> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0060080> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :paralysis  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#paralysis
+<http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0000753> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :feeding_behavior ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :feeding_behavior  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#feeding_behavior
+<http://www.co-ode.org/ontologies/ont.owl#feeding_behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000079> ;
+	<http://purl.obolibrary.org/obo/> :mortality  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

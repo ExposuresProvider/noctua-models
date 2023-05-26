@@ -1,0 +1,186 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+<https://noctua.apps.renci.org/model/AOP_207> a owl:Ontology
+    
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/D019255
+	<http://purl.obolibrary.org/obo/D019255> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0023052
+	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0000003
+	<http://purl.obolibrary.org/obo/GO_0000003> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_26523
+	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009058
+	<http://purl.obolibrary.org/obo/GO_0009058> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0003674
+	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000003106
+	<http://purl.obolibrary.org/obo/PR_000003106> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_G5EGD2
+	<http://purl.obolibrary.org/obo/PR_G5EGD2> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_16991
+	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006281
+	<http://purl.obolibrary.org/obo/GO_0006281> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005739
+	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0061726
+	<http://purl.obolibrary.org/obo/GO_0061726> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006915
+	<http://purl.obolibrary.org/obo/GO_0006915> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADPH_Oxidase
+<http://www.co-ode.org/ontologies/ont.owl#NADPH_Oxidase> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/D019255> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0009058> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
+<http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0003674> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#map_kinase_p38
+<http://www.co-ode.org/ontologies/ont.owl#map_kinase_p38> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000003106> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#DNA_repair
+<http://www.co-ode.org/ontologies/ont.owl#DNA_repair> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006281> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :apoptotic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrion_disassembly  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion_disassembly
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion_disassembly> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0061726> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :apoptotic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1_(Caenorhabditis_elegans)
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1_(Caenorhabditis_elegans)> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_G5EGD2> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :apoptotic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006915> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006915> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006915> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#reproduction
+<http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0000003> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
