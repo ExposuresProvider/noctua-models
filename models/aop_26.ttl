@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_26> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_26> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -78,20 +78,14 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :calcium_ion ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :calcium_ion ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :calcium_ion ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :calcium_ion  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
+	<http://purl.obolibrary.org/obo/RO_0002332> :calcium_ion ###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
 <http://www.co-ode.org/ontologies/ont.owl#calcium_ion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
 	<http://purl.obolibrary.org/obo/RO_0002566> :mitochondrial_respiratory_chain ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :mitochondrial_respiratory_chain  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_respiratory_chain
+	<http://purl.obolibrary.org/obo/RO_0002559> :mitochondrial_respiratory_chain ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_respiratory_chain
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrial_respiratory_chain> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005746> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#ATP
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#ATP
 <http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_15422> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process  .
@@ -108,9 +102,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1903409> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#long-term_synaptic_potentiation
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress ###  http://www.co-ode.org/ontologies/ont.owl#long-term_synaptic_potentiation
 <http://www.co-ode.org/ontologies/ont.owl#long-term_synaptic_potentiation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060291> .
 
@@ -120,9 +112,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002331> :long-term_synaptic_potentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :long-term_synaptic_potentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :long-term_synaptic_potentiation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :long-term_synaptic_potentiation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
+	<http://purl.obolibrary.org/obo/RO_0002428> :long-term_synaptic_potentiation ###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> .
 
