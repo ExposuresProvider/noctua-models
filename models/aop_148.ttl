@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_148> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_148> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -91,9 +91,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#epidermal_growth_factor-activated_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#epidermal_growth_factor-activated_receptor_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005006> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#epidermal_growth_factor_receptor
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#epidermal_growth_factor_receptor
 <http://www.co-ode.org/ontologies/ont.owl#epidermal_growth_factor_receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000006933> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :phosphorylation ;
@@ -104,9 +102,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#phosphorylation
 <http://www.co-ode.org/ontologies/ont.owl#phosphorylation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0016310> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#ciliated_epithelial_cell
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#ciliated_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#ciliated_epithelial_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000067> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :apoptotic_process ;
@@ -117,29 +113,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
 <http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006915> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Metaplasia  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0019000> :Metaplasia ###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000160> ;
-	<http://purl.obolibrary.org/obo/> :Metaplasia  .
+	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D008679> ;
-	<http://purl.obolibrary.org/obo/> :mucus_secretion  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000160> ;
-	<http://purl.obolibrary.org/obo/> :Metaplasia  .
+	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D008679> ;
-	<http://purl.obolibrary.org/obo/> :mucus_secretion  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000143> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mucus_secretion ;
@@ -150,9 +140,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mucus_secretion
 <http://www.co-ode.org/ontologies/ont.owl#mucus_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070254> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait ###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000160> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
@@ -163,19 +151,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000160> ;
-	<http://purl.obolibrary.org/obo/> :hyperplasia  .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D006965> ;
-	<http://purl.obolibrary.org/obo/> :mucus_secretion  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000143> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mucus_secretion ;
@@ -186,9 +170,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mucus_secretion
 <http://www.co-ode.org/ontologies/ont.owl#mucus_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070254> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
+	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait ###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000143> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mucus_secretion ;
@@ -199,9 +181,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mucus_secretion
 <http://www.co-ode.org/ontologies/ont.owl#mucus_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070254> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait
+	<http://purl.obolibrary.org/obo/RO_0019000> :respiratory_function_trait ###  http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait
 <http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_0002327> .
 
@@ -211,9 +191,9 @@
 #   Object Statements
 #################################################################
 
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
 <http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
 <http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
 <http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
 <http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
 <http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_48> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_48> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -91,9 +91,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA_glutamate_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#NMDA_glutamate_receptor_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004972> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
+	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport ###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
 <http://www.co-ode.org/ontologies/ont.owl#calcium_ion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :calcium_ion_transport ;
@@ -107,21 +105,15 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :mitochondrion ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
+	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion ###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
 <http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002229> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling ###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
 <http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002229> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling ###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
 <http://www.co-ode.org/ontologies/ont.owl#microglial_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000129> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
@@ -131,9 +123,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001847> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :neurodegeneration ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
+	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration ###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
 <http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000127> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
@@ -143,9 +133,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001847> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :neurodegeneration ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#NMDA_selective_glutamate_receptor_complex
+	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration ###  http://www.co-ode.org/ontologies/ont.owl#NMDA_selective_glutamate_receptor_complex
 <http://www.co-ode.org/ontologies/ont.owl#NMDA_selective_glutamate_receptor_complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0017146> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA_glutamate_receptor_activity ;
@@ -156,23 +144,17 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA_glutamate_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#NMDA_glutamate_receptor_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004972> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :brain_inflammation  ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :brain_inflammation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
+	<http://purl.obolibrary.org/obo/RO_0019000> :brain_inflammation ###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
 <http://www.co-ode.org/ontologies/ont.owl#microglial_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000129> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
@@ -182,9 +164,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001847> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :neurodegeneration ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
+	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration ###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
 <http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000127> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
@@ -194,9 +174,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001847> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :neurodegeneration ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#learning
+	<http://purl.obolibrary.org/obo/RO_0002610> :neurodegeneration ###  http://www.co-ode.org/ontologies/ont.owl#learning
 <http://www.co-ode.org/ontologies/ont.owl#learning> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007612> .
 
@@ -208,9 +186,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0099536> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :learning  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :memory  .
-
-
+	<http://purl.obolibrary.org/obo/RO_0002410> :memory 
 
 #################################################################
 #   Object Statements

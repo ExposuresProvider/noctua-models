@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_131> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_131> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -72,9 +72,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004874> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A2
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A2
 <http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A2> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000006102> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
@@ -88,9 +86,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :uroporphyrinogen ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :uroporphyrinogen ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :uroporphyrinogen ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :uroporphyrinogen  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A5_(chicken)
+	<http://purl.obolibrary.org/obo/RO_0002332> :uroporphyrinogen ###  http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A5_(chicken)
 <http://www.co-ode.org/ontologies/ont.owl#cytochrome_P450_1A5_(chicken)> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P79761> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
@@ -104,17 +100,13 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :uroporphyrinogen ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :uroporphyrinogen ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :uroporphyrinogen ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :uroporphyrinogen  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen
+	<http://purl.obolibrary.org/obo/RO_0002332> :uroporphyrinogen ###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen
 <http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27258> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen_decarboxylase
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity ###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen_decarboxylase
 <http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen_decarboxylase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000017134> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
@@ -128,15 +120,11 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :porphyrins ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :porphyrins ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :porphyrins ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :porphyrins  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#porphyrins
+	<http://purl.obolibrary.org/obo/RO_0002332> :porphyrins ###  http://www.co-ode.org/ontologies/ont.owl#porphyrins
 <http://www.co-ode.org/ontologies/ont.owl#porphyrins> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26214> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :porphyria ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :porphyria  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#porphyria
+	<http://purl.obolibrary.org/obo/RO_0000053> :porphyria ###  http://www.co-ode.org/ontologies/ont.owl#porphyria
 <http://www.co-ode.org/ontologies/ont.owl#porphyria> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005654> .
 

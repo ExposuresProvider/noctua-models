@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_94> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_94> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -60,21 +60,15 @@
 <http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D054537> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
+	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress ###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
 <http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D001919> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory_distress
+	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress ###  http://www.co-ode.org/ontologies/ont.owl#respiratory_distress
 <http://www.co-ode.org/ontologies/ont.owl#respiratory_distress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001954> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :hypoxia ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
+	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
 <http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005039> .
 
@@ -88,21 +82,15 @@
 	<http://purl.obolibrary.org/obo/RO_0002234> :decreased_heart_rate ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :decreased_heart_rate ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :decreased_heart_rate ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :decreased_heart_rate  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block
+	<http://purl.obolibrary.org/obo/RO_0002332> :decreased_heart_rate ###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block
 <http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D054537> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
+	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress ###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
 <http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D001919> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress  .
-
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress 
 
 #################################################################
 #   Object Statements

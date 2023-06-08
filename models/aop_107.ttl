@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_107> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_107> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -79,15 +79,11 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010468> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mitogenic_signaling_cell
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#mitogenic_signaling_cell
 <http://www.co-ode.org/ontologies/ont.owl#mitogenic_signaling_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000422> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
@@ -98,9 +94,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
+	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000182> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hepatocyte_proliferation  .
@@ -108,9 +102,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0072574> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass
+	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003902> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :preneoplasia ;
@@ -122,9 +114,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma  ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma  ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular_carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D000236> .
 
@@ -135,7 +125,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/D000236> ;
-	<http://purl.obolibrary.org/obo/> :hepatocellular_carcinoma  .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
