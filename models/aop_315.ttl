@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_315> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_315> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -67,9 +67,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_binding
 <http://www.co-ode.org/ontologies/ont.owl#regulation_of_binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051098> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dephosphorylation  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#signal_transducer_and_transcription_activator_STAT
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dephosphorylation ###  http://www.co-ode.org/ontologies/ont.owl#signal_transducer_and_transcription_activator_STAT
 <http://www.co-ode.org/ontologies/ont.owl#signal_transducer_and_transcription_activator_STAT> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001933> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dephosphorylation ;
@@ -80,9 +78,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#protein_dephosphorylation
 <http://www.co-ode.org/ontologies/ont.owl#protein_dephosphorylation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006470> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :negative_regulation_of_DNA_binding  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#protein-DNA_complex
+	<http://purl.obolibrary.org/obo/RO_0002410> :negative_regulation_of_DNA_binding ###  http://www.co-ode.org/ontologies/ont.owl#protein-DNA_complex
 <http://www.co-ode.org/ontologies/ont.owl#protein-DNA_complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032993> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :negative_regulation_of_DNA_binding ;
@@ -93,9 +89,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_DNA_binding
 <http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_DNA_binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0043392> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-4_production  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4
+	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-4_production ###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4
 <http://www.co-ode.org/ontologies/ont.owl#interleukin-4> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001391> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :interleukin-4_production  .
@@ -103,9 +97,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4_production
 <http://www.co-ode.org/ontologies/ont.owl#interleukin-4_production> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032633> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation_involved_in_immune_response  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#T_cell_activation_involved_in_immune_response
+	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation_involved_in_immune_response ###  http://www.co-ode.org/ontologies/ont.owl#T_cell_activation_involved_in_immune_response
 <http://www.co-ode.org/ontologies/ont.owl#T_cell_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002286> .
 
