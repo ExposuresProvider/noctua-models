@@ -1,14 +1,14 @@
 @prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-@base <http://www.w3.org/2002/07/owl#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
 
-<https://noctua.apps.renci.org/model/AOP_164> a owl:Ontology
-    
+        <https://noctua.apps.renci.org/model/AOP_164> a owl:Ontology
+        
 
 #################################################################
 #   Classes
@@ -67,9 +67,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor_binding
 <http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor_binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0031698> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :beta2-adrenergic_receptor_activity  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor
+	<http://purl.obolibrary.org/obo/RO_0002410> :beta2-adrenergic_receptor_activity ###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor
 <http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001193> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :beta2-adrenergic_receptor_activity ;
@@ -80,16 +78,14 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic_receptor_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004941> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :relaxation_of_smooth_muscle  .
-
-###  http://www.co-ode.org/ontologies/ont.owl#relaxation_of_smooth_muscle
+	<http://purl.obolibrary.org/obo/RO_0002410> :relaxation_of_smooth_muscle ###  http://www.co-ode.org/ontologies/ont.owl#relaxation_of_smooth_muscle
 <http://www.co-ode.org/ontologies/ont.owl#relaxation_of_smooth_muscle> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0044557> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#smooth_muscle_tissue
 <http://www.co-ode.org/ontologies/ont.owl#smooth_muscle_tissue> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001135> ;
-	<http://purl.obolibrary.org/obo/> :hypertrophy  .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
