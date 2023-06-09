@@ -35,16 +35,16 @@
 	<http://purl.obolibrary.org/obo/CHEBI_26216> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001145
-	<http://purl.obolibrary.org/obo/D001145> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001145
+	<http://id.nlm.nih.gov/mesh/D001145> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0003674
@@ -84,10 +84,10 @@
 	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias,_Cardiac ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias,_Cardiac ###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac
 <http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001145> ;
+	<http://id.nlm.nih.gov/mesh/D001145> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
 <http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,

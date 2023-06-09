@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D002137
-	<http://purl.obolibrary.org/obo/D002137> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002137
+	<http://id.nlm.nih.gov/mesh/D002137> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0011625
@@ -35,16 +35,16 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
 
@@ -54,7 +54,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Calculi
 <http://www.co-ode.org/ontologies/ont.owl#Calculi> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002137> ;
+	<http://id.nlm.nih.gov/mesh/D002137> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :cystolithiasis ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :cystolithiasis  .
 
@@ -91,15 +91,15 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D000236> .
+	<http://id.nlm.nih.gov/mesh/D000236> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002277> .
+	<http://id.nlm.nih.gov/mesh/D002277> .
 
 
 

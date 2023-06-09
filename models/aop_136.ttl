@@ -23,8 +23,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0001997> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001284
-	<http://purl.obolibrary.org/obo/D001284> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001284
+	<http://id.nlm.nih.gov/mesh/D001284> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0070265
@@ -35,8 +35,8 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D008679
-	<http://purl.obolibrary.org/obo/D008679> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D008679
+	<http://id.nlm.nih.gov/mesh/D008679> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0008219
@@ -59,8 +59,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009154
-	<http://purl.obolibrary.org/obo/D009154> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009154
+	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
 
 
 
@@ -87,7 +87,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#atrophy
 <http://www.co-ode.org/ontologies/ont.owl#atrophy> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001284> ;
+	<http://id.nlm.nih.gov/mesh/D001284> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia ###  http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070265> ;
@@ -96,7 +96,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Metaplasia ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Metaplasia ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D008679> ;
+	<http://id.nlm.nih.gov/mesh/D008679> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;

@@ -15,16 +15,16 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CL_0000019
 	<http://purl.obolibrary.org/obo/CL_0000019> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005326
-	<http://purl.obolibrary.org/obo/D005326> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005326
+	<http://id.nlm.nih.gov/mesh/D005326> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PR_000011405

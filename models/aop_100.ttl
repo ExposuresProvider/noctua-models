@@ -35,8 +35,8 @@
 	<http://purl.obolibrary.org/obo/GO_0001516> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/NBO_0000280
@@ -99,7 +99,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_F2alpha ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005298> ;
+	<http://id.nlm.nih.gov/mesh/D005298> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :attraction-related_behavior ###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
 <http://www.co-ode.org/ontologies/ont.owl#reproductive_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0022414> ;

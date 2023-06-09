@@ -27,8 +27,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/Q000633
-	<http://purl.obolibrary.org/obo/Q000633> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/Q000633
+	<http://id.nlm.nih.gov/mesh/Q000633> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0003094
@@ -59,8 +59,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0009773> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D004106
-	<http://purl.obolibrary.org/obo/D004106> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D004106
+	<http://id.nlm.nih.gov/mesh/D004106> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0011899
@@ -129,7 +129,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Dilatation
 <http://www.co-ode.org/ontologies/ont.owl#Dilatation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D004106> .
+	<http://id.nlm.nih.gov/mesh/D004106> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization
 <http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization> rdf:type owl:NamedIndividual ,
@@ -162,7 +162,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Dilatation
 <http://www.co-ode.org/ontologies/ont.owl#Dilatation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D004106> .
+	<http://id.nlm.nih.gov/mesh/D004106> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization
 <http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization> rdf:type owl:NamedIndividual ,
@@ -175,7 +175,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/Q000633> .
+	<http://id.nlm.nih.gov/mesh/Q000633> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
@@ -184,7 +184,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/Q000633> .
+	<http://id.nlm.nih.gov/mesh/Q000633> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
@@ -193,7 +193,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/Q000633> .
+	<http://id.nlm.nih.gov/mesh/Q000633> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
@@ -202,7 +202,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/Q000633> .
+	<http://id.nlm.nih.gov/mesh/Q000633> .
 
 
 

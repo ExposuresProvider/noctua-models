@@ -47,8 +47,8 @@
 	<http://purl.obolibrary.org/obo/CL_0000019> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 
@@ -119,13 +119,13 @@
 	<http://purl.obolibrary.org/obo/CL_0000019> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fertility ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005298> ;
+	<http://id.nlm.nih.gov/mesh/D005298> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fertility ###  http://www.co-ode.org/ontologies/ont.owl#sperm
 <http://www.co-ode.org/ontologies/ont.owl#sperm> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000019> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fertility ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005298> .
+	<http://id.nlm.nih.gov/mesh/D005298> .
 
 
 

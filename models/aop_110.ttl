@@ -23,20 +23,20 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006984
-	<http://purl.obolibrary.org/obo/D006984> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006984
+	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_60311
@@ -125,7 +125,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006984> ;
+	<http://id.nlm.nih.gov/mesh/D006984> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002258> ;
@@ -133,15 +133,15 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D000236> .
+	<http://id.nlm.nih.gov/mesh/D000236> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002277> .
+	<http://id.nlm.nih.gov/mesh/D002277> .
 
 
 

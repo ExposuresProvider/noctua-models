@@ -39,8 +39,8 @@
 	<http://purl.obolibrary.org/obo/GO_0060756> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D056631
-	<http://purl.obolibrary.org/obo/D056631> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D056631
+	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_39124
@@ -101,10 +101,10 @@
 	<http://purl.obolibrary.org/obo/GO_0060756> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :colony_collapse ###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D056631> ;
+	<http://id.nlm.nih.gov/mesh/D056631> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse ###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D056631> .
+	<http://id.nlm.nih.gov/mesh/D056631> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
 <http://www.co-ode.org/ontologies/ont.owl#calcium_ion> rdf:type owl:NamedIndividual ,

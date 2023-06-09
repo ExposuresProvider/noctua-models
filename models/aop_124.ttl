@@ -51,8 +51,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0000079> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 
@@ -117,7 +117,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005298> .
+	<http://id.nlm.nih.gov/mesh/D005298> .
 
 
 

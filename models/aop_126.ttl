@@ -35,8 +35,8 @@
 	<http://purl.obolibrary.org/obo/PR_P01101> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007987
-	<http://purl.obolibrary.org/obo/D007987> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007987
+	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0046879
@@ -75,8 +75,8 @@
 	<http://purl.obolibrary.org/obo/MP_0004023> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0001921

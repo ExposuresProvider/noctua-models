@@ -35,16 +35,16 @@
 	<http://purl.obolibrary.org/obo/MP_0002009> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006528
-	<http://purl.obolibrary.org/obo/D006528> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
 
 
 
@@ -88,20 +88,20 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D000236> .
+	<http://id.nlm.nih.gov/mesh/D000236> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002277> .
+	<http://id.nlm.nih.gov/mesh/D002277> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D000236> ;
+	<http://id.nlm.nih.gov/mesh/D000236> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma  .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006528> .
+	<http://id.nlm.nih.gov/mesh/D006528> .
 
 
 

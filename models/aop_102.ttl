@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_15551> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007987
-	<http://purl.obolibrary.org/obo/D007987> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007987
+	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_81568
@@ -114,7 +114,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002566> :Gonadotropin_Releasing_Hormone ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :Gonadotropin_Releasing_Hormone ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> ;
 	<http://purl.obolibrary.org/obo/RO_0002566> :Luteinizing_hormone ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :Luteinizing_hormone ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
