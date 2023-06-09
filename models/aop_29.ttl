@@ -27,16 +27,16 @@
 	<http://purl.obolibrary.org/obo/VT_1000294> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D014819
-	<http://purl.obolibrary.org/obo/D014819> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D014819
+	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0010467
 	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007674
-	<http://purl.obolibrary.org/obo/D007674> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007674
+	<http://id.nlm.nih.gov/mesh/D007674> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PCO_0000001
@@ -97,7 +97,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
@@ -111,14 +111,14 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins ###  http://www.co-ode.org/ontologies/ont.owl#Kidney_Diseases
 <http://www.co-ode.org/ontologies/ont.owl#Kidney_Diseases> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007674> ;
+	<http://id.nlm.nih.gov/mesh/D007674> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :larval_development ###  http://www.co-ode.org/ontologies/ont.owl#reproductive_behavior
 <http://www.co-ode.org/ontologies/ont.owl#reproductive_behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019098> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Kidney_Diseases 
 
 #################################################################

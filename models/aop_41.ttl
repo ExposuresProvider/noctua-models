@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D008107
-	<http://purl.obolibrary.org/obo/D008107> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D008107
+	<http://id.nlm.nih.gov/mesh/D008107> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PR_000003858
@@ -47,20 +47,20 @@
 	<http://purl.obolibrary.org/obo/CL_0002196> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CL_0002538
 	<http://purl.obolibrary.org/obo/CL_0002538> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006528
-	<http://purl.obolibrary.org/obo/D006528> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001650
-	<http://purl.obolibrary.org/obo/D001650> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001650
+	<http://id.nlm.nih.gov/mesh/D001650> rdf:type owl:Class .
 
 
 
@@ -94,7 +94,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Liver_Diseases ###  http://www.co-ode.org/ontologies/ont.owl#Liver_Diseases
 <http://www.co-ode.org/ontologies/ont.owl#Liver_Diseases> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D008107> ;
+	<http://id.nlm.nih.gov/mesh/D008107> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
@@ -125,7 +125,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Bile_Duct_Neoplasms ###  http://www.co-ode.org/ontologies/ont.owl#intrahepatic_bile_duct_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#intrahepatic_bile_duct_epithelial_cell> rdf:type owl:NamedIndividual ,
@@ -134,15 +134,15 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Bile_Duct_Neoplasms ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006528> .
+	<http://id.nlm.nih.gov/mesh/D006528> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Bile_Duct_Neoplasms
 <http://www.co-ode.org/ontologies/ont.owl#Bile_Duct_Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001650> .
+	<http://id.nlm.nih.gov/mesh/D001650> .
 
 
 

@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009154
-	<http://purl.obolibrary.org/obo/D009154> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009154
+	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0006305
@@ -65,7 +65,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009154> ;
+	<http://id.nlm.nih.gov/mesh/D009154> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mutation ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
@@ -73,7 +73,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009154> .
+	<http://id.nlm.nih.gov/mesh/D009154> .
 
 
 

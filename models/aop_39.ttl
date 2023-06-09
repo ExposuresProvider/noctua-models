@@ -31,8 +31,8 @@
 	<http://purl.obolibrary.org/obo/GO_0005125> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D012130
-	<http://purl.obolibrary.org/obo/D012130> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D012130
+	<http://id.nlm.nih.gov/mesh/D012130> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0001775
@@ -146,7 +146,7 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :Respiratory_Hypersensitivity ###  http://www.co-ode.org/ontologies/ont.owl#Respiratory_Hypersensitivity
 <http://www.co-ode.org/ontologies/ont.owl#Respiratory_Hypersensitivity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D012130> .
+	<http://id.nlm.nih.gov/mesh/D012130> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_activation
 <http://www.co-ode.org/ontologies/ont.owl#cell_activation> rdf:type owl:NamedIndividual ,

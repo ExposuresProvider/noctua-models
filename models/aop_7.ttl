@@ -23,8 +23,8 @@
 	<http://purl.obolibrary.org/obo/GO_0006703> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0042698

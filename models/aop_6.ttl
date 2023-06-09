@@ -23,8 +23,8 @@
 	<http://purl.obolibrary.org/obo/GO_0035624> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007662
-	<http://purl.obolibrary.org/obo/D007662> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007662
+	<http://id.nlm.nih.gov/mesh/D007662> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0002118
@@ -39,8 +39,8 @@
 	<http://purl.obolibrary.org/obo/MP_0001263> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009124
-	<http://purl.obolibrary.org/obo/D009124> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009124
+	<http://id.nlm.nih.gov/mesh/D009124> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0030163
@@ -88,11 +88,11 @@
 	<http://purl.obolibrary.org/obo/GO_0006635> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007662> ;
+	<http://id.nlm.nih.gov/mesh/D007662> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007662> ;
+	<http://id.nlm.nih.gov/mesh/D007662> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis  ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_lipid_homeostasis
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_lipid_homeostasis> rdf:type owl:NamedIndividual ,

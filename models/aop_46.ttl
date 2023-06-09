@@ -23,16 +23,16 @@
 	<http://purl.obolibrary.org/obo/GO_0006305> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006528
-	<http://purl.obolibrary.org/obo/D006528> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PR_000003035
 	<http://purl.obolibrary.org/obo/PR_000003035> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009154
-	<http://purl.obolibrary.org/obo/D009154> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009154
+	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0008152
@@ -69,7 +69,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006528> .
+	<http://id.nlm.nih.gov/mesh/D006528> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cellular_tumor_antigen_p53
 <http://www.co-ode.org/ontologies/ont.owl#cellular_tumor_antigen_p53> rdf:type owl:NamedIndividual ,
@@ -78,7 +78,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009154> ;
+	<http://id.nlm.nih.gov/mesh/D009154> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_67194> ;

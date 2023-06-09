@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PR_000003626
@@ -84,7 +84,7 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> ;
+	<http://id.nlm.nih.gov/mesh/D009026> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;

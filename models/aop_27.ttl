@@ -59,8 +59,8 @@
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002779
-	<http://purl.obolibrary.org/obo/D002779> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002779
+	<http://id.nlm.nih.gov/mesh/D002779> rdf:type owl:Class .
 
 
 
@@ -87,7 +87,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :cholestasis ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :cholestasis ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002779> .
+	<http://id.nlm.nih.gov/mesh/D002779> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#inflammatory_response
 <http://www.co-ode.org/ontologies/ont.owl#inflammatory_response> rdf:type owl:NamedIndividual ,
@@ -114,7 +114,7 @@
 	<http://purl.obolibrary.org/obo/GO_0050663> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory_response ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002779> .
+	<http://id.nlm.nih.gov/mesh/D002779> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
@@ -126,7 +126,7 @@
 	<http://purl.obolibrary.org/obo/GO_1903409> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002779> .
+	<http://id.nlm.nih.gov/mesh/D002779> .
 
 
 

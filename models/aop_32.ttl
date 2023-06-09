@@ -47,8 +47,8 @@
 	<http://purl.obolibrary.org/obo/GO_0072574> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006528
-	<http://purl.obolibrary.org/obo/D006528> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
 
 
 
@@ -104,7 +104,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006528> .
+	<http://id.nlm.nih.gov/mesh/D006528> .
 
 
 

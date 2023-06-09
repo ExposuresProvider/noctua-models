@@ -47,8 +47,8 @@
 	<http://purl.obolibrary.org/obo/GO_0006703> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D014819
-	<http://purl.obolibrary.org/obo/D014819> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D014819
+	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0010467
@@ -143,7 +143,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :protein_secretion ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
@@ -157,7 +157,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_secretion ;
@@ -171,7 +171,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor-mediated_endocytosis ;
@@ -185,7 +185,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :oocyte_development ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :oocyte_development ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor-mediated_endocytosis ;

@@ -39,8 +39,8 @@
 	<http://purl.obolibrary.org/obo/GO_0006936> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/C061375
-	<http://purl.obolibrary.org/obo/C061375> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/C061375
+	<http://id.nlm.nih.gov/mesh/C061375> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0010467
@@ -71,8 +71,8 @@
 	<http://purl.obolibrary.org/obo/GO_0060079> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 
@@ -93,7 +93,7 @@
 	<http://purl.obolibrary.org/obo/GO_0035076> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#Eip75B_protein,_Drosophila
 <http://www.co-ode.org/ontologies/ont.owl#Eip75B_protein,_Drosophila> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/C061375> ;
+	<http://id.nlm.nih.gov/mesh/C061375> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
@@ -154,7 +154,7 @@
 	<http://purl.obolibrary.org/obo/GO_0006031> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 
 

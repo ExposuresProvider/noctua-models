@@ -35,8 +35,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_36080> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D057165
-	<http://purl.obolibrary.org/obo/D057165> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D057165
+	<http://id.nlm.nih.gov/mesh/D057165> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CL_0000129
@@ -55,8 +55,8 @@
 	<http://purl.obolibrary.org/obo/MP_0003244> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D020734
-	<http://purl.obolibrary.org/obo/D020734> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D020734
+	<http://id.nlm.nih.gov/mesh/D020734> rdf:type owl:Class .
 
 
 
@@ -74,7 +74,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies
 <http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D057165> ;
+	<http://id.nlm.nih.gov/mesh/D057165> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :loss_of_dopaminergic_neurons ###  http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons
 <http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003244> ;
@@ -103,7 +103,7 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :loss_of_dopaminergic_neurons ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :loss_of_dopaminergic_neurons ###  http://www.co-ode.org/ontologies/ont.owl#Parkinsonian_disorders
 <http://www.co-ode.org/ontologies/ont.owl#Parkinsonian_disorders> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D020734> .
+	<http://id.nlm.nih.gov/mesh/D020734> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1
 <http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1> rdf:type owl:NamedIndividual ,
