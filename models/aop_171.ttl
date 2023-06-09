@@ -47,8 +47,8 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D008654
-	<http://purl.obolibrary.org/obo/D008654> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D008654
+	<http://id.nlm.nih.gov/mesh/D008654> rdf:type owl:Class .
 
 
 

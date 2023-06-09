@@ -55,16 +55,16 @@
 	<http://purl.obolibrary.org/obo/GO_0060004> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D003371
-	<http://purl.obolibrary.org/obo/D003371> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D003371
+	<http://id.nlm.nih.gov/mesh/D003371> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D012130
-	<http://purl.obolibrary.org/obo/D012130> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D012130
+	<http://id.nlm.nih.gov/mesh/D012130> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D004417
-	<http://purl.obolibrary.org/obo/D004417> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D004417
+	<http://id.nlm.nih.gov/mesh/D004417> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/UBERON_0001004
@@ -79,8 +79,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_80337> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D012912
-	<http://purl.obolibrary.org/obo/D012912> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D012912
+	<http://id.nlm.nih.gov/mesh/D012912> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_80311
@@ -195,7 +195,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea ###  http://www.co-ode.org/ontologies/ont.owl#cough
 <http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D003371> ;
+	<http://id.nlm.nih.gov/mesh/D003371> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
@@ -230,7 +230,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea ###  http://www.co-ode.org/ontologies/ont.owl#cough
 <http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D003371> ;
+	<http://id.nlm.nih.gov/mesh/D003371> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
@@ -265,7 +265,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea ###  http://www.co-ode.org/ontologies/ont.owl#cough
 <http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D003371> ;
+	<http://id.nlm.nih.gov/mesh/D003371> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
@@ -289,19 +289,19 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cough
 <http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D003371> .
+	<http://id.nlm.nih.gov/mesh/D003371> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Respiratory_Hypersensitivity
 <http://www.co-ode.org/ontologies/ont.owl#Respiratory_Hypersensitivity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D012130> .
+	<http://id.nlm.nih.gov/mesh/D012130> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Dyspnea
 <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D004417> .
+	<http://id.nlm.nih.gov/mesh/D004417> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sneezing
 <http://www.co-ode.org/ontologies/ont.owl#sneezing> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D012912> ;
+	<http://id.nlm.nih.gov/mesh/D012912> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;

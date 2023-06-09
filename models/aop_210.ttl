@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D048031
-	<http://purl.obolibrary.org/obo/D048031> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D048031
+	<http://id.nlm.nih.gov/mesh/D048031> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
@@ -54,7 +54,7 @@
 	<http://purl.obolibrary.org/obo/RO_0004024> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases
 <http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D048031> ;
+	<http://id.nlm.nih.gov/mesh/D048031> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;

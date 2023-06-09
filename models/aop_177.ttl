@@ -23,8 +23,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007511
-	<http://purl.obolibrary.org/obo/D007511> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007511
+	<http://id.nlm.nih.gov/mesh/D007511> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0004154
@@ -35,8 +35,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_26216> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
@@ -51,8 +51,8 @@
 	<http://purl.obolibrary.org/obo/GO_0004666> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001145
-	<http://purl.obolibrary.org/obo/D001145> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001145
+	<http://id.nlm.nih.gov/mesh/D001145> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0003674
@@ -78,7 +78,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ischemia
 <http://www.co-ode.org/ontologies/ont.owl#ischemia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007511> ;
+	<http://id.nlm.nih.gov/mesh/D007511> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :oxidative_stress ###  http://www.co-ode.org/ontologies/ont.owl#potassium_atom
 <http://www.co-ode.org/ontologies/ont.owl#potassium_atom> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26216> ;
@@ -88,10 +88,10 @@
 	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ischemia ###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac
 <http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001145> ;
+	<http://id.nlm.nih.gov/mesh/D001145> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,

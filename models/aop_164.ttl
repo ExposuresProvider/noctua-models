@@ -43,12 +43,12 @@
 	<http://purl.obolibrary.org/obo/UBERON_0001135> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006984
-	<http://purl.obolibrary.org/obo/D006984> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006984
+	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D007889
-	<http://purl.obolibrary.org/obo/D007889> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007889
+	<http://id.nlm.nih.gov/mesh/D007889> rdf:type owl:Class .
 
 
 
@@ -89,7 +89,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006984> .
+	<http://id.nlm.nih.gov/mesh/D006984> .
 
 
 

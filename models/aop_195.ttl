@@ -43,8 +43,8 @@
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/C82476
-	<http://purl.obolibrary.org/obo/C82476> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/C82476
+	<http://id.nlm.nih.gov/mesh/C82476> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/UBERON_0003978
@@ -118,13 +118,13 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :spawning ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :spawning ###  http://www.co-ode.org/ontologies/ont.owl#spawning
 <http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/C82476> ;
+	<http://id.nlm.nih.gov/mesh/C82476> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :reproductive_process ###  http://www.co-ode.org/ontologies/ont.owl#spawning
 <http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/C82476> ;
+	<http://id.nlm.nih.gov/mesh/C82476> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive_process ;
@@ -136,7 +136,7 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :population_of_organisms ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :population_of_organisms ###  http://www.co-ode.org/ontologies/ont.owl#spawning
 <http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/C82476> ;
+	<http://id.nlm.nih.gov/mesh/C82476> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive_process ;

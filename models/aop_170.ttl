@@ -35,20 +35,20 @@
 	<http://purl.obolibrary.org/obo/UBERON_0001911> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0010307
 	<http://purl.obolibrary.org/obo/MP_0010307> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
 
@@ -63,7 +63,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> .
+	<http://id.nlm.nih.gov/mesh/D006965> .
 
 
 

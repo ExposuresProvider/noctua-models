@@ -27,8 +27,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0001970> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002779
-	<http://purl.obolibrary.org/obo/D002779> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002779
+	<http://id.nlm.nih.gov/mesh/D002779> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0006629
@@ -47,8 +47,8 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
 
@@ -70,7 +70,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D002779> .
+	<http://id.nlm.nih.gov/mesh/D002779> .
 
 
 

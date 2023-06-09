@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D007987
-	<http://purl.obolibrary.org/obo/D007987> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007987
+	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0046879
@@ -43,16 +43,16 @@
 	<http://purl.obolibrary.org/obo/CL_0000439> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006984
-	<http://purl.obolibrary.org/obo/D006984> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006984
+	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/HP_0002893
@@ -66,7 +66,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
@@ -101,7 +101,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> .
+	<http://id.nlm.nih.gov/mesh/D006965> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell
 <http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell> rdf:type owl:NamedIndividual ,
@@ -110,7 +110,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006984> .
+	<http://id.nlm.nih.gov/mesh/D006984> .
 
 
 

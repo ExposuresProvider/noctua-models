@@ -27,12 +27,12 @@
 	<http://purl.obolibrary.org/obo/GO_0006281> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009154
-	<http://purl.obolibrary.org/obo/D009154> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009154
+	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009369
-	<http://purl.obolibrary.org/obo/D009369> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009369
+	<http://id.nlm.nih.gov/mesh/D009369> rdf:type owl:Class .
 
 
 

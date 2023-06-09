@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D019255
-	<http://purl.obolibrary.org/obo/D019255> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D019255
+	<http://id.nlm.nih.gov/mesh/D019255> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
@@ -74,7 +74,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#NADPH_Oxidase
 <http://www.co-ode.org/ontologies/ont.owl#NADPH_Oxidase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D019255> ;
+	<http://id.nlm.nih.gov/mesh/D019255> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;

@@ -51,16 +51,16 @@
 	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005354
-	<http://purl.obolibrary.org/obo/D005354> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005354
+	<http://id.nlm.nih.gov/mesh/D005354> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D008080
-	<http://purl.obolibrary.org/obo/D008080> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D008080
+	<http://id.nlm.nih.gov/mesh/D008080> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006394
-	<http://purl.obolibrary.org/obo/D006394> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006394
+	<http://id.nlm.nih.gov/mesh/D006394> rdf:type owl:Class .
 
 
 
@@ -107,15 +107,15 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Fibrosarcoma
 <http://www.co-ode.org/ontologies/ont.owl#Fibrosarcoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005354> .
+	<http://id.nlm.nih.gov/mesh/D005354> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liposarcoma
 <http://www.co-ode.org/ontologies/ont.owl#liposarcoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D008080> .
+	<http://id.nlm.nih.gov/mesh/D008080> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hemangiosarcoma
 <http://www.co-ode.org/ontologies/ont.owl#hemangiosarcoma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006394> .
+	<http://id.nlm.nih.gov/mesh/D006394> .
 
 
 

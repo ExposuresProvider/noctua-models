@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_1902710
@@ -76,7 +76,7 @@
 	<http://purl.obolibrary.org/obo/GO_0060080> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :paralysis ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride
 <http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,

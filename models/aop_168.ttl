@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D007987
-	<http://purl.obolibrary.org/obo/D007987> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D007987
+	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0046879
@@ -47,12 +47,12 @@
 	<http://purl.obolibrary.org/obo/MP_0000630> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D000236
-	<http://purl.obolibrary.org/obo/D000236> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D002277
-	<http://purl.obolibrary.org/obo/D002277> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/MP_0010307
@@ -66,7 +66,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;

@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/GO_0061505> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D014178
-	<http://purl.obolibrary.org/obo/D014178> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D014178
+	<http://id.nlm.nih.gov/mesh/D014178> rdf:type owl:Class .
 
 
 
@@ -32,7 +32,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#DNA_topoisomerase_II_activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061505>###  http://www.co-ode.org/ontologies/ont.owl#Translocation,_Genetic
 <http://www.co-ode.org/ontologies/ont.owl#Translocation,_Genetic> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014178>
+	<http://id.nlm.nih.gov/mesh/D014178>
 
 #################################################################
 #   Object Statements

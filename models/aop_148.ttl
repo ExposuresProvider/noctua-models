@@ -19,12 +19,12 @@
 	<http://purl.obolibrary.org/obo/CL_0000160> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D008679
-	<http://purl.obolibrary.org/obo/D008679> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D008679
+	<http://id.nlm.nih.gov/mesh/D008679> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0008283
@@ -120,7 +120,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D008679> ;
+	<http://id.nlm.nih.gov/mesh/D008679> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000160> ;
@@ -128,7 +128,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D008679> ;
+	<http://id.nlm.nih.gov/mesh/D008679> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000143> ;
@@ -158,7 +158,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mucus_secretion ###  http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell
 <http://www.co-ode.org/ontologies/ont.owl#lung_goblet_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000143> ;

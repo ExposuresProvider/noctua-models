@@ -27,8 +27,8 @@
 	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/Q000633
-	<http://purl.obolibrary.org/obo/Q000633> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/Q000633
+	<http://id.nlm.nih.gov/mesh/Q000633> rdf:type owl:Class .
 
 
 
@@ -54,7 +54,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/Q000633> .
+	<http://id.nlm.nih.gov/mesh/Q000633> .
 
 
 

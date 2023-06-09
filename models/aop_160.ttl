@@ -15,8 +15,8 @@
 #################################################################
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_17996
@@ -62,7 +62,7 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :feeding_behavior ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :feeding_behavior ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride
 <http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
@@ -95,7 +95,7 @@
 	<http://purl.obolibrary.org/obo/NBO_0000079> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 
 

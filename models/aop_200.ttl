@@ -59,12 +59,12 @@
 	<http://purl.obolibrary.org/obo/GO_0043542> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001943
-	<http://purl.obolibrary.org/obo/D001943> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001943
+	<http://id.nlm.nih.gov/mesh/D001943> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0031012
@@ -136,10 +136,10 @@
 	<http://purl.obolibrary.org/obo/GO_0030331> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms ###  http://www.co-ode.org/ontologies/ont.owl#serotransferrin
 <http://www.co-ode.org/ontologies/ont.owl#serotransferrin> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000016261> ;
@@ -159,7 +159,7 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms
 <http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001943> .
+	<http://id.nlm.nih.gov/mesh/D001943> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#angiogenesis
 <http://www.co-ode.org/ontologies/ont.owl#angiogenesis> rdf:type owl:NamedIndividual ,
