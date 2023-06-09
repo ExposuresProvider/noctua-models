@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D001943
-	<http://purl.obolibrary.org/obo/D001943> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D001943
+	<http://id.nlm.nih.gov/mesh/D001943> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0002263
@@ -39,12 +39,12 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D006965
-	<http://purl.obolibrary.org/obo/D006965> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D006965
+	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009154
-	<http://purl.obolibrary.org/obo/D009154> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009154
+	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
 
 
 
@@ -65,7 +65,7 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009154> ;
+	<http://id.nlm.nih.gov/mesh/D009154> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
@@ -76,13 +76,13 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009154> ;
+	<http://id.nlm.nih.gov/mesh/D009154> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D006965> ;
+	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms ###  http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms
 <http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001943> .
+	<http://id.nlm.nih.gov/mesh/D001943> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response
 <http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
@@ -117,7 +117,7 @@
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms
 <http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D001943> .
+	<http://id.nlm.nih.gov/mesh/D001943> .
 
 
 

@@ -39,8 +39,8 @@
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D005298
-	<http://purl.obolibrary.org/obo/D005298> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
 
 
 
@@ -68,7 +68,7 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :fertility ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D005298> ;
+	<http://id.nlm.nih.gov/mesh/D005298> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;

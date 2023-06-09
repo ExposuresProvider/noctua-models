@@ -27,8 +27,8 @@
 	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D009026
-	<http://purl.obolibrary.org/obo/D009026> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/GO_0031381
@@ -76,7 +76,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#neuropilin_binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0038191>###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D009026> .
+	<http://id.nlm.nih.gov/mesh/D009026> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex
 <http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex> rdf:type owl:NamedIndividual ,

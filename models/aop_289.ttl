@@ -19,8 +19,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_16469> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/D014819
-	<http://purl.obolibrary.org/obo/D014819> rdf:type owl:Class .
+###  http://id.nlm.nih.gov/mesh/D014819
+	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/VT_1000294
@@ -46,7 +46,7 @@
 	<http://purl.obolibrary.org/obo/RO_0002566> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :egg_quantity ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :egg_quantity ###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
 <http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
