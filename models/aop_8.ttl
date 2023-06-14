@@ -1,0 +1,217 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_8> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PR_000011397
+	<http://purl.obolibrary.org/obo/PR_000011397> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0023052
+	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000011398
+	<http://purl.obolibrary.org/obo/PR_000011398> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0000032
+	<http://purl.obolibrary.org/obo/MP_0000032> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_30660
+	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010817
+	<http://purl.obolibrary.org/obo/GO_0010817> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0005475
+	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000001325
+	<http://purl.obolibrary.org/obo/PR_000001325> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015020
+	<http://purl.obolibrary.org/obo/GO_0015020> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003824
+	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/UBERON_0002421
+	<http://purl.obolibrary.org/obo/UBERON_0002421> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007420
+	<http://purl.obolibrary.org/obo/GO_0007420> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045202
+	<http://purl.obolibrary.org/obo/GO_0045202> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007268
+	<http://purl.obolibrary.org/obo/GO_0007268> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010468
+	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008152
+	<http://purl.obolibrary.org/obo/GO_0008152> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_2
+<http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011397> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :glucuronosyltransferase_activity  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :catalytic_activity ###  http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_3
+<http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_3> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011398> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :glucuronosyltransferase_activity  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :catalytic_activity ###  http://www.co-ode.org/ontologies/ont.owl#beta-1,3-glucuronyltransferase
+<http://www.co-ode.org/ontologies/ont.owl#beta-1,3-glucuronyltransferase> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000001325> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :glucuronosyltransferase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :glucuronosyltransferase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :glucuronosyltransferase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :glucuronosyltransferase_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#glucuronosyltransferase_activity
+<http://www.co-ode.org/ontologies/ont.owl#glucuronosyltransferase_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0015020> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :metabolic_process ###  http://www.co-ode.org/ontologies/ont.owl#beta-1,3-glucuronyltransferase
+<http://www.co-ode.org/ontologies/ont.owl#beta-1,3-glucuronyltransferase> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000001325> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#catalytic_activity
+<http://www.co-ode.org/ontologies/ont.owl#catalytic_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003824> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :metabolic_process ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
+<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008152> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
+<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
+<http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0005475> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :regulation_of_hormone_levels ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :regulation_of_hormone_levels ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
+<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_hormone_levels ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_hormone_levels ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_hormone_levels ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_hormone_levels  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_hormone_levels
+<http://www.co-ode.org/ontologies/ont.owl#regulation_of_hormone_levels> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010817> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation
+<http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010468> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :brain_development ###  http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation
+<http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :brain_development  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain_development
+<http://www.co-ode.org/ontologies/ont.owl#brain_development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007420> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :chemical_synaptic_transmission ###  http://www.co-ode.org/ontologies/ont.owl#synapse
+<http://www.co-ode.org/ontologies/ont.owl#synapse> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0045202> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :chemical_synaptic_transmission  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission
+<http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007268> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :cochlear_degeneration ###  http://www.co-ode.org/ontologies/ont.owl#cochlear_degeneration
+<http://www.co-ode.org/ontologies/ont.owl#cochlear_degeneration> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0000032> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

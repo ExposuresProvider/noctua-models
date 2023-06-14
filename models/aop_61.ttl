@@ -1,0 +1,195 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_61> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PR_000011170
+	<http://purl.obolibrary.org/obo/PR_000011170> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0023052
+	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000011396
+	<http://purl.obolibrary.org/obo/PR_000011396> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000011391
+	<http://purl.obolibrary.org/obo/PR_000011391> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000013056
+	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035357
+	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000008778
+	<http://purl.obolibrary.org/obo/PR_000008778> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003824
+	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_35366
+	<http://purl.obolibrary.org/obo/CHEBI_35366> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006635
+	<http://purl.obolibrary.org/obo/GO_0006635> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000011395
+	<http://purl.obolibrary.org/obo/PR_000011395> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000015611
+	<http://purl.obolibrary.org/obo/PR_000015611> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032933
+	<http://purl.obolibrary.org/obo/GO_0032933> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000003392
+	<http://purl.obolibrary.org/obo/PR_000003392> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000004145
+	<http://purl.obolibrary.org/obo/PR_000004145> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17855
+	<http://purl.obolibrary.org/obo/CHEBI_17855> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009058
+	<http://purl.obolibrary.org/obo/GO_0009058> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006633
+	<http://purl.obolibrary.org/obo/GO_0006633> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#nuclear_factor_erythroid_2-related_factor_2
+<http://www.co-ode.org/ontologies/ont.owl#nuclear_factor_erythroid_2-related_factor_2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011170> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#bile_acid_receptor
+<http://www.co-ode.org/ontologies/ont.owl#bile_acid_receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011396> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :peroxisome_proliferator_activated_receptor_signaling_pathway ###  http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_0_group_B_member_2
+<http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_0_group_B_member_2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011391> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :SREBP_signaling_pathway ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000013056> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0035357> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha
+<http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011395> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :fatty_acid_beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :fatty_acid_beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :fatty_acid_beta-oxidation  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation
+<http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006635>###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1
+<http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000015611> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :SREBP_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :SREBP_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :SREBP_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :SREBP_signaling_pathway  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway
+<http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0032933> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006633> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

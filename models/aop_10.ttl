@@ -1,0 +1,128 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_10> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17996
+	<http://purl.obolibrary.org/obo/CHEBI_17996> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0022851
+	<http://purl.obolibrary.org/obo/GO_0022851> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051899
+	<http://purl.obolibrary.org/obo/GO_0051899> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/NBO_0000025
+	<http://purl.obolibrary.org/obo/NBO_0000025> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000007766
+	<http://purl.obolibrary.org/obo/PR_000007766> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050811
+	<http://purl.obolibrary.org/obo/GO_0050811> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000007770
+	<http://purl.obolibrary.org/obo/PR_000007770> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000007771
+	<http://purl.obolibrary.org/obo/PR_000007771> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007268
+	<http://purl.obolibrary.org/obo/GO_0007268> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060079
+	<http://purl.obolibrary.org/obo/GO_0060079> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-1
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-1> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000007766> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050811> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity ###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-5
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-5> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000007770> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050811> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity ###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-6
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-6> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000007771> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050811> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity ###  http://www.co-ode.org/ontologies/ont.owl#chloride
+<http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :GABA-gated_chloride_ion_channel_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#GABA-gated_chloride_ion_channel_activity
+<http://www.co-ode.org/ontologies/ont.owl#GABA-gated_chloride_ion_channel_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0022851> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :chemical_synaptic_transmission ###  http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission
+<http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007268> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :excitatory_postsynaptic_potential ###  http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential
+<http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0060079> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_depolarization ###  http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization
+<http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0051899> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :seizures ###  http://www.co-ode.org/ontologies/ont.owl#seizures
+<http://www.co-ode.org/ontologies/ont.owl#seizures> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000025> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

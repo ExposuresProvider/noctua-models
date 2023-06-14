@@ -1,0 +1,103 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_300> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/UBERON_0002421
+	<http://purl.obolibrary.org/obo/UBERON_0002421> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010468
+	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007420
+	<http://purl.obolibrary.org/obo/GO_0007420> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045202
+	<http://purl.obolibrary.org/obo/GO_0045202> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007268
+	<http://purl.obolibrary.org/obo/GO_0007268> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007611
+	<http://purl.obolibrary.org/obo/GO_0007611> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050890
+	<http://purl.obolibrary.org/obo/GO_0050890> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation
+<http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010468> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :brain_development ###  http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation
+<http://www.co-ode.org/ontologies/ont.owl#hippocampal_formation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :brain_development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :brain_development  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain_development
+<http://www.co-ode.org/ontologies/ont.owl#brain_development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007420> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :chemical_synaptic_transmission ###  http://www.co-ode.org/ontologies/ont.owl#synapse
+<http://www.co-ode.org/ontologies/ont.owl#synapse> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0045202> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :chemical_synaptic_transmission ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :chemical_synaptic_transmission  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission
+<http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007268> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :learning_or_memory  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cognition ###  http://www.co-ode.org/ontologies/ont.owl#learning_or_memory
+<http://www.co-ode.org/ontologies/ont.owl#learning_or_memory> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007611> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cognition
+<http://www.co-ode.org/ontologies/ont.owl#cognition> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050890> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

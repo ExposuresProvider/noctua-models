@@ -1,0 +1,170 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_4> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/GO_0008230
+	<http://purl.obolibrary.org/obo/GO_0008230> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035076
+	<http://purl.obolibrary.org/obo/GO_0035076> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008255
+	<http://purl.obolibrary.org/obo/GO_0008255> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17029
+	<http://purl.obolibrary.org/obo/CHEBI_17029> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006031
+	<http://purl.obolibrary.org/obo/GO_0006031> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006936
+	<http://purl.obolibrary.org/obo/GO_0006936> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/C061375
+	<http://id.nlm.nih.gov/mesh/C061375> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_P33244
+	<http://purl.obolibrary.org/obo/PR_P33244> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_Q9VCW0
+	<http://purl.obolibrary.org/obo/PR_Q9VCW0> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002790
+	<http://purl.obolibrary.org/obo/GO_0002790> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CL_0000100
+	<http://purl.obolibrary.org/obo/CL_0000100> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019226
+	<http://purl.obolibrary.org/obo/GO_0019226> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060079
+	<http://purl.obolibrary.org/obo/GO_0060079> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#ecdysone_receptor_holocomplex
+<http://www.co-ode.org/ontologies/ont.owl#ecdysone_receptor_holocomplex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008230> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :ecdysone_receptor-mediated_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ecdysone_receptor-mediated_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ecdysone_receptor-mediated_signaling_pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ecdysone_receptor-mediated_signaling_pathway  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ecdysone_receptor-mediated_signaling_pathway
+<http://www.co-ode.org/ontologies/ont.owl#ecdysone_receptor-mediated_signaling_pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0035076> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#Eip75B_protein,_Drosophila
+<http://www.co-ode.org/ontologies/ont.owl#Eip75B_protein,_Drosophila> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/C061375> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#nuclear_hormone_receptor_FTZ-F1_(fruit_fly)
+<http://www.co-ode.org/ontologies/ont.owl#nuclear_hormone_receptor_FTZ-F1_(fruit_fly)> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_P33244> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis-triggering_hormone_activity ###  http://www.co-ode.org/ontologies/ont.owl#ecdysis-triggering_hormone_activity
+<http://www.co-ode.org/ontologies/ont.owl#ecdysis-triggering_hormone_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008255> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :peptide_secretion ###  http://www.co-ode.org/ontologies/ont.owl#cardioactive_peptide_(fruit_fly)
+<http://www.co-ode.org/ontologies/ont.owl#cardioactive_peptide_(fruit_fly)> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_Q9VCW0> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :peptide_secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :peptide_secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :peptide_secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :peptide_secretion  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#peptide_secretion
+<http://www.co-ode.org/ontologies/ont.owl#peptide_secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002790> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :transmission_of_nerve_impulse ###  http://www.co-ode.org/ontologies/ont.owl#motor_neuron
+<http://www.co-ode.org/ontologies/ont.owl#motor_neuron> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000100> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :transmission_of_nerve_impulse ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :transmission_of_nerve_impulse ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :transmission_of_nerve_impulse ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :transmission_of_nerve_impulse  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#transmission_of_nerve_impulse
+<http://www.co-ode.org/ontologies/ont.owl#transmission_of_nerve_impulse> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019226> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :excitatory_postsynaptic_potential ###  http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential
+<http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0060079> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :muscle_contraction ###  http://www.co-ode.org/ontologies/ont.owl#muscle_contraction
+<http://www.co-ode.org/ontologies/ont.owl#muscle_contraction> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006936> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :chitin_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#chitin
+<http://www.co-ode.org/ontologies/ont.owl#chitin> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17029> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :chitin_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chitin_biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#chitin_biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006031> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

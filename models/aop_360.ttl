@@ -1,0 +1,69 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_360> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/GO_0004100
+	<http://purl.obolibrary.org/obo/GO_0004100> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/UBERON_0001002
+	<http://purl.obolibrary.org/obo/UBERON_0001002> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042335
+	<http://purl.obolibrary.org/obo/GO_0042335> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0018990
+	<http://purl.obolibrary.org/obo/GO_0018990> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#chitin_synthase_activity
+<http://www.co-ode.org/ontologies/ont.owl#chitin_synthase_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004100> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cuticle_development ###  http://www.co-ode.org/ontologies/ont.owl#cuticle
+<http://www.co-ode.org/ontologies/ont.owl#cuticle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0001002> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cuticle_development  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cuticle_development
+<http://www.co-ode.org/ontologies/ont.owl#cuticle_development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0042335> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis,_chitin-based_cuticle ###  http://www.co-ode.org/ontologies/ont.owl#ecdysis,_chitin-based_cuticle
+<http://www.co-ode.org/ontologies/ont.owl#ecdysis,_chitin-based_cuticle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0018990> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

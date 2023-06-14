@@ -1,0 +1,126 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_32> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_39185
+	<http://purl.obolibrary.org/obo/CHEBI_39185> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008152
+	<http://purl.obolibrary.org/obo/GO_0008152> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_25212
+	<http://purl.obolibrary.org/obo/CHEBI_25212> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/HP_0001410
+	<http://purl.obolibrary.org/obo/HP_0001410> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000011326
+	<http://purl.obolibrary.org/obo/PR_000011326> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0004517
+	<http://purl.obolibrary.org/obo/GO_0004517> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MI_2141
+	<http://purl.obolibrary.org/obo/MI_2141> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0072574
+	<http://purl.obolibrary.org/obo/GO_0072574> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#thiamethoxam
+<http://www.co-ode.org/ontologies/ont.owl#thiamethoxam> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_39185> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008152> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function ###  http://www.co-ode.org/ontologies/ont.owl#metabolite
+<http://www.co-ode.org/ontologies/ont.owl#metabolite> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_25212> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008152> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function ###  http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function
+<http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0001410> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :nitric-oxide_synthase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :nitric-oxide_synthase_activity ###  http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain
+<http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011326> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :nitric-oxide_synthase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :nitric-oxide_synthase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :nitric-oxide_synthase_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :nitric-oxide_synthase_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity
+<http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004517> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hepatotoxicity ###  http://www.co-ode.org/ontologies/ont.owl#hepatotoxicity
+<http://www.co-ode.org/ontologies/ont.owl#hepatotoxicity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MI_2141> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0072574> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :hepatocellular_carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :hepatocellular_carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D006528> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

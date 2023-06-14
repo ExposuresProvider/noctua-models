@@ -1,0 +1,140 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_21> a owl:Ontology
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PR_000003858
+	<http://purl.obolibrary.org/obo/PR_000003858> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0004874
+	<http://purl.obolibrary.org/obo/GO_0004874> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046983
+	<http://purl.obolibrary.org/obo/GO_0046983> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000004303
+	<http://purl.obolibrary.org/obo/PR_000004303> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0001544
+	<http://purl.obolibrary.org/obo/MP_0001544> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/UBERON_0004535
+	<http://purl.obolibrary.org/obo/UBERON_0004535> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0072358
+	<http://purl.obolibrary.org/obo/GO_0072358> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000013428
+	<http://purl.obolibrary.org/obo/PR_000013428> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0008762
+	<http://purl.obolibrary.org/obo/MP_0008762> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor
+<http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000003858> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein_dimerization_activity
+<http://www.co-ode.org/ontologies/ont.owl#protein_dimerization_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0046983> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor_nuclear_translocator
+<http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor_nuclear_translocator> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000004303> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein_dimerization_activity
+<http://www.co-ode.org/ontologies/ont.owl#protein_dimerization_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0046983> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000013428> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_cardiovascular_system_physiology  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cardiovascular_system_development ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cardiovascular_system_physiology
+<http://www.co-ode.org/ontologies/ont.owl#abnormal_cardiovascular_system_physiology> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001544> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :embryonic_lethality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :embryonic_lethality  ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#cardiovascular_system
+<http://www.co-ode.org/ontologies/ont.owl#cardiovascular_system> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0004535> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cardiovascular_system_development ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cardiovascular_system_development ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cardiovascular_system_development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cardiovascular_system_development  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cardiovascular_system_development
+<http://www.co-ode.org/ontologies/ont.owl#cardiovascular_system_development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0072358> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :embryonic_lethality  ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :mortality ###  http://www.co-ode.org/ontologies/ont.owl#embryonic_lethality
+<http://www.co-ode.org/ontologies/ont.owl#embryonic_lethality> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0008762> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
