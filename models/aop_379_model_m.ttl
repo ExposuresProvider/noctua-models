@@ -1,0 +1,215 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_379> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/CL_0000233
+	<http://purl.obolibrary.org/obo/CL_0000233> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/HP_0004936
+	<http://purl.obolibrary.org/obo/HP_0004936> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0031381
+	<http://purl.obolibrary.org/obo/GO_0031381> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0039694
+	<http://purl.obolibrary.org/obo/GO_0039694> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0039690
+	<http://purl.obolibrary.org/obo/GO_0039690> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0072516
+	<http://purl.obolibrary.org/obo/GO_0072516> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019074
+	<http://purl.obolibrary.org/obo/GO_0019074> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019024
+	<http://purl.obolibrary.org/obo/GO_0019024> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009299
+	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019081
+	<http://purl.obolibrary.org/obo/GO_0019081> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0075509
+	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002020
+	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0038191
+	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_26523
+	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0034599
+	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0000302
+	<http://purl.obolibrary.org/obo/GO_0000302> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#endocytosis_involved_in_viral_entry_into_host_cell
+<http://www.co-ode.org/ontologies/ont.owl#endocytosis_involved_in_viral_entry_into_host_cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0075509>###  http://www.co-ode.org/ontologies/ont.owl#protease_binding
+<http://www.co-ode.org/ontologies/ont.owl#protease_binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002020>###  http://www.co-ode.org/ontologies/ont.owl#neuropilin_binding
+<http://www.co-ode.org/ontologies/ont.owl#neuropilin_binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0038191>###  http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex
+<http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031381> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral_RNA_genome_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral_RNA_genome_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral_RNA_genome_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral_RNA_genome_replication  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral_RNA_genome_replication
+<http://www.co-ode.org/ontologies/ont.owl#viral_RNA_genome_replication> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0039694> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_response_to_oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_reactive_oxygen_species ###  http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex
+<http://www.co-ode.org/ontologies/ont.owl#viral_RNA-directed_RNA_polymerase_complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031381> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :positive_stranded_viral_RNA_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :positive_stranded_viral_RNA_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :positive_stranded_viral_RNA_replication ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :positive_stranded_viral_RNA_replication  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#positive_stranded_viral_RNA_replication
+<http://www.co-ode.org/ontologies/ont.owl#positive_stranded_viral_RNA_replication> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0039690> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_response_to_oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_reactive_oxygen_species ###  http://www.co-ode.org/ontologies/ont.owl#viral_assembly_compartment
+<http://www.co-ode.org/ontologies/ont.owl#viral_assembly_compartment> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0072516> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral_RNA_genome_packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral_RNA_genome_packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral_RNA_genome_packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral_RNA_genome_packaging  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral_RNA_genome_packaging
+<http://www.co-ode.org/ontologies/ont.owl#viral_RNA_genome_packaging> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019074> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_response_to_oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_reactive_oxygen_species ###  http://www.co-ode.org/ontologies/ont.owl#ssRNA_viral_genome
+<http://www.co-ode.org/ontologies/ont.owl#ssRNA_viral_genome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019024> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :mRNA_transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :mRNA_transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :mRNA_transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :mRNA_transcription  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mRNA_transcription
+<http://www.co-ode.org/ontologies/ont.owl#mRNA_transcription> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0009299> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_response_to_oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_reactive_oxygen_species ###  http://www.co-ode.org/ontologies/ont.owl#ssRNA_viral_genome
+<http://www.co-ode.org/ontologies/ont.owl#ssRNA_viral_genome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019024> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral_translation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral_translation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral_translation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral_translation  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral_translation
+<http://www.co-ode.org/ontologies/ont.owl#viral_translation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019081> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_response_to_oxidative_stress  ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_reactive_oxygen_species ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cellular_response_to_oxidative_stress  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress
+<http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0034599>###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :response_to_reactive_oxygen_species  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#response_to_reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#response_to_reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0000302>###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cellular_response_to_oxidative_stress ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cellular_response_to_oxidative_stress  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress
+<http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0034599>###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :response_to_reactive_oxygen_species ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :response_to_reactive_oxygen_species  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#response_to_reactive_oxygen_species
+<http://www.co-ode.org/ontologies/ont.owl#response_to_reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0000302>###  http://www.co-ode.org/ontologies/ont.owl#platelet
+<http://www.co-ode.org/ontologies/ont.owl#platelet> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000233> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Venous_thrombosis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Venous_thrombosis  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Venous_thrombosis
+<http://www.co-ode.org/ontologies/ont.owl#Venous_thrombosis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0004936> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

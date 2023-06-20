@@ -1,0 +1,87 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_424> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/GO_0005254
+	<http://purl.obolibrary.org/obo/GO_0005254> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/UBERON_0035963
+	<http://purl.obolibrary.org/obo/UBERON_0035963> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/VT_0001947
+	<http://purl.obolibrary.org/obo/VT_0001947> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0031514
+	<http://purl.obolibrary.org/obo/GO_0031514> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/HP_0012262
+	<http://purl.obolibrary.org/obo/HP_0012262> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/VT_0002327
+	<http://purl.obolibrary.org/obo/VT_0002327> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#chloride_channel_activity
+<http://www.co-ode.org/ontologies/ont.owl#chloride_channel_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005254> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :epithelial_lining_fluid ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :epithelial_lining_fluid ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :epithelial_lining_fluid ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :epithelial_lining_fluid ###  http://www.co-ode.org/ontologies/ont.owl#epithelial_lining_fluid
+<http://www.co-ode.org/ontologies/ont.owl#epithelial_lining_fluid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0035963> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal_ciliary_motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_ciliary_motility ###  http://www.co-ode.org/ontologies/ont.owl#motile_cilium
+<http://www.co-ode.org/ontologies/ont.owl#motile_cilium> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031514> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal_ciliary_motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_ciliary_motility  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Abnormal_ciliary_motility
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal_ciliary_motility> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0012262> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mucociliary_clearance_trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mucociliary_clearance_trait ###  http://www.co-ode.org/ontologies/ont.owl#mucociliary_clearance_trait
+<http://www.co-ode.org/ontologies/ont.owl#mucociliary_clearance_trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0001947> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :respiratory_function_trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_function_trait ###  http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait
+<http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0002327> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .

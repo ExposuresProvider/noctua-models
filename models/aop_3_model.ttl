@@ -1,0 +1,143 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_3> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PR_000031316
+	<http://purl.obolibrary.org/obo/PR_000031316> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008137
+	<http://purl.obolibrary.org/obo/GO_0008137> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006120
+	<http://purl.obolibrary.org/obo/GO_0006120> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005739
+	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_36080
+	<http://purl.obolibrary.org/obo/CHEBI_36080> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D057165
+	<http://id.nlm.nih.gov/mesh/D057165> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CL_0000129
+	<http://purl.obolibrary.org/obo/CL_0000129> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0001847
+	<http://purl.obolibrary.org/obo/MP_0001847> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CL_0000127
+	<http://purl.obolibrary.org/obo/CL_0000127> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0003244
+	<http://purl.obolibrary.org/obo/MP_0003244> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D020734
+	<http://id.nlm.nih.gov/mesh/D020734> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies ###  http://www.co-ode.org/ontologies/ont.owl#protein
+<http://www.co-ode.org/ontologies/ont.owl#protein> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_36080> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies
+<http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D057165> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :loss_of_dopaminergic_neurons ###  http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons
+<http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0003244> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Parkinsonian_disorders ###  http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons
+<http://www.co-ode.org/ontologies/ont.owl#loss_of_dopaminergic_neurons> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0003244> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Parkinsonian_disorders ###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
+<http://www.co-ode.org/ontologies/ont.owl#microglial_cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000129> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain_inflammation
+<http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001847> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :loss_of_dopaminergic_neurons ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :loss_of_dopaminergic_neurons ###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
+<http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000127> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain_inflammation
+<http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001847> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :loss_of_dopaminergic_neurons ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :loss_of_dopaminergic_neurons ###  http://www.co-ode.org/ontologies/ont.owl#Parkinsonian_disorders
+<http://www.co-ode.org/ontologies/ont.owl#Parkinsonian_disorders> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D020734> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000031316> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :NADH_dehydrogenase_(ubiquinone)_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :NADH_dehydrogenase_(ubiquinone)_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :NADH_dehydrogenase_(ubiquinone)_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :NADH_dehydrogenase_(ubiquinone)_activity  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity
+<http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008137> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies 
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty .

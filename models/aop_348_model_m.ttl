@@ -1,0 +1,92 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_348> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_34133
+	<http://purl.obolibrary.org/obo/CHEBI_34133> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006702
+	<http://purl.obolibrary.org/obo/GO_0006702> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/FMA_67338
+	<http://purl.obolibrary.org/obo/FMA_67338> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/HP_0008669
+	<http://purl.obolibrary.org/obo/HP_0008669> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PCO_0000001
+	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PCO_0000008
+	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+
+
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone
+<http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_34133> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_biosynthetic_process  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen_biosynthetic_process
+<http://www.co-ode.org/ontologies/ont.owl#androgen_biosynthetic_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006702> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Abnormal_spermatogenesis ###  http://www.co-ode.org/ontologies/ont.owl#Mature_sperm_cell
+<http://www.co-ode.org/ontologies/ont.owl#Mature_sperm_cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/FMA_67338> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal_spermatogenesis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_spermatogenesis  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Abnormal_spermatogenesis
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal_spermatogenesis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0008669> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :fertility ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :fertility ###  http://www.co-ode.org/ontologies/ont.owl#fertility
+<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D005298> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
+<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
