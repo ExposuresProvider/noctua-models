@@ -1,0 +1,99 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_220> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/GO_0034599
+	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CL_0000235
+	<http://purl.obolibrary.org/obo/CL_0000235> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002281
+	<http://purl.obolibrary.org/obo/GO_0002281> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000008555
+	<http://purl.obolibrary.org/obo/PR_000008555> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/MP_0005039
+	<http://purl.obolibrary.org/obo/MP_0005039> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/PR_000017294
+	<http://purl.obolibrary.org/obo/PR_000017294> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress
+<http://www.co-ode.org/ontologies/ont.owl#cellular_response_to_oxidative_stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0034599> .
+ .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#macrophage
+<http://www.co-ode.org/ontologies/ont.owl#macrophage> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000235> .
+	<http://purl.obolibrary.org/obo/RO_0002327> :macrophage_activation_involved_in_immune_response  .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#macrophage_activation_involved_in_immune_response
+<http://www.co-ode.org/ontologies/ont.owl#macrophage_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002281> .
+ .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008555> .
+	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia  .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0005039> .
+ .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#von_Hippel-Lindau_disease_tumor_suppressor
+<http://www.co-ode.org/ontologies/ont.owl#von_Hippel-Lindau_disease_tumor_suppressor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000017294> .
+	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia  .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0005039> .
+ .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

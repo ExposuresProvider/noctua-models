@@ -72,39 +72,48 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013056> ;
+	<http://purl.obolibrary.org/obo/PR_000013056> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor_transactivation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor_transactivation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor_transactivation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :receptor_transactivation  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#receptor_transactivation
 <http://www.co-ode.org/ontologies/ont.owl#receptor_transactivation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035624> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation
+	<http://purl.obolibrary.org/obo/GO_0035624> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006635> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
+	<http://purl.obolibrary.org/obo/GO_0006635> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis 
+###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007662> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
+	<http://id.nlm.nih.gov/mesh/D007662> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis 	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body 
+###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007662> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_lipid_homeostasis
+	<http://id.nlm.nih.gov/mesh/D007662> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis 	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body 
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal_lipid_homeostasis
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_lipid_homeostasis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002118> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ketone_body
 <http://www.co-ode.org/ontologies/ont.owl#ketone_body> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_73693> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#weight_loss
 <http://www.co-ode.org/ontologies/ont.owl#weight_loss> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001263> .
+ .
 
 
 

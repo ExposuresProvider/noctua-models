@@ -80,50 +80,60 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#estradiol
 <http://www.co-ode.org/ontologies/ont.owl#estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_23965> ;
+	<http://purl.obolibrary.org/obo/CHEBI_23965> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :17beta-estradiol ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :17beta-estradiol ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+	<http://purl.obolibrary.org/obo/RO_0002559> :17beta-estradiol 
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16469> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
+	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion 
+###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046879> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :luteinizing_hormone_secretion ###  http://www.co-ode.org/ontologies/ont.owl#Follicle_stimulating_hormone
+	<http://purl.obolibrary.org/obo/GO_0046879> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :luteinizing_hormone_secretion 
+###  http://www.co-ode.org/ontologies/ont.owl#Follicle_stimulating_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Follicle_stimulating_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81569> ;
+	<http://purl.obolibrary.org/obo/CHEBI_81569> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :follicle-stimulating_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :follicle-stimulating_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :follicle-stimulating_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :follicle-stimulating_hormone_secretion  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#follicle-stimulating_hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#follicle-stimulating_hormone_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046884> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
+	<http://purl.obolibrary.org/obo/CHEBI_81568> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :luteinizing_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :luteinizing_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :luteinizing_hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :luteinizing_hormone_secretion  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#luteinizing_hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#luteinizing_hormone_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032275> .
+ .
 
 
 

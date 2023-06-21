@@ -48,34 +48,41 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#pendrin
 <http://www.co-ode.org/ontologies/ont.owl#pendrin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015039> ;
+	<http://purl.obolibrary.org/obo/PR_000015039> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation 
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/CHEBI_60311> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
+	<http://purl.obolibrary.org/obo/GO_0006590> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level 
+###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
+	<http://purl.obolibrary.org/obo/CHEBI_30660> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> .
+ .
 
 
 

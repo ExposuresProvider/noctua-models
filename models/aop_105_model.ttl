@@ -56,74 +56,88 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#major_urinary_protein_(rat)
 <http://www.co-ode.org/ontologies/ont.owl#major_urinary_protein_(rat)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P02761> ;
+	<http://purl.obolibrary.org/obo/PR_P02761> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :binding  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#binding
 <http://www.co-ode.org/ontologies/ont.owl#binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005488> ;
+	<http://purl.obolibrary.org/obo/GO_0005488> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :major_urinary_protein_(rat) ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :major_urinary_protein_(rat) ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :major_urinary_protein_(rat) ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :major_urinary_protein_(rat) ###  http://www.co-ode.org/ontologies/ont.owl#major_urinary_protein_(rat)
+	<http://purl.obolibrary.org/obo/RO_0002332> :major_urinary_protein_(rat) 
+###  http://www.co-ode.org/ontologies/ont.owl#major_urinary_protein_(rat)
 <http://www.co-ode.org/ontologies/ont.owl#major_urinary_protein_(rat)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P02761> ;
+	<http://purl.obolibrary.org/obo/PR_P02761> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death ###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death 
+###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
 <http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> ;
+	<http://purl.obolibrary.org/obo/CL_1000507> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
+	<http://purl.obolibrary.org/obo/GO_0008219> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation 
+###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
 <http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> ;
+	<http://purl.obolibrary.org/obo/CL_1000507> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050673> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
+	<http://purl.obolibrary.org/obo/GO_0050673> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
 <http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> ;
+	<http://purl.obolibrary.org/obo/CL_1000507> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+	<http://id.nlm.nih.gov/mesh/D006965> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell 
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002277> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://id.nlm.nih.gov/mesh/D000236> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002292> .
+ .
 
 
 

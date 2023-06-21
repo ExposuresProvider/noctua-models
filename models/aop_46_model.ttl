@@ -56,51 +56,61 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000182> ;
+	<http://purl.obolibrary.org/obo/CL_0000182> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :hepatocyte_proliferation  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0072574> ;
+	<http://purl.obolibrary.org/obo/GO_0072574> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
+	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma 
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cellular_tumor_antigen_p53
 <http://www.co-ode.org/ontologies/ont.owl#cellular_tumor_antigen_p53> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003035> ;
+	<http://purl.obolibrary.org/obo/PR_000003035> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :mutation  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mutation
 <http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009154> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid
+	<http://id.nlm.nih.gov/mesh/D009154> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation 
+###  http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_67194> ;
+	<http://purl.obolibrary.org/obo/FMA_67194> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_alkylation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_alkylation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_alkylation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_alkylation  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA_alkylation
 <http://www.co-ode.org/ontologies/ont.owl#DNA_alkylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006305> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :DNA_repair ###  http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid
+	<http://purl.obolibrary.org/obo/GO_0006305> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :DNA_repair 
+###  http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#Nuclear_deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_67194> ;
+	<http://purl.obolibrary.org/obo/FMA_67194> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA_repair
 <http://www.co-ode.org/ontologies/ont.owl#DNA_repair> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006281> ;
+	<http://purl.obolibrary.org/obo/GO_0006281> .
 	<http://purl.obolibrary.org/obo/RO_0019000> :mutation 
 
 #################################################################

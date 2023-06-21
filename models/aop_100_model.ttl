@@ -64,64 +64,77 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_1
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_1> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013427> ;
+	<http://purl.obolibrary.org/obo/PR_000013427> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide_synthase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2
+	<http://purl.obolibrary.org/obo/GO_0004666> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013428> ;
+	<http://purl.obolibrary.org/obo/PR_000013428> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide_synthase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
+	<http://purl.obolibrary.org/obo/GO_0004666> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
+	<http://purl.obolibrary.org/obo/CHEBI_15553> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001516> ;
+	<http://purl.obolibrary.org/obo/GO_0001516> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin_F2alpha ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_F2alpha ###  http://www.co-ode.org/ontologies/ont.owl#fertility
+	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_F2alpha 
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D005298> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :attraction-related_behavior ###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
+	<http://id.nlm.nih.gov/mesh/D005298> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :attraction-related_behavior 
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
 <http://www.co-ode.org/ontologies/ont.owl#reproductive_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#reproduction
+	<http://purl.obolibrary.org/obo/GO_0022414> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#reproduction
 <http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+	<http://purl.obolibrary.org/obo/GO_0000003> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#attraction-related_behavior
 <http://www.co-ode.org/ontologies/ont.owl#attraction-related_behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000280> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
+	<http://purl.obolibrary.org/obo/NBO_0000280> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
+	<http://purl.obolibrary.org/obo/CHEBI_15553> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :fertility 
 

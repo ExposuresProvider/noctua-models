@@ -64,43 +64,54 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046879> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hormone_secretion ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
+	<http://purl.obolibrary.org/obo/GO_0046879> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hormone_secretion 
+###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
+	<http://purl.obolibrary.org/obo/CHEBI_81568> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046879> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_ovulation ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_ovulation
+	<http://purl.obolibrary.org/obo/GO_0046879> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_ovulation 
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal_ovulation
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_ovulation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001928> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen
 <http://www.co-ode.org/ontologies/ont.owl#estrogen> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_50114> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prolactin
 <http://www.co-ode.org/ontologies/ont.owl#prolactin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013246> ;
+	<http://purl.obolibrary.org/obo/PR_000013246> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :mammary_gland_hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :mammary_gland_hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#mammary_gland_hyperplasia
+	<http://purl.obolibrary.org/obo/RO_0000053> :mammary_gland_hyperplasia 
+###  http://www.co-ode.org/ontologies/ont.owl#mammary_gland_hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#mammary_gland_hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0000630> .
+ .
 
 
 

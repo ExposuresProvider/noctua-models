@@ -60,64 +60,76 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxy-3-methylglutaryl-coenzyme_A_reductase
 <http://www.co-ode.org/ontologies/ont.owl#3-hydroxy-3-methylglutaryl-coenzyme_A_reductase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000008636> ;
+	<http://purl.obolibrary.org/obo/PR_000008636> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :hydroxymethylglutaryl-CoA_reductase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hydroxymethylglutaryl-CoA_reductase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hydroxymethylglutaryl-CoA_reductase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :hydroxymethylglutaryl-CoA_reductase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA_reductase_activity
 <http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA_reductase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042282> ;
+	<http://purl.obolibrary.org/obo/GO_0042282> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :mevalonate ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :mevalonate ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :mevalonate ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :mevalonate ###  http://www.co-ode.org/ontologies/ont.owl#mevalonate
+	<http://purl.obolibrary.org/obo/RO_0002332> :mevalonate 
+###  http://www.co-ode.org/ontologies/ont.owl#mevalonate
 <http://www.co-ode.org/ontologies/ont.owl#mevalonate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_25350> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_biosynthetic_process  ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
+	<http://purl.obolibrary.org/obo/CHEBI_25350> .
+	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_biosynthetic_process 	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport  ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport 	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
+	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport 
+###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_biosynthetic_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006695> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030301> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesteryl_ester
 <http://www.co-ode.org/ontologies/ont.owl#cholesteryl_ester> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17002> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17002> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030301> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D005298> .
+ .
 
 
 

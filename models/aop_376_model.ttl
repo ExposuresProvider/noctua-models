@@ -48,47 +48,56 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004191> ;
+	<http://purl.obolibrary.org/obo/PR_000004191> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004882> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :male_gonad_development ###  http://www.co-ode.org/ontologies/ont.owl#immature_gonad
+	<http://purl.obolibrary.org/obo/GO_0004882> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :male_gonad_development 
+###  http://www.co-ode.org/ontologies/ont.owl#immature_gonad
 <http://www.co-ode.org/ontologies/ont.owl#immature_gonad> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_2005272> ;
+	<http://purl.obolibrary.org/obo/UBERON_2005272> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :male_gonad_development ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :male_gonad_development ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :male_gonad_development ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :male_gonad_development  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#male_gonad_development
 <http://www.co-ode.org/ontologies/ont.owl#male_gonad_development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008584> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :male_sex_differentiation ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+	<http://purl.obolibrary.org/obo/GO_0008584> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :male_sex_differentiation 
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :male_sex_differentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :male_sex_differentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :male_sex_differentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :male_sex_differentiation  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#male_sex_differentiation
 <http://www.co-ode.org/ontologies/ont.owl#male_sex_differentiation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046661> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+	<http://purl.obolibrary.org/obo/GO_0046661> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
+ .
 
 
 

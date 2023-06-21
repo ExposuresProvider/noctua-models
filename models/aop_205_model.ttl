@@ -44,15 +44,18 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/GO_0005739> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :apoptotic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :apoptotic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :apoptotic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :apoptotic_process ###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
+	<http://purl.obolibrary.org/obo/RO_0002428> :apoptotic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
 <http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006915> .
+ .
 
 
 

@@ -56,36 +56,43 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26333> ;
+	<http://purl.obolibrary.org/obo/CHEBI_26333> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation ###  http://www.co-ode.org/ontologies/ont.owl#ovulation
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation 
+###  http://www.co-ode.org/ontologies/ont.owl#ovulation
 <http://www.co-ode.org/ontologies/ont.owl#ovulation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030728> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction ###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
+	<http://purl.obolibrary.org/obo/GO_0030728> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction 
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
 <http://www.co-ode.org/ontologies/ont.owl#reproductive_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#reproduction
+	<http://purl.obolibrary.org/obo/GO_0022414> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#reproduction
 <http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin
+	<http://purl.obolibrary.org/obo/GO_0000003> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26333> ;
+	<http://purl.obolibrary.org/obo/CHEBI_26333> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation 
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
+ .
 
 
 

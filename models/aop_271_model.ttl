@@ -68,39 +68,47 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_peroxidase
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_peroxidase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016584> ;
+	<http://purl.obolibrary.org/obo/PR_000016584> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :iodide_peroxidase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :iodide_peroxidase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :iodide_peroxidase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :iodide_peroxidase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#iodide_peroxidase_activity
 <http://www.co-ode.org/ontologies/ont.owl#iodide_peroxidase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004447> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
+	<http://purl.obolibrary.org/obo/GO_0004447> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation 
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/CHEBI_60311> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> ;
+	<http://purl.obolibrary.org/obo/GO_0006590> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :17beta-estradiol ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :17beta-estradiol ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :17beta-estradiol ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :17beta-estradiol ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+	<http://purl.obolibrary.org/obo/RO_0002332> :17beta-estradiol 
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16469> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :vitellogenins ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins 
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> ;
+	<http://id.nlm.nih.gov/mesh/D014819> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :egg_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :egg_quantity ###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
+	<http://purl.obolibrary.org/obo/RO_0000053> :egg_quantity 
+###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
 <http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_1000294> .
+ .
 
 
 

@@ -56,47 +56,55 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#juvenile_hormone
 <http://www.co-ode.org/ontologies/ont.owl#juvenile_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_24943> ;
+	<http://purl.obolibrary.org/obo/CHEBI_24943> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#protein_doublesex_(fruit_fly)
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+###  http://www.co-ode.org/ontologies/ont.owl#protein_doublesex_(fruit_fly)
 <http://www.co-ode.org/ontologies/ont.owl#protein_doublesex_(fruit_fly)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P23023> ;
+	<http://purl.obolibrary.org/obo/PR_P23023> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/GO_0010467> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :male_reproductive_organ ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :male_reproductive_organ ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :male_reproductive_organ ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :male_reproductive_organ ###  http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ
+	<http://purl.obolibrary.org/obo/RO_0002332> :male_reproductive_organ 
+###  http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ
 <http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
+	<http://purl.obolibrary.org/obo/UBERON_0003135> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :offspring_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :offspring_quantity  ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :male_organism ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :male_organism ###  http://www.co-ode.org/ontologies/ont.owl#offspring_quantity
+	<http://purl.obolibrary.org/obo/RO_0000053> :offspring_quantity 	<http://purl.obolibrary.org/obo/RO_0002566> :male_organism ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :male_organism 
+###  http://www.co-ode.org/ontologies/ont.owl#offspring_quantity
 <http://www.co-ode.org/ontologies/ont.owl#offspring_quantity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_1000189> ;
+	<http://purl.obolibrary.org/obo/VT_1000189> .
 	<http://purl.obolibrary.org/obo/RO_0003303> :population_growth_rate ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#male_organism
+	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#male_organism
 <http://www.co-ode.org/ontologies/ont.owl#male_organism> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003101> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
+	<http://purl.obolibrary.org/obo/UBERON_0003101> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
+ .
 
 
 

@@ -48,30 +48,36 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
-<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle ###  http://www.co-ode.org/ontologies/ont.owl#ovulation_cycle
-<http://www.co-ode.org/ontologies/ont.owl#ovulation_cycle> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042698> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16469> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle 
+###  http://www.co-ode.org/ontologies/ont.owl#ovulation_cycle
+<http://www.co-ode.org/ontologies/ont.owl#ovulation_cycle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0042698> .
+ .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16469> .
+	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation_cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation_cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation_cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle 
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16469> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006703> ;
+	<http://purl.obolibrary.org/obo/GO_0006703> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :17beta-estradiol ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :17beta-estradiol ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :17beta-estradiol ;

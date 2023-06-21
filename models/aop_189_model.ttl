@@ -44,51 +44,56 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#type_I_iodothyronine_deiodinase
 <http://www.co-ode.org/ontologies/ont.owl#type_I_iodothyronine_deiodinase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000006480> ;
+	<http://purl.obolibrary.org/obo/PR_000006480> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#catalytic_activity
 <http://www.co-ode.org/ontologies/ont.owl#catalytic_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003824> ;
+	<http://purl.obolibrary.org/obo/GO_0003824> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :3,3',5-triiodo-L-thyronine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :3,3',5-triiodo-L-thyronine ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :3,3',5-triiodo-L-thyronine ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :3,3',5-triiodo-L-thyronine  ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :3,3',5-triiodo-L-thyronine ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :3,3',5-triiodo-L-thyronine 	<http://purl.obolibrary.org/obo/RO_0002234> :3,3',5-triiodo-L-thyronine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :3,3',5-triiodo-L-thyronine ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :3,3',5-triiodo-L-thyronine ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :3,3',5-triiodo-L-thyronine ###  http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine
+	<http://purl.obolibrary.org/obo/RO_0002332> :3,3',5-triiodo-L-thyronine 
+###  http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine
 <http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_18258> ;
+	<http://purl.obolibrary.org/obo/CHEBI_18258> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metamorphosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis  ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis 	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metamorphosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis ###  http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine
+	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis 
+###  http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine
 <http://www.co-ode.org/ontologies/ont.owl#3,3',5-triiodo-L-thyronine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_18258> ;
+	<http://purl.obolibrary.org/obo/CHEBI_18258> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metamorphosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis  ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis 	<http://purl.obolibrary.org/obo/RO_0002331> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metamorphosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metamorphosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis ###  http://www.co-ode.org/ontologies/ont.owl#metamorphosis
+	<http://purl.obolibrary.org/obo/RO_0002428> :metamorphosis 
+###  http://www.co-ode.org/ontologies/ont.owl#metamorphosis
 <http://www.co-ode.org/ontologies/ont.owl#metamorphosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007552> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#metamorphosis
 <http://www.co-ode.org/ontologies/ont.owl#metamorphosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007552> .
+ .
 
 
 

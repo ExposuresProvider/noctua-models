@@ -80,108 +80,125 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_1
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_1> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013427> ;
+	<http://purl.obolibrary.org/obo/PR_000013427> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide_synthase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
+	<http://purl.obolibrary.org/obo/GO_0004666> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin_E2 ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin_E2 ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin_E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_E2 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2
+	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_E2 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_G/H_synthase_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013428> ;
+	<http://purl.obolibrary.org/obo/PR_000013428> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide_synthase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
+	<http://purl.obolibrary.org/obo/GO_0004666> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin_E2 ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin_E2 ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin_E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_E2 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_E2
+	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_E2 
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_E2
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin_E2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15551> ;
+	<http://purl.obolibrary.org/obo/CHEBI_15551> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :Gonadotropin_Releasing_Hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Gonadotropin_Releasing_Hormone ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
+	<http://purl.obolibrary.org/obo/RO_0002559> :Gonadotropin_Releasing_Hormone 
+###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007987> ;
+	<http://id.nlm.nih.gov/mesh/D007987> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :Luteinizing_hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Luteinizing_hormone ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
+	<http://purl.obolibrary.org/obo/RO_0002559> :Luteinizing_hormone 
+###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
+	<http://purl.obolibrary.org/obo/CHEBI_81568> .
 	<http://purl.obolibrary.org/obo/RO_0002566> :steroid_hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :steroid_hormone ###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
+	<http://purl.obolibrary.org/obo/RO_0002559> :steroid_hormone 
+###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#steroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
+	<http://purl.obolibrary.org/obo/CHEBI_26764> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :steroid_hormone_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :steroid_hormone_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :steroid_hormone_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :steroid_hormone_receptor_activity  ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :steroid_hormone_receptor_activity 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#steroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
+	<http://purl.obolibrary.org/obo/CHEBI_26764> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :steroid_hormone_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :steroid_hormone_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :steroid_hormone_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :steroid_hormone_receptor_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#steroid_hormone_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003707> ;
+	<http://purl.obolibrary.org/obo/GO_0003707> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :3',5'-cyclic_AMP(1-) ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :3',5'-cyclic_AMP(1-) ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :3',5'-cyclic_AMP(1-) ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :3',5'-cyclic_AMP(1-) ###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
+	<http://purl.obolibrary.org/obo/RO_0002332> :3',5'-cyclic_AMP(1-) 
+###  http://www.co-ode.org/ontologies/ont.owl#steroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#steroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
+	<http://purl.obolibrary.org/obo/CHEBI_26764> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/GO_0023052> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :3',5'-cyclic_AMP(1-) ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :3',5'-cyclic_AMP(1-) ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :3',5'-cyclic_AMP(1-) ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :3',5'-cyclic_AMP(1-) ###  http://www.co-ode.org/ontologies/ont.owl#3',5'-cyclic_AMP(1-)
+	<http://purl.obolibrary.org/obo/RO_0002332> :3',5'-cyclic_AMP(1-) 
+###  http://www.co-ode.org/ontologies/ont.owl#3',5'-cyclic_AMP(1-)
 <http://www.co-ode.org/ontologies/ont.owl#3',5'-cyclic_AMP(1-)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_58165> ;
+	<http://purl.obolibrary.org/obo/CHEBI_58165> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :G2/MI_transition_of_meiotic_cell_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :G2/MI_transition_of_meiotic_cell_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :G2/MI_transition_of_meiotic_cell_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :G2/MI_transition_of_meiotic_cell_cycle ###  http://www.co-ode.org/ontologies/ont.owl#G2/MI_transition_of_meiotic_cell_cycle
+	<http://purl.obolibrary.org/obo/RO_0002428> :G2/MI_transition_of_meiotic_cell_cycle 
+###  http://www.co-ode.org/ontologies/ont.owl#G2/MI_transition_of_meiotic_cell_cycle
 <http://www.co-ode.org/ontologies/ont.owl#G2/MI_transition_of_meiotic_cell_cycle> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008315> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process  ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction ###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
+	<http://purl.obolibrary.org/obo/GO_0008315> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction 
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
 <http://www.co-ode.org/ontologies/ont.owl#reproductive_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#reproduction
+	<http://purl.obolibrary.org/obo/GO_0022414> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#reproduction
 <http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
+	<http://purl.obolibrary.org/obo/GO_0000003> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate 
+###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
+ .
 
 
 

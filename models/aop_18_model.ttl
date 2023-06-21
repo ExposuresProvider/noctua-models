@@ -64,57 +64,69 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#STAR
 <http://www.co-ode.org/ontologies/ont.owl#STAR> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015715> ;
+	<http://purl.obolibrary.org/obo/PR_000015715> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mitochondrial_transport ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
+	<http://purl.obolibrary.org/obo/GO_0010467> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :mitochondrial_transport 
+###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial_transport  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006839> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
+	<http://purl.obolibrary.org/obo/GO_0006839> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17347> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0061370> ;
+	<http://purl.obolibrary.org/obo/GO_0061370> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :testosterone ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :testosterone ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
+	<http://purl.obolibrary.org/obo/RO_0002332> :testosterone 
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_17347> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial_transport  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006839> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#fertility
+	<http://purl.obolibrary.org/obo/GO_0006839> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D005298> .
+ .
 
 
 

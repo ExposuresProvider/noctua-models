@@ -48,49 +48,59 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003674> ;
+	<http://purl.obolibrary.org/obo/MP_0003674> .
 	<http://purl.obolibrary.org/obo/RO_0004024> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases
+	<http://purl.obolibrary.org/obo/RO_0004021> :signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases
 <http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D048031> ;
+	<http://id.nlm.nih.gov/mesh/D048031> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#forkhead_box_protein_O_(Caenorhabditis_elegans)
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#forkhead_box_protein_O_(Caenorhabditis_elegans)
 <http://www.co-ode.org/ontologies/ont.owl#forkhead_box_protein_O_(Caenorhabditis_elegans)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_O16850> ;
+	<http://purl.obolibrary.org/obo/PR_O16850> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling ###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome
 <http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1990909> ;
+	<http://purl.obolibrary.org/obo/GO_1990909> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :embryo_development ###  http://www.co-ode.org/ontologies/ont.owl#embryo_development
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :embryo_development 
+###  http://www.co-ode.org/ontologies/ont.owl#embryo_development
 <http://www.co-ode.org/ontologies/ont.owl#embryo_development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009790> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction ###  http://www.co-ode.org/ontologies/ont.owl#reproduction
+	<http://purl.obolibrary.org/obo/GO_0009790> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction 
+###  http://www.co-ode.org/ontologies/ont.owl#reproduction
 <http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0000003> .
+ .
 
 
 

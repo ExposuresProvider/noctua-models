@@ -60,117 +60,148 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#phospholipase_A1_member_A_(human)
 <http://www.co-ode.org/ontologies/ont.owl#phospholipase_A1_member_A_(human)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q53H76> ;
+	<http://purl.obolibrary.org/obo/PR_Q53H76> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :phospholipase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :phospholipase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :phospholipase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :phospholipase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#phospholipase_activity
 <http://www.co-ode.org/ontologies/ont.owl#phospholipase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004620> ;
+	<http://purl.obolibrary.org/obo/GO_0004620> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :mitochondrion ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion ###  http://www.co-ode.org/ontologies/ont.owl#Lipid_bilayer_of_wall_of_lysosome
+	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion 
+###  http://www.co-ode.org/ontologies/ont.owl#Lipid_bilayer_of_wall_of_lysosome
 <http://www.co-ode.org/ontologies/ont.owl#Lipid_bilayer_of_wall_of_lysosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_67514> ;
+	<http://purl.obolibrary.org/obo/FMA_67514> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death ###  http://www.co-ode.org/ontologies/ont.owl#lysosome
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death 
+###  http://www.co-ode.org/ontologies/ont.owl#lysosome
 <http://www.co-ode.org/ontologies/ont.owl#lysosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005764> ;
+	<http://purl.obolibrary.org/obo/GO_0005764> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death 
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/GO_0005739> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048102> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies ###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
+	<http://purl.obolibrary.org/obo/GO_0048102> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :Mallory_bodies 
+###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
 <http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0001414> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
+	<http://purl.obolibrary.org/obo/HP_0001414> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
 <http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0014045> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
+	<http://purl.obolibrary.org/obo/MP_0014045> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
 <http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0001414> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
+	<http://purl.obolibrary.org/obo/HP_0001414> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
 <http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0014045> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
+	<http://purl.obolibrary.org/obo/MP_0014045> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
 <http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0001414> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
+	<http://purl.obolibrary.org/obo/HP_0001414> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
 <http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0014045> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
+	<http://purl.obolibrary.org/obo/MP_0014045> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis
 <http://www.co-ode.org/ontologies/ont.owl#Microvesicular_hepatic_steatosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0001414> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
+	<http://purl.obolibrary.org/obo/HP_0001414> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies
 <http://www.co-ode.org/ontologies/ont.owl#Mallory_bodies> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0014045> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis ###  http://www.co-ode.org/ontologies/ont.owl#liver
+	<http://purl.obolibrary.org/obo/MP_0014045> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis 
+###  http://www.co-ode.org/ontologies/ont.owl#liver
 <http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002107> ;
+	<http://purl.obolibrary.org/obo/UBERON_0002107> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :liver_fibrosis ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :liver_fibrosis  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis
 <http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003333> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liver
 <http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002107> ;
+	<http://purl.obolibrary.org/obo/UBERON_0002107> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :liver_fibrosis ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :liver_fibrosis  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis
 <http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003333> .
+ .
 
 
 

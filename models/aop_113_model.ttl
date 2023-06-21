@@ -60,32 +60,40 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#glutamate-gated_chloride_channel_(fruit_fly)
 <http://www.co-ode.org/ontologies/ont.owl#glutamate-gated_chloride_channel_(fruit_fly)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q94900> ;
+	<http://purl.obolibrary.org/obo/PR_Q94900> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :chloride_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :chloride_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :chloride_channel_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride_channel_activity
 <http://www.co-ode.org/ontologies/ont.owl#chloride_channel_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005254> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :chloride_transmembrane_transport ###  http://www.co-ode.org/ontologies/ont.owl#chloride
+	<http://purl.obolibrary.org/obo/GO_0005254> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :chloride_transmembrane_transport 
+###  http://www.co-ode.org/ontologies/ont.owl#chloride
 <http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17996> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_transmembrane_transport  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport
 <http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1902476> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_hyperpolarization ###  http://www.co-ode.org/ontologies/ont.owl#population_quality
+	<http://purl.obolibrary.org/obo/GO_1902476> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_hyperpolarization 
+###  http://www.co-ode.org/ontologies/ont.owl#population_quality
 <http://www.co-ode.org/ontologies/ont.owl#population_quality> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000003> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#membrane_hyperpolarization
 <http://www.co-ode.org/ontologies/ont.owl#membrane_hyperpolarization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060081> .
+ .
 
 
 

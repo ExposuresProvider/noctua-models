@@ -1,0 +1,83 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_275> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+
+###  http://purl.obolibrary.org/obo/PR_000008478
+	<http://purl.obolibrary.org/obo/PR_000008478> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0004857
+	<http://purl.obolibrary.org/obo/GO_0004857> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_15358
+	<http://purl.obolibrary.org/obo/CHEBI_15358> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0031399
+	<http://purl.obolibrary.org/obo/GO_0031399> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#histone_deacetylase_1
+<http://www.co-ode.org/ontologies/ont.owl#histone_deacetylase_1> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008478> .
+	<http://purl.obolibrary.org/obo/RO_0002331> :enzyme_inhibitor_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :enzyme_inhibitor_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :enzyme_inhibitor_activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :enzyme_inhibitor_activity  .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#enzyme_inhibitor_activity
+<http://www.co-ode.org/ontologies/ont.owl#enzyme_inhibitor_activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004857> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_protein_modification_process 
+###  http://www.co-ode.org/ontologies/ont.owl#histone
+<http://www.co-ode.org/ontologies/ont.owl#histone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_15358> .
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_protein_modification_process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_protein_modification_process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_protein_modification_process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_protein_modification_process  .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_protein_modification_process
+<http://www.co-ode.org/ontologies/ont.owl#regulation_of_protein_modification_process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031399> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
+<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> .
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

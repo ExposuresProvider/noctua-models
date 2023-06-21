@@ -40,32 +40,39 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor
 <http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_61796> ;
+	<http://purl.obolibrary.org/obo/FMA_61796> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine_receptor_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0015464> ;
+	<http://purl.obolibrary.org/obo/GO_0015464> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :mitochondrion ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :mitochondrion ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion 
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thermoregulation_behavior ###  http://www.co-ode.org/ontologies/ont.owl#thermoregulation_behavior
+	<http://purl.obolibrary.org/obo/GO_0005739> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thermoregulation_behavior 
+###  http://www.co-ode.org/ontologies/ont.owl#thermoregulation_behavior
 <http://www.co-ode.org/ontologies/ont.owl#thermoregulation_behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000051> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse ###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D056631> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse ###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
+	<http://purl.obolibrary.org/obo/NBO_0000051> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse 
+###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D056631> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse 
+###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D056631> .
+ .
 
 
 

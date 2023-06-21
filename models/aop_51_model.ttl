@@ -64,25 +64,32 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
+	<http://purl.obolibrary.org/obo/GO_0008283> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006965> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_17347> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17347> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0061370> ;
+	<http://purl.obolibrary.org/obo/GO_0061370> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :testosterone ;

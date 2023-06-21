@@ -100,173 +100,204 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-beta
 <http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-beta> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011394> ;
+	<http://purl.obolibrary.org/obo/PR_000011394> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha
 <http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011395> ;
+	<http://purl.obolibrary.org/obo/PR_000011395> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ###  http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+###  http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4
 <http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001905> ;
+	<http://purl.obolibrary.org/obo/PR_000001905> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :positive_regulation_of_fatty_acid_transport ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+	<http://purl.obolibrary.org/obo/GO_0010467> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :positive_regulation_of_fatty_acid_transport 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :positive_regulation_of_fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :positive_regulation_of_fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :positive_regulation_of_fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :positive_regulation_of_fatty_acid_transport  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#positive_regulation_of_fatty_acid_transport
 <http://www.co-ode.org/ontologies/ont.owl#positive_regulation_of_fatty_acid_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_2000193> ;
+	<http://purl.obolibrary.org/obo/GO_2000193> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride ###  http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive_element-binding_protein
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride 
+###  http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive_element-binding_protein
 <http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive_element-binding_protein> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000010460> ;
+	<http://purl.obolibrary.org/obo/PR_000010460> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1
+	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1
 <http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015611> ;
+	<http://purl.obolibrary.org/obo/PR_000015611> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :SREBP_signaling_pathway  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032933> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_synthase
+	<http://purl.obolibrary.org/obo/GO_0032933> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_synthase
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_synthase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007348> ;
+	<http://purl.obolibrary.org/obo/PR_000007348> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :fatty_acid_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :fatty_acid_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :fatty_acid_synthase_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004312> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#acyl-CoA_desaturase
+	<http://purl.obolibrary.org/obo/GO_0004312> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#acyl-CoA_desaturase
 <http://www.co-ode.org/ontologies/ont.owl#acyl-CoA_desaturase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000014497> ;
+	<http://purl.obolibrary.org/obo/PR_000014497> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+	<http://purl.obolibrary.org/obo/GO_0010467> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006633> ;
+	<http://purl.obolibrary.org/obo/GO_0006633> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006633> ;
+	<http://purl.obolibrary.org/obo/GO_0006633> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006633> ;
+	<http://purl.obolibrary.org/obo/GO_0006633> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride 
+###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006633> ;
+	<http://purl.obolibrary.org/obo/GO_0006633> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride ###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride 
+###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
 <http://www.co-ode.org/ontologies/ont.owl#triglyceride> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17855> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17855> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrion_disassembly ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrion_disassembly ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrion_disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrion_disassembly ###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
+	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrion_disassembly 
+###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
 <http://www.co-ode.org/ontologies/ont.owl#triglyceride> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17855> ;
+	<http://purl.obolibrary.org/obo/CHEBI_17855> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrion_disassembly ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrion_disassembly ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrion_disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrion_disassembly ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrion_disassembly 
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/GO_0005739> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrion_disassembly  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion_disassembly
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion_disassembly> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061726> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4
 <http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001905> ;
+	<http://purl.obolibrary.org/obo/PR_000001905> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/GO_0010467> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :positive_regulation_of_fatty_acid_transport 
 
 #################################################################

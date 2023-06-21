@@ -56,42 +56,51 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium/iodide_cotransporter
 <http://www.co-ode.org/ontologies/ont.owl#sodium/iodide_cotransporter> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015171> ;
+	<http://purl.obolibrary.org/obo/PR_000015171> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :sodium:iodide_symporter_activity  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium:iodide_symporter_activity
 <http://www.co-ode.org/ontologies/ont.owl#sodium:iodide_symporter_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008507> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :iodide_transport ###  http://www.co-ode.org/ontologies/ont.owl#iodide
+	<http://purl.obolibrary.org/obo/GO_0008507> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :iodide_transport 
+###  http://www.co-ode.org/ontologies/ont.owl#iodide
 <http://www.co-ode.org/ontologies/ont.owl#iodide> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16382> ;
+	<http://purl.obolibrary.org/obo/CHEBI_16382> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :iodide_transport  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#iodide_transport
 <http://www.co-ode.org/ontologies/ont.owl#iodide_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0015705> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
+	<http://purl.obolibrary.org/obo/GO_0015705> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation 
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/CHEBI_60311> .
 	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
+	<http://purl.obolibrary.org/obo/GO_0006590> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level 
+###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
+	<http://purl.obolibrary.org/obo/CHEBI_30660> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> .
+ .
 
 
 

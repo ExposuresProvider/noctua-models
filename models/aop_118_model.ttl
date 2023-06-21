@@ -52,56 +52,67 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000182> ;
+	<http://purl.obolibrary.org/obo/CL_0000182> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
+	<http://purl.obolibrary.org/obo/GO_0008219> .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000182> ;
+	<http://purl.obolibrary.org/obo/CL_0000182> .
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass
+	<http://purl.obolibrary.org/obo/GO_0008283> .
+	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia 
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003902> ;
+	<http://purl.obolibrary.org/obo/MP_0003902> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :preneoplasia ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :preneoplasia  .
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#preneoplasia
 <http://www.co-ode.org/ontologies/ont.owl#preneoplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0002009> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma  ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma  ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular_carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+	<http://purl.obolibrary.org/obo/MP_0002009> .
+	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma 	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma 	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular_carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma 
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002277> .
+ .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://id.nlm.nih.gov/mesh/D000236> .
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
+ .
 
 
 

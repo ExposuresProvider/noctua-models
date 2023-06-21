@@ -56,40 +56,46 @@
 #   Individuals
 #################################################################
 
+
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003626> ;
+	<http://purl.obolibrary.org/obo/PR_000003626> .
 	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase_activity  .
+
 
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase_activity
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003990> ;
+	<http://purl.obolibrary.org/obo/GO_0003990> .
 	<http://purl.obolibrary.org/obo/RO_0002234> :acetylcholine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :acetylcholine ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :acetylcholine ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :acetylcholine ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine
+	<http://purl.obolibrary.org/obo/RO_0002332> :acetylcholine 
+###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15355> ;
+	<http://purl.obolibrary.org/obo/CHEBI_15355> .
 	<http://purl.obolibrary.org/obo/RO_0002610> :ataxia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :ataxia  ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hyperactivity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :hyperactivity  ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :paralysis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :paralysis ###  http://www.co-ode.org/ontologies/ont.owl#ataxia
+	<http://purl.obolibrary.org/obo/RO_0000053> :ataxia 	<http://purl.obolibrary.org/obo/RO_0002610> :hyperactivity ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :hyperactivity 	<http://purl.obolibrary.org/obo/RO_0002610> :paralysis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :paralysis 
+###  http://www.co-ode.org/ontologies/ont.owl#ataxia
 <http://www.co-ode.org/ontologies/ont.owl#ataxia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001393> ;
+	<http://purl.obolibrary.org/obo/MP_0001393> .
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling ###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
 <http://www.co-ode.org/ontologies/ont.owl#hyperactivity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001399> ;
+	<http://purl.obolibrary.org/obo/MP_0001399> .
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling ###  http://www.co-ode.org/ontologies/ont.owl#paralysis
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#paralysis
 <http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0000753> ;
+	<http://purl.obolibrary.org/obo/MP_0000753> .
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling ###  http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling 
+###  http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling
 <http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0099536> .
+ .
 
 
 
