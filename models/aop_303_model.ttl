@@ -14,26 +14,20 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000235
 	<http://purl.obolibrary.org/obo/CL_0000235> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006909
 	<http://purl.obolibrary.org/obo/GO_0006909> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/FMA_84050
 	<http://purl.obolibrary.org/obo/FMA_84050> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0050663
 	<http://purl.obolibrary.org/obo/GO_0050663> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
@@ -44,48 +38,27 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#macrophage
 <http://www.co-ode.org/ontologies/ont.owl#macrophage> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000235> .
+	<http://purl.obolibrary.org/obo/CL_0000235> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :phagocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :phagocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :phagocytosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :phagocytosis  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :phagocytosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#phagocytosis
 <http://www.co-ode.org/ontologies/ont.owl#phagocytosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006909> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cytokine_secretion 
+	<http://purl.obolibrary.org/obo/GO_0006909> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cytokine_secretion .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Cytokine
 <http://www.co-ode.org/ontologies/ont.owl#Cytokine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_84050> .
+	<http://purl.obolibrary.org/obo/FMA_84050> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine_secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine_secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion
 <http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050663> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0050663>

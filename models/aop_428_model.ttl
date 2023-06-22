@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000003622
 	<http://purl.obolibrary.org/obo/PR_000003622> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0009299
 	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0004180
 	<http://purl.obolibrary.org/obo/GO_0004180> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0034394
 	<http://purl.obolibrary.org/obo/GO_0034394> rdf:type owl:Class .
@@ -36,56 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2
-<http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003622> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :mRNA_transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :mRNA_transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :mRNA_transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mRNA_transcription  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#mRNA_transcription
-<http://www.co-ode.org/ontologies/ont.owl#mRNA_transcription> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009299> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2
-<http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003622> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :carboxypeptidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :carboxypeptidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :carboxypeptidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :carboxypeptidase_activity  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#carboxypeptidase_activity
-<http://www.co-ode.org/ontologies/ont.owl#carboxypeptidase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004180> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2
-<http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003622> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein_localization_to_cell_surface ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein_localization_to_cell_surface ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein_localization_to_cell_surface ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_localization_to_cell_surface  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#protein_localization_to_cell_surface
-<http://www.co-ode.org/ontologies/ont.owl#protein_localization_to_cell_surface> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0034394> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2
-<http://www.co-ode.org/ontologies/ont.owl#angiotensin-converting_enzyme_2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003622> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

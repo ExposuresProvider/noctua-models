@@ -14,70 +14,53 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_60311
 	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006590
 	<http://purl.obolibrary.org/obo/GO_0006590> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0002113
 	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/Q000633
 	<http://id.nlm.nih.gov/mesh/Q000633> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0003094
 	<http://purl.obolibrary.org/obo/GO_0003094> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/VT_0005524
 	<http://purl.obolibrary.org/obo/VT_0005524> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_29101
 	<http://purl.obolibrary.org/obo/CHEBI_29101> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0070293
 	<http://purl.obolibrary.org/obo/GO_0070293> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16737
 	<http://purl.obolibrary.org/obo/CHEBI_16737> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0005332
 	<http://purl.obolibrary.org/obo/MP_0005332> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0009773
 	<http://purl.obolibrary.org/obo/UBERON_0009773> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D004106
 	<http://id.nlm.nih.gov/mesh/D004106> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0011899
 	<http://purl.obolibrary.org/obo/MP_0011899> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0048102
 	<http://purl.obolibrary.org/obo/GO_0048102> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MI_0613
 	<http://purl.obolibrary.org/obo/MI_0613> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_30660
 	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0005475
 	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
@@ -88,154 +71,129 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> .
+	<http://purl.obolibrary.org/obo/GO_0006590> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :creatinine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :creatinine ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :creatinine ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :creatinine 	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_amino_acid_level 
+	<http://purl.obolibrary.org/obo/RO_0002332> :creatinine ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_amino_acid_level .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
+	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> .
+	<http://purl.obolibrary.org/obo/MP_0005475> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization 
+	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#renal_tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal_tubule> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0009773> .
+	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0048102> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal_tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal_tubule> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0009773> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Dilatation  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Dilatation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Dilatation
 <http://www.co-ode.org/ontologies/ont.owl#Dilatation> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D004106> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization
 <http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0011899> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#creatinine
 <http://www.co-ode.org/ontologies/ont.owl#creatinine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16737> .
+	<http://purl.obolibrary.org/obo/CHEBI_16737> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :podocyte_vacuolization 
+	<http://purl.obolibrary.org/obo/RO_0000053> :podocyte_vacuolization .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_amino_acid_level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_amino_acid_level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005332> .
+	<http://purl.obolibrary.org/obo/MP_0005332> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization 
+	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#renal_tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal_tubule> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0009773> .
+	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic_cell_death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0048102> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal_tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal_tubule> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0009773> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Dilatation  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Dilatation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Dilatation
 <http://www.co-ode.org/ontologies/ont.owl#Dilatation> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D004106> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization
 <http://www.co-ode.org/ontologies/ont.owl#podocyte_vacuolization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0011899> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002113> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0002113> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/Q000633> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002113> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0002113> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/Q000633> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002113> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0002113> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/Q000633> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney
 <http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002113> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0002113> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#toxicity
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/Q000633> .
- .
 
 
 

@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000129
 	<http://purl.obolibrary.org/obo/CL_0000129> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0001847
 	<http://purl.obolibrary.org/obo/MP_0001847> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000127
 	<http://purl.obolibrary.org/obo/CL_0000127> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0002229
 	<http://purl.obolibrary.org/obo/MP_0002229> rdf:type owl:Class .
@@ -36,37 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#microglial_cell
-<http://www.co-ode.org/ontologies/ont.owl#microglial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000129> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#brain_inflammation
-<http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001847> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
-<http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000127> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#brain_inflammation
-<http://www.co-ode.org/ontologies/ont.owl#brain_inflammation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001847> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
-<http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0002229> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000013058
 	<http://purl.obolibrary.org/obo/PR_000013058> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0035357
 	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
@@ -28,53 +26,27 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013058> .
+	<http://purl.obolibrary.org/obo/PR_000013058> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :peroxisome_proliferator_activated_receptor_signaling_pathway 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013058> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> .
+	<http://purl.obolibrary.org/obo/GO_0035357> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013058> .
+	<http://purl.obolibrary.org/obo/PR_000013058> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0035357>

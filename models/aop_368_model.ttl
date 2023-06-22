@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0005386
 	<http://purl.obolibrary.org/obo/UBERON_0005386> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0002006
 	<http://purl.obolibrary.org/obo/MP_0002006> rdf:type owl:Class .

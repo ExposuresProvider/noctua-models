@@ -14,38 +14,29 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000014993
 	<http://purl.obolibrary.org/obo/PR_000014993> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
 	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_27226
 	<http://purl.obolibrary.org/obo/CHEBI_27226> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0004154
 	<http://purl.obolibrary.org/obo/MP_0004154> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26216
 	<http://purl.obolibrary.org/obo/CHEBI_26216> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009026
 	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D001145
 	<http://id.nlm.nih.gov/mesh/D001145> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0003674
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
@@ -56,54 +47,54 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#solute_carrier_family_22_member_6
 <http://www.co-ode.org/ontologies/ont.owl#solute_carrier_family_22_member_6> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000014993> .
+	<http://purl.obolibrary.org/obo/PR_000014993> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> .
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :uric_acid ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :uric_acid ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :uric_acid 
-###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
-<http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_27226> .
-	<http://purl.obolibrary.org/obo/RO_0002566> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid 
-###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
-<http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_27226> .
- .
+	<http://purl.obolibrary.org/obo/RO_0002332> :uric_acid .
 
+###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
+<http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> :uric_acid ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid .
+
+###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
+<http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_27226> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#potassium_atom
 <http://www.co-ode.org/ontologies/ont.owl#potassium_atom> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26216> .
+	<http://purl.obolibrary.org/obo/CHEBI_26216> ;
 	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias,_Cardiac ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias,_Cardiac 
+	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias,_Cardiac .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac
 <http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D001145> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :mortality 
+	<http://id.nlm.nih.gov/mesh/D001145> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :mortality .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D009026> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric_acid
 <http://www.co-ode.org/ontologies/ont.owl#uric_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_27226> .
+	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
 	<http://purl.obolibrary.org/obo/RO_0002566> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid 
+	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid .
+
+
 
 #################################################################
 #   Object Statements

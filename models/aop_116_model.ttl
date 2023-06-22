@@ -14,34 +14,26 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_1000494
 	<http://purl.obolibrary.org/obo/CL_1000494> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_1000507
 	<http://purl.obolibrary.org/obo/CL_1000507> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0050673
 	<http://purl.obolibrary.org/obo/GO_0050673> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0004968
 	<http://purl.obolibrary.org/obo/MP_0004968> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D000236
 	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D002277
 	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D002292
 	<http://id.nlm.nih.gov/mesh/D002292> rdf:type owl:Class .
@@ -52,67 +44,62 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000494> .
+	<http://purl.obolibrary.org/obo/CL_1000494> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
 <http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> .
+	<http://purl.obolibrary.org/obo/CL_1000507> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050673> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :kidney_epithelium_hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0050673> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :kidney_epithelium_hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000494> .
+	<http://purl.obolibrary.org/obo/CL_1000494> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :kidney_epithelium_hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :kidney_epithelium_hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :kidney_epithelium_hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#kidney_epithelium_hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#kidney_epithelium_hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0004968> .
-	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma 	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma 	<http://purl.obolibrary.org/obo/RO_0003303> :Carcinoma,_Renal_Cell ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Carcinoma,_Renal_Cell 
+	<http://purl.obolibrary.org/obo/MP_0004968> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :Carcinoma,_Renal_Cell ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Carcinoma,_Renal_Cell .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002277> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell  .
-
+	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002292> .
- .
 
 
 

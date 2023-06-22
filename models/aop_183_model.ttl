@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/MP_0004889
 	<http://purl.obolibrary.org/obo/MP_0004889> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D013312
 	<http://id.nlm.nih.gov/mesh/D013312> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0060756
 	<http://purl.obolibrary.org/obo/GO_0060756> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D056631
 	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
@@ -36,28 +32,30 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#increased_energy_expenditure
 <http://www.co-ode.org/ontologies/ont.owl#increased_energy_expenditure> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0004889> .
+	<http://purl.obolibrary.org/obo/MP_0004889> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :foraging_behavior ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :foraging_behavior 
+	<http://purl.obolibrary.org/obo/RO_0004021> :foraging_behavior .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Stress,_Physiological
 <http://www.co-ode.org/ontologies/ont.owl#Stress,_Physiological> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D013312> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :foraging_behavior 
+	<http://id.nlm.nih.gov/mesh/D013312> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :foraging_behavior .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#foraging_behavior
 <http://www.co-ode.org/ontologies/ont.owl#foraging_behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060756> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :colony_collapse 
+	<http://purl.obolibrary.org/obo/GO_0060756> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :colony_collapse .
+
+###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D056631> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D056631> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse 
-###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D056631> .
- .
 
 
 

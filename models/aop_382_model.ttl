@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_3815
 	<http://purl.obolibrary.org/obo/CHEBI_3815> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0032964
 	<http://purl.obolibrary.org/obo/GO_0032964> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0043122
 	<http://purl.obolibrary.org/obo/GO_0043122> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
@@ -36,34 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_I-kappaB_kinase/NF-kappaB_signaling 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_I-kappaB_kinase/NF-kappaB_signaling
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_I-kappaB_kinase/NF-kappaB_signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0043122> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#collagen
-<http://www.co-ode.org/ontologies/ont.owl#collagen> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_3815> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :collagen_biosynthetic_process  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#collagen_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#collagen_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032964> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

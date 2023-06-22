@@ -14,34 +14,26 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000016801
 	<http://purl.obolibrary.org/obo/PR_000016801> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005488
 	<http://purl.obolibrary.org/obo/GO_0005488> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_30660
 	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_60311
 	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006810
 	<http://purl.obolibrary.org/obo/GO_0006810> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0005475
 	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0007552
 	<http://purl.obolibrary.org/obo/GO_0007552> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008152
 	<http://purl.obolibrary.org/obo/GO_0008152> rdf:type owl:Class .
@@ -52,89 +44,14 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#transthyretin
 <http://www.co-ode.org/ontologies/ont.owl#transthyretin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016801> .
+	<http://purl.obolibrary.org/obo/PR_000016801> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#binding
 <http://www.co-ode.org/ontologies/ont.owl#binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005488> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :transport 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :transport  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#transport
-<http://www.co-ode.org/ontologies/ont.owl#transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006810> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :metabolic_process 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> .
- .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
-<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008152> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0005488>

@@ -14,34 +14,26 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/VT_0002673
 	<http://purl.obolibrary.org/obo/VT_0002673> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CL_0000019
 	<http://purl.obolibrary.org/obo/CL_0000019> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D005298
 	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006694
 	<http://purl.obolibrary.org/obo/GO_0006694> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0050810
 	<http://purl.obolibrary.org/obo/GO_0050810> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CL_0000178
 	<http://purl.obolibrary.org/obo/CL_0000178> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006915
 	<http://purl.obolibrary.org/obo/GO_0006915> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0007010
 	<http://purl.obolibrary.org/obo/GO_0007010> rdf:type owl:Class .

@@ -14,14 +14,11 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16991
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000001
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
@@ -32,26 +29,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
-<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
-<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
- .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

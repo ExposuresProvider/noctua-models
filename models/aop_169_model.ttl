@@ -14,46 +14,35 @@
 #   Classes
 #################################################################
 
-
 ###  http://id.nlm.nih.gov/mesh/D007987
 	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0046879
 	<http://purl.obolibrary.org/obo/GO_0046879> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_81568
 	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0060209
 	<http://purl.obolibrary.org/obo/GO_0060209> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0001928
 	<http://purl.obolibrary.org/obo/MP_0001928> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_50114
 	<http://purl.obolibrary.org/obo/CHEBI_50114> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000439
 	<http://purl.obolibrary.org/obo/CL_0000439> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006965
 	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D006984
 	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D000236
 	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/HP_0002893
 	<http://purl.obolibrary.org/obo/HP_0002893> rdf:type owl:Class .
@@ -64,65 +53,59 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin_Releasing_Hormone> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007987> .
+	<http://id.nlm.nih.gov/mesh/D007987> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046879> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hormone_secretion 
+	<http://purl.obolibrary.org/obo/GO_0046879> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hormone_secretion .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> .
+	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone_secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046879> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_ovulation 
+	<http://purl.obolibrary.org/obo/GO_0046879> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_ovulation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_ovulation
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_ovulation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001928> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen
 <http://www.co-ode.org/ontologies/ont.owl#estrogen> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_50114> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia 	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy 
+	<http://purl.obolibrary.org/obo/CHEBI_50114> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell
 <http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000439> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/CL_0000439> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006965> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell
 <http://www.co-ode.org/ontologies/ont.owl#prolactin_secreting_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000439> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy  .
-
+	<http://purl.obolibrary.org/obo/CL_0000439> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006984> .
- .
 
 
 

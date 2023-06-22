@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0051918
 	<http://purl.obolibrary.org/obo/GO_0051918> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0030195
 	<http://purl.obolibrary.org/obo/GO_0030195> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0003070
 	<http://purl.obolibrary.org/obo/MP_0003070> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0042311
 	<http://purl.obolibrary.org/obo/GO_0042311> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0001863
 	<http://purl.obolibrary.org/obo/MP_0001863> rdf:type owl:Class .
@@ -40,39 +35,20 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_fibrinolysis
 <http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_fibrinolysis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0051918> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation 	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation 
+	<http://purl.obolibrary.org/obo/GO_0051918> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_blood_coagulation
 <http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_blood_coagulation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030195> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation 	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation 
+	<http://purl.obolibrary.org/obo/GO_0030195> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#increased_vascular_permeability
 <http://www.co-ode.org/ontologies/ont.owl#increased_vascular_permeability> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003070> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#vasodilation
-<http://www.co-ode.org/ontologies/ont.owl#vasodilation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042311> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#vascular_inflammation
-<http://www.co-ode.org/ontologies/ont.owl#vascular_inflammation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001863> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_fibrinolysis
-<http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_fibrinolysis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0051918> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation 	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation 
-###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_blood_coagulation
-<http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_blood_coagulation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030195> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation 	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/MP_0003070>

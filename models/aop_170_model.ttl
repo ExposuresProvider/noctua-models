@@ -14,38 +14,29 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000700
 	<http://purl.obolibrary.org/obo/CL_0000700> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001963
 	<http://purl.obolibrary.org/obo/GO_0001963> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000013246
 	<http://purl.obolibrary.org/obo/PR_000013246> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0070459
 	<http://purl.obolibrary.org/obo/GO_0070459> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0001911
 	<http://purl.obolibrary.org/obo/UBERON_0001911> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006965
 	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0010307
 	<http://purl.obolibrary.org/obo/MP_0010307> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D000236
 	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D002277
 	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
@@ -56,17 +47,14 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#mammary_gland
 <http://www.co-ode.org/ontologies/ont.owl#mammary_gland> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001911> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0001911> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006965> .
- .
 
 
 

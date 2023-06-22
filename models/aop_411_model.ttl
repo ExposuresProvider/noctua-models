@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0031514
 	<http://purl.obolibrary.org/obo/GO_0031514> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/HP_0012262
 	<http://purl.obolibrary.org/obo/HP_0012262> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/VT_0001947
 	<http://purl.obolibrary.org/obo/VT_0001947> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/VT_0002327
 	<http://purl.obolibrary.org/obo/VT_0002327> rdf:type owl:Class .
@@ -36,35 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#motile_cilium
-<http://www.co-ode.org/ontologies/ont.owl#motile_cilium> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0031514> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal_ciliary_motility ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_ciliary_motility  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#Abnormal_ciliary_motility
-<http://www.co-ode.org/ontologies/ont.owl#Abnormal_ciliary_motility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0012262> .
-	<http://purl.obolibrary.org/obo/RO_0003303> :mucociliary_clearance_trait ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mucociliary_clearance_trait 
-###  http://www.co-ode.org/ontologies/ont.owl#mucociliary_clearance_trait
-<http://www.co-ode.org/ontologies/ont.owl#mucociliary_clearance_trait> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_0001947> .
-	<http://purl.obolibrary.org/obo/RO_0003303> :respiratory_function_trait ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_function_trait 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait
-<http://www.co-ode.org/ontologies/ont.owl#respiratory_function_trait> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_0002327> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .

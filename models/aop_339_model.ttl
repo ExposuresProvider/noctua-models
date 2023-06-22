@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000001
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .

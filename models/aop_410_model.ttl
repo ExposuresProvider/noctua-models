@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0030916
 	<http://purl.obolibrary.org/obo/GO_0030916> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0007605
 	<http://purl.obolibrary.org/obo/GO_0007605> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D009026
 	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
@@ -36,23 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#otic_vesicle_formation
-<http://www.co-ode.org/ontologies/ont.owl#otic_vesicle_formation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030916> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :sensory_perception_of_sound 
-###  http://www.co-ode.org/ontologies/ont.owl#sensory_perception_of_sound
-<http://www.co-ode.org/ontologies/ont.owl#sensory_perception_of_sound> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007605> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :mortality 
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

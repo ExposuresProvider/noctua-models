@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/FMA_264621
 	<http://purl.obolibrary.org/obo/FMA_264621> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0030521
 	<http://purl.obolibrary.org/obo/GO_0030521> rdf:type owl:Class .
@@ -28,28 +26,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#Musculature_of_male_perineum
-<http://www.co-ode.org/ontologies/ont.owl#Musculature_of_male_perineum> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_264621> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_signaling_pathway  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030521> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

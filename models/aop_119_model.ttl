@@ -14,54 +14,41 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000016584
 	<http://purl.obolibrary.org/obo/PR_000016584> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004447
 	<http://purl.obolibrary.org/obo/GO_0004447> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0002258
 	<http://purl.obolibrary.org/obo/CL_0002258> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D006984
 	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006965
 	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D000236
 	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D002277
 	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_60311
 	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006590
 	<http://purl.obolibrary.org/obo/GO_0006590> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_30660
 	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0005475
 	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_81567
 	<http://purl.obolibrary.org/obo/CHEBI_81567> rdf:type owl:Class .
@@ -72,91 +59,90 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_peroxidase
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_peroxidase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016584> .
+	<http://purl.obolibrary.org/obo/PR_000016584> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :iodide_peroxidase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :iodide_peroxidase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :iodide_peroxidase_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :iodide_peroxidase_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#iodide_peroxidase_activity
 <http://www.co-ode.org/ontologies/ont.owl#iodide_peroxidase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004447> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation 
+	<http://purl.obolibrary.org/obo/GO_0004447> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level 
+	<http://purl.obolibrary.org/obo/GO_0006590> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> .
+	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> .
-	<http://purl.obolibrary.org/obo/RO_0000052> :Thyroid_stimulating_hormone 
+	<http://purl.obolibrary.org/obo/MP_0005475> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Thyroid_stimulating_hormone .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Thyroid_stimulating_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Thyroid_stimulating_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81567> .
+	<http://purl.obolibrary.org/obo/CHEBI_81567> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation 	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy 
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> .
+	<http://purl.obolibrary.org/obo/CL_0002258> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0008283> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy  .
-
+	<http://purl.obolibrary.org/obo/CL_0002258> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
 <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006984> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia 
+	<http://id.nlm.nih.gov/mesh/D006984> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
 <http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/CL_0002258> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma 
+	<http://id.nlm.nih.gov/mesh/D006965> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002277> .
- .
 
 
 

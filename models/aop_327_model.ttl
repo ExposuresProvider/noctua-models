@@ -14,14 +14,11 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_1903409
 	<http://purl.obolibrary.org/obo/GO_1903409> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009026
 	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
@@ -32,26 +29,11 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1903409> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_1903409>

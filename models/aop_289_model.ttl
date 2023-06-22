@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16469
 	<http://purl.obolibrary.org/obo/CHEBI_16469> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D014819
 	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/VT_1000294
 	<http://purl.obolibrary.org/obo/VT_1000294> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000001
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
@@ -40,42 +35,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
-<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16469> .
-	<http://purl.obolibrary.org/obo/RO_0002566> :vitellogenins ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins 
-###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
-<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :egg_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :egg_quantity 
-###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
-<http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_1000294> .
-	<http://purl.obolibrary.org/obo/RO_0003303> :population_growth_rate ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate 
-###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
-<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
-<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

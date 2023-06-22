@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_29985
 	<http://purl.obolibrary.org/obo/CHEBI_29985> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0035249
 	<http://purl.obolibrary.org/obo/GO_0035249> rdf:type owl:Class .
@@ -28,26 +26,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#L-glutamate(1-)
-<http://www.co-ode.org/ontologies/ont.owl#L-glutamate(1-)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_29985> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :synaptic_transmission,_glutamatergic ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :synaptic_transmission,_glutamatergic ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :synaptic_transmission,_glutamatergic ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :synaptic_transmission,_glutamatergic  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#synaptic_transmission,_glutamatergic
-<http://www.co-ode.org/ontologies/ont.owl#synaptic_transmission,_glutamatergic> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035249> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

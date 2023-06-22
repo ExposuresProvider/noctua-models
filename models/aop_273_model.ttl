@@ -14,30 +14,23 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000031316
 	<http://purl.obolibrary.org/obo/PR_000031316> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006120
 	<http://purl.obolibrary.org/obo/GO_0006120> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008137
 	<http://purl.obolibrary.org/obo/GO_0008137> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_36080
 	<http://purl.obolibrary.org/obo/CHEBI_36080> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D057165
 	<http://id.nlm.nih.gov/mesh/D057165> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005739
 	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
@@ -48,49 +41,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1
-<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000031316> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :NADH_dehydrogenase_(ubiquinone)_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NADH_dehydrogenase_(ubiquinone)_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NADH_dehydrogenase_(ubiquinone)_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NADH_dehydrogenase_(ubiquinone)_activity  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity
-<http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008137> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies 
-###  http://www.co-ode.org/ontologies/ont.owl#protein
-<http://www.co-ode.org/ontologies/ont.owl#protein> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_36080> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis_deficiencies  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies
-<http://www.co-ode.org/ontologies/ont.owl#Proteostasis_deficiencies> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D057165> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

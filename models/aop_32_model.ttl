@@ -14,38 +14,29 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_39185
 	<http://purl.obolibrary.org/obo/CHEBI_39185> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008152
 	<http://purl.obolibrary.org/obo/GO_0008152> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_25212
 	<http://purl.obolibrary.org/obo/CHEBI_25212> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/HP_0001410
 	<http://purl.obolibrary.org/obo/HP_0001410> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000011326
 	<http://purl.obolibrary.org/obo/PR_000011326> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004517
 	<http://purl.obolibrary.org/obo/GO_0004517> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MI_2141
 	<http://purl.obolibrary.org/obo/MI_2141> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0072574
 	<http://purl.obolibrary.org/obo/GO_0072574> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006528
 	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
@@ -56,66 +47,67 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#thiamethoxam
 <http://www.co-ode.org/ontologies/ont.owl#thiamethoxam> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_39185> .
+	<http://purl.obolibrary.org/obo/CHEBI_39185> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
 <http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008152> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function 
+	<http://purl.obolibrary.org/obo/GO_0008152> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#metabolite
 <http://www.co-ode.org/ontologies/ont.owl#metabolite> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_25212> .
+	<http://purl.obolibrary.org/obo/CHEBI_25212> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
 <http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008152> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function 
+	<http://purl.obolibrary.org/obo/GO_0008152> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function
 <http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0001410> .
+	<http://purl.obolibrary.org/obo/HP_0001410> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :nitric-oxide_synthase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :nitric-oxide_synthase_activity 
+	<http://purl.obolibrary.org/obo/RO_0004021> :nitric-oxide_synthase_activity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain
 <http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011326> .
+	<http://purl.obolibrary.org/obo/PR_000011326> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :nitric-oxide_synthase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :nitric-oxide_synthase_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :nitric-oxide_synthase_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity
 <http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004517> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hepatotoxicity 
+	<http://purl.obolibrary.org/obo/GO_0004517> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hepatotoxicity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatotoxicity
 <http://www.co-ode.org/ontologies/ont.owl#hepatotoxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_2141> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation 
+	<http://purl.obolibrary.org/obo/MI_2141> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0072574> .
+	<http://purl.obolibrary.org/obo/GO_0072574> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma 
+	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
- .
 
 
 

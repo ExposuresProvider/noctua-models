@@ -14,26 +14,20 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_16991
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0003674
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005694
 	<http://purl.obolibrary.org/obo/GO_0005694> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0051305
 	<http://purl.obolibrary.org/obo/GO_0051305> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D005298
 	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
@@ -44,43 +38,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :oxidative_stress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :oxidative_stress 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003674> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#chromosome
-<http://www.co-ode.org/ontologies/ont.owl#chromosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005694> .
-	<http://purl.obolibrary.org/obo/RO_0002327> :chromosome_movement_towards_spindle_pole  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#chromosome_movement_towards_spindle_pole
-<http://www.co-ode.org/ontologies/ont.owl#chromosome_movement_towards_spindle_pole> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0051305> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#fertility
-<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D005298> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#fertility
-<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D005298> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .

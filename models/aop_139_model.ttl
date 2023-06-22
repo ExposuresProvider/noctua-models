@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16991
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006305
 	<http://purl.obolibrary.org/obo/GO_0006305> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006281
 	<http://purl.obolibrary.org/obo/GO_0006281> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D009154
 	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009369
 	<http://id.nlm.nih.gov/mesh/D009369> rdf:type owl:Class .
@@ -40,33 +35,30 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
+	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_alkylation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_alkylation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_alkylation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_alkylation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_alkylation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA_alkylation
 <http://www.co-ode.org/ontologies/ont.owl#DNA_alkylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006305> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :DNA_repair 
+	<http://purl.obolibrary.org/obo/GO_0006305> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :DNA_repair .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
+	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA_repair
 <http://www.co-ode.org/ontologies/ont.owl#DNA_repair> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006281> .
- .
 
 
 

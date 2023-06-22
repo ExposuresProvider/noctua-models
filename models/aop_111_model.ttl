@@ -14,34 +14,26 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000004191
 	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004882
 	<http://purl.obolibrary.org/obo/GO_0004882> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_17347
 	<http://purl.obolibrary.org/obo/CHEBI_17347> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005102
 	<http://purl.obolibrary.org/obo/GO_0005102> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000178
 	<http://purl.obolibrary.org/obo/CL_0000178> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0001152
 	<http://purl.obolibrary.org/obo/MP_0001152> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0002006
 	<http://purl.obolibrary.org/obo/MP_0002006> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_81568
 	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
@@ -52,59 +44,58 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004191> .
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004882> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :receptor_binding 
+	<http://purl.obolibrary.org/obo/GO_0004882> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :receptor_binding .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17347> .
+	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :receptor_binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :receptor_binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#receptor_binding
 <http://www.co-ode.org/ontologies/ont.owl#receptor_binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005102> .
+	<http://purl.obolibrary.org/obo/GO_0005102> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Luteinizing_hormone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Luteinizing_hormone ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :Luteinizing_hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Luteinizing_hormone 
+	<http://purl.obolibrary.org/obo/RO_0002332> :Luteinizing_hormone .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#neoplasm
 <http://www.co-ode.org/ontologies/ont.owl#neoplasm> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002006> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing_hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> .
+	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :Leydig_cell_hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig_cell_hyperplasia 
+	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig_cell_hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Leydig_cell
 <http://www.co-ode.org/ontologies/ont.owl#Leydig_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000178> .
+	<http://purl.obolibrary.org/obo/CL_0000178> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :Leydig_cell_hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig_cell_hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig_cell_hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Leydig_cell_hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#Leydig_cell_hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001152> .
+	<http://purl.obolibrary.org/obo/MP_0001152> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :neoplasm ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :neoplasm 
+	<http://purl.obolibrary.org/obo/RO_0002610> :neoplasm .
+
+
 
 #################################################################
 #   Object Statements

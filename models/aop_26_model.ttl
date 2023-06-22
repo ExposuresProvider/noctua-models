@@ -14,46 +14,35 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0090534
 	<http://purl.obolibrary.org/obo/GO_0090534> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005388
 	<http://purl.obolibrary.org/obo/GO_0005388> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_39124
 	<http://purl.obolibrary.org/obo/CHEBI_39124> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005746
 	<http://purl.obolibrary.org/obo/GO_0005746> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_15422
 	<http://purl.obolibrary.org/obo/CHEBI_15422> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006754
 	<http://purl.obolibrary.org/obo/GO_0006754> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_1903409
 	<http://purl.obolibrary.org/obo/GO_1903409> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16480
 	<http://purl.obolibrary.org/obo/CHEBI_16480> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0060291
 	<http://purl.obolibrary.org/obo/GO_0060291> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0003674
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
@@ -64,71 +53,67 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion-transporting_ATPase_complex
 <http://www.co-ode.org/ontologies/ont.owl#calcium_ion-transporting_ATPase_complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0090534> .
+	<http://purl.obolibrary.org/obo/GO_0090534> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :calcium-transporting_ATPase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :calcium-transporting_ATPase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :calcium-transporting_ATPase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium-transporting_ATPase_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :calcium-transporting_ATPase_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium-transporting_ATPase_activity
 <http://www.co-ode.org/ontologies/ont.owl#calcium-transporting_ATPase_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005388> .
+	<http://purl.obolibrary.org/obo/GO_0005388> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :calcium_ion ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :calcium_ion ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :calcium_ion ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :calcium_ion 
+	<http://purl.obolibrary.org/obo/RO_0002332> :calcium_ion .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium_ion
 <http://www.co-ode.org/ontologies/ont.owl#calcium_ion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_39124> .
+	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
 	<http://purl.obolibrary.org/obo/RO_0002566> :mitochondrial_respiratory_chain ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :mitochondrial_respiratory_chain 
+	<http://purl.obolibrary.org/obo/RO_0002559> :mitochondrial_respiratory_chain .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_respiratory_chain
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrial_respiratory_chain> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005746> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process 
+	<http://purl.obolibrary.org/obo/GO_0005746> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP
 <http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15422> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_15422> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006754> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1903409> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress 
+	<http://purl.obolibrary.org/obo/GO_1903409> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#long-term_synaptic_potentiation
 <http://www.co-ode.org/ontologies/ont.owl#long-term_synaptic_potentiation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060291> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#nitric_oxide
 <http://www.co-ode.org/ontologies/ont.owl#nitric_oxide> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16480> .
+	<http://purl.obolibrary.org/obo/CHEBI_16480> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :long-term_synaptic_potentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :long-term_synaptic_potentiation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :long-term_synaptic_potentiation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :long-term_synaptic_potentiation 
+	<http://purl.obolibrary.org/obo/RO_0002428> :long-term_synaptic_potentiation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> .
- .
 
 
 

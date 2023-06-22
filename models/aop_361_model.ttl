@@ -14,18 +14,14 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0001002
 	<http://purl.obolibrary.org/obo/UBERON_0001002> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0042335
 	<http://purl.obolibrary.org/obo/GO_0042335> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0018990
 	<http://purl.obolibrary.org/obo/GO_0018990> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009026
 	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
@@ -36,32 +32,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#cuticle
-<http://www.co-ode.org/ontologies/ont.owl#cuticle> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001002> .
-	<http://purl.obolibrary.org/obo/RO_0002327> :cuticle_development  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#cuticle_development
-<http://www.co-ode.org/ontologies/ont.owl#cuticle_development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042335> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis,_chitin-based_cuticle 
-###  http://www.co-ode.org/ontologies/ont.owl#ecdysis,_chitin-based_cuticle
-<http://www.co-ode.org/ontologies/ont.owl#ecdysis,_chitin-based_cuticle> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0018990> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :mortality 
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

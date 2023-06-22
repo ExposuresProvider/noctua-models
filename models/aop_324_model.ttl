@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0005739
 	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_15422
 	<http://purl.obolibrary.org/obo/CHEBI_15422> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006754
 	<http://purl.obolibrary.org/obo/GO_0006754> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000001
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
@@ -40,37 +35,16 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process 
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP
 <http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15422> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_15422> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006754> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
-<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
-<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0006754>

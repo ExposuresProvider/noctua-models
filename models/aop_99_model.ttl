@@ -14,42 +14,32 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_0011110
 	<http://purl.obolibrary.org/obo/CL_0011110> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0043179
 	<http://purl.obolibrary.org/obo/GO_0043179> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D000758
 	<http://id.nlm.nih.gov/mesh/D000758> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0040011
 	<http://purl.obolibrary.org/obo/GO_0040011> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/VT_0005372
 	<http://purl.obolibrary.org/obo/VT_0005372> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0002120
 	<http://purl.obolibrary.org/obo/GO_0002120> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000001423
 	<http://purl.obolibrary.org/obo/PR_000001423> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004969
 	<http://purl.obolibrary.org/obo/GO_0004969> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0007612
 	<http://purl.obolibrary.org/obo/GO_0007612> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0007613
 	<http://purl.obolibrary.org/obo/GO_0007613> rdf:type owl:Class .
@@ -60,26 +50,21 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#life_span_trait
 <http://www.co-ode.org/ontologies/ont.owl#life_span_trait> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_0005372> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#histaminergic_neuron
 <http://www.co-ode.org/ontologies/ont.owl#histaminergic_neuron> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0011110> .
+	<http://purl.obolibrary.org/obo/CL_0011110> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :rhythmic_excitation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :rhythmic_excitation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :rhythmic_excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :rhythmic_excitation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :rhythmic_excitation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#rhythmic_excitation
 <http://www.co-ode.org/ontologies/ont.owl#rhythmic_excitation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0043179> .
- .
 
 
 

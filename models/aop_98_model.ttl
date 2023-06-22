@@ -14,30 +14,23 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000015189
 	<http://purl.obolibrary.org/obo/PR_000015189> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0098810
 	<http://purl.obolibrary.org/obo/GO_0098810> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0051610
 	<http://purl.obolibrary.org/obo/GO_0051610> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001820
 	<http://purl.obolibrary.org/obo/GO_0001820> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/NBO_0000018
 	<http://purl.obolibrary.org/obo/NBO_0000018> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0014039
 	<http://purl.obolibrary.org/obo/MP_0014039> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0002120
 	<http://purl.obolibrary.org/obo/GO_0002120> rdf:type owl:Class .
@@ -48,20 +41,17 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent_serotonin_transporter
 <http://www.co-ode.org/ontologies/ont.owl#sodium-dependent_serotonin_transporter> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015189> .
+	<http://purl.obolibrary.org/obo/PR_000015189> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin_secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin_secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#serotonin_secretion
 <http://www.co-ode.org/ontologies/ont.owl#serotonin_secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001820> .
- .
 
 
 

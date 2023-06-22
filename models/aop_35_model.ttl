@@ -14,10 +14,8 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0016020
 	<http://purl.obolibrary.org/obo/GO_0016020> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005886
 	<http://purl.obolibrary.org/obo/GO_0005886> rdf:type owl:Class .

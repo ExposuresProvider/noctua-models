@@ -14,26 +14,20 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_15422
 	<http://purl.obolibrary.org/obo/CHEBI_15422> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006754
 	<http://purl.obolibrary.org/obo/GO_0006754> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0005623
 	<http://purl.obolibrary.org/obo/GO_0005623> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0000468
 	<http://purl.obolibrary.org/obo/UBERON_0000468> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0040007
 	<http://purl.obolibrary.org/obo/GO_0040007> rdf:type owl:Class .
@@ -44,49 +38,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#ATP
-<http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15422> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006754> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
-###  http://www.co-ode.org/ontologies/ont.owl#cell
-<http://www.co-ode.org/ontologies/ont.owl#cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005623> .
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :growth 
-###  http://www.co-ode.org/ontologies/ont.owl#multicellular_organism
-<http://www.co-ode.org/ontologies/ont.owl#multicellular_organism> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0000468> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :growth  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#growth
-<http://www.co-ode.org/ontologies/ont.owl#growth> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0040007> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

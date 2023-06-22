@@ -14,26 +14,20 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0001508
 	<http://purl.obolibrary.org/obo/GO_0001508> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/NBO_0000371
 	<http://purl.obolibrary.org/obo/NBO_0000371> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0002120
 	<http://purl.obolibrary.org/obo/GO_0002120> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PR_000002095
 	<http://purl.obolibrary.org/obo/PR_000002095> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0019871
 	<http://purl.obolibrary.org/obo/GO_0019871> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
 	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
@@ -44,37 +38,35 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha
 <http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000002095> .
+	<http://purl.obolibrary.org/obo/PR_000002095> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity
 <http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019871> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential 
+	<http://purl.obolibrary.org/obo/GO_0019871> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha
 <http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000002095> .
+	<http://purl.obolibrary.org/obo/PR_000002095> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential 
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#action_potential
 <http://www.co-ode.org/ontologies/ont.owl#action_potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001508> .
- .
 
 
 

@@ -14,46 +14,35 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000013056
 	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0035357
 	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16113
 	<http://purl.obolibrary.org/obo/CHEBI_16113> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006695
 	<http://purl.obolibrary.org/obo/GO_0006695> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0030301
 	<http://purl.obolibrary.org/obo/GO_0030301> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_17002
 	<http://purl.obolibrary.org/obo/CHEBI_17002> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_34133
 	<http://purl.obolibrary.org/obo/CHEBI_34133> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006702
 	<http://purl.obolibrary.org/obo/GO_0006702> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/FMA_67338
 	<http://purl.obolibrary.org/obo/FMA_67338> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/HP_0008669
 	<http://purl.obolibrary.org/obo/HP_0008669> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D005298
 	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
@@ -64,84 +53,70 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013056> .
+	<http://purl.obolibrary.org/obo/PR_000013056> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_biosynthetic_process 	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_transport 	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_transport 
+	<http://purl.obolibrary.org/obo/GO_0035357> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_biosynthetic_process ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_transport ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol_transport .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006695> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process 
+	<http://purl.obolibrary.org/obo/GO_0006695> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> .
-	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030301> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process 
+	<http://purl.obolibrary.org/obo/GO_0030301> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesteryl_ester
 <http://www.co-ode.org/ontologies/ont.owl#cholesteryl_ester> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17002> .
+	<http://purl.obolibrary.org/obo/CHEBI_17002> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol_transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport
 <http://www.co-ode.org/ontologies/ont.owl#cholesterol_transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030301> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process 
+	<http://purl.obolibrary.org/obo/GO_0030301> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_biosynthetic_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone
 <http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_34133> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_34133> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#androgen_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006702> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :Abnormal_spermatogenesis 
+	<http://purl.obolibrary.org/obo/GO_0006702> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Abnormal_spermatogenesis .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Mature_sperm_cell
 <http://www.co-ode.org/ontologies/ont.owl#Mature_sperm_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_67338> .
+	<http://purl.obolibrary.org/obo/FMA_67338> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal_spermatogenesis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_spermatogenesis  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal_spermatogenesis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Abnormal_spermatogenesis
 <http://www.co-ode.org/ontologies/ont.owl#Abnormal_spermatogenesis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0008669> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/HP_0008669>

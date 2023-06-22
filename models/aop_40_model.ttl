@@ -14,42 +14,32 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_59739
 	<http://purl.obolibrary.org/obo/CHEBI_59739> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0005515
 	<http://purl.obolibrary.org/obo/GO_0005515> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0032980
 	<http://purl.obolibrary.org/obo/GO_0032980> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0002534
 	<http://purl.obolibrary.org/obo/GO_0002534> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0001775
 	<http://purl.obolibrary.org/obo/GO_0001775> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0002396
 	<http://purl.obolibrary.org/obo/GO_0002396> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000084
 	<http://purl.obolibrary.org/obo/CL_0000084> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0042110
 	<http://purl.obolibrary.org/obo/GO_0042110> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000813
 	<http://purl.obolibrary.org/obo/CL_0000813> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
@@ -60,77 +50,64 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#electrophilic_reagant
 <http://www.co-ode.org/ontologies/ont.owl#electrophilic_reagant> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_59739> .
+	<http://purl.obolibrary.org/obo/CHEBI_59739> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :protein_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :protein_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein_binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein_binding
 <http://www.co-ode.org/ontologies/ont.owl#protein_binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005515> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly 
+	<http://purl.obolibrary.org/obo/GO_0005515> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#keratinocyte_activation
 <http://www.co-ode.org/ontologies/ont.owl#keratinocyte_activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032980> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly 
+	<http://purl.obolibrary.org/obo/GO_0032980> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cytokine_production_involved_in_inflammatory_response
 <http://www.co-ode.org/ontologies/ont.owl#cytokine_production_involved_in_inflammatory_response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002534> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly 
+	<http://purl.obolibrary.org/obo/GO_0002534> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_activation
 <http://www.co-ode.org/ontologies/ont.owl#cell_activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001775> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0001775> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly
 <http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002396> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0002396> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_activation
 <http://www.co-ode.org/ontologies/ont.owl#cell_activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001775> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0001775> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly
 <http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002396> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0002396> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#T_cell
 <http://www.co-ode.org/ontologies/ont.owl#T_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000084> .
+	<http://purl.obolibrary.org/obo/CL_0000084> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :T_cell_activation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :T_cell_activation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :T_cell_activation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#T_cell_activation
 <http://www.co-ode.org/ontologies/ont.owl#T_cell_activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042110> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#memory_T_cell
-<http://www.co-ode.org/ontologies/ont.owl#memory_T_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000813> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0042110>

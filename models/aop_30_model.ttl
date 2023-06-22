@@ -14,46 +14,35 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PCO_0000001
 	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PCO_0000008
 	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000007204
 	<http://purl.obolibrary.org/obo/PR_000007204> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0030284
 	<http://purl.obolibrary.org/obo/GO_0030284> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D014819
 	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0010467
 	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0009306
 	<http://purl.obolibrary.org/obo/GO_0009306> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006898
 	<http://purl.obolibrary.org/obo/GO_0006898> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0001555
 	<http://purl.obolibrary.org/obo/GO_0001555> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0048599
 	<http://purl.obolibrary.org/obo/GO_0048599> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/VT_1000294
 	<http://purl.obolibrary.org/obo/VT_1000294> rdf:type owl:Class .
@@ -64,101 +53,105 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007204> .
+	<http://purl.obolibrary.org/obo/PR_000007204> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030284> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 	<http://purl.obolibrary.org/obo/RO_0002410> :protein_secretion 
+	<http://purl.obolibrary.org/obo/GO_0030284> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein_secretion .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> .
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :vitellogenins ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins 
+	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> .
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein_secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein_secretion
 <http://www.co-ode.org/ontologies/ont.owl#protein_secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009306> .
+	<http://purl.obolibrary.org/obo/GO_0009306> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :vitellogenins ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins 
+	<http://purl.obolibrary.org/obo/RO_0002332> :vitellogenins .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> .
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor-mediated_endocytosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :receptor-mediated_endocytosis 	<http://purl.obolibrary.org/obo/RO_0002331> :oocyte_growth ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :receptor-mediated_endocytosis ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :oocyte_growth ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :oocyte_growth ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :oocyte_growth ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :oocyte_growth 	<http://purl.obolibrary.org/obo/RO_0002331> :oocyte_development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :oocyte_growth ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :oocyte_development ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :oocyte_development ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :oocyte_development ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :oocyte_development 
+	<http://purl.obolibrary.org/obo/RO_0002428> :oocyte_development .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D014819> .
+	<http://id.nlm.nih.gov/mesh/D014819> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor-mediated_endocytosis ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :receptor-mediated_endocytosis  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :receptor-mediated_endocytosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis
 <http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006898> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity 
+	<http://purl.obolibrary.org/obo/GO_0006898> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oocyte_growth
 <http://www.co-ode.org/ontologies/ont.owl#oocyte_growth> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001555> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity 
+	<http://purl.obolibrary.org/obo/GO_0001555> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oocyte_development
 <http://www.co-ode.org/ontologies/ont.owl#oocyte_development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048599> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity 
+	<http://purl.obolibrary.org/obo/GO_0048599> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
 <http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_1000294> .
+	<http://purl.obolibrary.org/obo/VT_1000294> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :population_growth_rate ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate 
+	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
 <http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate  .
-
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
 <http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
- .
 
 
 

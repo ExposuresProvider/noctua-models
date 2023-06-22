@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000003912
 	<http://purl.obolibrary.org/obo/PR_000003912> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
 	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006954
 	<http://purl.obolibrary.org/obo/GO_0006954> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000015611
 	<http://purl.obolibrary.org/obo/PR_000015611> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0032933
 	<http://purl.obolibrary.org/obo/GO_0032933> rdf:type owl:Class .

@@ -14,50 +14,38 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000013058
 	<http://purl.obolibrary.org/obo/PR_000013058> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0035357
 	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0045444
 	<http://purl.obolibrary.org/obo/GO_0045444> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PR_000036194
 	<http://purl.obolibrary.org/obo/PR_000036194> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0046903
 	<http://purl.obolibrary.org/obo/GO_0046903> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CL_0008019
 	<http://purl.obolibrary.org/obo/CL_0008019> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0010463
 	<http://purl.obolibrary.org/obo/GO_0010463> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PR_Q3U4N7
 	<http://purl.obolibrary.org/obo/PR_Q3U4N7> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0010467
 	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D005354
 	<http://id.nlm.nih.gov/mesh/D005354> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D008080
 	<http://id.nlm.nih.gov/mesh/D008080> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006394
 	<http://id.nlm.nih.gov/mesh/D006394> rdf:type owl:Class .
@@ -68,67 +56,58 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#eukaryotic_protein
 <http://www.co-ode.org/ontologies/ont.owl#eukaryotic_protein> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000036194> .
+	<http://purl.obolibrary.org/obo/PR_000036194> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :secretion  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#secretion
 <http://www.co-ode.org/ontologies/ont.owl#secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046903> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0046903> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#mesenchymal_cell
 <http://www.co-ode.org/ontologies/ont.owl#mesenchymal_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0008019> .
+	<http://purl.obolibrary.org/obo/CL_0008019> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mesenchymal_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mesenchymal_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mesenchymal_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mesenchymal_cell_proliferation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :mesenchymal_cell_proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mesenchymal_cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#mesenchymal_cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010463> .
+	<http://purl.obolibrary.org/obo/GO_0010463> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :hemangiosarcoma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :hemangiosarcoma ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :hemangiosarcoma ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :hemangiosarcoma 
+	<http://purl.obolibrary.org/obo/RO_0002332> :hemangiosarcoma .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#IGF-like_family_receptor_1_(mouse)
 <http://www.co-ode.org/ontologies/ont.owl#IGF-like_family_receptor_1_(mouse)> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q3U4N7> .
+	<http://purl.obolibrary.org/obo/PR_Q3U4N7> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Fibrosarcoma
 <http://www.co-ode.org/ontologies/ont.owl#Fibrosarcoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D005354> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liposarcoma
 <http://www.co-ode.org/ontologies/ont.owl#liposarcoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D008080> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hemangiosarcoma
 <http://www.co-ode.org/ontologies/ont.owl#hemangiosarcoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006394> .
- .
 
 
 

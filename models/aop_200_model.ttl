@@ -14,94 +14,71 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000007204
 	<http://purl.obolibrary.org/obo/PR_000007204> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
 	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0006915
 	<http://purl.obolibrary.org/obo/GO_0006915> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0005739
 	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0003674
 	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16991
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0030331
 	<http://purl.obolibrary.org/obo/GO_0030331> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000016261
 	<http://purl.obolibrary.org/obo/PR_000016261> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001935
 	<http://purl.obolibrary.org/obo/GO_0001935> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0043542
 	<http://purl.obolibrary.org/obo/GO_0043542> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006965
 	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D001943
 	<http://id.nlm.nih.gov/mesh/D001943> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0031012
 	<http://purl.obolibrary.org/obo/GO_0031012> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000066
 	<http://purl.obolibrary.org/obo/CL_0000066> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001775
 	<http://purl.obolibrary.org/obo/GO_0001775> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0042116
 	<http://purl.obolibrary.org/obo/GO_0042116> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001525
 	<http://purl.obolibrary.org/obo/GO_0001525> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0010467
 	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PR_000000001
 	<http://purl.obolibrary.org/obo/PR_000000001> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006412
 	<http://purl.obolibrary.org/obo/GO_0006412> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0048870
 	<http://purl.obolibrary.org/obo/GO_0048870> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0019932
 	<http://purl.obolibrary.org/obo/GO_0019932> rdf:type owl:Class .
@@ -112,166 +89,174 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007204> .
+	<http://purl.obolibrary.org/obo/PR_000007204> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :second-messenger-mediated_signaling 
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :second-messenger-mediated_signaling .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
+	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030331> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0030331> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms 
+	<http://id.nlm.nih.gov/mesh/D006965> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms 
+	<http://id.nlm.nih.gov/mesh/D006965> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#serotransferrin
 <http://www.co-ode.org/ontologies/ont.owl#serotransferrin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016261> .
+	<http://purl.obolibrary.org/obo/PR_000016261> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030331> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0030331> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0008283> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0008283> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms
 <http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001943> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#angiogenesis
 <http://www.co-ode.org/ontologies/ont.owl#angiogenesis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001525> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#angiogenesis
 <http://www.co-ode.org/ontologies/ont.owl#angiogenesis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001525> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#serotransferrin
 <http://www.co-ode.org/ontologies/ont.owl#serotransferrin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016261> .
+	<http://purl.obolibrary.org/obo/PR_000016261> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding
 <http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030331> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0030331> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :translation 
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :translation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :translation 
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :translation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#protein
 <http://www.co-ode.org/ontologies/ont.owl#protein> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000000001> .
+	<http://purl.obolibrary.org/obo/PR_000000001> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :translation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :translation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :translation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :translation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :translation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#translation
 <http://www.co-ode.org/ontologies/ont.owl#translation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006412> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_motility 
+	<http://purl.obolibrary.org/obo/GO_0006412> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_motility .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003674> .
-	<http://purl.obolibrary.org/obo/RO_0000052> :deoxyribonucleic_acid 
+	<http://purl.obolibrary.org/obo/MP_0003674> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :deoxyribonucleic_acid .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> .
+	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression 
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :translation 
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :translation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :translation 
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :translation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#endothelial_cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#endothelial_cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001935> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :angiogenesis 
+	<http://purl.obolibrary.org/obo/GO_0001935> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :angiogenesis .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
 <http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006915> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0006915> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_motility
 <http://www.co-ode.org/ontologies/ont.owl#cell_motility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0048870> .
+	<http://purl.obolibrary.org/obo/GO_0048870> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :epithelial_cell ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :epithelial_cell ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :epithelial_cell ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :epithelial_cell 
+	<http://purl.obolibrary.org/obo/RO_0002332> :epithelial_cell .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#epithelial_cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000066> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#second-messenger-mediated_signaling
 <http://www.co-ode.org/ontologies/ont.owl#second-messenger-mediated_signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019932> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling 
+	<http://purl.obolibrary.org/obo/GO_0019932> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+
+
 
 #################################################################
 #   Object Statements

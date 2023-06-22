@@ -14,14 +14,11 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000001753
 	<http://purl.obolibrary.org/obo/PR_000001753> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0007249
 	<http://purl.obolibrary.org/obo/GO_0007249> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
@@ -32,30 +29,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#transcription_factor_NF-kappa-B_subunit
-<http://www.co-ode.org/ontologies/ont.owl#transcription_factor_NF-kappa-B_subunit> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001753> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :I-kappaB_kinase/NF-kappaB_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :I-kappaB_kinase/NF-kappaB_signaling  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#I-kappaB_kinase/NF-kappaB_signaling
-<http://www.co-ode.org/ontologies/ont.owl#I-kappaB_kinase/NF-kappaB_signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007249> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

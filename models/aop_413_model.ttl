@@ -14,22 +14,17 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16856
 	<http://purl.obolibrary.org/obo/CHEBI_16856> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0016209
 	<http://purl.obolibrary.org/obo/GO_0016209> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0003606
 	<http://purl.obolibrary.org/obo/MP_0003606> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009026
 	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
@@ -40,50 +35,22 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#glutathione
 <http://www.co-ode.org/ontologies/ont.owl#glutathione> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16856> .
+	<http://purl.obolibrary.org/obo/CHEBI_16856> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :antioxidant_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :antioxidant_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :antioxidant_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :antioxidant_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :antioxidant_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#antioxidant_activity
 <http://www.co-ode.org/ontologies/ont.owl#antioxidant_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0016209> .
+	<http://purl.obolibrary.org/obo/GO_0016209> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :reactive_oxygen_species ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :reactive_oxygen_species ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :reactive_oxygen_species 
+	<http://purl.obolibrary.org/obo/RO_0002332> :reactive_oxygen_species .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
 <http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#kidney_failure
-<http://www.co-ode.org/ontologies/ont.owl#kidney_failure> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003606> .
-	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mortality 
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/CHEBI_26523>

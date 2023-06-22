@@ -14,30 +14,23 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CL_0002328
 	<http://purl.obolibrary.org/obo/CL_0002328> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0050673
 	<http://purl.obolibrary.org/obo/GO_0050673> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D006965
 	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D000236
 	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D002277
 	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CL_0000158
 	<http://purl.obolibrary.org/obo/CL_0000158> rdf:type owl:Class .
@@ -48,68 +41,65 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002328> .
+	<http://purl.obolibrary.org/obo/CL_0002328> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002328> .
+	<http://purl.obolibrary.org/obo/CL_0002328> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050673> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia 
+	<http://purl.obolibrary.org/obo/GO_0050673> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002328> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia  .
-
+	<http://purl.obolibrary.org/obo/CL_0002328> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma 
+	<http://id.nlm.nih.gov/mesh/D006965> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002277> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial_epithelial_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002328> .
+	<http://purl.obolibrary.org/obo/CL_0002328> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation 
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
+
+
 
 #################################################################
 #   Object Statements

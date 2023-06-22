@@ -14,26 +14,20 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_17347
 	<http://purl.obolibrary.org/obo/CHEBI_17347> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0061370
 	<http://purl.obolibrary.org/obo/GO_0061370> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_000004191
 	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0010468
 	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/FMA_264621
 	<http://purl.obolibrary.org/obo/FMA_264621> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0030521
 	<http://purl.obolibrary.org/obo/GO_0030521> rdf:type owl:Class .
@@ -44,52 +38,11 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17347> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process  .
-
+	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
 <http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0061370> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
-<http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004191> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010468> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen_receptor_signaling_pathway 
-###  http://www.co-ode.org/ontologies/ont.owl#Musculature_of_male_perineum
-<http://www.co-ode.org/ontologies/ont.owl#Musculature_of_male_perineum> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_264621> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_signaling_pathway  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030521> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0061370>

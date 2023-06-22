@@ -14,74 +14,56 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000006294
 	<http://purl.obolibrary.org/obo/PR_000006294> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004500
 	<http://purl.obolibrary.org/obo/GO_0004500> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D005298
 	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0001921
 	<http://purl.obolibrary.org/obo/MP_0001921> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_18357
 	<http://purl.obolibrary.org/obo/CHEBI_18357> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0042421
 	<http://purl.obolibrary.org/obo/GO_0042421> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/PR_P01101
 	<http://purl.obolibrary.org/obo/PR_P01101> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0023052
 	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D007987
 	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0046879
 	<http://purl.obolibrary.org/obo/GO_0046879> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_81568
 	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0033684
 	<http://purl.obolibrary.org/obo/GO_0033684> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0001928
 	<http://purl.obolibrary.org/obo/MP_0001928> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0060473
 	<http://purl.obolibrary.org/obo/GO_0060473> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0046903
 	<http://purl.obolibrary.org/obo/GO_0046903> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0060387
 	<http://purl.obolibrary.org/obo/GO_0060387> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0035037
 	<http://purl.obolibrary.org/obo/GO_0035037> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0004023
 	<http://purl.obolibrary.org/obo/MP_0004023> rdf:type owl:Class .

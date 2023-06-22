@@ -14,34 +14,26 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000004191
 	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0004882
 	<http://purl.obolibrary.org/obo/GO_0004882> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_1990909
 	<http://purl.obolibrary.org/obo/GO_1990909> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0016055
 	<http://purl.obolibrary.org/obo/GO_0016055> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0003135
 	<http://purl.obolibrary.org/obo/UBERON_0003135> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0032502
 	<http://purl.obolibrary.org/obo/GO_0032502> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0010468
 	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D005298
 	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
@@ -52,95 +44,93 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004191> .
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor_activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004882> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression 
+	<http://purl.obolibrary.org/obo/GO_0004882> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome
 <http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1990909> .
+	<http://purl.obolibrary.org/obo/GO_1990909> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#Wnt_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0016055> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process 
+	<http://purl.obolibrary.org/obo/GO_0016055> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen_receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen_receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004191> .
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression
 <http://www.co-ode.org/ontologies/ont.owl#regulation_of_gene_expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010468> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process 
+	<http://purl.obolibrary.org/obo/GO_0010468> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome
 <http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1990909> .
+	<http://purl.obolibrary.org/obo/GO_1990909> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signaling_pathway
 <http://www.co-ode.org/ontologies/ont.owl#Wnt_signaling_pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0016055> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process 
+	<http://purl.obolibrary.org/obo/GO_0016055> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ
 <http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003135> .
+	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :developmental_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :developmental_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#developmental_process
 <http://www.co-ode.org/ontologies/ont.owl#developmental_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032502> .
+	<http://purl.obolibrary.org/obo/GO_0032502> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :fertility ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :fertility 
+	<http://purl.obolibrary.org/obo/RO_0002332> :fertility .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ
 <http://www.co-ode.org/ontologies/ont.owl#male_reproductive_organ> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003135> .
+	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :developmental_process ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :developmental_process ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#developmental_process
 <http://www.co-ode.org/ontologies/ont.owl#developmental_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032502> .
+	<http://purl.obolibrary.org/obo/GO_0032502> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :fertility ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :fertility 
+	<http://purl.obolibrary.org/obo/RO_0002332> :fertility .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#fertility
 <http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D005298> .
- .
 
 
 

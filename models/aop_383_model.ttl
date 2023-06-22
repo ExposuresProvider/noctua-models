@@ -14,14 +14,11 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0002107
 	<http://purl.obolibrary.org/obo/UBERON_0002107> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/MP_0003333
 	<http://purl.obolibrary.org/obo/MP_0003333> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_26523
 	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
@@ -32,28 +29,3 @@
 #   Individuals
 #################################################################
 
-
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#liver
-<http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002107> .
-	<http://purl.obolibrary.org/obo/RO_0002610> :liver_fibrosis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :liver_fibrosis  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis
-<http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003333> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

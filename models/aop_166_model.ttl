@@ -14,38 +14,29 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/PR_000013056
 	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0035357
 	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0001970
 	<http://purl.obolibrary.org/obo/UBERON_0001970> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D002779
 	<http://id.nlm.nih.gov/mesh/D002779> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006629
 	<http://purl.obolibrary.org/obo/GO_0006629> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/PR_000005110
 	<http://purl.obolibrary.org/obo/PR_000005110> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CL_0000622
 	<http://purl.obolibrary.org/obo/CL_0000622> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D002277
 	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
@@ -56,26 +47,21 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#acinar_cell
 <http://www.co-ode.org/ontologies/ont.owl#acinar_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000622> .
+	<http://purl.obolibrary.org/obo/CL_0000622> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation  .
-
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002779> .
- .
 
 
 

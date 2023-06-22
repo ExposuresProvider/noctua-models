@@ -14,30 +14,23 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008213
 	<http://purl.obolibrary.org/obo/GO_0008213> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CHEBI_15422
 	<http://purl.obolibrary.org/obo/CHEBI_15422> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0006754
 	<http://purl.obolibrary.org/obo/GO_0006754> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/CL_1000507
 	<http://purl.obolibrary.org/obo/CL_1000507> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0002113
 	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/Q000633
 	<http://id.nlm.nih.gov/mesh/Q000633> rdf:type owl:Class .
@@ -48,54 +41,6 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#protein_alkylation
 <http://www.co-ode.org/ontologies/ont.owl#protein_alkylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008213> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#ATP
-<http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15422> .
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006754> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
-<http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> .
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :toxicity 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney
-<http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002113> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity  .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#toxicity
-<http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/Q000633> .
- .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+	<http://purl.obolibrary.org/obo/GO_0008213>

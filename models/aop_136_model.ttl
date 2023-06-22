@@ -14,50 +14,38 @@
 #   Classes
 #################################################################
 
-
 ###  http://purl.obolibrary.org/obo/GO_0051453
 	<http://purl.obolibrary.org/obo/GO_0051453> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/UBERON_0001997
 	<http://purl.obolibrary.org/obo/UBERON_0001997> rdf:type owl:Class .
 
-
 ###  http://id.nlm.nih.gov/mesh/D001284
 	<http://id.nlm.nih.gov/mesh/D001284> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0070265
 	<http://purl.obolibrary.org/obo/GO_0070265> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008283
 	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D008679
 	<http://id.nlm.nih.gov/mesh/D008679> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/GO_0008219
 	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/GO_0001909
 	<http://purl.obolibrary.org/obo/GO_0001909> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/UBERON_0005386
 	<http://purl.obolibrary.org/obo/UBERON_0005386> rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/MP_0002006
 	<http://purl.obolibrary.org/obo/MP_0002006> rdf:type owl:Class .
 
-
 ###  http://purl.obolibrary.org/obo/CHEBI_16991
 	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
-
 
 ###  http://id.nlm.nih.gov/mesh/D009154
 	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
@@ -68,60 +56,63 @@
 #   Individuals
 #################################################################
 
-
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_intracellular_pH
 <http://www.co-ode.org/ontologies/ont.owl#regulation_of_intracellular_pH> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0051453> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death 	<http://purl.obolibrary.org/obo/RO_0002410> :leukocyte_mediated_cytotoxicity 
+	<http://purl.obolibrary.org/obo/GO_0051453> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :leukocyte_mediated_cytotoxicity .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_death
 <http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy 	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death 
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#leukocyte_mediated_cytotoxicity
 <http://www.co-ode.org/ontologies/ont.owl#leukocyte_mediated_cytotoxicity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001909> .
-	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy 	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death 
+	<http://purl.obolibrary.org/obo/GO_0001909> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#olfactory_epithelium
 <http://www.co-ode.org/ontologies/ont.owl#olfactory_epithelium> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001997> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :atrophy  .
-
+	<http://purl.obolibrary.org/obo/UBERON_0001997> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :atrophy .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#atrophy
 <http://www.co-ode.org/ontologies/ont.owl#atrophy> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D001284> .
-	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia 
+	<http://id.nlm.nih.gov/mesh/D001284> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death
 <http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0070265> .
+	<http://purl.obolibrary.org/obo/GO_0070265> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Metaplasia ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Metaplasia ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :Metaplasia ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Metaplasia 
+	<http://purl.obolibrary.org/obo/RO_0002332> :Metaplasia .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D008679> .
+	<http://id.nlm.nih.gov/mesh/D008679> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation 
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+
 ###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> .
- .
-
 
 ###  http://www.co-ode.org/ontologies/ont.owl#olfactory_segment_of_nasal_mucosa
 <http://www.co-ode.org/ontologies/ont.owl#olfactory_segment_of_nasal_mucosa> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0005386> .
+	<http://purl.obolibrary.org/obo/UBERON_0005386> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :neoplasm ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :neoplasm  .
-
+	<http://purl.obolibrary.org/obo/RO_0000053> :neoplasm .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#neoplasm
 <http://www.co-ode.org/ontologies/ont.owl#neoplasm> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002006> .
- .
 
 
 
