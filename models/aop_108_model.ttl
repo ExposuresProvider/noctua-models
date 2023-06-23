@@ -51,8 +51,8 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#Pyruvate_dehydrogenase_(acetyl-transferring)]_kinase_isozyme_1,_mitochondrial_(rat)
-<http://www.co-ode.org/ontologies/ont.owl#"Pyruvate_dehydrogenase_%28acetyl-transferring%29%5D_kinase_isozyme_1%2C_mitochondrial_%28rat%29"> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Pyruvate_dehydrogenase_%28acetyl-transferring%29%5D_kinase_isozyme_1%2C_mitochondrial_%28rat%29
+<http://www.co-ode.org/ontologies/ont.owl#Pyruvate_dehydrogenase_%28acetyl-transferring%29%5D_kinase_isozyme_1%2C_mitochondrial_%28rat%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_Q63065> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :pyruvate_dehydrogenase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :pyruvate_dehydrogenase_activity ;
