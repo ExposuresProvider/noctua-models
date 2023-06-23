@@ -35,3 +35,39 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone
+<http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_34133> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006702> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
+<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D005298> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
+<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D005298> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

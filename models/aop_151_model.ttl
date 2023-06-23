@@ -124,4 +124,29 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467>
+	<http://purl.obolibrary.org/obo/GO_0010467> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000017284> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20protein%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20protein%20level .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0008469> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

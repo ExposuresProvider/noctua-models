@@ -75,4 +75,75 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
 <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366>
+	<http://purl.obolibrary.org/obo/CHEBI_35366> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :fatty%20acid%20beta-oxidation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006635> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :fatty%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :fatty%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :fatty%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :fatty%20acid .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008774> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :3-hydroxyacyl-CoA%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003857> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :fatty%20acid%20beta-oxidation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008774> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :3-hydroxyacyl-CoA%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008774> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :3-hydroxyacyl-CoA%20dehydrogenase%20activity .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

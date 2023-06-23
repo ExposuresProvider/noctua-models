@@ -52,4 +52,16 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity
 <http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008137>
+	<http://purl.obolibrary.org/obo/GO_0008137> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

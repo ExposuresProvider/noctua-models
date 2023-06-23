@@ -32,3 +32,20 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .

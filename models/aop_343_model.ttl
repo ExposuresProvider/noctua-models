@@ -32,3 +32,31 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#cuticle
+<http://www.co-ode.org/ontologies/ont.owl#cuticle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0001002> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cuticle%20development .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cuticle%20development
+<http://www.co-ode.org/ontologies/ont.owl#cuticle%20development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0042335> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis%2C%20chitin-based%20cuticle .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ecdysis%2C%20chitin-based%20cuticle
+<http://www.co-ode.org/ontologies/ont.owl#ecdysis%2C%20chitin-based%20cuticle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0018990> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

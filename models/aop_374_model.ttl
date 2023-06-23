@@ -32,3 +32,35 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#microglial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#microglial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000129> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
+<http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001847> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
+<http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000127> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
+<http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001847> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
+<http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0002229> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

@@ -72,4 +72,41 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ataxia
 <http://www.co-ode.org/ontologies/ont.owl#ataxia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001393>
+	<http://purl.obolibrary.org/obo/MP_0001393> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
+<http://www.co-ode.org/ontologies/ont.owl#hyperactivity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001399> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#paralysis
+<http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0000753> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

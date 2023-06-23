@@ -102,4 +102,46 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20hormone%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20hormone%20level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005418>
+	<http://purl.obolibrary.org/obo/MP_0005418> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#eye
+<http://www.co-ode.org/ontologies/ont.owl#eye> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0000970> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :vision%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :vision%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vision%20trait
+<http://www.co-ode.org/ontologies/ont.owl#vision%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0002090> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .

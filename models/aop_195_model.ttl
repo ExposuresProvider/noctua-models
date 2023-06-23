@@ -63,4 +63,100 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001820>
+	<http://purl.obolibrary.org/obo/GO_0001820> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gamete
+<http://www.co-ode.org/ontologies/ont.owl#gamete> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000300> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20maturation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20maturation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20maturation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20maturation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20maturation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20maturation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0048469> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :spawning .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter
+<http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000015189> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin%20secretion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001820> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#valve
+<http://www.co-ode.org/ontologies/ont.owl#valve> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0003978> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :musculoskeletal%20movement .
+
+###  http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement
+<http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050881> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :spawning ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :spawning .
+
+###  http://www.co-ode.org/ontologies/ont.owl#spawning
+<http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/C82476> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :reproductive%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#spawning
+<http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/C82476> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :reproductive%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0022414> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :population%20of%20organisms .
+
+###  http://www.co-ode.org/ontologies/ont.owl#spawning
+<http://www.co-ode.org/ontologies/ont.owl#spawning> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/C82476> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :reproductive%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :reproductive%20process .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

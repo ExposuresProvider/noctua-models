@@ -29,3 +29,25 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010468> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

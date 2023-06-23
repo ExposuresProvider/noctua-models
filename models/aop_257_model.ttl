@@ -38,3 +38,58 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#lysosome
+<http://www.co-ode.org/ontologies/ont.owl#lysosome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005764> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :organelle%20disassembly .
+
+###  http://www.co-ode.org/ontologies/ont.owl#lysosome
+<http://www.co-ode.org/ontologies/ont.owl#lysosome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005764> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :organelle%20disassembly .
+
+###  http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly
+<http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_1903008> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20death .
+
+###  http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_1000507> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :toxicity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#kidney
+<http://www.co-ode.org/ontologies/ont.owl#kidney> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002113> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :toxicity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#toxicity
+<http://www.co-ode.org/ontologies/ont.owl#toxicity> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/Q000633> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

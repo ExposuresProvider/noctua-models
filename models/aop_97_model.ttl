@@ -50,3 +50,74 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002120> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002120> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#valve
+<http://www.co-ode.org/ontologies/ont.owl#valve> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0003978> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :musculoskeletal%20movement .
+
+###  http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement
+<http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050881> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002120> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fossorial%20locomotion%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#fossorial%20locomotion%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000071> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fossorial%20locomotion%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#fossorial%20locomotion%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000071> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#locomotion
+<http://www.co-ode.org/ontologies/ont.owl#locomotion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0040011> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#valve
+<http://www.co-ode.org/ontologies/ont.owl#valve> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0003978> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :musculoskeletal%20movement .
+
+###  http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement
+<http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050881> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter
+<http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000015189> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin%20secretion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001820> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

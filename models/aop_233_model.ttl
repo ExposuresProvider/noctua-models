@@ -23,3 +23,13 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0060081> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+

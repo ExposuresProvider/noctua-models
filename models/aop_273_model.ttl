@@ -41,3 +41,50 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000031316> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity
+<http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008137> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008219> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis%20deficiencies .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis%20deficiencies .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein
+<http://www.co-ode.org/ontologies/ont.owl#protein> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_36080> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Proteostasis%20deficiencies .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies
+<http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D057165> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20death .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

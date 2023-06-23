@@ -35,3 +35,48 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20J1
+<http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20J1> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000007628> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> :motile%20cilium ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :motile%20cilium .
+
+###  http://www.co-ode.org/ontologies/ont.owl#motile%20cilium
+<http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031514> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+
+###  http://www.co-ode.org/ontologies/ont.owl#motile%20cilium
+<http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031514> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0012262> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mucociliary%20clearance%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mucociliary%20clearance%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait
+<http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0001947> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :respiratory%20function%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory%20function%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0002327> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .

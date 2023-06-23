@@ -35,3 +35,42 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> :vitellogenins ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D014819> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :egg%20quantity ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :egg%20quantity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#egg%20quantity
+<http://www.co-ode.org/ontologies/ont.owl#egg%20quantity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_1000294> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :population%20growth%20rate ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

@@ -28,4 +28,15 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA%20topoisomerase%20II%20activity
 <http://www.co-ode.org/ontologies/ont.owl#DNA%20topoisomerase%20II%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0061505>
+	<http://purl.obolibrary.org/obo/GO_0061505> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Translocation%2C%20Genetic
+<http://www.co-ode.org/ontologies/ont.owl#Translocation%2C%20Genetic> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D014178> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+

@@ -49,4 +49,28 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357>
+	<http://purl.obolibrary.org/obo/GO_0035357> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20gamma
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20gamma> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000013058> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0035357> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

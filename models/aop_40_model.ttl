@@ -110,4 +110,28 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation
 <http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042110>
+	<http://purl.obolibrary.org/obo/GO_0042110> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#memory%20T%20cell
+<http://www.co-ode.org/ontologies/ont.owl#memory%20T%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000813> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008283> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

@@ -38,3 +38,45 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0034599> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#macrophage
+<http://www.co-ode.org/ontologies/ont.owl#macrophage> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000235> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :macrophage%20activation%20involved%20in%20immune%20response .
+
+###  http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response
+<http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002281> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008555> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0005039> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor
+<http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000017294> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0005039> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

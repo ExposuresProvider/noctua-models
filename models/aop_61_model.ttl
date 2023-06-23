@@ -152,4 +152,37 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
 <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006635>
+	<http://purl.obolibrary.org/obo/GO_0006635> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000015611> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :SREBP%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :SREBP%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :SREBP%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :SREBP%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0032933> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006633> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

@@ -36,4 +36,16 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1903409>
+	<http://purl.obolibrary.org/obo/GO_1903409> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .

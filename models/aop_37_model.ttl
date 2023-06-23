@@ -57,4 +57,54 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357>
+	<http://purl.obolibrary.org/obo/GO_0035357> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitogenic%20signaling%20cell
+<http://www.co-ode.org/ontologies/ont.owl#mitogenic%20signaling%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000422> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008283> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000182> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :hepatocyte%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0072574> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D002277> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular%20carcinoma .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D006528> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

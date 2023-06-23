@@ -57,4 +57,27 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine
 <http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_18258>
+	<http://purl.obolibrary.org/obo/CHEBI_18258> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine
+<http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_18258> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone
+<http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_81567> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

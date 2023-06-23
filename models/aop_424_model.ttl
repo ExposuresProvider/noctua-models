@@ -38,3 +38,52 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005254> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :epithelial%20lining%20fluid ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :epithelial%20lining%20fluid ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :epithelial%20lining%20fluid ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :epithelial%20lining%20fluid .
+
+###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0035963> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+
+###  http://www.co-ode.org/ontologies/ont.owl#motile%20cilium
+<http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031514> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/HP_0012262> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mucociliary%20clearance%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mucociliary%20clearance%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait
+<http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0001947> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :respiratory%20function%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory%20function%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0002327> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .

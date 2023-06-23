@@ -45,4 +45,39 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004883>
+	<http://purl.obolibrary.org/obo/GO_0004883> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20beta-oxidation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :fatty%20acid%20beta-oxidation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006635> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride .
+
+###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
+<http://www.co-ode.org/ontologies/ont.owl#triglyceride> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17855> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

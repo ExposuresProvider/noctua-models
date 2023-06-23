@@ -69,4 +69,111 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20binding
 <http://www.co-ode.org/ontologies/ont.owl#protein%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005515>
+	<http://purl.obolibrary.org/obo/GO_0005515> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Chemokine
+<http://www.co-ode.org/ontologies/ont.owl#Chemokine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/FMA_241981> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :chemokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chemokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :chemokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :chemokine%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chemokine%20activity
+<http://www.co-ode.org/ontologies/ont.owl#chemokine%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008009> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :MHC%20protein%20complex%20assembly .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cytokine
+<http://www.co-ode.org/ontologies/ont.owl#Cytokine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/FMA_84050> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20activity
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005125> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :MHC%20protein%20complex%20assembly .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001775> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly
+<http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002396> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001775> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly
+<http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002396> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#T%20cell
+<http://www.co-ode.org/ontologies/ont.owl#T%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000084> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :T%20cell%20activation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0042110> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Respiratory%20Hypersensitivity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#memory%20T%20cell
+<http://www.co-ode.org/ontologies/ont.owl#memory%20T%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000813> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008283> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Respiratory%20Hypersensitivity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity
+<http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D012130> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001775> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly
+<http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002396> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

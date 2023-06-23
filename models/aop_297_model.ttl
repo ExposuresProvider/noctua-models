@@ -32,3 +32,34 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#eye
+<http://www.co-ode.org/ontologies/ont.owl#eye> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0000970> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :vision%20trait ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :vision%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vision%20trait
+<http://www.co-ode.org/ontologies/ont.owl#vision%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0002090> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :population%20growth%20rate ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

@@ -29,3 +29,25 @@
 #   Individuals
 #################################################################
 
+###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_26523> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#liver
+<http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0002107> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :liver%20fibrosis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :liver%20fibrosis .
+
+###  http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis
+<http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0003333> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

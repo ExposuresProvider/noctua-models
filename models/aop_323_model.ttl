@@ -119,4 +119,19 @@
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis
 <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0008669>
+	<http://purl.obolibrary.org/obo/HP_0008669> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
