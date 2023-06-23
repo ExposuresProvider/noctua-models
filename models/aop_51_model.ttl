@@ -53,8 +53,8 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
 
@@ -71,8 +71,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061370> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;

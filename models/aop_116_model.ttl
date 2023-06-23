@@ -44,40 +44,40 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000494> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell
-<http://www.co-ode.org/ontologies/ont.owl#kidney_tubule_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000507> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#epithelial_cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050673> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :kidney_epithelium_hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#nephron_tubule_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_1000494> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :kidney_epithelium_hyperplasia ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :kidney_epithelium_hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney_epithelium_hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#kidney_epithelium_hyperplasia> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004968> ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma ;
@@ -97,8 +97,8 @@
 	<http://id.nlm.nih.gov/mesh/D000236> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma,_Renal_Cell .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma,_Renal_Cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002292> .
 
 

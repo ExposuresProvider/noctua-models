@@ -47,16 +47,16 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#acinar_cell
-<http://www.co-ode.org/ontologies/ont.owl#acinar_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acinar%20cell
+<http://www.co-ode.org/ontologies/ont.owl#acinar%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000622> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis

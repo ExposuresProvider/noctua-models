@@ -56,41 +56,41 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor
-<http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007204> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_activity
-<http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030284> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :intracellular_estrogen_receptor_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_alpha_complex
-<http://www.co-ode.org/ontologies/ont.owl#estrogen_receptor_alpha_complex> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20alpha%20complex
+<http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20alpha%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000027727> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :intracellular_estrogen_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :intracellular_estrogen_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :intracellular_estrogen_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :intracellular_estrogen_receptor_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#intracellular_estrogen_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#intracellular_estrogen_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#intracellular%20estrogen%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#intracellular%20estrogen%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030520> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#basal_cell
-<http://www.co-ode.org/ontologies/ont.owl#basal_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#basal%20cell
+<http://www.co-ode.org/ontologies/ont.owl#basal%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000646> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Metaplasia ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Metaplasia ;
@@ -102,8 +102,8 @@
 	<http://id.nlm.nih.gov/mesh/D008679> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glandular_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#glandular_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#glandular%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#glandular%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000150> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 

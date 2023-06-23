@@ -47,21 +47,21 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid_receptor
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011406> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid_receptor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid_receptor_activity
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid_receptor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004883> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hormone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
-<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006915> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process .
 
@@ -70,8 +70,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hormone_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#hormone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hormone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#hormone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042446> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process .
 
@@ -80,8 +80,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061370> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;
@@ -93,8 +93,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061370> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;
@@ -113,8 +113,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002566> :sperm ;
 	<http://purl.obolibrary.org/obo/RO_0002559> :sperm .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sperm_quantity
-<http://www.co-ode.org/ontologies/ont.owl#sperm_quantity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sperm%20quantity
+<http://www.co-ode.org/ontologies/ont.owl#sperm%20quantity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_0002673> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :fertility ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :fertility .

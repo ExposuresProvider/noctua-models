@@ -59,6 +59,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion
-<http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050663>

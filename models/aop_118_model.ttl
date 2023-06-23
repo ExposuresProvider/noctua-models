@@ -52,8 +52,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
@@ -65,13 +65,13 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :preneoplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_cell_mass> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20cell%20mass
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20cell%20mass> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003902> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :preneoplasia ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :preneoplasia .
@@ -97,8 +97,8 @@
 	<http://id.nlm.nih.gov/mesh/D000236> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
 
 

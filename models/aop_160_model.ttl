@@ -62,26 +62,26 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_transmembrane_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport
-<http://www.co-ode.org/ontologies/ont.owl#chloride_transmembrane_transport> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport
+<http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1902476> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :negative_regulation_of_synaptic_transmission .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_complex
-<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_complex> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20complex
+<http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1902710> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :negative_regulation_of_synaptic_transmission ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :negative_regulation_of_synaptic_transmission ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :negative_regulation_of_synaptic_transmission ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :negative_regulation_of_synaptic_transmission .
 
-###  http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_synaptic_transmission
-<http://www.co-ode.org/ontologies/ont.owl#negative_regulation_of_synaptic_transmission> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20synaptic%20transmission
+<http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20synaptic%20transmission> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050805> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :inhibitory_postsynaptic_potential .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inhibitory_postsynaptic_potential
-<http://www.co-ode.org/ontologies/ont.owl#inhibitory_postsynaptic_potential> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#inhibitory%20postsynaptic%20potential
+<http://www.co-ode.org/ontologies/ont.owl#inhibitory%20postsynaptic%20potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060080> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :paralysis .
 
@@ -91,8 +91,8 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :feeding_behavior ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :feeding_behavior .
 
-###  http://www.co-ode.org/ontologies/ont.owl#feeding_behavior
-<http://www.co-ode.org/ontologies/ont.owl#feeding_behavior> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/NBO_0000079> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mortality .
 

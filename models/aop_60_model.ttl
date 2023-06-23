@@ -65,29 +65,29 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4
-<http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#platelet%20glycoprotein%204
+<http://www.co-ode.org/ontologies/ont.owl#platelet%20glycoprotein%204> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001905> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :fatty_acid_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_transport
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid_transport> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20transport
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0015908> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :fatty_acid ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :fatty_acid ;
@@ -98,8 +98,8 @@
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007662> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_nuclear_factor_3-beta
-<http://www.co-ode.org/ontologies/ont.owl#hepatocyte_nuclear_factor_3-beta> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20nuclear%20factor%203-beta
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20nuclear%20factor%203-beta> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007603> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -111,72 +111,72 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :fatty_acid_beta-oxidation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :fatty_acid_beta-oxidation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_beta-oxidation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :fatty_acid_beta-oxidation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid_beta-oxidation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006635> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :fatty_acid ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :fatty_acid ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :fatty_acid ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :fatty_acid .
 
-###  http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4
-<http://www.co-ode.org/ontologies/ont.owl#platelet_glycoprotein_4> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#platelet%20glycoprotein%204
+<http://www.co-ode.org/ontologies/ont.owl#platelet%20glycoprotein%204> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001905> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acyl-CoA_desaturase
-<http://www.co-ode.org/ontologies/ont.owl#acyl-CoA_desaturase> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acyl-CoA%20desaturase
+<http://www.co-ode.org/ontologies/ont.owl#acyl-CoA%20desaturase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000014497> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :triglyceride_biosynthetic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA_synthase,_mitochondrial
-<http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA_synthase,_mitochondrial> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA%20synthase%2C%20mitochondrial
+<http://www.co-ode.org/ontologies/ont.owl#hydroxymethylglutaryl-CoA%20synthase%2C%20mitochondrial> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008638> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carnitine_O-palmitoyltransferase_1,_liver_isoform
-<http://www.co-ode.org/ontologies/ont.owl#carnitine_O-palmitoyltransferase_1,_liver_isoform> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carnitine%20O-palmitoyltransferase%201%2C%20liver%20isoform
+<http://www.co-ode.org/ontologies/ont.owl#carnitine%20O-palmitoyltransferase%201%2C%20liver%20isoform> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000005835> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_beta-oxidation .
 
@@ -185,6 +185,6 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17855> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :triglyceride_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#triglyceride_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#triglyceride_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#triglyceride%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#triglyceride%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019432>

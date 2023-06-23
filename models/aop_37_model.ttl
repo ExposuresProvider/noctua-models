@@ -47,14 +47,14 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000013056> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0035357>

@@ -133,35 +133,35 @@
 	<http://purl.obolibrary.org/obo/PR_000007299> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
+<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MI_1139> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_VII_(mouse)
-<http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_VII_(mouse)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P70375> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
+<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MI_1139> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_IX_(mouse)
-<http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_IX_(mouse)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P16294> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
+<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MI_1139> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_X_(mouse)
-<http://www.co-ode.org/ontologies/ont.owl#coagulation_factor_X_(mouse)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_O88947> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation_reaction> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
+<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MI_1139> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hemorrhage
@@ -174,8 +174,8 @@
 	<http://purl.obolibrary.org/obo/RO_0003303> :anemia ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :anemia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#wound_healing
-<http://www.co-ode.org/ontologies/ont.owl#wound_healing> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#wound%20healing
+<http://www.co-ode.org/ontologies/ont.owl#wound%20healing> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042060> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :transport ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_detoxification ;
@@ -193,8 +193,8 @@
 <http://www.co-ode.org/ontologies/ont.owl#transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006810> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cellular_detoxification
-<http://www.co-ode.org/ontologies/ont.owl#cellular_detoxification> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1990748> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#anemia

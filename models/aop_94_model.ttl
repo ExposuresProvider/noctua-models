@@ -47,20 +47,20 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block
-<http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular%20block
+<http://www.co-ode.org/ontologies/ont.owl#atrioventricular%20block> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D054537> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress .
 
-###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
-<http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#decreased%20heart%20rate
+<http://www.co-ode.org/ontologies/ont.owl#decreased%20heart%20rate> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001919> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory_distress
-<http://www.co-ode.org/ontologies/ont.owl#respiratory_distress> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001954> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :hypoxia ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia .
@@ -69,8 +69,8 @@
 <http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005039> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#action_potential
-<http://www.co-ode.org/ontologies/ont.owl#action_potential> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#action%20potential
+<http://www.co-ode.org/ontologies/ont.owl#action%20potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001508> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :atrioventricular_block ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :atrioventricular_block ;
@@ -81,14 +81,14 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :decreased_heart_rate ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :decreased_heart_rate .
 
-###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block
-<http://www.co-ode.org/ontologies/ont.owl#atrioventricular_block> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#atrioventricular%20block
+<http://www.co-ode.org/ontologies/ont.owl#atrioventricular%20block> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D054537> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress .
 
-###  http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate
-<http://www.co-ode.org/ontologies/ont.owl#decreased_heart_rate> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#decreased%20heart%20rate
+<http://www.co-ode.org/ontologies/ont.owl#decreased%20heart%20rate> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001919> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory_distress ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :respiratory_distress .

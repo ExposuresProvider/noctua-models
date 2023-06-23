@@ -53,40 +53,40 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor
-<http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_61796> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine_receptor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activity
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0015464> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :acetylcholine_receptor_activator_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :receptor_regulator_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor
-<http://www.co-ode.org/ontologies/ont.owl#Nicotinic_acetylcholine_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_61796> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine_receptor_activator_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine_receptor_activator_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine_receptor_activator_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine_receptor_activator_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activator_activity
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholine_receptor_activator_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activator%20activity
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activator%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030549> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :synaptic_signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#receptor_regulator_activity
-<http://www.co-ode.org/ontologies/ont.owl#receptor_regulator_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#receptor%20regulator%20activity
+<http://www.co-ode.org/ontologies/ont.owl#receptor%20regulator%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030545> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :synaptic_signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling
-<http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling
+<http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0099536> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :learning ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :memory .

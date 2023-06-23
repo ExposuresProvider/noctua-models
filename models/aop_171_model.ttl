@@ -55,17 +55,17 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006954> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mesothelium
@@ -76,8 +76,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> .
 
 

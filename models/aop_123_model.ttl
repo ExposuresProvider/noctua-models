@@ -71,8 +71,8 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008555> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -84,58 +84,58 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008555> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1_(Caenorhabditis_elegans)
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1_(Caenorhabditis_elegans)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201%20%28Caenorhabditis%20elegans%29
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201%20%28Caenorhabditis%20elegans%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_G5EGD2> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :aromatase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :aromatase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible_factor_1-alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008555> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :aromatase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :aromatase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aromatase_isoform_1
-<http://www.co-ode.org/ontologies/ont.owl#aromatase_isoform_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#aromatase%20isoform%201
+<http://www.co-ode.org/ontologies/ont.owl#aromatase%20isoform%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000038849> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :aromatase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :aromatase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :aromatase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :aromatase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aromatase_activity
-<http://www.co-ode.org/ontologies/ont.owl#aromatase_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#aromatase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#aromatase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070330> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :estrogen_biosynthetic_process .
 
@@ -144,8 +144,8 @@
 	<http://purl.obolibrary.org/obo/PR_000006100> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :aromatase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aromatase_activity
-<http://www.co-ode.org/ontologies/ont.owl#aromatase_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#aromatase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#aromatase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070330> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :estrogen_biosynthetic_process .
 
@@ -154,8 +154,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#estrogen_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#estrogen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006703> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :17beta-estradiol ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :17beta-estradiol ;
@@ -182,8 +182,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :vitellogenins ;
@@ -198,8 +198,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :protein_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein_secretion
-<http://www.co-ode.org/ontologies/ont.owl#protein_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#protein%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#protein%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0009306> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :vitellogenins ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :vitellogenins ;
@@ -230,34 +230,34 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :receptor-mediated_endocytosis ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :receptor-mediated_endocytosis .
 
-###  http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis
-<http://www.co-ode.org/ontologies/ont.owl#receptor-mediated_endocytosis> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#receptor-mediated%20endocytosis
+<http://www.co-ode.org/ontologies/ont.owl#receptor-mediated%20endocytosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006898> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oocyte_growth
-<http://www.co-ode.org/ontologies/ont.owl#oocyte_growth> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oocyte%20growth
+<http://www.co-ode.org/ontologies/ont.owl#oocyte%20growth> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001555> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oocyte_development
-<http://www.co-ode.org/ontologies/ont.owl#oocyte_development> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oocyte%20development
+<http://www.co-ode.org/ontologies/ont.owl#oocyte%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0048599> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :egg_quantity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#egg_quantity
-<http://www.co-ode.org/ontologies/ont.owl#egg_quantity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#egg%20quantity
+<http://www.co-ode.org/ontologies/ont.owl#egg%20quantity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_1000294> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :population_growth_rate ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
-<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
-<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
 
 

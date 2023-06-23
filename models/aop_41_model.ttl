@@ -56,8 +56,8 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor
-<http://www.co-ode.org/ontologies/ont.owl#aryl_hydrocarbon_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003858> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -70,24 +70,24 @@
 	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_homeostasis ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :apoptotic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cellular_homeostasis
-<http://www.co-ode.org/ontologies/ont.owl#cellular_homeostasis> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cellular%20homeostasis
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20homeostasis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019725> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Liver_Diseases .
 
-###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
-<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006915> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :Liver_Diseases ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Liver_Diseases .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Liver_Diseases
-<http://www.co-ode.org/ontologies/ont.owl#Liver_Diseases> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases
+<http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D008107> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
@@ -96,16 +96,16 @@
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Liver_cell
-<http://www.co-ode.org/ontologies/ont.owl#Liver_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Liver%20cell
+<http://www.co-ode.org/ontologies/ont.owl#Liver%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_63179> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :hepatocellular_carcinoma ;
@@ -116,8 +116,8 @@
 	<http://purl.obolibrary.org/obo/RO_0000057> :Bile_Duct_Neoplasms ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :Bile_Duct_Neoplasms .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatic_oval_stem_cell
-<http://www.co-ode.org/ontologies/ont.owl#hepatic_oval_stem_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20oval%20stem%20cell
+<http://www.co-ode.org/ontologies/ont.owl#hepatic%20oval%20stem%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002196> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
@@ -127,8 +127,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Bile_Duct_Neoplasms .
 
-###  http://www.co-ode.org/ontologies/ont.owl#intrahepatic_bile_duct_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#intrahepatic_bile_duct_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#intrahepatic%20bile%20duct%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#intrahepatic%20bile%20duct%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002538> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
@@ -138,12 +138,12 @@
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Bile_Duct_Neoplasms .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Bile_Duct_Neoplasms
-<http://www.co-ode.org/ontologies/ont.owl#Bile_Duct_Neoplasms> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Bile%20Duct%20Neoplasms
+<http://www.co-ode.org/ontologies/ont.owl#Bile%20Duct%20Neoplasms> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001650> .
 
 

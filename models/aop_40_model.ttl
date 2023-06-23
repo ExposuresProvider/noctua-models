@@ -50,64 +50,64 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#electrophilic_reagant
-<http://www.co-ode.org/ontologies/ont.owl#electrophilic_reagant> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#electrophilic%20reagant
+<http://www.co-ode.org/ontologies/ont.owl#electrophilic%20reagant> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_59739> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :protein_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :protein_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :protein_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :protein_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein_binding
-<http://www.co-ode.org/ontologies/ont.owl#protein_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#protein%20binding
+<http://www.co-ode.org/ontologies/ont.owl#protein%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005515> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
 
-###  http://www.co-ode.org/ontologies/ont.owl#keratinocyte_activation
-<http://www.co-ode.org/ontologies/ont.owl#keratinocyte_activation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#keratinocyte%20activation
+<http://www.co-ode.org/ontologies/ont.owl#keratinocyte%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032980> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine_production_involved_in_inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#cytokine_production_involved_in_inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002534> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :MHC_protein_complex_assembly .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_activation
-<http://www.co-ode.org/ontologies/ont.owl#cell_activation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001775> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly
-<http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly
+<http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002396> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_activation
-<http://www.co-ode.org/ontologies/ont.owl#cell_activation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001775> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly
-<http://www.co-ode.org/ontologies/ont.owl#MHC_protein_complex_assembly> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly
+<http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002396> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#T_cell
-<http://www.co-ode.org/ontologies/ont.owl#T_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#T%20cell
+<http://www.co-ode.org/ontologies/ont.owl#T%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000084> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :T_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :T_cell_activation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#T_cell_activation
-<http://www.co-ode.org/ontologies/ont.owl#T_cell_activation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042110>

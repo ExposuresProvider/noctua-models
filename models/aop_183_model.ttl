@@ -32,29 +32,29 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#increased_energy_expenditure
-<http://www.co-ode.org/ontologies/ont.owl#increased_energy_expenditure> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#increased%20energy%20expenditure
+<http://www.co-ode.org/ontologies/ont.owl#increased%20energy%20expenditure> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004889> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :foraging_behavior ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :foraging_behavior .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Stress,_Physiological
-<http://www.co-ode.org/ontologies/ont.owl#Stress,_Physiological> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Stress%2C%20Physiological
+<http://www.co-ode.org/ontologies/ont.owl#Stress%2C%20Physiological> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D013312> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :foraging_behavior .
 
-###  http://www.co-ode.org/ontologies/ont.owl#foraging_behavior
-<http://www.co-ode.org/ontologies/ont.owl#foraging_behavior> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060756> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :colony_collapse .
 
-###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D056631> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse .
 
-###  http://www.co-ode.org/ontologies/ont.owl#colony_collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony_collapse> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D056631> .
 
 

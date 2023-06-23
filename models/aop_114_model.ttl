@@ -47,16 +47,16 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate_dioxygenase_(rat)
-<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate_dioxygenase_(rat)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20%28rat%29
+<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20%28rat%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P32755> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :4-hydroxyphenylpyruvate_dioxygenase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :4-hydroxyphenylpyruvate_dioxygenase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :4-hydroxyphenylpyruvate_dioxygenase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :4-hydroxyphenylpyruvate_dioxygenase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate_dioxygenase_activity
-<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate_dioxygenase_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0003868> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :tyrosine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :tyrosine ;
@@ -71,42 +71,42 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000575> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000575> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :inflammatory_response ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :inflammatory_response ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :inflammatory_response ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :inflammatory_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006954> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell
-<http://www.co-ode.org/ontologies/ont.owl#corneal_epithelial_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000575> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :papilloma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :papilloma ;

@@ -59,26 +59,26 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium/iodide_cotransporter
-<http://www.co-ode.org/ontologies/ont.owl#sodium/iodide_cotransporter> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter
+<http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015171> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :sodium:iodide_symporter_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :sodium:iodide_symporter_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium:iodide_symporter_activity
-<http://www.co-ode.org/ontologies/ont.owl#sodium:iodide_symporter_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity
+<http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008507> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_hormone_generation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006590> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level .
 
@@ -88,13 +88,13 @@
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Thyroid_stimulating_hormone .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Thyroid_stimulating_hormone
-<http://www.co-ode.org/ontologies/ont.owl#Thyroid_stimulating_hormone> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone
+<http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_81567> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
@@ -102,21 +102,21 @@
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002258> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002258> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
 
@@ -125,8 +125,8 @@
 	<http://id.nlm.nih.gov/mesh/D006984> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid_follicular_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002258> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
 

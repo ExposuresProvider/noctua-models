@@ -50,42 +50,42 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-1
-<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-1
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-1> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007766> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
-<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050811> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-5
-<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-5> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-5
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-5> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007770> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
-<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050811> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-6
-<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid_receptor_subunit_alpha-6> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-6
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid%20receptor%20subunit%20alpha-6> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007771> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :GABA_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :GABA_receptor_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding
-<http://www.co-ode.org/ontologies/ont.owl#GABA_receptor_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding
+<http://www.co-ode.org/ontologies/ont.owl#GABA%20receptor%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050811> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :GABA-gated_chloride_ion_channel_activity .
 
@@ -94,23 +94,23 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :GABA-gated_chloride_ion_channel_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GABA-gated_chloride_ion_channel_activity
-<http://www.co-ode.org/ontologies/ont.owl#GABA-gated_chloride_ion_channel_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#GABA-gated%20chloride%20ion%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#GABA-gated%20chloride%20ion%20channel%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0022851> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :chemical_synaptic_transmission .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission
-<http://www.co-ode.org/ontologies/ont.owl#chemical_synaptic_transmission> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission
+<http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007268> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :excitatory_postsynaptic_potential .
 
-###  http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential
-<http://www.co-ode.org/ontologies/ont.owl#excitatory_postsynaptic_potential> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#excitatory%20postsynaptic%20potential
+<http://www.co-ode.org/ontologies/ont.owl#excitatory%20postsynaptic%20potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0060079> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_depolarization .
 
-###  http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization
-<http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051899> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :seizures .
 

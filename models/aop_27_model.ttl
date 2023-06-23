@@ -61,16 +61,16 @@
 	<http://purl.obolibrary.org/obo/UBERON_0001970> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#bile_acid_receptor
-<http://www.co-ode.org/ontologies/ont.owl#bile_acid_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011396> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :cholestasis ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :cholestasis ;
@@ -81,16 +81,16 @@
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002779> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006954> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :cholestasis ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :cholestasis ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :cholestasis ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :cholestasis .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :cholestasis .
 
@@ -107,8 +107,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion
-<http://www.co-ode.org/ontologies/ont.owl#cytokine_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050663> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory_response .
 
@@ -116,13 +116,13 @@
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D002779> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#reactive_oxygen_species_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1903409> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress .
 

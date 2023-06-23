@@ -47,29 +47,29 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2
-<http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002112> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :vascular_endothelial_growth_factor_receptor_2_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2_binding
-<http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202%20binding
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0043184> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :angiogenesis .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_1
-<http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%201
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007563> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :vascular_endothelial_growth_factor_receptor_2_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :vascular_endothelial_growth_factor_receptor_2_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2_binding
-<http://www.co-ode.org/ontologies/ont.owl#vascular_endothelial_growth_factor_receptor_2_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202%20binding
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20receptor%202%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0043184> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :angiogenesis .
 
@@ -78,8 +78,8 @@
 	<http://purl.obolibrary.org/obo/GO_0001525> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :endothelium_development .
 
-###  http://www.co-ode.org/ontologies/ont.owl#endothelium_development
-<http://www.co-ode.org/ontologies/ont.owl#endothelium_development> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#endothelium%20development
+<http://www.co-ode.org/ontologies/ont.owl#endothelium%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0003158> .
 
 

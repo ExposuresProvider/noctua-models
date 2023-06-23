@@ -52,8 +52,8 @@
 	<http://purl.obolibrary.org/obo/PR_000003626> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase_activity
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0003990> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :acetylcholine ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :acetylcholine ;
@@ -88,8 +88,8 @@
 	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling
-<http://www.co-ode.org/ontologies/ont.owl#synaptic_signaling> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling
+<http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0099536> .
 
 

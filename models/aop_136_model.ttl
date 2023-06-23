@@ -56,26 +56,26 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_intracellular_pH
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_intracellular_pH> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20intracellular%20pH
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20intracellular%20pH> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051453> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :leukocyte_mediated_cytotoxicity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#leukocyte_mediated_cytotoxicity
-<http://www.co-ode.org/ontologies/ont.owl#leukocyte_mediated_cytotoxicity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity
+<http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001909> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#olfactory_epithelium
-<http://www.co-ode.org/ontologies/ont.owl#olfactory_epithelium> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#olfactory%20epithelium
+<http://www.co-ode.org/ontologies/ont.owl#olfactory%20epithelium> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001997> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :atrophy .
 
@@ -84,8 +84,8 @@
 	<http://id.nlm.nih.gov/mesh/D001284> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Metaplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death
-<http://www.co-ode.org/ontologies/ont.owl#necrotic_cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#necrotic%20cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#necrotic%20cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0070265> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Metaplasia ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Metaplasia ;
@@ -100,12 +100,12 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#olfactory_segment_of_nasal_mucosa
-<http://www.co-ode.org/ontologies/ont.owl#olfactory_segment_of_nasal_mucosa> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#olfactory%20segment%20of%20nasal%20mucosa
+<http://www.co-ode.org/ontologies/ont.owl#olfactory%20segment%20of%20nasal%20mucosa> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0005386> ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :neoplasm ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :neoplasm .

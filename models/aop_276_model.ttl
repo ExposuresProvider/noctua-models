@@ -29,27 +29,27 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1
-<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000031316> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrial_electron_transport,_NADH_to_ubiquinone ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrial_electron_transport,_NADH_to_ubiquinone ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial_electron_transport,_NADH_to_ubiquinone ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial_electron_transport,_NADH_to_ubiquinone .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_electron_transport,_NADH_to_ubiquinone
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrial_electron_transport,_NADH_to_ubiquinone> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006120> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :NADH_dehydrogenase_(ubiquinone)_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1
-<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone_oxidoreductase_chain_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000031316> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :NADH_dehydrogenase_(ubiquinone)_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :NADH_dehydrogenase_(ubiquinone)_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :NADH_dehydrogenase_(ubiquinone)_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :NADH_dehydrogenase_(ubiquinone)_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity
-<http://www.co-ode.org/ontologies/ont.owl#NADH_dehydrogenase_(ubiquinone)_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity
+<http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008137>

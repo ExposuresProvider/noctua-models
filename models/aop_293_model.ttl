@@ -44,16 +44,16 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_activation_involved_in_immune_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mutation .
 
@@ -62,13 +62,13 @@
 	<http://id.nlm.nih.gov/mesh/D009154> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mutation .
 
@@ -82,25 +82,25 @@
 	<http://id.nlm.nih.gov/mesh/D006965> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :Breast_Neoplasms .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms
-<http://www.co-ode.org/ontologies/ont.owl#Breast_Neoplasms> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms
+<http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001943> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response
-<http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002263> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :acute_inflammatory_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_activation_involved_in_immune_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acute_inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#acute_inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002526> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :Breast_Neoplasms ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :Breast_Neoplasms ;
@@ -115,6 +115,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :cell_activation_involved_in_immune_response ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :cell_activation_involved_in_immune_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response
-<http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002263>

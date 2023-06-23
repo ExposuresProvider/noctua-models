@@ -61,8 +61,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mitochondrial_transport .
 
@@ -74,8 +74,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20transport
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006839> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process .
 
@@ -84,8 +84,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#testosterone_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061370> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :testosterone ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :testosterone ;
@@ -104,8 +104,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial_transport ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrial_transport> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20transport
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006839> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone_biosynthetic_process .
 

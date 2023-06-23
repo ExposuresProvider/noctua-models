@@ -41,14 +41,14 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative_stress> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases
-<http://www.co-ode.org/ontologies/ont.owl#JNK_Mitogen-Activated_Protein_Kinases> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#JNK%20Mitogen-Activated%20Protein%20Kinases
+<http://www.co-ode.org/ontologies/ont.owl#JNK%20Mitogen-Activated%20Protein%20Kinases> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D048031> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -60,8 +60,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#forkhead_box_protein_O_(Caenorhabditis_elegans)
-<http://www.co-ode.org/ontologies/ont.owl#forkhead_box_protein_O_(Caenorhabditis_elegans)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20O%20%28Caenorhabditis%20elegans%29
+<http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20O%20%28Caenorhabditis%20elegans%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_O16850> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -73,8 +73,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome
-<http://www.co-ode.org/ontologies/ont.owl#Wnt_signalosome> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome
+<http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1990909> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -86,8 +86,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :embryo_development .
 
-###  http://www.co-ode.org/ontologies/ont.owl#embryo_development
-<http://www.co-ode.org/ontologies/ont.owl#embryo_development> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#embryo%20development
+<http://www.co-ode.org/ontologies/ont.owl#embryo%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0009790> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
 

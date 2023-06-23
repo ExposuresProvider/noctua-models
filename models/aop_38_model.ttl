@@ -50,36 +50,36 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein_alkylation
-<http://www.co-ode.org/ontologies/ont.owl#protein_alkylation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation
+<http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008213> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_death
-<http://www.co-ode.org/ontologies/ont.owl#cell_death> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation_involved_in_immune_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response
-<http://www.co-ode.org/ontologies/ont.owl#cell_activation_involved_in_immune_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002263> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :acute_inflammatory_response .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acute_inflammatory_response
-<http://www.co-ode.org/ontologies/ont.owl#acute_inflammatory_response> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002526> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatic_stellate_cell_activation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatic_stellate_cell
-<http://www.co-ode.org/ontologies/ont.owl#hepatic_stellate_cell> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell
+<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000632> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :hepatic_stellate_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :hepatic_stellate_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :hepatic_stellate_cell_activation ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :hepatic_stellate_cell_activation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatic_stellate_cell_activation
-<http://www.co-ode.org/ontologies/ont.owl#hepatic_stellate_cell_activation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation
+<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0035733> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :collagen_biosynthetic_process .
 
@@ -88,8 +88,8 @@
 	<http://purl.obolibrary.org/obo/CHEBI_3815> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :collagen_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#collagen_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#collagen_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032964> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis .
 
@@ -99,8 +99,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002610> :liver_fibrosis ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :liver_fibrosis .
 
-###  http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis
-<http://www.co-ode.org/ontologies/ont.owl#liver_fibrosis> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis
+<http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003333> .
 
 

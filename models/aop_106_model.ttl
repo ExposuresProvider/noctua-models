@@ -55,13 +55,13 @@
 	<http://purl.obolibrary.org/obo/PR_000028799> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :tubulin_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#tubulin_binding
-<http://www.co-ode.org/ontologies/ont.owl#tubulin_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#tubulin%20binding
+<http://www.co-ode.org/ontologies/ont.owl#tubulin%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0015631> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :microtubule_depolymerization .
 
-###  http://www.co-ode.org/ontologies/ont.owl#tubulin_complex
-<http://www.co-ode.org/ontologies/ont.owl#tubulin_complex> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#tubulin%20complex
+<http://www.co-ode.org/ontologies/ont.owl#tubulin%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0045298> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :microtubule_depolymerization ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :microtubule_depolymerization ;
@@ -73,8 +73,8 @@
 	<http://purl.obolibrary.org/obo/GO_0005874> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :microtubule_depolymerization .
 
-###  http://www.co-ode.org/ontologies/ont.owl#microtubule_depolymerization
-<http://www.co-ode.org/ontologies/ont.owl#microtubule_depolymerization> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#microtubule%20depolymerization
+<http://www.co-ode.org/ontologies/ont.owl#microtubule%20depolymerization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007019> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :spindle_organization .
 
@@ -83,8 +83,8 @@
 	<http://purl.obolibrary.org/obo/GO_0005819> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :spindle_organization .
 
-###  http://www.co-ode.org/ontologies/ont.owl#spindle_organization
-<http://www.co-ode.org/ontologies/ont.owl#spindle_organization> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#spindle%20organization
+<http://www.co-ode.org/ontologies/ont.owl#spindle%20organization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007051> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :chromosome_movement_towards_spindle_pole .
 
@@ -93,19 +93,19 @@
 	<http://purl.obolibrary.org/obo/GO_0005694> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :chromosome_movement_towards_spindle_pole .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chromosome_movement_towards_spindle_pole
-<http://www.co-ode.org/ontologies/ont.owl#chromosome_movement_towards_spindle_pole> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#chromosome%20movement%20towards%20spindle%20pole
+<http://www.co-ode.org/ontologies/ont.owl#chromosome%20movement%20towards%20spindle%20pole> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051305> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_chromosome_number .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_chromosome_number
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_chromosome_number> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004023> ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :abnormal_chromosome_number ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_chromosome_number .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_chromosome_number
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_chromosome_number> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004023> .
 
 

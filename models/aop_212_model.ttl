@@ -50,16 +50,16 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#histone_deacetylase_1
-<http://www.co-ode.org/ontologies/ont.owl#histone_deacetylase_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201
+<http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008478> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :enzyme_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :enzyme_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :enzyme_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :enzyme_inhibitor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#enzyme_inhibitor_activity
-<http://www.co-ode.org/ontologies/ont.owl#enzyme_inhibitor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004857> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_protein_modification_process .
 
@@ -71,26 +71,26 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_protein_modification_process ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_protein_modification_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_protein_modification_process
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_protein_modification_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0031399> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_cell_cycle .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell_cycle-related_cyclin
-<http://www.co-ode.org/ontologies/ont.owl#cell_cycle-related_cyclin> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20cycle-related%20cyclin
+<http://www.co-ode.org/ontologies/ont.owl#cell%20cycle-related%20cyclin> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000029191> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_cell_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_cell_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_cell_cycle ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_cell_cycle .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_cell_cycle
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_cell_cycle> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cell%20cycle
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cell%20cycle> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051726> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :apoptotic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#apoptotic_process
-<http://www.co-ode.org/ontologies/ont.owl#apoptotic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process
+<http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006915> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :spermatocyte ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :spermatocyte ;
@@ -109,8 +109,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002610> :Testicular_atrophy ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :Testicular_atrophy .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Testicular_atrophy
-<http://www.co-ode.org/ontologies/ont.owl#Testicular_atrophy> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy
+<http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/HP_0000029> .
 
 

@@ -61,19 +61,19 @@
 	<http://purl.obolibrary.org/obo/CHEBI_26013> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mating_pheromone_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mating_pheromone_secretion
-<http://www.co-ode.org/ontologies/ont.owl#mating_pheromone_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#mating%20pheromone%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#mating%20pheromone%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0071834> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :attraction-related_behavior .
 
-###  http://www.co-ode.org/ontologies/ont.owl#attraction-related_behavior
-<http://www.co-ode.org/ontologies/ont.owl#attraction-related_behavior> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/NBO_0000280> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproductive_process
-<http://www.co-ode.org/ontologies/ont.owl#reproductive_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0022414> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate .
 
@@ -82,21 +82,21 @@
 	<http://purl.obolibrary.org/obo/GO_0000003> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001516> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin_F2alpha ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin_F2alpha .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin_F2alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :mating_pheromone_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mating_pheromone_secretion ;
@@ -108,18 +108,18 @@
 	<http://purl.obolibrary.org/obo/CHEBI_26013> ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :mating_pheromone_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mating_pheromone_secretion
-<http://www.co-ode.org/ontologies/ont.owl#mating_pheromone_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#mating%20pheromone%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#mating%20pheromone%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0071834> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :attraction-related_behavior .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population_of_organisms
-<http://www.co-ode.org/ontologies/ont.owl#population_of_organisms> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population_growth_rate
-<http://www.co-ode.org/ontologies/ont.owl#population_growth_rate> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000008> .
 
 

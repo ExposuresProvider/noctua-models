@@ -38,39 +38,39 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#potassium_voltage-gated_channel_subfamily_H_member_2_(human)
-<http://www.co-ode.org/ontologies/ont.owl#potassium_voltage-gated_channel_subfamily_H_member_2_(human)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#potassium%20voltage-gated%20channel%20subfamily%20H%20member%202%20%28human%29
+<http://www.co-ode.org/ontologies/ont.owl#potassium%20voltage-gated%20channel%20subfamily%20H%20member%202%20%28human%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_Q12809> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :ion_channel_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ion_channel_activity
-<http://www.co-ode.org/ontologies/ont.owl#ion_channel_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005216> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive_inward_rectifier_potassium_channel_1
-<http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive_inward_rectifier_potassium_channel_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive%20inward%20rectifier%20potassium%20channel%201
+<http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive%20inward%20rectifier%20potassium%20channel%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001978> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ion_channel_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :ion_channel_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ion_channel_activity
-<http://www.co-ode.org/ontologies/ont.owl#ion_channel_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005216> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
 
-###  http://www.co-ode.org/ontologies/ont.owl#action_potential
-<http://www.co-ode.org/ontologies/ont.owl#action_potential> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#action%20potential
+<http://www.co-ode.org/ontologies/ont.owl#action%20potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001508> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :Arrhythmias,_Cardiac .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac
-<http://www.co-ode.org/ontologies/ont.owl#Arrhythmias,_Cardiac> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac
+<http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D001145> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :mortality .
 

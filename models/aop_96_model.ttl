@@ -47,26 +47,26 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha
-<http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002095> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity
-<http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019871> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_depolarization .
 
-###  http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization
-<http://www.co-ode.org/ontologies/ont.owl#membrane_depolarization> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051899> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :neurotransmitter_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neurotransmitter_secretion
-<http://www.co-ode.org/ontologies/ont.owl#neurotransmitter_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#neurotransmitter%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#neurotransmitter%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007269> .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ataxia

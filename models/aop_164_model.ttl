@@ -47,38 +47,38 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor
-<http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001193> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :beta-2_adrenergic_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :beta-2_adrenergic_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :beta-2_adrenergic_receptor_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :beta-2_adrenergic_receptor_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor_binding
-<http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor%20binding
+<http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0031698> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :beta2-adrenergic_receptor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor
-<http://www.co-ode.org/ontologies/ont.owl#beta-2_adrenergic_receptor> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#beta-2%20adrenergic%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000001193> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :beta2-adrenergic_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :beta2-adrenergic_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :beta2-adrenergic_receptor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :beta2-adrenergic_receptor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic_receptor_activity
-<http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic_receptor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#beta2-adrenergic%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004941> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :relaxation_of_smooth_muscle .
 
-###  http://www.co-ode.org/ontologies/ont.owl#relaxation_of_smooth_muscle
-<http://www.co-ode.org/ontologies/ont.owl#relaxation_of_smooth_muscle> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#relaxation%20of%20smooth%20muscle
+<http://www.co-ode.org/ontologies/ont.owl#relaxation%20of%20smooth%20muscle> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0044557> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#smooth_muscle_tissue
-<http://www.co-ode.org/ontologies/ont.owl#smooth_muscle_tissue> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#smooth%20muscle%20tissue
+<http://www.co-ode.org/ontologies/ont.owl#smooth%20muscle%20tissue> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001135> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
 

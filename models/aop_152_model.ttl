@@ -100,8 +100,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
-<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic%20process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008152> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level .
 
@@ -111,8 +111,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
 	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal_circulating_thyroxine_level> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> .
 
 

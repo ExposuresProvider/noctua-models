@@ -38,21 +38,21 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha
-<http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002095> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :sodium_channel_inhibitor_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity
-<http://www.co-ode.org/ontologies/ont.owl#sodium_channel_inhibitor_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019871> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha
-<http://www.co-ode.org/ontologies/ont.owl#sodium_channel_protein_type_1_subunit_alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002095> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -64,8 +64,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium(1+)
-<http://www.co-ode.org/ontologies/ont.owl#sodium(1+)> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%281%2B%29
+<http://www.co-ode.org/ontologies/ont.owl#sodium%281%2B%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_29101> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :transport ;
@@ -77,8 +77,8 @@
 	<http://purl.obolibrary.org/obo/GO_0006810> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid
-<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid
+<http://www.co-ode.org/ontologies/ont.owl#gamma-aminobutyric%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16865> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :transport ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :transport ;

@@ -59,26 +59,26 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_2_proteolytic_cleavage_product
-<http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_2_proteolytic_cleavage_product> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000021564> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene_expression
-<http://www.co-ode.org/ontologies/ont.owl#gene_expression> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :unsaturated_fatty_acid_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#unsaturated_fatty_acid
-<http://www.co-ode.org/ontologies/ont.owl#unsaturated_fatty_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27208> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :unsaturated_fatty_acid_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#unsaturated_fatty_acid_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#unsaturated_fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006636> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :cholesterol ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :cholesterol ;

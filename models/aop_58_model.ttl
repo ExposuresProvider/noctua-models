@@ -89,8 +89,8 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_3
-<http://www.co-ode.org/ontologies/ont.owl#nuclear_receptor_subfamily_1_group_I_member_3> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#nuclear%20receptor%20subfamily%201%20group%20I%20member%203
+<http://www.co-ode.org/ontologies/ont.owl#nuclear%20receptor%20subfamily%201%20group%20I%20member%203> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011398> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -102,8 +102,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-beta
-<http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-beta> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-beta
+<http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-beta> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011394> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -115,8 +115,8 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :acetyl-CoA_carboxylase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha
-<http://www.co-ode.org/ontologies/ont.owl#oxysterols_receptor_LXR-alpha> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-alpha
+<http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011395> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -128,21 +128,21 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :acetyl-CoA_carboxylase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator-activated_receptor_gamma> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20gamma
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20gamma> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000013058> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome_proliferator_activated_receptor_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome_proliferator_activated_receptor_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome_proliferator_activated_receptor_signaling_pathway> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0035357> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_transport .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1
-<http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015611> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -154,21 +154,21 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1
-<http://www.co-ode.org/ontologies/ont.owl#sterol_regulatory_element-binding_protein_1> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015611> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :SREBP_signaling_pathway ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :SREBP_signaling_pathway .
 
-###  http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway
-<http://www.co-ode.org/ontologies/ont.owl#SREBP_signaling_pathway> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032933> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive_element-binding_protein
-<http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive_element-binding_protein> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive%20element-binding%20protein
+<http://www.co-ode.org/ontologies/ont.owl#carbohydrate-responsive%20element-binding%20protein> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000010460> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
@@ -180,13 +180,13 @@
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :fatty_acid_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :fatty_acid_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#fatty_acid_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006633> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :fatty_acid ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :fatty_acid ;

@@ -52,8 +52,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :proton_binding ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :proton_binding .
 
-###  http://www.co-ode.org/ontologies/ont.owl#proton_binding
-<http://www.co-ode.org/ontologies/ont.owl#proton_binding> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#proton%20binding
+<http://www.co-ode.org/ontologies/ont.owl#proton%20binding> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1901691> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ATP_biosynthetic_process .
 
@@ -65,8 +65,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :oxidative_phosphorylation_uncoupler_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :oxidative_phosphorylation_uncoupler_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative_phosphorylation_uncoupler_activity
-<http://www.co-ode.org/ontologies/ont.owl#oxidative_phosphorylation_uncoupler_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0017077> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ATP_biosynthetic_process .
 
@@ -78,8 +78,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_mitochondrial_membrane_potential ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_mitochondrial_membrane_potential .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation_of_mitochondrial_membrane_potential
-<http://www.co-ode.org/ontologies/ont.owl#regulation_of_mitochondrial_membrane_potential> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051881> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :ATP_biosynthetic_process .
 
@@ -88,6 +88,6 @@
 	<http://purl.obolibrary.org/obo/CHEBI_15422> ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process
-<http://www.co-ode.org/ontologies/ont.owl#ATP_biosynthetic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006754>

@@ -41,16 +41,16 @@
 #   Individuals
 #################################################################
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent_serotonin_transporter
-<http://www.co-ode.org/ontologies/ont.owl#sodium-dependent_serotonin_transporter> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter
+<http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015189> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin_secretion ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin_secretion .
 
-###  http://www.co-ode.org/ontologies/ont.owl#serotonin_secretion
-<http://www.co-ode.org/ontologies/ont.owl#serotonin_secretion> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001820> .
 
 

@@ -55,8 +55,8 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
-<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic%20process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008152> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function .
 
@@ -68,27 +68,27 @@
 	<http://purl.obolibrary.org/obo/RO_0002353> :metabolic_process ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :metabolic_process .
 
-###  http://www.co-ode.org/ontologies/ont.owl#metabolic_process
-<http://www.co-ode.org/ontologies/ont.owl#metabolic_process> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#metabolic%20process
+<http://www.co-ode.org/ontologies/ont.owl#metabolic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008152> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :Decreased_liver_function .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function
-<http://www.co-ode.org/ontologies/ont.owl#Decreased_liver_function> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#Decreased%20liver%20function
+<http://www.co-ode.org/ontologies/ont.owl#Decreased%20liver%20function> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/HP_0001410> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :nitric-oxide_synthase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain
-<http://www.co-ode.org/ontologies/ont.owl#nitric_oxide_synthase,_brain> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20brain
+<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20brain> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011326> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002327> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002353> :nitric-oxide_synthase_activity ;
 	<http://purl.obolibrary.org/obo/RO_0002428> :nitric-oxide_synthase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity
-<http://www.co-ode.org/ontologies/ont.owl#nitric-oxide_synthase_activity> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#nitric-oxide%20synthase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#nitric-oxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004517> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hepatotoxicity .
 
@@ -97,16 +97,16 @@
 	<http://purl.obolibrary.org/obo/MI_2141> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation
-<http://www.co-ode.org/ontologies/ont.owl#hepatocyte_proliferation> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0072574> ;
 	<http://purl.obolibrary.org/obo/RO_0002234> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002233> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :hepatocellular_carcinoma ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :hepatocellular_carcinoma .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#hepatocellular_carcinoma> rdf:type owl:NamedIndividual ,
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D006528> .
 
 
