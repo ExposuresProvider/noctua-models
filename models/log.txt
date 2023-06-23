@@ -1,7 +1,7 @@
 1 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 294
 3: complete
 4: complete
@@ -12,25 +12,25 @@
 11: complete
 12 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 201
 13 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 201
 14: complete
 15: complete
 16 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1703
 17 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1487
 18: complete
 19: complete
@@ -49,24 +49,24 @@
 35: complete
 36 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 459
 37 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1170
 38: complete
 39 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1496
 40 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 827
 41: complete
 42: complete
@@ -79,24 +79,24 @@
 54: complete
 57 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 455
 58 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 459
 59: complete
 60 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 459
 61 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 459
 62: complete
 63: complete
@@ -110,39 +110,39 @@
 71: complete
 72 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1449
 73: complete
 74: complete
 77: complete
 78 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 564
 79: complete
 80: complete
 81: complete
 82 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 564
 84: complete
 85: complete
 86 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 580
 87: complete
 88: complete
 89: complete
 90 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 564
 91: complete
 93: complete
@@ -151,8 +151,8 @@
 96: complete
 97 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1143
 98: complete
 99: complete
@@ -196,8 +196,8 @@
 150: complete
 151 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1891
 152: complete
 153: complete
@@ -232,29 +232,29 @@
 185: complete
 186 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1114
 187: complete
 188: complete
 189: complete
 190 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1829
 191 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1829
 192: complete
 193: complete
 194: complete
 195 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 621
 196: complete
 197: complete
@@ -262,573 +262,573 @@
 201: complete
 202 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1461
 203 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1257
 204 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1257
 205: complete
 206 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1270
 207: complete
 208: complete
 209 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1291
 210: complete
 212: complete
 213 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1490
 214 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1317
 215 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1349
 216 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 218 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1386
 219 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1386
 220 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1391
 230 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1349
 233 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1425
 235 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1431
 238 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 241 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1458
 242 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1462
 245 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1471
 256 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1481
 257 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1486
 258 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1483
 263: complete
 264 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1825
 265 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1312
 266 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1826
 267 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1826
 268 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1826
 271: complete
 272 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 273 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1542
 274 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1557
 275 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1560
 276 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1477
 277 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1700
 278 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1574
 280 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1584
 281: complete
 284: complete
 285 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1604
 286 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1542
 287: complete
 289 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1617
 290 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1785
 291 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1785
 292 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1627
 293 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1632
 294 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1632
 296 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1636
 297 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1637
 298: complete
 299 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 300 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1656
 302 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1672
 303 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1497
 305 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1617
 306 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 26
 307 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1690
 309 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1691
 310 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1697
 311 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 312 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1705
 315: complete
 318 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1834
 319 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1740
 320 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 322 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1635
 323 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 2032
 324 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1366
 325 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1364
 326 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1827
 327 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1767
 328 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1770
 329 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1445
 330 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1608
 331 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1765
 334: complete
 335 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1762
 336 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1619
 337 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1619
 338 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1619
 339: complete
 340 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1619
 341 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1619
 342: complete
 343 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1525
 344 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 26
 345 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 26
 346: complete
 347 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1792
 348 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1799
 349 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1796
 358 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1806
 359 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1807
 360: complete
 361 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1525
 363: complete
 364: complete
 365 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1640
 366 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1830
 367 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1830
 368: complete
 374 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 376: complete
 377 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1842
 379 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 382 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1851
 383 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1852
 384 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1853
 385 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 386 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1115
 387 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1686
 388 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1863
 389 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1865
 392 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1496
 394 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 395: complete
 396 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1550
 397: complete
 398 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1880
 399 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1885
 405: complete
 406 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 407: complete
 409 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1496
 410 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1647
 411 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1392
 412 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1913
 413 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 416, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 417, in write_ttl
 	KeyError: 1445
 414: complete
 415: complete
@@ -839,34 +839,34 @@
 420: complete
 422 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 424 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1392
 425 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1392
 426: complete
 428 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 429 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1816
 430 is missing elements
 	Traceback (most recent call last):
-	File "<input>", line 478, in <module>
-	File "<input>", line 400, in write_ttl
+	File "<input>", line 479, in <module>
+	File "<input>", line 401, in write_ttl
 	KeyError: 1739
 
 Results:175 complete, 0 have missing components
