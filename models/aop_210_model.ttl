@@ -84,7 +84,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :embryo_development .
+	<http://purl.obolibrary.org/obo/RO_0002410> :embryo%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#embryo%20development
 <http://www.co-ode.org/ontologies/ont.owl#embryo%20development> rdf:type owl:NamedIndividual ,

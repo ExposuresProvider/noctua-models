@@ -57,10 +57,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#histaminergic%20neuron
 <http://www.co-ode.org/ontologies/ont.owl#histaminergic%20neuron> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0011110> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :rhythmic_excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :rhythmic_excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :rhythmic_excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :rhythmic_excitation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :rhythmic%20excitation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :rhythmic%20excitation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :rhythmic%20excitation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :rhythmic%20excitation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation
 <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> rdf:type owl:NamedIndividual ,

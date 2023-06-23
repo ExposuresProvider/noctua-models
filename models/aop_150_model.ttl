@@ -65,124 +65,124 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003858> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :aryl_hydrocarbon_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :aryl%20hydrocarbon%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004874> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003858> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
 <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000004303> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
 <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
 <http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008555> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
 <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_protein_level .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20protein%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000004303> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein_dimerization_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein_dimerization_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
 <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_protein_level .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20protein%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A
 <http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000017284> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :endothelium_development .
+	<http://purl.obolibrary.org/obo/RO_0002410> :endothelium%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A
 <http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000017284> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_protein_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_protein_level .
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20protein%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20protein%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0008469> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :endothelium_development ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :endothelium_development .
+	<http://purl.obolibrary.org/obo/RO_0004024> :endothelium%20development ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :endothelium%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#endothelium%20development
 <http://www.co-ode.org/ontologies/ont.owl#endothelium%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0003158> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_cardiovascular_system_physiology ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cardiovascular_system_development .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20cardiovascular%20system%20physiology ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cardiovascular%20system%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20cardiovascular%20system%20physiology
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20cardiovascular%20system%20physiology> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001544> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :embryonic_lethality ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :embryonic_lethality ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :embryonic%20lethality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :embryonic%20lethality ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cardiovascular%20system
 <http://www.co-ode.org/ontologies/ont.owl#cardiovascular%20system> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0004535> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cardiovascular_system_development ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cardiovascular_system_development ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cardiovascular_system_development ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cardiovascular_system_development .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cardiovascular%20system%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cardiovascular%20system%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cardiovascular%20system%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cardiovascular%20system%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cardiovascular%20system%20development
 <http://www.co-ode.org/ontologies/ont.owl#cardiovascular%20system%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0072358> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :embryonic_lethality ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :embryonic%20lethality ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :mortality .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#embryonic%20lethality

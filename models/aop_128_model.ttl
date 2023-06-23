@@ -74,7 +74,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
@@ -83,27 +83,27 @@
 	<http://purl.obolibrary.org/obo/RO_0002233> :creatinine ;
 	<http://purl.obolibrary.org/obo/RO_0000057> :creatinine ;
 	<http://purl.obolibrary.org/obo/RO_0002332> :creatinine ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_amino_acid_level .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20amino%20acid%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20thyroxine%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20thyroxine%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization .
+	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte%20vacuolization ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte%20vacuolization .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal%20tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal%20tubule> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic%20cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#autophagic%20cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic%20cell%20death> rdf:type owl:NamedIndividual ,
@@ -125,22 +125,22 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#creatinine
 <http://www.co-ode.org/ontologies/ont.owl#creatinine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16737> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :podocyte_vacuolization .
+	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte%20vacuolization ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :podocyte%20vacuolization .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20amino%20acid%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20amino%20acid%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005332> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte_vacuolization ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte_vacuolization .
+	<http://purl.obolibrary.org/obo/RO_0003303> :podocyte%20vacuolization ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :podocyte%20vacuolization .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal%20tubule
 <http://www.co-ode.org/ontologies/ont.owl#renal%20tubule> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0009773> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic_cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic_cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :autophagic%20cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :autophagic%20cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#autophagic%20cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#autophagic%20cell%20death> rdf:type owl:NamedIndividual ,

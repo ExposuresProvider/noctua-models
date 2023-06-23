@@ -59,23 +59,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007204> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030284> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_behavior .
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive%20behavior .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20organ
 <http://www.co-ode.org/ontologies/ont.owl#reproductive%20organ> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0003133> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002331> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#developmental%20process
 <http://www.co-ode.org/ontologies/ont.owl#developmental%20process> rdf:type owl:NamedIndividual ,
@@ -88,10 +88,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D014819> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
@@ -104,7 +104,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Kidney%20Diseases
 <http://www.co-ode.org/ontologies/ont.owl#Kidney%20Diseases> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007674> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :larval_development .
+	<http://purl.obolibrary.org/obo/RO_0002410> :larval%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20behavior
 <http://www.co-ode.org/ontologies/ont.owl#reproductive%20behavior> rdf:type owl:NamedIndividual ,
@@ -113,7 +113,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D014819> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Kidney_Diseases .
+	<http://purl.obolibrary.org/obo/RO_0002410> :Kidney%20Diseases .
 
 
 

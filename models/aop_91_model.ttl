@@ -47,15 +47,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
 <http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002095> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%20channel%20inhibitor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0019871> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
 <http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
@@ -68,7 +68,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :action_potential .
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#action%20potential
 <http://www.co-ode.org/ontologies/ont.owl#action%20potential> rdf:type owl:NamedIndividual ,
@@ -81,7 +81,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior
 <http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002120> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :life_span_trait .
+	<http://purl.obolibrary.org/obo/RO_0019000> :life%20span%20trait .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#life%20span%20trait
 <http://www.co-ode.org/ontologies/ont.owl#life%20span%20trait> rdf:type owl:NamedIndividual ,

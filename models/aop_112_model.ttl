@@ -61,33 +61,33 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Prolactin
 <http://www.co-ode.org/ontologies/ont.owl#Prolactin> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_81580> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007204> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030284> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :progesterone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002410> :progesterone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#progesterone
 <http://www.co-ode.org/ontologies/ont.owl#progesterone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_17026> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :progesterone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002327> :progesterone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#progesterone%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#progesterone%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042701> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :endometrium_hyperplasia .
+	<http://purl.obolibrary.org/obo/RO_0019000> :endometrium%20hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
@@ -100,8 +100,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#glandular%20cell%20of%20endometrium
 <http://www.co-ode.org/ontologies/ont.owl#glandular%20cell%20of%20endometrium> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002656> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :endometrium_hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :endometrium_hyperplasia .
+	<http://purl.obolibrary.org/obo/RO_0002610> :endometrium%20hyperplasia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :endometrium%20hyperplasia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#endometrium%20hyperplasia
 <http://www.co-ode.org/ontologies/ont.owl#endometrium%20hyperplasia> rdf:type owl:NamedIndividual ,

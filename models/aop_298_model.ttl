@@ -53,67 +53,67 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :response_to_reactive_oxygen_species .
+	<http://purl.obolibrary.org/obo/RO_0002331> :response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :response%20to%20reactive%20oxygen%20species .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species
 <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0000302> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Wnt_protein_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002410> :Wnt%20protein%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine
 <http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000030936> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_protein_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt%20protein%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061355> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_beta-catenin-TCF_complex_assembly .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation%20of%20beta-catenin-TCF%20complex%20assembly .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine
 <http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000030936> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_protein_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_protein_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt%20protein%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt%20protein%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0061355> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_beta-catenin-TCF_complex_assembly .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation%20of%20beta-catenin-TCF%20complex%20assembly .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#beta-catenin-TCF%20complex
 <http://www.co-ode.org/ontologies/ont.owl#beta-catenin-TCF%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1990907> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_beta-catenin-TCF_complex_assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_beta-catenin-TCF_complex_assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_beta-catenin-TCF_complex_assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_beta-catenin-TCF_complex_assembly .
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20beta-catenin-TCF%20complex%20assembly ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20beta-catenin-TCF%20complex%20assembly ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20beta-catenin-TCF%20complex%20assembly ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20beta-catenin-TCF%20complex%20assembly .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1904863> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_to_mesenchymal_transition .
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial%20to%20mesenchymal%20transition .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cellular_component
 <http://www.co-ode.org/ontologies/ont.owl#cellular_component> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005575> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_to_mesenchymal_transition ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_to_mesenchymal_transition ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_to_mesenchymal_transition ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_to_mesenchymal_transition .
+	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial%20to%20mesenchymal%20transition ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial%20to%20mesenchymal%20transition ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial%20to%20mesenchymal%20transition ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial%20to%20mesenchymal%20transition .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition
 <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001837> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_cellular_response_to_drug .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation%20of%20cellular%20response%20to%20drug .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cellular%20response%20to%20drug
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cellular%20response%20to%20drug> rdf:type owl:NamedIndividual ,

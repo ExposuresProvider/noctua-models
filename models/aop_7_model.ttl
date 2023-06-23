@@ -44,10 +44,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle .
+	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation%20cycle .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ovulation%20cycle
 <http://www.co-ode.org/ontologies/ont.owl#ovulation%20cycle> rdf:type owl:NamedIndividual ,
@@ -56,15 +56,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation_cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation_cycle .
+	<http://purl.obolibrary.org/obo/RO_0002331> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ovulation%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ovulation%20cycle .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

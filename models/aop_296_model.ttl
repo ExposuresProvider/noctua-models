@@ -38,23 +38,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_response_to_reactive_oxygen_species ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_response_to_reactive_oxygen_species .
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20response%20to%20reactive%20oxygen%20species .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1901031> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002410> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA%20repair
 <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> rdf:type owl:NamedIndividual ,

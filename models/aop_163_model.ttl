@@ -67,15 +67,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#secretion
 <http://www.co-ode.org/ontologies/ont.owl#secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046903> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mesenchymal%20cell
 <http://www.co-ode.org/ontologies/ont.owl#mesenchymal%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0008019> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :mesenchymal_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :mesenchymal_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :mesenchymal_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mesenchymal_cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :mesenchymal%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :mesenchymal%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :mesenchymal%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :mesenchymal%20cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mesenchymal%20cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#mesenchymal%20cell%20proliferation> rdf:type owl:NamedIndividual ,
@@ -88,10 +88,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#IGF-like%20family%20receptor%201%20%28mouse%29
 <http://www.co-ode.org/ontologies/ont.owl#IGF-like%20family%20receptor%201%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_Q3U4N7> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,

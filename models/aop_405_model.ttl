@@ -50,7 +50,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003626> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase_activity .
+	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> rdf:type owl:NamedIndividual ,
@@ -73,20 +73,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#ataxia
 <http://www.co-ode.org/ontologies/ont.owl#ataxia> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001393> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
+	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic%20signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
 <http://www.co-ode.org/ontologies/ont.owl#hyperactivity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0001399> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
+	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic%20signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#paralysis
 <http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0000753> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
+	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic%20signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling
 <http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling> rdf:type owl:NamedIndividual ,

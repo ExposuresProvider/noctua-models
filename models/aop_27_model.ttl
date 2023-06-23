@@ -59,15 +59,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#bile
 <http://www.co-ode.org/ontologies/ont.owl#bile> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001970> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive%20oxygen%20species%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011396> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
@@ -97,20 +97,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#bile
 <http://www.co-ode.org/ontologies/ont.owl#bile> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001970> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive%20oxygen%20species%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Cytokine
 <http://www.co-ode.org/ontologies/ont.owl#Cytokine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_84050> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0050663> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory_response .
+	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,
@@ -119,12 +119,12 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive_oxygen_species_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :reactive%20oxygen%20species%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1903409> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress .
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative%20stress .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cholestasis
 <http://www.co-ode.org/ontologies/ont.owl#cholestasis> rdf:type owl:NamedIndividual ,

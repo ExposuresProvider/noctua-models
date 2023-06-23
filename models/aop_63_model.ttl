@@ -58,18 +58,18 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#ovulation
 <http://www.co-ode.org/ontologies/ont.owl#ovulation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030728> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive_process ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive%20process ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
 <http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#reproduction
 <http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin> rdf:type owl:NamedIndividual ,
@@ -82,7 +82,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
 <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
 <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,

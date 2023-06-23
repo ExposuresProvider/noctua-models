@@ -41,10 +41,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :apoptotic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :apoptotic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :apoptotic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :apoptotic_process .
+	<http://purl.obolibrary.org/obo/RO_0002331> :apoptotic%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :apoptotic%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :apoptotic%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :apoptotic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process
 <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> rdf:type owl:NamedIndividual ,

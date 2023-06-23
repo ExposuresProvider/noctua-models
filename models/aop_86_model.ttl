@@ -44,20 +44,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#D-glucono-1%2C5-lactone
 <http://www.co-ode.org/ontologies/ont.owl#D-glucono-1%2C5-lactone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16217> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :glucose_oxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :glucose_oxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :glucose_oxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :glucose_oxidase_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :glucose%20oxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :glucose%20oxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :glucose%20oxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :glucose%20oxidase%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046562> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hydrogen_peroxide_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hydrogen%20peroxide%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide
 <http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16240> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hydrogen_peroxide_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :hydrogen%20peroxide%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

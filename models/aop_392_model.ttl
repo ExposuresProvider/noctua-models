@@ -38,16 +38,16 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20fibrinolysis
 <http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20fibrinolysis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051918> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :increased%20vascular%20permeability ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0019000> :vascular%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20blood%20coagulation
 <http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20blood%20coagulation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030195> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased_vascular_permeability ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :increased%20vascular%20permeability ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :vascular_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0019000> :vascular%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#increased%20vascular%20permeability
 <http://www.co-ode.org/ontologies/ont.owl#increased%20vascular%20permeability> rdf:type owl:NamedIndividual ,

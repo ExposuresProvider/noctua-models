@@ -76,15 +76,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#endocytosis
 <http://www.co-ode.org/ontologies/ont.owl#endocytosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006897> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :organelle_disassembly .
+	<http://purl.obolibrary.org/obo/RO_0002410> :organelle%20disassembly .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#lysosome
 <http://www.co-ode.org/ontologies/ont.owl#lysosome> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005764> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :organelle_disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :organelle_disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :organelle_disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :organelle_disassembly .
+	<http://purl.obolibrary.org/obo/RO_0002331> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :organelle%20disassembly ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :organelle%20disassembly .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly
 <http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly> rdf:type owl:NamedIndividual ,
@@ -97,62 +97,62 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :acute_inflammatory_response .
+	<http://purl.obolibrary.org/obo/RO_0002410> :acute%20inflammatory%20response .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
 <http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002526> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_activation_involved_in_immune_response .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20activation%20involved%20in%20immune%20response .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#leukocyte
 <http://www.co-ode.org/ontologies/ont.owl#leukocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000738> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_activation_involved_in_immune_response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_activation_involved_in_immune_response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_activation_involved_in_immune_response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_activation_involved_in_immune_response .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20activation%20involved%20in%20immune%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20activation%20involved%20in%20immune%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20activation%20involved%20in%20immune%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20activation%20involved%20in%20immune%20response .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
 <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0002263> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatic_stellate_cell_activation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatic%20stellate%20cell%20activation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell
 <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000632> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :hepatic_stellate_cell_activation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :hepatic_stellate_cell_activation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hepatic_stellate_cell_activation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hepatic_stellate_cell_activation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :hepatic%20stellate%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :hepatic%20stellate%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :hepatic%20stellate%20cell%20activation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :hepatic%20stellate%20cell%20activation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation
 <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0035733> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :collagen_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :collagen%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#collagen
 <http://www.co-ode.org/ontologies/ont.owl#collagen> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_3815> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :collagen_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :collagen%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0032964> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver_fibrosis .
+	<http://purl.obolibrary.org/obo/RO_0002410> :liver%20fibrosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liver
 <http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0002107> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :liver_fibrosis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :liver_fibrosis .
+	<http://purl.obolibrary.org/obo/RO_0002610> :liver%20fibrosis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :liver%20fibrosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis
 <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> rdf:type owl:NamedIndividual ,

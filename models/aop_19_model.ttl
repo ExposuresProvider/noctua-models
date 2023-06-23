@@ -47,62 +47,62 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000004191> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :androgen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :androgen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :androgen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :androgen_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :androgen%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004882> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation%20of%20gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1990909> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway .
+	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt%20signaling%20pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signaling%20pathway
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0016055> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000004191> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010468> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1990909> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt_signaling_pathway .
+	<http://purl.obolibrary.org/obo/RO_0002331> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :Wnt%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :Wnt%20signaling%20pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signaling%20pathway
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20signaling%20pathway> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0016055> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ
 <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002331> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#developmental%20process
 <http://www.co-ode.org/ontologies/ont.owl#developmental%20process> rdf:type owl:NamedIndividual ,
@@ -115,10 +115,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ
 <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :developmental_process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :developmental_process .
+	<http://purl.obolibrary.org/obo/RO_0002331> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :developmental%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :developmental%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#developmental%20process
 <http://www.co-ode.org/ontologies/ont.owl#developmental%20process> rdf:type owl:NamedIndividual ,

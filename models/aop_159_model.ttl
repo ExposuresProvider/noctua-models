@@ -65,62 +65,62 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000016584> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :iodide_peroxidase_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :iodide%20peroxidase%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004447> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20circulating%20thyroxine%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20thyroxine%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20thyroxine%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :abnormal_circulating_hormone_level ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_hormone_level .
+	<http://purl.obolibrary.org/obo/RO_0003303> :abnormal%20circulating%20hormone%20level ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20hormone%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5%27-triiodothyronine
 <http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5%27-triiodothyronine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_28774> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_hormone_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_hormone_level .
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20hormone%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20hormone%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20hormone%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20hormone%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005418> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :swim_bladder_inflation ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :swim_bladder_inflation .
+	<http://purl.obolibrary.org/obo/RO_0004024> :swim%20bladder%20inflation ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :swim%20bladder%20inflation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#anterior%20chamber%20swim%20bladder
 <http://www.co-ode.org/ontologies/ont.owl#anterior%20chamber%20swim%20bladder> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_2001277> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :swim_bladder_inflation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :swim_bladder_inflation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :swim_bladder_inflation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :swim_bladder_inflation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :swim%20bladder%20inflation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :swim%20bladder%20inflation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :swim%20bladder%20inflation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :swim%20bladder%20inflation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#swim%20bladder%20inflation
 <http://www.co-ode.org/ontologies/ont.owl#swim%20bladder%20inflation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0048798> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :aquatic_locomotion .
+	<http://purl.obolibrary.org/obo/RO_0019000> :aquatic%20locomotion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aquatic%20locomotion
 <http://www.co-ode.org/ontologies/ont.owl#aquatic%20locomotion> rdf:type owl:NamedIndividual ,
@@ -130,12 +130,12 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mortality
 <http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D009026> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
 <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
 <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,

@@ -59,20 +59,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20intracellular%20pH
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20intracellular%20pH> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0051453> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :leukocyte_mediated_cytotoxicity .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :leukocyte%20mediated%20cytotoxicity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic%20cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity
 <http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0001909> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :atrophy ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic_cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002410> :necrotic%20cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#olfactory%20epithelium
 <http://www.co-ode.org/ontologies/ont.owl#olfactory%20epithelium> rdf:type owl:NamedIndividual ,
@@ -95,10 +95,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Metaplasia
 <http://www.co-ode.org/ontologies/ont.owl#Metaplasia> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D008679> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,

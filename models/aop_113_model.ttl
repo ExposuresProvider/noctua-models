@@ -53,25 +53,25 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#glutamate-gated%20chloride%20channel%20%28fruit%20fly%29
 <http://www.co-ode.org/ontologies/ont.owl#glutamate-gated%20chloride%20channel%20%28fruit%20fly%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_Q94900> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :chloride_channel_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_channel_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :chloride_channel_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :chloride_channel_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :chloride%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chloride%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :chloride%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :chloride%20channel%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity
 <http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005254> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :chloride_transmembrane_transport .
+	<http://purl.obolibrary.org/obo/RO_0002410> :chloride%20transmembrane%20transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride
 <http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :chloride_transmembrane_transport .
+	<http://purl.obolibrary.org/obo/RO_0002327> :chloride%20transmembrane%20transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport
 <http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_1902476> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :membrane_hyperpolarization .
+	<http://purl.obolibrary.org/obo/RO_0002410> :membrane%20hyperpolarization .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20quality
 <http://www.co-ode.org/ontologies/ont.owl#population%20quality> rdf:type owl:NamedIndividual ,

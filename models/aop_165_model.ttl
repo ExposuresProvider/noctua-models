@@ -74,31 +74,31 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
 <http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :hormone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone
 <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007987> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hormone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :hormone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hormone%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#hormone%20secretion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0046879> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :luteinizing_hormone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002410> :luteinizing%20hormone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Follicle%20stimulating%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#Follicle%20stimulating%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_81569> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :follicle-stimulating_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :follicle-stimulating_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :follicle-stimulating_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :follicle-stimulating_hormone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :follicle-stimulating%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :follicle-stimulating%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :follicle-stimulating%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :follicle-stimulating%20hormone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#follicle-stimulating%20hormone%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#follicle-stimulating%20hormone%20secretion> rdf:type owl:NamedIndividual ,
@@ -107,10 +107,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :luteinizing_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :luteinizing_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :luteinizing_hormone_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :luteinizing_hormone_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :luteinizing%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :luteinizing%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :luteinizing%20hormone%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :luteinizing%20hormone%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#luteinizing%20hormone%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#luteinizing%20hormone%20secretion> rdf:type owl:NamedIndividual ,

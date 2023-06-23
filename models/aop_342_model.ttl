@@ -38,17 +38,17 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#chitin%20synthase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#chitin%20synthase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004100> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cuticle_development .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cuticle%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cuticle
 <http://www.co-ode.org/ontologies/ont.owl#cuticle> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001002> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cuticle_development .
+	<http://purl.obolibrary.org/obo/RO_0002327> :cuticle%20development .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cuticle%20development
 <http://www.co-ode.org/ontologies/ont.owl#cuticle%20development> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042335> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis,_chitin-based_cuticle .
+	<http://purl.obolibrary.org/obo/RO_0002410> :ecdysis%2C%20chitin-based%20cuticle .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ecdysis%2C%20chitin-based%20cuticle
 <http://www.co-ode.org/ontologies/ont.owl#ecdysis%2C%20chitin-based%20cuticle> rdf:type owl:NamedIndividual ,

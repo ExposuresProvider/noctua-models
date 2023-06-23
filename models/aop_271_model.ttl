@@ -59,20 +59,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000016584> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :iodide_peroxidase_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :iodide_peroxidase_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :iodide%20peroxidase%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004447> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
@@ -91,8 +91,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
 <http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D014819> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :egg_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :egg_quantity .
+	<http://purl.obolibrary.org/obo/RO_0002610> :egg%20quantity ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :egg%20quantity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#egg%20quantity
 <http://www.co-ode.org/ontologies/ont.owl#egg%20quantity> rdf:type owl:NamedIndividual ,

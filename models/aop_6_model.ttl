@@ -62,10 +62,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000013056> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :receptor_transactivation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :receptor_transactivation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :receptor_transactivation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :receptor_transactivation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :receptor%20transactivation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation
 <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> rdf:type owl:NamedIndividual ,
@@ -80,14 +80,14 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007662> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body .
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal%20lipid%20homeostasis ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketone%20body .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ketosis
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007662> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal_lipid_homeostasis ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :ketone_body .
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal%20lipid%20homeostasis ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketone%20body .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis> rdf:type owl:NamedIndividual ,

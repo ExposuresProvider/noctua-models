@@ -68,8 +68,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#heme%20oxidation
 <http://www.co-ode.org/ontologies/ont.owl#heme%20oxidation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006788> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hemoglobin_biosynthetic_process ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hemoglobin_binding .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hemoglobin%20biosynthetic%20process ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hemoglobin%20binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
@@ -85,7 +85,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#xenobiotic
 <http://www.co-ode.org/ontologies/ont.owl#xenobiotic> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_35703> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hemoglobin_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :hemoglobin%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hemoglobin%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#hemoglobin%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
@@ -143,10 +143,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#glucose-6-phosphate%201-dehydrogenase
 <http://www.co-ode.org/ontologies/ont.owl#glucose-6-phosphate%201-dehydrogenase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007749> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,

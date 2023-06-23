@@ -126,12 +126,12 @@
 <http://www.co-ode.org/ontologies/ont.owl#hemostasis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007599> ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :hemorrhage ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :wound_healing .
+	<http://purl.obolibrary.org/obo/RO_0002410> :wound%20healing .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prothrombin
 <http://www.co-ode.org/ontologies/ont.owl#prothrombin> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007299> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
+	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
 <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
@@ -140,7 +140,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29
 <http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P70375> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
+	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
 <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
@@ -149,7 +149,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29
 <http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P16294> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
+	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
 <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
@@ -158,7 +158,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29
 <http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_O88947> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation_reaction .
+	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
 <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
@@ -169,8 +169,8 @@
 	<http://purl.obolibrary.org/obo/MP_0001914> ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :transport ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :cellular_detoxification ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :cellular_detoxification ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :cellular%20detoxification ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :cellular%20detoxification ;
 	<http://purl.obolibrary.org/obo/RO_0003303> :anemia ;
 	<http://purl.obolibrary.org/obo/RO_0002610> :anemia .
 
@@ -178,7 +178,7 @@
 <http://www.co-ode.org/ontologies/ont.owl#wound%20healing> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0042060> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular_detoxification ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20detoxification ;
 	<http://purl.obolibrary.org/obo/RO_0019000> :anemia .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#nutrient

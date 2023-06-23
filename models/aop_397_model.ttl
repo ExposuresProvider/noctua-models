@@ -32,18 +32,18 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA%20repair
 <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> rdf:type owl:NamedIndividual ,

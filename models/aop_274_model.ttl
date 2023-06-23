@@ -29,10 +29,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201
 <http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000008478> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :enzyme_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :enzyme_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :enzyme_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :enzyme_inhibitor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :enzyme%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :enzyme%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :enzyme%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :enzyme%20inhibitor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity> rdf:type owl:NamedIndividual ,

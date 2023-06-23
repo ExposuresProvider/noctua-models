@@ -38,12 +38,12 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :ATP%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP
 <http://www.co-ode.org/ontologies/ont.owl#ATP> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_15422> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :ATP_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :ATP%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

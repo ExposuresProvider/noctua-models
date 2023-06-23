@@ -53,10 +53,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_61796> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity> rdf:type owl:NamedIndividual ,
@@ -69,31 +69,31 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Mitochondrial%20deoxyribonucleic%20acid
 <http://www.co-ode.org/ontologies/ont.owl#Mitochondrial%20deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_67199> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA_repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA_repair .
+	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#DNA%20repair
 <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006281> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response_to_wounding .
+	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20wounding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Mitochondrial%20deoxyribonucleic%20acid
 <http://www.co-ode.org/ontologies/ont.owl#Mitochondrial%20deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/FMA_67199> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :response_to_wounding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :response_to_wounding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :response_to_wounding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :response_to_wounding .
+	<http://purl.obolibrary.org/obo/RO_0002331> :response%20to%20wounding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :response%20to%20wounding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :response%20to%20wounding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :response%20to%20wounding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#response%20to%20wounding
 <http://www.co-ode.org/ontologies/ont.owl#response%20to%20wounding> rdf:type owl:NamedIndividual ,
@@ -103,20 +103,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#aging
 <http://www.co-ode.org/ontologies/ont.owl#aging> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0007568> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :population_of_organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :population_of_organisms ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :population_of_organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :population_of_organisms .
+	<http://purl.obolibrary.org/obo/RO_0002234> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :population%20of%20organisms .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
 <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thermoregulation_behavior .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thermoregulation%20behavior .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior
 <http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/NBO_0000051> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse .
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony%20collapse .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,

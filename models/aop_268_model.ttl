@@ -47,10 +47,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :proton_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :proton_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :proton_binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :proton_binding .
+	<http://purl.obolibrary.org/obo/RO_0002331> :proton%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :proton%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :proton%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :proton%20binding .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#proton%20binding
 <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> rdf:type owl:NamedIndividual ,

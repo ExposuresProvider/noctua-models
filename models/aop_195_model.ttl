@@ -56,10 +56,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter
 <http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015189> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin_secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin_secretion .
+	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin%20secretion .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
 <http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,

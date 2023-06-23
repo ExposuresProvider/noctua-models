@@ -29,7 +29,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#collagen
 <http://www.co-ode.org/ontologies/ont.owl#collagen> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_3815> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :collagen_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :collagen%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

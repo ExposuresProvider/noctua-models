@@ -58,16 +58,16 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :uric_acid .
+	<http://purl.obolibrary.org/obo/RO_0002234> :uric%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :uric%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :uric%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :uric%20acid .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric%20acid
 <http://www.co-ode.org/ontologies/ont.owl#uric%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid .
+	<http://purl.obolibrary.org/obo/RO_0002566> :uric%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :uric%20acid .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric%20acid
 <http://www.co-ode.org/ontologies/ont.owl#uric%20acid> rdf:type owl:NamedIndividual ,
@@ -76,8 +76,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#potassium%20atom
 <http://www.co-ode.org/ontologies/ont.owl#potassium%20atom> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26216> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias,_Cardiac ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias,_Cardiac .
+	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias%2C%20Cardiac ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias%2C%20Cardiac .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac
 <http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac> rdf:type owl:NamedIndividual ,
@@ -91,8 +91,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#uric%20acid
 <http://www.co-ode.org/ontologies/ont.owl#uric%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :uric_acid ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :uric_acid .
+	<http://purl.obolibrary.org/obo/RO_0002566> :uric%20acid ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :uric%20acid .
 
 
 

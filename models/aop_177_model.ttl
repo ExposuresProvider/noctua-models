@@ -69,13 +69,13 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#ischemia
 <http://www.co-ode.org/ontologies/ont.owl#ischemia> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D007511> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :oxidative_stress .
+	<http://purl.obolibrary.org/obo/RO_0002410> :oxidative%20stress .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#potassium%20atom
 <http://www.co-ode.org/ontologies/ont.owl#potassium%20atom> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_26216> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias,_Cardiac ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias,_Cardiac .
+	<http://purl.obolibrary.org/obo/RO_0002566> :Arrhythmias%2C%20Cardiac ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :Arrhythmias%2C%20Cardiac .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha
 <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> rdf:type owl:NamedIndividual ,
@@ -94,34 +94,34 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :renal_tubular_necrosis .
+	<http://purl.obolibrary.org/obo/RO_0002410> :renal%20tubular%20necrosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal%20tubular%20necrosis
 <http://www.co-ode.org/ontologies/ont.owl#renal%20tubular%20necrosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004154> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :uric_acid .
+	<http://purl.obolibrary.org/obo/RO_0000052> :uric%20acid .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric%20acid
 <http://www.co-ode.org/ontologies/ont.owl#uric%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :oxidative_stress ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :oxidative_stress .
+	<http://purl.obolibrary.org/obo/RO_0002610> :oxidative%20stress ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :oxidative%20stress .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uric%20acid
 <http://www.co-ode.org/ontologies/ont.owl#uric%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27226> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :renal_tubular_necrosis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :renal_tubular_necrosis .
+	<http://purl.obolibrary.org/obo/RO_0002610> :renal%20tubular%20necrosis ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :renal%20tubular%20necrosis .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#renal%20tubular%20necrosis
 <http://www.co-ode.org/ontologies/ont.owl#renal%20tubular%20necrosis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0004154> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :uric_acid .
+	<http://purl.obolibrary.org/obo/RO_0000052> :uric%20acid .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
 <http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003674> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :renal_tubular_necrosis .
+	<http://purl.obolibrary.org/obo/RO_0002410> :renal%20tubular%20necrosis .
 
 
 

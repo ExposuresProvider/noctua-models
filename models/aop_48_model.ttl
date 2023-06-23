@@ -68,23 +68,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex
 <http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0017146> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NMDA_glutamate_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :NMDA%20glutamate%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004972> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport .
+	<http://purl.obolibrary.org/obo/RO_0002410> :calcium%20ion%20transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion
 <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :calcium_ion_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :calcium_ion_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :calcium_ion_transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium_ion_transport .
+	<http://purl.obolibrary.org/obo/RO_0002331> :calcium%20ion%20transport ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :calcium%20ion%20transport ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :calcium%20ion%20transport ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :calcium%20ion%20transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport
 <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> rdf:type owl:NamedIndividual ,
@@ -97,20 +97,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
 <http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002229> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
+	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic%20signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
 <http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0002229> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic_signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic_signaling .
+	<http://purl.obolibrary.org/obo/RO_0004024> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :synaptic%20signaling .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#microglial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#microglial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000129> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
 <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,
@@ -121,8 +121,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
 <http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000127> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
 <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,
@@ -133,35 +133,35 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex
 <http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0017146> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NMDA_glutamate_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NMDA_glutamate_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :NMDA%20glutamate%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :NMDA%20glutamate%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004972> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium_ion_transport .
+	<http://purl.obolibrary.org/obo/RO_0002410> :calcium%20ion%20transport .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :brain_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0019000> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :brain%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#microglial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#microglial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000129> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
 <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,
@@ -172,8 +172,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#astrocyte
 <http://www.co-ode.org/ontologies/ont.owl#astrocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000127> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :brain_inflammation ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :brain_inflammation .
+	<http://purl.obolibrary.org/obo/RO_0002610> :brain%20inflammation ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :brain%20inflammation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation
 <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> rdf:type owl:NamedIndividual ,

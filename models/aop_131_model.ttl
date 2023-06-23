@@ -53,24 +53,24 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003858> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :aryl_hydrocarbon_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :aryl_hydrocarbon_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :aryl%20hydrocarbon%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :aryl%20hydrocarbon%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0004874> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cytochrome%20P450%201A2
 <http://www.co-ode.org/ontologies/ont.owl#cytochrome%20P450%201A2> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000006102> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
@@ -83,10 +83,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#cytochrome%20P450%201A5%20%28chicken%29
 <http://www.co-ode.org/ontologies/ont.owl#cytochrome%20P450%201A5%20%28chicken%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P79761> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
@@ -99,18 +99,18 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen
 <http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27258> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen%20decarboxylase
 <http://www.co-ode.org/ontologies/ont.owl#uroporphyrinogen%20decarboxylase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000017134> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity
 <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> rdf:type owl:NamedIndividual ,

@@ -44,23 +44,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002328> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial%20cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002328> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial_cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial_cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial%20cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> rdf:type owl:NamedIndividual ,
@@ -89,15 +89,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#bronchial%20epithelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0002328> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial_cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial%20cell%20proliferation .
 
 
 

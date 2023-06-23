@@ -59,45 +59,45 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter
 <http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000015171> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :sodium:iodide_symporter_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :sodium:iodide_symporter_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :sodium:iodide_symporter_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :sodium:iodide_symporter_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%3Aiodide%20symporter%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%3Aiodide%20symporter%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%3Aiodide%20symporter%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%3Aiodide%20symporter%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity
 <http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008507> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid_hormone_generation .
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
 <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal_circulating_thyroxine_level .
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20circulating%20thyroxine%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal_circulating_thyroxine_level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal_circulating_thyroxine_level .
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20thyroxine%20level ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20thyroxine%20level .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0005475> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :regulation_of_hormone_levels ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :regulation_of_hormone_levels .
+	<http://purl.obolibrary.org/obo/RO_0004024> :regulation%20of%20hormone%20levels ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :regulation%20of%20hormone%20levels .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
 <http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation_of_hormone_levels ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation_of_hormone_levels ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation_of_hormone_levels ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation_of_hormone_levels .
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20hormone%20levels ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20hormone%20levels ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20hormone%20levels ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20hormone%20levels .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20hormone%20levels
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20hormone%20levels> rdf:type owl:NamedIndividual ,
@@ -106,8 +106,8 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20nervous%20system%20physiology
 <http://www.co-ode.org/ontologies/ont.owl#abnormal%20nervous%20system%20physiology> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0003633> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :learning_or_memory ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :learning_or_memory ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :learning%20or%20memory ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :learning%20or%20memory ;
 	<http://purl.obolibrary.org/obo/RO_0004024> :cognition ;
 	<http://purl.obolibrary.org/obo/RO_0004021> :cognition .
 

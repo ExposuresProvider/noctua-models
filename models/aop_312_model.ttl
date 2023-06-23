@@ -50,7 +50,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000003626> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase_activity .
+	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity
 <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> rdf:type owl:NamedIndividual ,

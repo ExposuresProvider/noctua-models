@@ -26,7 +26,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D056631> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony_collapse .
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony%20collapse .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
 <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,

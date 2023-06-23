@@ -38,10 +38,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000011406> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,

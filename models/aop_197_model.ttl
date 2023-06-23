@@ -41,10 +41,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
 <http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000002095> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :sodium_channel_inhibitor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :sodium_channel_inhibitor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%20channel%20inhibitor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,

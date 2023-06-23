@@ -50,15 +50,15 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#pleura
 <http://www.co-ode.org/ontologies/ont.owl#pleura> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0000977> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative_stress .
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative%20stress .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
 <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
@@ -71,10 +71,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#mesothelium
 <http://www.co-ode.org/ontologies/ont.owl#mesothelium> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0001136> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,

@@ -69,7 +69,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone
 <http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

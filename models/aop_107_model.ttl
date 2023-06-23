@@ -67,21 +67,21 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :regulation_of_gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002410> :regulation%20of%20gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010468> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocyte%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#mitogenic%20signaling%20cell
 <http://www.co-ode.org/ontologies/ont.owl#mitogenic%20signaling%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000422> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
@@ -91,7 +91,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000182> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :hepatocyte_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002327> :hepatocyte%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> rdf:type owl:NamedIndividual ,
@@ -109,8 +109,8 @@
 	<http://purl.obolibrary.org/obo/MP_0002009> ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma ;
 	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular_carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular_carcinoma .
+	<http://purl.obolibrary.org/obo/RO_0003303> :hepatocellular%20carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :hepatocellular%20carcinoma .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
@@ -123,7 +123,7 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
 <http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
 	<http://id.nlm.nih.gov/mesh/D000236> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular_carcinoma .
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular%20carcinoma .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
 <http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,

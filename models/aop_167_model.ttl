@@ -59,23 +59,23 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000007204> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen_receptor_activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen_receptor_activity .
+	<http://purl.obolibrary.org/obo/RO_0002331> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :estrogen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :estrogen%20receptor%20activity .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20activity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0030284> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :intracellular_estrogen_receptor_signaling_pathway .
+	<http://purl.obolibrary.org/obo/RO_0002410> :intracellular%20estrogen%20receptor%20signaling%20pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20alpha%20complex
 <http://www.co-ode.org/ontologies/ont.owl#estrogen%20receptor%20alpha%20complex> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000027727> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :intracellular_estrogen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :intracellular_estrogen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :intracellular_estrogen_receptor_signaling_pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :intracellular_estrogen_receptor_signaling_pathway .
+	<http://purl.obolibrary.org/obo/RO_0002331> :intracellular%20estrogen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :intracellular%20estrogen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :intracellular%20estrogen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :intracellular%20estrogen%20receptor%20signaling%20pathway .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#intracellular%20estrogen%20receptor%20signaling%20pathway
 <http://www.co-ode.org/ontologies/ont.owl#intracellular%20estrogen%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
@@ -84,10 +84,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#basal%20cell
 <http://www.co-ode.org/ontologies/ont.owl#basal%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000646> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,

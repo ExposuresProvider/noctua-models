@@ -53,29 +53,29 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#cystolithiasis
 <http://www.co-ode.org/ontologies/ont.owl#cystolithiasis> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/MP_0011625> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0004024> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000731> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_death .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
 <http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell
 <http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CL_0000731> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell_proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell_proliferation .
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,

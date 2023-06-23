@@ -62,20 +62,20 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product
 <http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000021564> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :unsaturated_fatty_acid_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002410> :unsaturated%20fatty%20acid%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid
 <http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_27208> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :unsaturated_fatty_acid_biosynthetic_process .
+	<http://purl.obolibrary.org/obo/RO_0002353> :unsaturated%20fatty%20acid%20biosynthetic%20process .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process
 <http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,

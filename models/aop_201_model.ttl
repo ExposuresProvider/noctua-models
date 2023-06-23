@@ -58,42 +58,42 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#signaling
 <http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#protein%20doublesex%20%28fruit%20fly%29
 <http://www.co-ode.org/ontologies/ont.owl#protein%20doublesex%20%28fruit%20fly%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_P23023> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene_expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene_expression .
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
 <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :male_reproductive_organ ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :male_reproductive_organ ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :male_reproductive_organ ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :male_reproductive_organ .
+	<http://purl.obolibrary.org/obo/RO_0002234> :male%20reproductive%20organ ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :male%20reproductive%20organ ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :male%20reproductive%20organ ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :male%20reproductive%20organ .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ
 <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :offspring_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :offspring_quantity ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :male_organism ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :male_organism .
+	<http://purl.obolibrary.org/obo/RO_0002610> :offspring%20quantity ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :offspring%20quantity ;
+	<http://purl.obolibrary.org/obo/RO_0002566> :male%20organism ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :male%20organism .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity
 <http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/VT_1000189> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :population_growth_rate ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0003303> :population%20growth%20rate ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#male%20organism
 <http://www.co-ode.org/ontologies/ont.owl#male%20organism> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/UBERON_0003101> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population_growth_rate .
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
 <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
