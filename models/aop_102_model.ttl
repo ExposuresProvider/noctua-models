@@ -162,10 +162,10 @@
 ###  http://www.co-ode.org/ontologies/ont.owl#3%27%2C5%27-cyclic%20AMP%281-%29
 <http://www.co-ode.org/ontologies/ont.owl#3%27%2C5%27-cyclic%20AMP%281-%29> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/CHEBI_58165> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :G2/MI%20transition%20of%20meiotic%20cell%20cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :G2/MI%20transition%20of%20meiotic%20cell%20cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :G2/MI%20transition%20of%20meiotic%20cell%20cycle ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :G2/MI%20transition%20of%20meiotic%20cell%20cycle .
+	<http://purl.obolibrary.org/obo/RO_0002331> :G2MI%20transition%20of%20meiotic%20cell%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :G2MI%20transition%20of%20meiotic%20cell%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :GMI%20transition%20of%20meiotic%20cell%20cycle ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :G2MI%20transition%20of%20meiotic%20cell%20cycle .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#G2/MI%20transition%20of%20meiotic%20cell%20cycle
 <http://www.co-ode.org/ontologies/ont.owl#G2/MI%20transition%20of%20meiotic%20cell%20cycle> rdf:type owl:NamedIndividual ,
