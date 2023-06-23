@@ -64,7 +64,7 @@
 	<http://purl.obolibrary.org/obo/GO_0004738> ;
 	<http://purl.obolibrary.org/obo/RO_0002410> :pyruvate_dehydrogenase_activity .
 
-###  http://www.co-ode.org/ontologies/ont.owl#pyruvate_dehydrogenase_[ubiquinone]
+###  http://www.co-ode.org/ontologies/ont.owl#pyruvate_dehydrogenase_%5Bubiquinone%5D
 <http://www.co-ode.org/ontologies/ont.owl#pyruvate_dehydrogenase_%5Bubiquinone%5D> rdf:type owl:NamedIndividual ,
 	<http://purl.obolibrary.org/obo/PR_000023575> ;
 	<http://purl.obolibrary.org/obo/RO_0002331> :pyruvate_dehydrogenase_activity ;
