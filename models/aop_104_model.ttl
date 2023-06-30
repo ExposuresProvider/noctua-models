@@ -1,0 +1,92 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_104> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_Q12809
+	<http://purl.obolibrary.org/obo/PR_Q12809> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0005216
+	<http://purl.obolibrary.org/obo/GO_0005216> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000001978
+	<http://purl.obolibrary.org/obo/PR_000001978> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0001508
+	<http://purl.obolibrary.org/obo/GO_0001508> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D001145
+	<http://id.nlm.nih.gov/mesh/D001145> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#potassium%20voltage-gated%20channel%20subfamily%20H%20member%202%20%28human%29
+<http://www.co-ode.org/ontologies/ont.owl#potassium%20voltage-gated%20channel%20subfamily%20H%20member%202%20%28human%29> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_Q12809> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ion%20channel%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005216> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive%20inward%20rectifier%20potassium%20channel%201
+<http://www.co-ode.org/ontologies/ont.owl#ATP-sensitive%20inward%20rectifier%20potassium%20channel%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000001978> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :ion%20channel%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :ion%20channel%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity
+<http://www.co-ode.org/ontologies/ont.owl#ion%20channel%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005216> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
+
+###  http://www.co-ode.org/ontologies/ont.owl#action%20potential
+<http://www.co-ode.org/ontologies/ont.owl#action%20potential> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001508> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :Arrhythmias%2C%20Cardiac .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac
+<http://www.co-ode.org/ontologies/ont.owl#Arrhythmias%2C%20Cardiac> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D001145> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

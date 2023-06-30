@@ -1,0 +1,67 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_276> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000031316
+	<http://purl.obolibrary.org/obo/PR_000031316> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006120
+	<http://purl.obolibrary.org/obo/GO_0006120> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008137
+	<http://purl.obolibrary.org/obo/GO_0008137> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000031316> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20electron%20transport%2C%20NADH%20to%20ubiquinone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006120> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201
+<http://www.co-ode.org/ontologies/ont.owl#NADH-ubiquinone%20oxidoreductase%20chain%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000031316> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :NADH%20dehydrogenase%20%28ubiquinone%29%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity
+<http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008137> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

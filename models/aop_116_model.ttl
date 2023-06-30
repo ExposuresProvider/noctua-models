@@ -1,0 +1,119 @@
+@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+        @base <http://www.w3.org/2002/07/owl#> .
+
+        <https://noctua.apps.renci.org/model/AOP_116> a owl:Ontology .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/CL_1000494
+	<http://purl.obolibrary.org/obo/CL_1000494> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008219
+	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CL_1000507
+	<http://purl.obolibrary.org/obo/CL_1000507> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0050673
+	<http://purl.obolibrary.org/obo/GO_0050673> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0004968
+	<http://purl.obolibrary.org/obo/MP_0004968> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D002292
+	<http://id.nlm.nih.gov/mesh/D002292> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_1000494> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial%20cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_1000507> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial%20cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial%20cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050673> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :kidney%20epithelium%20hyperplasia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_1000494> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :kidney%20epithelium%20hyperplasia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :kidney%20epithelium%20hyperplasia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0004968> ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :Carcinoma%2C%20Renal%20Cell ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Carcinoma%2C%20Renal%20Cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D002277> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma%2C%20Renal%20Cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D002292> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
