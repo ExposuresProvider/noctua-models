@@ -8,7 +8,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_291> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_10> <http://purl.org/dc/elements/1.1/title> "Thyroid hormone synthesis, Decreased"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_291> <http://purl.org/dc/elements/1.1/title> "Thyroid hormone synthesis, Decreased"^^xsd:string .
 <https://noctua.apps.renci.org/model/291> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

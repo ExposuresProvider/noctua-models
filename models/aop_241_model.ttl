@@ -8,7 +8,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_241> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_10> <http://purl.org/dc/elements/1.1/title> "Thyroxine (T4) in neuronal tissue, Decreased "^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_241> <http://purl.org/dc/elements/1.1/title> "Thyroxine (T4) in neuronal tissue, Decreased "^^xsd:string .
 <https://noctua.apps.renci.org/model/241> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
