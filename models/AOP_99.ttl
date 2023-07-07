@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_99> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_99> <http://purl.org/dc/elements/1.1/title> "Reduction, Cholesterol transport in mitochondria"^^xsd:string .
-<https://noctua.apps.renci.org/model/99> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_99> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

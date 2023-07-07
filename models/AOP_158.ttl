@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_158> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_158> <http://purl.org/dc/elements/1.1/title> "Increase, Renal pathology due to VTG deposition"^^xsd:string .
-<https://noctua.apps.renci.org/model/158> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_158> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

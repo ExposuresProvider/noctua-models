@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_202> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_202> <http://purl.org/dc/elements/1.1/title> "Decreased, PPAR-alpha activation"^^xsd:string .
-<https://noctua.apps.renci.org/model/202> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_202> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

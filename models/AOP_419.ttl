@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_419> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_419> <http://purl.org/dc/elements/1.1/title> "Decreased, Cortical granule release/distribution upon fertilization"^^xsd:string .
-<https://noctua.apps.renci.org/model/419> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_419> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

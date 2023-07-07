@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_106> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_106> <http://purl.org/dc/elements/1.1/title> "Feminisation or incomplete development, Primary and accessory male sex organs"^^xsd:string .
-<https://noctua.apps.renci.org/model/106> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_106> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

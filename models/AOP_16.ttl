@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_16> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_16> <http://purl.org/dc/elements/1.1/title> "Increase, Fushi tarazu factor-1 gene expression"^^xsd:string .
-<https://noctua.apps.renci.org/model/16> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_16> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

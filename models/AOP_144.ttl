@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_144> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_144> <http://purl.org/dc/elements/1.1/title> "Increase, Inflammation"^^xsd:string .
-<https://noctua.apps.renci.org/model/144> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_144> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

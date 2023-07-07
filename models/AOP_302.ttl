@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_302> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_302> <http://purl.org/dc/elements/1.1/title> "Increased, LDL uptake"^^xsd:string .
-<https://noctua.apps.renci.org/model/302> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_302> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

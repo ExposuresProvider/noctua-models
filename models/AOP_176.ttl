@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_176> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_176> <http://purl.org/dc/elements/1.1/title> "Increase, Liver and splenic hemosiderosis"^^xsd:string .
-<https://noctua.apps.renci.org/model/176> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_176> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

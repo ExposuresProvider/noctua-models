@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_43> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_43> <http://purl.org/dc/elements/1.1/title> "Reduction, Ionotropic GABA receptor chloride channel conductance"^^xsd:string .
-<https://noctua.apps.renci.org/model/43> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_43> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_336> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_336> <http://purl.org/dc/elements/1.1/title> "Activation, SHP"^^xsd:string .
-<https://noctua.apps.renci.org/model/336> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_336> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

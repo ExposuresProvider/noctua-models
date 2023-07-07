@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_46> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_46> <http://purl.org/dc/elements/1.1/title> "Binding at picrotoxin site, iGABAR chloride channel"^^xsd:string .
-<https://noctua.apps.renci.org/model/46> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_46> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

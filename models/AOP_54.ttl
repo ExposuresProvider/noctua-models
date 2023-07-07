@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_54> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_54> <http://purl.org/dc/elements/1.1/title> "Reduced levels of BDNF"^^xsd:string .
-<https://noctua.apps.renci.org/model/54> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_54> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_190> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_190> <http://purl.org/dc/elements/1.1/title> "Increase, FA Influx"^^xsd:string .
-<https://noctua.apps.renci.org/model/190> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_190> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_258> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_258> <http://purl.org/dc/elements/1.1/title> "Impairment, Learning and memory"^^xsd:string .
-<https://noctua.apps.renci.org/model/258> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_258> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

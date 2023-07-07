@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_167> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_167> <http://purl.org/dc/elements/1.1/title> "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"^^xsd:string .
-<https://noctua.apps.renci.org/model/167> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_167> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

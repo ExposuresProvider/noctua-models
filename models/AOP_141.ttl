@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_141> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_141> <http://purl.org/dc/elements/1.1/title> "Activation of specific nuclear receptors, Transcriptional change"^^xsd:string .
-<https://noctua.apps.renci.org/model/141> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_141> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_394> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_394> <http://purl.org/dc/elements/1.1/title> "Decreased steroidogenesis, Decreased Activity of Steroidogenic Enzymes in Adult Leydig cells"^^xsd:string .
-<https://noctua.apps.renci.org/model/394> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_394> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

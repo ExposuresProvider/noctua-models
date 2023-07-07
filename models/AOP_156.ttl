@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_156> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_156> <http://purl.org/dc/elements/1.1/title> "Increase, Plasma vitellogenin concentrations"^^xsd:string .
-<https://noctua.apps.renci.org/model/156> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_156> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

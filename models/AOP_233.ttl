@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_233> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_233> <http://purl.org/dc/elements/1.1/title> "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects"^^xsd:string .
-<https://noctua.apps.renci.org/model/233> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_233> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################
