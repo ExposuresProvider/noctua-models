@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_335> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_335> <http://purl.org/dc/elements/1.1/title> "Activation, NR1H4"^^xsd:string .
-<https://noctua.apps.renci.org/model/335> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_335> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

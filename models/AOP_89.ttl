@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_89> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_89> <http://purl.org/dc/elements/1.1/title> "Cell injury/death"^^xsd:string .
-<https://noctua.apps.renci.org/model/89> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_89> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

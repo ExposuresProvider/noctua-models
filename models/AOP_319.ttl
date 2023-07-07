@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_319> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_319> <http://purl.org/dc/elements/1.1/title> "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)"^^xsd:string .
-<https://noctua.apps.renci.org/model/319> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_319> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

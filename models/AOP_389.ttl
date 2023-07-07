@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_389> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_389> <http://purl.org/dc/elements/1.1/title> "Decreased Cholesterol, Decreased Transport of Cholesterol to the Inner Mitochondrial Membrane"^^xsd:string .
-<https://noctua.apps.renci.org/model/389> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_389> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

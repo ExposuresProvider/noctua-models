@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_216> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_216> <http://purl.org/dc/elements/1.1/title> "Alkylation, Protein"^^xsd:string .
-<https://noctua.apps.renci.org/model/216> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_216> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

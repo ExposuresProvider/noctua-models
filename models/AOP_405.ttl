@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_405> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_405> <http://purl.org/dc/elements/1.1/title> "activation of CCAAT/enhancer-binding protein alpha"^^xsd:string .
-<https://noctua.apps.renci.org/model/405> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_405> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

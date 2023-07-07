@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_214> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_214> <http://purl.org/dc/elements/1.1/title> "Increase, hepatocellular adenomas and carcinomas"^^xsd:string .
-<https://noctua.apps.renci.org/model/214> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_214> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_134> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_134> <http://purl.org/dc/elements/1.1/title> "Disruption, Mitochondrial electron transport chain"^^xsd:string .
-<https://noctua.apps.renci.org/model/134> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_134> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

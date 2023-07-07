@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_277> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_277> <http://purl.org/dc/elements/1.1/title> "Increased, Vitellogenin synthesis"^^xsd:string .
-<https://noctua.apps.renci.org/model/277> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_277> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_347> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_347> <http://purl.org/dc/elements/1.1/title> "Activation, AKT2"^^xsd:string .
-<https://noctua.apps.renci.org/model/347> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_347> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################

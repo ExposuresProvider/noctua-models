@@ -8,7 +8,7 @@
 
     <https://noctua.apps.renci.org/model/AOP_297> a owl:Ontology .
 <https://noctua.apps.renci.org/model/AOP_297> <http://purl.org/dc/elements/1.1/title> "Accumulation, Triglyceride"^^xsd:string .
-<https://noctua.apps.renci.org/model/297> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_297> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################
