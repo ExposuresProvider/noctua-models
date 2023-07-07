@@ -1,13 +1,14 @@
-@prefix : <http://www.semanticweb.org/mmandal/ontologies/2022/4/untitled-ontology-76#> .
-        @prefix owl: <http://www.w3.org/2002/07/owl#> .
-        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-        @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-        @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-        @base <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
 
-        <https://noctua.apps.renci.org/model/AOP_54> a owl:Ontology .
+    <https://noctua.apps.renci.org/model/AOP_54> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_54> <http://purl.org/dc/elements/1.1/title> "Reduced levels of BDNF"^^xsd:string .
+<https://noctua.apps.renci.org/model/54> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
 #################################################################
