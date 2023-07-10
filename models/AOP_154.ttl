@@ -1,155 +1,91 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_154> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_154> <http://purl.org/dc/elements/1.1/title> "Agonism, Estrogen receptor"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_154> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_154> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000003112
-	<http://purl.obolibrary.org/obo/PR_000003112> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MI_0254
-	<http://purl.obolibrary.org/obo/MI_0254> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011161
-	<http://purl.obolibrary.org/obo/PR_000011161> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002534
-	<http://purl.obolibrary.org/obo/GO_0002534> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0001775
-	<http://purl.obolibrary.org/obo/GO_0001775> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D007165
-	<http://id.nlm.nih.gov/mesh/D007165> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0032633> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000001379
-	<http://purl.obolibrary.org/obo/PR_000001379> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000001391> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0032623
-	<http://purl.obolibrary.org/obo/GO_0032623> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-4> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001391> .
 
-###  http://purl.obolibrary.org/obo/PR_000001391
-	<http://purl.obolibrary.org/obo/PR_000001391> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#Immunosuppression> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032633> .
 
-###  http://purl.obolibrary.org/obo/GO_0032633
-	<http://purl.obolibrary.org/obo/GO_0032633> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0001775> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000007535
-	<http://purl.obolibrary.org/obo/PR_000007535> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0005488> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0005488
-	<http://purl.obolibrary.org/obo/GO_0005488> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#binding> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#genetic%20interference> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005488> .
 
-###  http://purl.obolibrary.org/obo/TAIR_AT5G64350
-	<http://purl.obolibrary.org/obo/TAIR_AT5G64350> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> , <http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0001775> .
 
+<http://purl.obolibrary.org/obo/GO_0002534> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> , <http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002534> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://id.nlm.nih.gov/mesh/D007165> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#FK506-binding%20protein%2015
-<http://www.co-ode.org/ontologies/ont.owl#FK506-binding%20protein%2015> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007535> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :binding .
+<http://purl.obolibrary.org/obo/GO_0032623> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#binding
-<http://www.co-ode.org/ontologies/ont.owl#binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005488> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :genetic%20interference .
+<http://purl.obolibrary.org/obo/MI_0254> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#FKBP12%20%28Arabidopsis%20thaliana%29
-<http://www.co-ode.org/ontologies/ont.owl#FKBP12%20%28Arabidopsis%20thaliana%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/TAIR_AT5G64350> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :binding .
+<http://purl.obolibrary.org/obo/PR_000001379> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#binding
-<http://www.co-ode.org/ontologies/ont.owl#binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005488> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :genetic%20interference .
+<http://purl.obolibrary.org/obo/PR_000003112> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NFAT%20protein
-<http://www.co-ode.org/ontologies/ont.owl#NFAT%20protein> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003112> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :genetic%20interference .
+<http://purl.obolibrary.org/obo/PR_000007535> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#genetic%20interference
-<http://www.co-ode.org/ontologies/ont.owl#genetic%20interference> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_0254> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cytokine%20production%20involved%20in%20inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20activation .
+<http://purl.obolibrary.org/obo/PR_000011161> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NFAT%20activation%20molecule%201
-<http://www.co-ode.org/ontologies/ont.owl#NFAT%20activation%20molecule%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011161> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine%20production%20involved%20in%20inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine%20production%20involved%20in%20inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine%20production%20involved%20in%20inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine%20production%20involved%20in%20inflammatory%20response .
+<http://purl.obolibrary.org/obo/TAIR_AT5G64350> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002534> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-2%20production ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-4%20production .
+<http://www.co-ode.org/ontologies/ont.owl#FK506-binding%20protein%2015> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000007535> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001775> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-2%20production ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-4%20production .
+<http://www.co-ode.org/ontologies/ont.owl#FKBP12%20%28Arabidopsis%20thaliana%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#binding> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/TAIR_AT5G64350> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#interleukin-2
-<http://www.co-ode.org/ontologies/ont.owl#interleukin-2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001379> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :interleukin-2%20production .
+<http://www.co-ode.org/ontologies/ont.owl#genetic%20interference> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation> , <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MI_0254> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production
-<http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032623> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Immunosuppression .
+<http://www.co-ode.org/ontologies/ont.owl#Immunosuppression> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D007165> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4
-<http://www.co-ode.org/ontologies/ont.owl#interleukin-4> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001391> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :interleukin-4%20production .
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-2> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001379> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production
-<http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032633> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Immunosuppression .
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-2%20production> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#Immunosuppression> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032623> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Immunosuppression
-<http://www.co-ode.org/ontologies/ont.owl#Immunosuppression> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007165> .
+<http://www.co-ode.org/ontologies/ont.owl#NFAT%20activation%20molecule%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011161> .
 
+<http://www.co-ode.org/ontologies/ont.owl#NFAT%20protein> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#genetic%20interference> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000003112> .
 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_154> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Agonism, Estrogen receptor"^^<http://www.w3.org/2001/XMLSchema#string> .

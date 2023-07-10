@@ -1,95 +1,55 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_113> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_113> <http://purl.org/dc/elements/1.1/title> "Increase, Early Life Stage Mortality"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_113> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_113> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_Q94900
-	<http://purl.obolibrary.org/obo/PR_Q94900> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0005254
-	<http://purl.obolibrary.org/obo/GO_0005254> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17996
-	<http://purl.obolibrary.org/obo/CHEBI_17996> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_1902476
-	<http://purl.obolibrary.org/obo/GO_1902476> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0060081
-	<http://purl.obolibrary.org/obo/GO_0060081> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D009026> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001393
-	<http://purl.obolibrary.org/obo/MP_0001393> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0000753> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001399
-	<http://purl.obolibrary.org/obo/MP_0001399> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0001393> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0000753
-	<http://purl.obolibrary.org/obo/MP_0000753> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0001399> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D009026
-	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0060081> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000003
-	<http://purl.obolibrary.org/obo/PCO_0000003> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0060081> .
 
+<http://purl.obolibrary.org/obo/CHEBI_17996> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#chloride> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_17996> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0005254> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glutamate-gated%20chloride%20channel%20%28fruit%20fly%29
-<http://www.co-ode.org/ontologies/ont.owl#glutamate-gated%20chloride%20channel%20%28fruit%20fly%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q94900> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :chloride%20channel%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :chloride%20channel%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :chloride%20channel%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :chloride%20channel%20activity .
+<http://purl.obolibrary.org/obo/GO_1902476> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity
-<http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005254> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :chloride%20transmembrane%20transport .
+<http://purl.obolibrary.org/obo/PCO_0000003> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chloride
-<http://www.co-ode.org/ontologies/ont.owl#chloride> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17996> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :chloride%20transmembrane%20transport .
+<http://purl.obolibrary.org/obo/PR_Q94900> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport
-<http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1902476> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :membrane%20hyperpolarization .
+<http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005254> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20quality
-<http://www.co-ode.org/ontologies/ont.owl#population%20quality> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000003> .
+<http://www.co-ode.org/ontologies/ont.owl#chloride%20transmembrane%20transport> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1902476> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization
-<http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060081> .
+<http://www.co-ode.org/ontologies/ont.owl#glutamate-gated%20chloride%20channel%20%28fruit%20fly%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_Q94900> .
 
+<http://www.co-ode.org/ontologies/ont.owl#population%20quality> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000003> .
 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_113> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Increase, Early Life Stage Mortality"^^<http://www.w3.org/2001/XMLSchema#string> .

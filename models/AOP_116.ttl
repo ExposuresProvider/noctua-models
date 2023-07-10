@@ -1,120 +1,74 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_116> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_116> <http://purl.org/dc/elements/1.1/title> "Reduction, Testosterone synthesis by ovarian theca cells"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_116> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_116> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_1000494
-	<http://purl.obolibrary.org/obo/CL_1000494> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_1000507
-	<http://purl.obolibrary.org/obo/CL_1000507> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0050673
-	<http://purl.obolibrary.org/obo/GO_0050673> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0004968
-	<http://purl.obolibrary.org/obo/MP_0004968> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000052> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D000236
-	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D002277
-	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D002292
-	<http://id.nlm.nih.gov/mesh/D002292> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/CL_1000507> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000494> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008219> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
-<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :epithelial%20cell%20proliferation .
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_1000507> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell
-<http://www.co-ode.org/ontologies/ont.owl#kidney%20tubule%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000507> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :epithelial%20cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :epithelial%20cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :epithelial%20cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :epithelial%20cell%20proliferation .
+<http://id.nlm.nih.gov/mesh/D000236> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050673> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :kidney%20epithelium%20hyperplasia .
+<http://id.nlm.nih.gov/mesh/D002277> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_1000494> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :kidney%20epithelium%20hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :kidney%20epithelium%20hyperplasia .
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D000236> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0004968> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Adenoma ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :Carcinoma%2C%20Renal%20Cell ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Carcinoma%2C%20Renal%20Cell .
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002277> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
-<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> .
+<http://id.nlm.nih.gov/mesh/D002292> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002277> .
+<http://purl.obolibrary.org/obo/GO_0050673> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
-<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma%2C%20Renal%20Cell .
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002292> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002292> .
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0050673> .
 
+<http://purl.obolibrary.org/obo/CL_1000494> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0004968> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> <http://purl.obolibrary.org/obo/RO_0000052> <http://www.co-ode.org/ontologies/ont.owl#Adenoma> , <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#Carcinoma%2C%20Renal%20Cell> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0004968> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#nephron%20tubule%20epithelial%20cell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#kidney%20epithelium%20hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_1000494> .
+
+<https://noctua.apps.renci.org/model/AOP_116> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Reduction, Testosterone synthesis by ovarian theca cells"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,128 +1,78 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_399> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_399> <http://purl.org/dc/elements/1.1/title> "Stimulation of adult Leydig cells via the Adrenal Corticosterone, Increased Glucocorticoid"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_399> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_399> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_Q6EWH2
-	<http://purl.obolibrary.org/obo/PR_Q6EWH2> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008283> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0004713
-	<http://purl.obolibrary.org/obo/GO_0004713> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0005623
-	<http://purl.obolibrary.org/obo/GO_0005623> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008283
-	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0000970
-	<http://purl.obolibrary.org/obo/UBERON_0000970> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0001297
-	<http://purl.obolibrary.org/obo/MP_0001297> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#microphthalmia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://id.nlm.nih.gov/mesh/D009026
-	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D009026> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/VT_0002090
-	<http://purl.obolibrary.org/obo/VT_0002090> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#mortality> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D009026> .
 
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#tyrosine-protein%20kinase%20fyna%20%28zebrafish%29
-<http://www.co-ode.org/ontologies/ont.owl#tyrosine-protein%20kinase%20fyna%20%28zebrafish%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q6EWH2> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20tyrosine%20kinase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20tyrosine%20kinase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20tyrosine%20kinase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20tyrosine%20kinase%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000008> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004713> .
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell
-<http://www.co-ode.org/ontologies/ont.owl#cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005623> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :microphthalmia .
+<http://purl.obolibrary.org/obo/GO_0005623> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#eye
-<http://www.co-ode.org/ontologies/ont.owl#eye> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0000970> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :microphthalmia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :microphthalmia .
+<http://www.co-ode.org/ontologies/ont.owl#cell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005623> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#microphthalmia
-<http://www.co-ode.org/ontologies/ont.owl#microphthalmia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001297> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :vision%20trait ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :vision%20trait .
+<http://purl.obolibrary.org/obo/UBERON_0000970> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#eye
-<http://www.co-ode.org/ontologies/ont.owl#eye> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0000970> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :vision%20trait ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :vision%20trait .
+<http://purl.obolibrary.org/obo/VT_0002090> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vision%20trait
-<http://www.co-ode.org/ontologies/ont.owl#vision%20trait> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_0002090> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+<http://www.co-ode.org/ontologies/ont.owl#eye> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#vision%20trait> , <http://www.co-ode.org/ontologies/ont.owl#microphthalmia> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#vision%20trait> , <http://www.co-ode.org/ontologies/ont.owl#microphthalmia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0000970> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#vision%20trait> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#mortality> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#mortality> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/VT_0002090> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/MP_0001297> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
-<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
+<http://www.co-ode.org/ontologies/ont.owl#microphthalmia> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#vision%20trait> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#vision%20trait> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001297> .
 
+<http://purl.obolibrary.org/obo/GO_0004713> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_Q6EWH2> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004713> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#tyrosine-protein%20kinase%20fyna%20%28zebrafish%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_Q6EWH2> .
+
+<https://noctua.apps.renci.org/model/AOP_399> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Stimulation of adult Leydig cells via the Adrenal Corticosterone, Increased Glucocorticoid"^^<http://www.w3.org/2001/XMLSchema#string> .

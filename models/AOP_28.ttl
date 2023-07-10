@@ -1,163 +1,100 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_28> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_28> <http://purl.org/dc/elements/1.1/title> "Fatty Acid Beta Oxidation, Decreased"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_28> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_28> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013427
-	<http://purl.obolibrary.org/obo/PR_000013427> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004666
-	<http://purl.obolibrary.org/obo/GO_0004666> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013428
-	<http://purl.obolibrary.org/obo/PR_000013428> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15551
-	<http://purl.obolibrary.org/obo/CHEBI_15551> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002559> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_39124
-	<http://purl.obolibrary.org/obo/CHEBI_39124> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002566> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006816
-	<http://purl.obolibrary.org/obo/GO_0006816> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17544
-	<http://purl.obolibrary.org/obo/CHEBI_17544> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0015701
-	<http://purl.obolibrary.org/obo/GO_0015701> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0005079
-	<http://purl.obolibrary.org/obo/UBERON_0005079> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0044703
-	<http://purl.obolibrary.org/obo/GO_0044703> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_39124> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0006816> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_39124> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006816> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013427> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://purl.obolibrary.org/obo/PR_000013428> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin%20E2 .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013428> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013428> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://purl.obolibrary.org/obo/CHEBI_15551> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin%20E2 .
+<http://purl.obolibrary.org/obo/CHEBI_17544> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15551> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :eggshell .
+<http://purl.obolibrary.org/obo/GO_0004666> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#eggshell
-<http://www.co-ode.org/ontologies/ont.owl#eggshell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0005079> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :bicarbonate%20transport .
+<http://purl.obolibrary.org/obo/GO_0015701> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium%20ion%20transport .
+<http://purl.obolibrary.org/obo/GO_0044703> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006816> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :eggshell .
+<http://purl.obolibrary.org/obo/PR_000013427> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hydrogencarbonate
-<http://www.co-ode.org/ontologies/ont.owl#hydrogencarbonate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17544> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :bicarbonate%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :bicarbonate%20transport .
+<http://purl.obolibrary.org/obo/UBERON_0005079> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport
-<http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0015701> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :eggshell ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :eggshell .
+<http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0015701> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#eggshell
-<http://www.co-ode.org/ontologies/ont.owl#eggshell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0005079> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :multi-organism%20reproductive%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :multi-organism%20reproductive%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :multi-organism%20reproductive%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :multi-organism%20reproductive%20process .
+<http://www.co-ode.org/ontologies/ont.owl#eggshell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> , <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> , <http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> , <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> , <http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> , <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> , <http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> , <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> , <http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0005079> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process
-<http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0044703> .
+<http://www.co-ode.org/ontologies/ont.owl#hydrogencarbonate> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#bicarbonate%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_17544> .
 
+<http://www.co-ode.org/ontologies/ont.owl#multi-organism%20reproductive%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0044703> .
 
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004666> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> <http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#eggshell> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15551> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013427> .
+
+<https://noctua.apps.renci.org/model/AOP_28> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Fatty Acid Beta Oxidation, Decreased"^^<http://www.w3.org/2001/XMLSchema#string> .

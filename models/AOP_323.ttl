@@ -1,138 +1,81 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_323> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_323> <http://purl.org/dc/elements/1.1/title> "Increased, Liver Steatosis"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_323> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_323> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013056
-	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0035357
-	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16113
-	<http://purl.obolibrary.org/obo/CHEBI_16113> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006695
-	<http://purl.obolibrary.org/obo/GO_0006695> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0030301
-	<http://purl.obolibrary.org/obo/GO_0030301> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17002
-	<http://purl.obolibrary.org/obo/CHEBI_17002> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_34133
-	<http://purl.obolibrary.org/obo/CHEBI_34133> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006702
-	<http://purl.obolibrary.org/obo/GO_0006702> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D005298> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/FMA_67338
-	<http://purl.obolibrary.org/obo/FMA_67338> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_16113> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/HP_0008669
-	<http://purl.obolibrary.org/obo/HP_0008669> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_17002> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D005298
-	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_34133> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/FMA_67338> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0006695> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0006702> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013056> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway .
+<http://purl.obolibrary.org/obo/GO_0030301> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol%20biosynthetic%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cholesterol%20transport .
+<http://purl.obolibrary.org/obo/GO_0035357> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
-<http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/HP_0008669> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006695> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/PR_000013056> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
-<http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16113> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol%20transport .
+<http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_34133> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport
-<http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030301> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/HP_0008669> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesteryl%20ester
-<http://www.co-ode.org/ontologies/ont.owl#cholesteryl%20ester> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17002> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cholesterol%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cholesterol%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cholesterol%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cholesterol%20transport .
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006702> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport
-<http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0030301> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :androgen%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#cholesterol> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16113> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone
-<http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_34133> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006695> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006702> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :Abnormal%20spermatogenesis .
+<http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0030301> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Mature%20sperm%20cell
-<http://www.co-ode.org/ontologies/ont.owl#Mature%20sperm%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_67338> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20spermatogenesis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20spermatogenesis .
+<http://www.co-ode.org/ontologies/ont.owl#cholesteryl%20ester> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_17002> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis
-<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0008669> .
+<http://www.co-ode.org/ontologies/ont.owl#Mature%20sperm%20cell> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20spermatogenesis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/FMA_67338> .
 
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013056> .
 
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process> , <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035357> .
 
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_323> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Increased, Liver Steatosis"^^<http://www.w3.org/2001/XMLSchema#string> .
