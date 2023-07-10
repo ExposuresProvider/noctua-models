@@ -1,181 +1,125 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_281> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_281> <http://purl.org/dc/elements/1.1/title> "Increased, nephropathy"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_281> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_281> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000003626
-	<http://purl.obolibrary.org/obo/PR_000003626> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0003990
-	<http://purl.obolibrary.org/obo/GO_0003990> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15355
-	<http://purl.obolibrary.org/obo/CHEBI_15355> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000001488
-	<http://purl.obolibrary.org/obo/PR_000001488> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0031789
-	<http://purl.obolibrary.org/obo/GO_0031789> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0017146
-	<http://purl.obolibrary.org/obo/GO_0017146> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004972
-	<http://purl.obolibrary.org/obo/GO_0004972> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_39124
-	<http://purl.obolibrary.org/obo/CHEBI_39124> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006816
-	<http://purl.obolibrary.org/obo/GO_0006816> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000540
-	<http://purl.obolibrary.org/obo/CL_0000540> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/HP_0011185
-	<http://purl.obolibrary.org/obo/HP_0011185> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0002229
-	<http://purl.obolibrary.org/obo/MP_0002229> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0000955
-	<http://purl.obolibrary.org/obo/UBERON_0000955> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_15355> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/NBO_0000703
-	<http://purl.obolibrary.org/obo/NBO_0000703> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0003990> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_29985
-	<http://purl.obolibrary.org/obo/CHEBI_29985> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000003626> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0035249
-	<http://purl.obolibrary.org/obo/GO_0035249> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholine> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15355> .
 
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000003626> .
 
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#acetylcholine> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#acetylcholine> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#acetylcholine> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#acetylcholine> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003990> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_39124> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003626> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholinesterase%20activity .
+<http://purl.obolibrary.org/obo/GO_0006816> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholinesterase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003990> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :acetylcholine ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :acetylcholine ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :acetylcholine ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :acetylcholine .
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_39124> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15355> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :G-protein%20coupled%20acetylcholine%20receptor%20binding .
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#secondary%20generalized%20seizure> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006816> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#muscarinic%20acetylcholine%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#muscarinic%20acetylcholine%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001488> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :G-protein%20coupled%20acetylcholine%20receptor%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :G-protein%20coupled%20acetylcholine%20receptor%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :G-protein%20coupled%20acetylcholine%20receptor%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :G-protein%20coupled%20acetylcholine%20receptor%20binding .
+<http://purl.obolibrary.org/obo/CHEBI_29985> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding
-<http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0031789> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :EEG%20with%20focal%20epileptiform%20discharges .
+<http://purl.obolibrary.org/obo/GO_0035249> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neuron
-<http://www.co-ode.org/ontologies/ont.owl#neuron> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000540> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :EEG%20with%20focal%20epileptiform%20discharges ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :EEG%20with%20focal%20epileptiform%20discharges .
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges
-<http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0011185> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :NMDA%20glutamate%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :NMDA%20glutamate%20receptor%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008219> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex
-<http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0017146> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :NMDA%20glutamate%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NMDA%20glutamate%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NMDA%20glutamate%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NMDA%20glutamate%20receptor%20activity .
+<http://purl.obolibrary.org/obo/MP_0002229> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity
-<http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004972> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium%20ion%20transport .
+<http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0002229> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium%20ion%20transport .
+<http://purl.obolibrary.org/obo/CL_0000540> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006816> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :secondary%20generalized%20seizure .
+<http://purl.obolibrary.org/obo/GO_0004972> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
-<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :neurodegeneration .
+<http://purl.obolibrary.org/obo/GO_0017146> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neurodegeneration
-<http://www.co-ode.org/ontologies/ont.owl#neurodegeneration> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0002229> .
+<http://purl.obolibrary.org/obo/GO_0031789> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#brain
-<http://www.co-ode.org/ontologies/ont.owl#brain> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0000955> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :secondary%20generalized%20seizure .
+<http://purl.obolibrary.org/obo/HP_0011185> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#secondary%20generalized%20seizure
-<http://www.co-ode.org/ontologies/ont.owl#secondary%20generalized%20seizure> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000703> .
+<http://purl.obolibrary.org/obo/NBO_0000703> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000001488> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/UBERON_0000955> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#brain> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#secondary%20generalized%20seizure> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0000955> .
 
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/HP_0011185> .
+
+<http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0031789> .
+
+<http://www.co-ode.org/ontologies/ont.owl#muscarinic%20acetylcholine%20receptor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#G-protein%20coupled%20acetylcholine%20receptor%20binding> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001488> .
+
+<http://www.co-ode.org/ontologies/ont.owl#neuron> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#EEG%20with%20focal%20epileptiform%20discharges> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000540> .
+
+<http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004972> .
+
+<http://www.co-ode.org/ontologies/ont.owl#NMDA%20selective%20glutamate%20receptor%20complex> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#NMDA%20glutamate%20receptor%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0017146> .
+
+<http://www.co-ode.org/ontologies/ont.owl#secondary%20generalized%20seizure> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/NBO_0000703> .
+
+<https://noctua.apps.renci.org/model/AOP_281> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Increased, nephropathy"^^<http://www.w3.org/2001/XMLSchema#string> .

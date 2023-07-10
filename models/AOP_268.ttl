@@ -1,114 +1,55 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_268> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_268> <http://purl.org/dc/elements/1.1/title> "Hyperplasia, Leydig cell"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_268> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_268> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0005739
-	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_1901691
-	<http://purl.obolibrary.org/obo/GO_1901691> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0017077
-	<http://purl.obolibrary.org/obo/GO_0017077> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0051881
-	<http://purl.obolibrary.org/obo/GO_0051881> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0000468
-	<http://purl.obolibrary.org/obo/UBERON_0000468> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
 
-###  http://purl.obolibrary.org/obo/GO_0040007
-	<http://purl.obolibrary.org/obo/GO_0040007> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0017077> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26523
-	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_1903409> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_1903409
-	<http://purl.obolibrary.org/obo/GO_1903409> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1903409> .
 
+<http://purl.obolibrary.org/obo/GO_0005739> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> , <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> , <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> , <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> , <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> , <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> , <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> , <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> , <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005739> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0040007> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :proton%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :proton%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :proton%20binding ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :proton%20binding .
+<http://purl.obolibrary.org/obo/UBERON_0000468> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#proton%20binding
-<http://www.co-ode.org/ontologies/ont.owl#proton%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1901691> .
+<http://www.co-ode.org/ontologies/ont.owl#growth> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0040007> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :oxidative%20phosphorylation%20uncoupler%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :oxidative%20phosphorylation%20uncoupler%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :oxidative%20phosphorylation%20uncoupler%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :oxidative%20phosphorylation%20uncoupler%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#multicellular%20organism> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0000468> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity
-<http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0017077> .
+<http://purl.obolibrary.org/obo/GO_0051881> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
-<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005739> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20mitochondrial%20membrane%20potential ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20mitochondrial%20membrane%20potential ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20mitochondrial%20membrane%20potential ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20mitochondrial%20membrane%20potential .
+<http://purl.obolibrary.org/obo/GO_1901691> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0051881> .
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0017077> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reactive%20oxygen%20species%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#proton%20binding> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1901691> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1903409> .
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0051881> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#multicellular%20organism
-<http://www.co-ode.org/ontologies/ont.owl#multicellular%20organism> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0000468> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :growth ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :growth .
-
-###  http://www.co-ode.org/ontologies/ont.owl#growth
-<http://www.co-ode.org/ontologies/ont.owl#growth> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0040007> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_268> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Hyperplasia, Leydig cell"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,117 +1,70 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_377> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_377> <http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Increased estradiol"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_377> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_377> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D009026
-	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0072559
-	<http://purl.obolibrary.org/obo/GO_0072559> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/FMA_84050> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0044546
-	<http://purl.obolibrary.org/obo/GO_0044546> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0050663> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0003674
-	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26523
-	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0034599
-	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0000302
-	<http://purl.obolibrary.org/obo/GO_0000302> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#Cytokine> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/FMA_84050> .
 
-###  http://purl.obolibrary.org/obo/GO_0002526
-	<http://purl.obolibrary.org/obo/GO_0002526> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0050663> .
 
-###  http://purl.obolibrary.org/obo/FMA_84050
-	<http://purl.obolibrary.org/obo/FMA_84050> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D009026> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0050663
-	<http://purl.obolibrary.org/obo/GO_0050663> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0003674> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0003606
-	<http://purl.obolibrary.org/obo/MP_0003606> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0005739> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002113
-	<http://purl.obolibrary.org/obo/UBERON_0002113> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0003606> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/Q000633
-	<http://id.nlm.nih.gov/mesh/Q000633> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0034599> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0043122
-	<http://purl.obolibrary.org/obo/GO_0043122> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/Q000633> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001860
-	<http://purl.obolibrary.org/obo/MP_0001860> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0005739
-	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/UBERON_0002113> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0000302> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0002526> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0043122> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex
-<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0072559> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NLRP3%20inflammasome%20complex%20assembly .
+<http://purl.obolibrary.org/obo/GO_0044546> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly
-<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0044546> .
+<http://purl.obolibrary.org/obo/GO_0072559> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20I-kappaB%20kinase/NF-kappaB%20signaling
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20I-kappaB%20kinase/NF-kappaB%20signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0043122> .
+<http://purl.obolibrary.org/obo/MP_0001860> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Cytokine
-<http://www.co-ode.org/ontologies/ont.owl#Cytokine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/FMA_84050> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cytokine%20secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cytokine%20secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cytokine%20secretion ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cytokine%20secretion .
+<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002526> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion
-<http://www.co-ode.org/ontologies/ont.owl#cytokine%20secretion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050663> .
+<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0072559> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002526> .
+<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0044546> .
 
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20I-kappaB%20kinase/NF-kappaB%20signaling> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0043122> .
 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_377> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Increased estradiol"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,87 +1,53 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_81> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_81> <http://purl.org/dc/elements/1.1/title> "Acetylcholine accumulation in synapses"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_81> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_81> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://id.nlm.nih.gov/mesh/D056631> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0004889
-	<http://purl.obolibrary.org/obo/MP_0004889> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D013312
-	<http://id.nlm.nih.gov/mesh/D013312> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> a <http://id.nlm.nih.gov/mesh/D056631> , <http://www.w3.org/2002/07/owl#NamedIndividual> .
 
-###  http://id.nlm.nih.gov/mesh/D001066
-	<http://id.nlm.nih.gov/mesh/D001066> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0060756
-	<http://purl.obolibrary.org/obo/GO_0060756> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D056631
-	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#increased%20energy%20expenditure
-<http://www.co-ode.org/ontologies/ont.owl#increased%20energy%20expenditure> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0004889> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :Appetite ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Appetite .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Stress%2C%20Physiological
-<http://www.co-ode.org/ontologies/ont.owl#Stress%2C%20Physiological> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D013312> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Appetite .
+<http://purl.obolibrary.org/obo/GO_0060756> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Appetite
-<http://www.co-ode.org/ontologies/ont.owl#Appetite> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D001066> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :foraging%20behavior .
+<http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0060756> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior
-<http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060756> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :population%20of%20organisms .
+<http://id.nlm.nih.gov/mesh/D001066> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony%20collapse .
+<http://id.nlm.nih.gov/mesh/D013312> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D056631> .
+<http://purl.obolibrary.org/obo/MP_0004889> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#Appetite> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#foraging%20behavior> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D001066> .
 
+<http://www.co-ode.org/ontologies/ont.owl#increased%20energy%20expenditure> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#Appetite> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#Appetite> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0004889> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#Stress%2C%20Physiological> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Appetite> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D013312> .
 
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_81> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Acetylcholine accumulation in synapses"^^<http://www.w3.org/2001/XMLSchema#string> .

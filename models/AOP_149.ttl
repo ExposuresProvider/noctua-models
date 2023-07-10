@@ -1,236 +1,136 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_149> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_149> <http://purl.org/dc/elements/1.1/title> "Reduction, Prostaglandin E2 concentration"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_149> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_149> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0003674
-	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011328
-	<http://purl.obolibrary.org/obo/PR_000011328> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0010731
-	<http://purl.obolibrary.org/obo/GO_0010731> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_32460
-	<http://purl.obolibrary.org/obo/CHEBI_32460> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000007893
-	<http://purl.obolibrary.org/obo/PR_000007893> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0003674> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_1903009
-	<http://purl.obolibrary.org/obo/GO_1903009> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15372
-	<http://purl.obolibrary.org/obo/CHEBI_15372> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0003674> .
 
-###  http://purl.obolibrary.org/obo/GO_0009058
-	<http://purl.obolibrary.org/obo/GO_0009058> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0003824> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16480
-	<http://purl.obolibrary.org/obo/CHEBI_16480> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006809
-	<http://purl.obolibrary.org/obo/GO_0006809> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0001981
-	<http://purl.obolibrary.org/obo/UBERON_0001981> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0042311
-	<http://purl.obolibrary.org/obo/GO_0042311> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0004878
-	<http://purl.obolibrary.org/obo/MP_0004878> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003824> .
 
-###  http://purl.obolibrary.org/obo/MP_0000231
-	<http://purl.obolibrary.org/obo/MP_0000231> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0003824
-	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000029189
-	<http://purl.obolibrary.org/obo/PR_000029189> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/GO_0009058> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0009058> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003674> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :protein%20glutathionylation .
+<http://purl.obolibrary.org/obo/CHEBI_16480> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#GTP%20cyclohydrolase%201
-<http://www.co-ode.org/ontologies/ont.owl#GTP%20cyclohydrolase%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007893> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :proteasome%20complex%20disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :proteasome%20complex%20disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :proteasome%20complex%20disassembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :proteasome%20complex%20disassembly .
+<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16480> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly
-<http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1903009> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0042311> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011328> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :nitric%20oxide%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#vasodilation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#increased%20systemic%20vascular%20resistance> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0042311> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#5%2C6%2C7%2C8-tetrahydrobiopterin
-<http://www.co-ode.org/ontologies/ont.owl#5%2C6%2C7%2C8-tetrahydrobiopterin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15372> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :biosynthetic%20process .
+<http://purl.obolibrary.org/obo/CHEBI_15372> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009058> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :nitric%20oxide%20synthase%2C%20endothelial .
+<http://purl.obolibrary.org/obo/CHEBI_32460> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011328> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :nitric%20oxide%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0006809> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16480> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :nitric%20oxide%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0010731> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006809> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation .
+<http://purl.obolibrary.org/obo/GO_1903009> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#blood%20vessel
-<http://www.co-ode.org/ontologies/ont.owl#blood%20vessel> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001981> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :vasodilation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :vasodilation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :vasodilation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :vasodilation .
+<http://purl.obolibrary.org/obo/MP_0000231> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vasodilation
-<http://www.co-ode.org/ontologies/ont.owl#vasodilation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042311> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased%20systemic%20vascular%20resistance .
+<http://purl.obolibrary.org/obo/MP_0004878> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#increased%20systemic%20vascular%20resistance
-<http://www.co-ode.org/ontologies/ont.owl#increased%20systemic%20vascular%20resistance> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0004878> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :hypertension ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hypertension .
+<http://purl.obolibrary.org/obo/PR_000007893> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypertension
-<http://www.co-ode.org/ontologies/ont.owl#hypertension> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0000231> .
+<http://purl.obolibrary.org/obo/PR_000011328> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16480> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :nitric%20oxide%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/PR_000029189> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006809> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :vasodilation .
+<http://purl.obolibrary.org/obo/UBERON_0001981> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011328> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#5%2C6%2C7%2C8-tetrahydrobiopterin> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15372> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity
-<http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003824> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :nitric%20oxide%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#AKT%20kinase> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000029189> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#AKT%20kinase
-<http://www.co-ode.org/ontologies/ont.owl#AKT%20kinase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000029189> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#blood%20vessel> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#vasodilation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#vasodilation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#vasodilation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#vasodilation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0001981> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity
-<http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003824> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :nitric%20oxide%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#cysteine%20residue> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_32460> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial
-<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011328> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20glutathionylation .
+<http://www.co-ode.org/ontologies/ont.owl#GTP%20cyclohydrolase%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000007893> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation
-<http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010731> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :nitric%20oxide%20synthase%2C%20endothelial .
+<http://www.co-ode.org/ontologies/ont.owl#hypertension> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0000231> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cysteine%20residue
-<http://www.co-ode.org/ontologies/ont.owl#cysteine%20residue> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_32460> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20glutathionylation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20glutathionylation .
+<http://www.co-ode.org/ontologies/ont.owl#increased%20systemic%20vascular%20resistance> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#hypertension> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#hypertension> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0004878> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation
-<http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010731> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :nitric%20oxide%20synthase%2C%20endothelial ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :nitric%20oxide%20synthase%2C%20endothelial .
+<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#vasodilation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006809> .
 
+<http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> , <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20biosynthetic%20process> , <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011328> .
 
+<http://www.co-ode.org/ontologies/ont.owl#proteasome%20complex%20disassembly> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1903009> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#protein%20glutathionylation> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide%20synthase%2C%20endothelial> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010731> .
 
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_149> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Reduction, Prostaglandin E2 concentration"^^<http://www.w3.org/2001/XMLSchema#string> .

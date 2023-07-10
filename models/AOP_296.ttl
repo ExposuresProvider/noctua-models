@@ -1,95 +1,46 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_296> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_296> <http://purl.org/dc/elements/1.1/title> "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_296> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_296> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26523
-	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_1901031
-	<http://purl.obolibrary.org/obo/GO_1901031> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16991
-	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006281
-	<http://purl.obolibrary.org/obo/GO_0006281> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D009154
-	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
 
+<http://purl.obolibrary.org/obo/CHEBI_16991> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0006281> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#mutation> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16991> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1901031> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :DNA%20repair .
+<http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006281> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
+<http://id.nlm.nih.gov/mesh/D009154> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#DNA%20repair
-<http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006281> .
+<http://www.co-ode.org/ontologies/ont.owl#mutation> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D009154> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :DNA%20repair ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :DNA%20repair .
+<http://purl.obolibrary.org/obo/GO_1901031> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#DNA%20repair
-<http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006281> .
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1901031> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mutation .
-
-###  http://www.co-ode.org/ontologies/ont.owl#mutation
-<http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009154> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_296> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)"^^<http://www.w3.org/2001/XMLSchema#string> .

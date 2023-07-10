@@ -1,81 +1,46 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_407> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_407> <http://purl.org/dc/elements/1.1/title> "decreased dopamine"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_407> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_407> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0075509
-	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002020
-	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0038191
-	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0031381
-	<http://purl.obolibrary.org/obo/GO_0031381> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0039694
-	<http://purl.obolibrary.org/obo/GO_0039694> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0002020> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0039690
-	<http://purl.obolibrary.org/obo/GO_0039690> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0009299> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0072516
-	<http://purl.obolibrary.org/obo/GO_0072516> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019024> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019074
-	<http://purl.obolibrary.org/obo/GO_0019074> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019074> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019024
-	<http://purl.obolibrary.org/obo/GO_0019024> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019081> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0009299
-	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0031381> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019081
-	<http://purl.obolibrary.org/obo/GO_0019081> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0038191> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26523
-	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0039690> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0034599
-	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0039694> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0000302
-	<http://purl.obolibrary.org/obo/GO_0000302> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0072516> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0072559
-	<http://purl.obolibrary.org/obo/GO_0072559> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0075509> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0044546
-	<http://purl.obolibrary.org/obo/GO_0044546> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0034599> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0000302> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0044546> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0072559> a <http://www.w3.org/2002/07/owl#Class> .
 
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_407> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "decreased dopamine"^^<http://www.w3.org/2001/XMLSchema#string> .

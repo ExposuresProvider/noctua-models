@@ -1,162 +1,99 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_110> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_110> <http://purl.org/dc/elements/1.1/title> "dimerization, AHR/ARNT"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_110> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_110> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0002258
-	<http://purl.obolibrary.org/obo/CL_0002258> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008283> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0008283
-	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D006984
-	<http://id.nlm.nih.gov/mesh/D006984> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D006965
-	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D000236
-	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D002277
-	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_60311
-	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000052> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006590
-	<http://purl.obolibrary.org/obo/GO_0006590> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_30660
-	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0005475
-	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_81567
-	<http://purl.obolibrary.org/obo/CHEBI_81567> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_30660> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000015171
-	<http://purl.obolibrary.org/obo/PR_000015171> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_60311> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0008507
-	<http://purl.obolibrary.org/obo/GO_0008507> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006590> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0005475> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> <http://purl.obolibrary.org/obo/RO_0000052> <http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005475> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_60311> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter
-<http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015171> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%3Aiodide%20symporter%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%3Aiodide%20symporter%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%3Aiodide%20symporter%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%3Aiodide%20symporter%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006590> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity
-<http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008507> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
+<http://www.co-ode.org/ontologies/ont.owl#thyroxine> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_30660> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
+<http://purl.obolibrary.org/obo/CHEBI_81567> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20circulating%20thyroxine%20level .
+<http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_81567> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20thyroxine%20level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20thyroxine%20level .
+<http://id.nlm.nih.gov/mesh/D006965> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Thyroid%20stimulating%20hormone .
+<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Adenoma> , <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D006965> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#Thyroid%20stimulating%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81567> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
+<http://id.nlm.nih.gov/mesh/D000236> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+<http://id.nlm.nih.gov/mesh/D002277> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D000236> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hypertrophy .
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002277> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypertrophy
-<http://www.co-ode.org/ontologies/ont.owl#hypertrophy> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006984> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
+<http://purl.obolibrary.org/obo/GO_0008507> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0002258> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
+<http://purl.obolibrary.org/obo/PR_000015171> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma .
+<http://www.co-ode.org/ontologies/ont.owl#sodium/iodide%20cotransporter> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000015171> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
-<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> .
+<http://www.co-ode.org/ontologies/ont.owl#sodium%3Aiodide%20symporter%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008507> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002277> .
+<http://id.nlm.nih.gov/mesh/D006984> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/CL_0002258> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#hypertrophy> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D006984> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20follicular%20cell> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> , <http://www.co-ode.org/ontologies/ont.owl#hypertrophy> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0002258> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_110> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "dimerization, AHR/ARNT"^^<http://www.w3.org/2001/XMLSchema#string> .

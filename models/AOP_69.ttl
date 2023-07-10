@@ -1,55 +1,26 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_69> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_69> <http://purl.org/dc/elements/1.1/title> "Inhibition, Nuclear factor kappa B (NF-kB)"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_69> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_69> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16113
-	<http://purl.obolibrary.org/obo/CHEBI_16113> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006695
-	<http://purl.obolibrary.org/obo/GO_0006695> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_17347> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_6495
-	<http://purl.obolibrary.org/obo/CHEBI_6495> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0061370> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0042953
-	<http://purl.obolibrary.org/obo/GO_0042953> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_16113> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0032367
-	<http://purl.obolibrary.org/obo/GO_0032367> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006695> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17347
-	<http://purl.obolibrary.org/obo/CHEBI_17347> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CL_0000019> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0061370
-	<http://purl.obolibrary.org/obo/GO_0061370> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_6495> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CL_0000019
-	<http://purl.obolibrary.org/obo/CL_0000019> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0032367> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0042953> a <http://www.w3.org/2002/07/owl#Class> .
 
-
-#################################################################
-#   Individuals
-#################################################################
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_69> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Inhibition, Nuclear factor kappa B (NF-kB)"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,86 +1,52 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_126> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_126> <http://purl.org/dc/elements/1.1/title> "Reduction, Plasma 17beta-estradiol concentrations"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_126> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_126> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_18357
-	<http://purl.obolibrary.org/obo/CHEBI_18357> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0051380
-	<http://purl.obolibrary.org/obo/GO_0051380> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000001186
-	<http://purl.obolibrary.org/obo/PR_000001186> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_P01101
-	<http://purl.obolibrary.org/obo/PR_P01101> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D007987
-	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0046879
-	<http://purl.obolibrary.org/obo/GO_0046879> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D005298> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_81568
-	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_81568> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0033684
-	<http://purl.obolibrary.org/obo/GO_0033684> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D007987> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001928
-	<http://purl.obolibrary.org/obo/MP_0001928> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0004023> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0060473
-	<http://purl.obolibrary.org/obo/GO_0060473> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_18357> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0046903
-	<http://purl.obolibrary.org/obo/GO_0046903> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0033684> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0060387
-	<http://purl.obolibrary.org/obo/GO_0060387> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0035037> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0035037
-	<http://purl.obolibrary.org/obo/GO_0035037> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0046879> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0004023
-	<http://purl.obolibrary.org/obo/MP_0004023> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0046903> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D005298
-	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0060387> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001921
-	<http://purl.obolibrary.org/obo/MP_0001921> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0060473> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0001921> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0001928> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PR_P01101> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0051380> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000001186> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_126> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Reduction, Plasma 17beta-estradiol concentrations"^^<http://www.w3.org/2001/XMLSchema#string> .
