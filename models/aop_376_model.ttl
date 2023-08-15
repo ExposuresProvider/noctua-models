@@ -1,0 +1,105 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_376> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_376> <http://purl.org/dc/elements/1.1/title> "102    Androgen receptor agonism leading to male-bias...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/376> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000004191
+	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004882
+	<http://purl.obolibrary.org/obo/GO_0004882> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/UBERON_2005272
+	<http://purl.obolibrary.org/obo/UBERON_2005272> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008584
+	<http://purl.obolibrary.org/obo/GO_0008584> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000001
+	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0046661
+	<http://purl.obolibrary.org/obo/GO_0046661> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000008
+	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :androgen%20receptor%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004882> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :male%20gonad%20development .
+
+###  http://www.co-ode.org/ontologies/ont.owl#immature%20gonad
+<http://www.co-ode.org/ontologies/ont.owl#immature%20gonad> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_2005272> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :male%20gonad%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :male%20gonad%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :male%20gonad%20development ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :male%20gonad%20development .
+
+###  http://www.co-ode.org/ontologies/ont.owl#male%20gonad%20development
+<http://www.co-ode.org/ontologies/ont.owl#male%20gonad%20development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008584> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :male%20sex%20differentiation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :male%20sex%20differentiation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :male%20sex%20differentiation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :male%20sex%20differentiation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :male%20sex%20differentiation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#male%20sex%20differentiation
+<http://www.co-ode.org/ontologies/ont.owl#male%20sex%20differentiation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0046661> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

@@ -1,0 +1,43 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_185> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_185> <http://purl.org/dc/elements/1.1/title> "851    Queen egg-laying decrease leads to colony loss...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/185> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://id.nlm.nih.gov/mesh/D056631
+	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D056631> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :colony%20collapse .
+
+###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D056631> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

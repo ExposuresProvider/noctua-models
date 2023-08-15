@@ -1,0 +1,204 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_430> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_430> <http://purl.org/dc/elements/1.1/title> "195    Binding of SARS-CoV-2 to ACE2 leads to viral i...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/430> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/GO_0075509
+	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0002020
+	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0038191
+	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_62488
+	<http://purl.obolibrary.org/obo/CHEBI_62488> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0060337
+	<http://purl.obolibrary.org/obo/GO_0060337> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0038197
+	<http://purl.obolibrary.org/obo/GO_0038197> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0071357
+	<http://purl.obolibrary.org/obo/GO_0071357> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0031381
+	<http://purl.obolibrary.org/obo/GO_0031381> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0039694
+	<http://purl.obolibrary.org/obo/GO_0039694> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0039690
+	<http://purl.obolibrary.org/obo/GO_0039690> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0072516
+	<http://purl.obolibrary.org/obo/GO_0072516> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019074
+	<http://purl.obolibrary.org/obo/GO_0019074> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019024
+	<http://purl.obolibrary.org/obo/GO_0019024> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0009299
+	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019081
+	<http://purl.obolibrary.org/obo/GO_0019081> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019076
+	<http://purl.obolibrary.org/obo/GO_0019076> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell
+<http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0075509> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20type%20I%20interferon .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protease%20binding
+<http://www.co-ode.org/ontologies/ont.owl#protease%20binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002020> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20type%20I%20interferon .
+
+###  http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding
+<http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0038191> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20type%20I%20interferon .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signalling%20molecule
+<http://www.co-ode.org/ontologies/ont.owl#signalling%20molecule> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_62488> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :type%20I%20interferon%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :type%20I%20interferon%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#type%20I%20interferon%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#type%20I%20interferon%20signaling%20pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0060337> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :positive%20stranded%20viral%20RNA%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :mRNA%20transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20translation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#type%20I%20interferon%20receptor%20complex
+<http://www.co-ode.org/ontologies/ont.owl#type%20I%20interferon%20receptor%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0038197> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cellular%20response%20to%20type%20I%20interferon ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cellular%20response%20to%20type%20I%20interferon ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cellular%20response%20to%20type%20I%20interferon ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cellular%20response%20to%20type%20I%20interferon .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20type%20I%20interferon
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20type%20I%20interferon> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0071357> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :positive%20stranded%20viral%20RNA%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :mRNA%20transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20translation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031381> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20RNA%20genome%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20RNA%20genome%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20RNA%20genome%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20RNA%20genome%20replication .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0039694> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20release%20from%20host%20cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031381> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :positive%20stranded%20viral%20RNA%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :positive%20stranded%20viral%20RNA%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :positive%20stranded%20viral%20RNA%20replication ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :positive%20stranded%20viral%20RNA%20replication .
+
+###  http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication
+<http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0039690> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20release%20from%20host%20cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20assembly%20compartment
+<http://www.co-ode.org/ontologies/ont.owl#viral%20assembly%20compartment> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0072516> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20RNA%20genome%20packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20RNA%20genome%20packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20RNA%20genome%20packaging ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20RNA%20genome%20packaging .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019074> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20release%20from%20host%20cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome
+<http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019024> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :mRNA%20transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :mRNA%20transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :mRNA%20transcription ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :mRNA%20transcription .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription
+<http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0009299> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20release%20from%20host%20cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome
+<http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019024> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20translation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20translation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20translation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20translation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20translation
+<http://www.co-ode.org/ontologies/ont.owl#viral%20translation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019081> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20release%20from%20host%20cell .
+
+###  http://www.co-ode.org/ontologies/ont.owl#viral%20release%20from%20host%20cell
+<http://www.co-ode.org/ontologies/ont.owl#viral%20release%20from%20host%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019076> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

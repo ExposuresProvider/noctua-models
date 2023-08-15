@@ -1,0 +1,117 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_6> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_6> <http://purl.org/dc/elements/1.1/title> "117    Antagonist binding to PPARα leading to body-we...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/6> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000013056
+	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0035624
+	<http://purl.obolibrary.org/obo/GO_0035624> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D007662
+	<http://id.nlm.nih.gov/mesh/D007662> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0002118
+	<http://purl.obolibrary.org/obo/MP_0002118> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_73693
+	<http://purl.obolibrary.org/obo/CHEBI_73693> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0001263
+	<http://purl.obolibrary.org/obo/MP_0001263> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D009124
+	<http://id.nlm.nih.gov/mesh/D009124> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0030163
+	<http://purl.obolibrary.org/obo/GO_0030163> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0048019
+	<http://purl.obolibrary.org/obo/GO_0048019> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000011048
+	<http://purl.obolibrary.org/obo/PR_000011048> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0003714
+	<http://purl.obolibrary.org/obo/GO_0003714> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000011047
+	<http://purl.obolibrary.org/obo/PR_000011047> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006635
+	<http://purl.obolibrary.org/obo/GO_0006635> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000013056> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :receptor%20transactivation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :receptor%20transactivation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation
+<http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0035624> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006635> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketosis .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ketosis
+<http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D007662> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal%20lipid%20homeostasis ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketone%20body .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ketosis
+<http://www.co-ode.org/ontologies/ont.owl#ketosis> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D007662> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :abnormal%20lipid%20homeostasis ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :ketone%20body .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0002118> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ketone%20body
+<http://www.co-ode.org/ontologies/ont.owl#ketone%20body> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_73693> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#weight%20loss
+<http://www.co-ode.org/ontologies/ont.owl#weight%20loss> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001263> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

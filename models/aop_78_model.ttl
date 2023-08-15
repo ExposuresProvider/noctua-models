@@ -1,0 +1,130 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_78> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_78> <http://purl.org/dc/elements/1.1/title> "749    Nicotinic acetylcholine receptor activation co...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/78> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/FMA_61796
+	<http://purl.obolibrary.org/obo/FMA_61796> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0015464
+	<http://purl.obolibrary.org/obo/GO_0015464> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0005739
+	<http://purl.obolibrary.org/obo/GO_0005739> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0099536
+	<http://purl.obolibrary.org/obo/GO_0099536> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007612
+	<http://purl.obolibrary.org/obo/GO_0007612> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007613
+	<http://purl.obolibrary.org/obo/GO_0007613> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019098
+	<http://purl.obolibrary.org/obo/GO_0019098> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0001386
+	<http://purl.obolibrary.org/obo/MP_0001386> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0002164
+	<http://purl.obolibrary.org/obo/GO_0002164> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D056631
+	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#Nicotinic%20acetylcholine%20receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/FMA_61796> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :acetylcholine%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :acetylcholine%20receptor%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholine%20receptor%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0015464> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :mitochondrion ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :mitochondrion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mitochondrion
+<http://www.co-ode.org/ontologies/ont.owl#mitochondrion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005739> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :synaptic%20signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :synaptic%20signaling .
+
+###  http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling
+<http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0099536> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :learning ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :memory .
+
+###  http://www.co-ode.org/ontologies/ont.owl#learning
+<http://www.co-ode.org/ontologies/ont.owl#learning> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007612> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#memory
+<http://www.co-ode.org/ontologies/ont.owl#memory> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007613> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019098> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :larval%20development .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20maternal%20nurturing
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20maternal%20nurturing> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001386> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :larval%20development ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :larval%20development .
+
+###  http://www.co-ode.org/ontologies/ont.owl#larval%20development
+<http://www.co-ode.org/ontologies/ont.owl#larval%20development> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002164> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :colony%20collapse .
+
+###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D056631> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

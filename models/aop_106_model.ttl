@@ -1,0 +1,126 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_106> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_106> <http://purl.org/dc/elements/1.1/title> "224    Chemical binding to tubulin in oocytes leading...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/106> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000028799
+	<http://purl.obolibrary.org/obo/PR_000028799> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0015631
+	<http://purl.obolibrary.org/obo/GO_0015631> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0045298
+	<http://purl.obolibrary.org/obo/GO_0045298> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0005874
+	<http://purl.obolibrary.org/obo/GO_0005874> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007019
+	<http://purl.obolibrary.org/obo/GO_0007019> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0005819
+	<http://purl.obolibrary.org/obo/GO_0005819> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007051
+	<http://purl.obolibrary.org/obo/GO_0007051> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0004023
+	<http://purl.obolibrary.org/obo/MP_0004023> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0005694
+	<http://purl.obolibrary.org/obo/GO_0005694> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0051305
+	<http://purl.obolibrary.org/obo/GO_0051305> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#tubulin
+<http://www.co-ode.org/ontologies/ont.owl#tubulin> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000028799> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :tubulin%20binding .
+
+###  http://www.co-ode.org/ontologies/ont.owl#tubulin%20binding
+<http://www.co-ode.org/ontologies/ont.owl#tubulin%20binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0015631> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :microtubule%20depolymerization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#tubulin%20complex
+<http://www.co-ode.org/ontologies/ont.owl#tubulin%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0045298> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :microtubule%20depolymerization ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :microtubule%20depolymerization ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :microtubule%20depolymerization ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :microtubule%20depolymerization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#microtubule
+<http://www.co-ode.org/ontologies/ont.owl#microtubule> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005874> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :microtubule%20depolymerization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#microtubule%20depolymerization
+<http://www.co-ode.org/ontologies/ont.owl#microtubule%20depolymerization> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007019> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :spindle%20organization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#spindle
+<http://www.co-ode.org/ontologies/ont.owl#spindle> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005819> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :spindle%20organization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#spindle%20organization
+<http://www.co-ode.org/ontologies/ont.owl#spindle%20organization> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007051> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :chromosome%20movement%20towards%20spindle%20pole .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chromosome
+<http://www.co-ode.org/ontologies/ont.owl#chromosome> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0005694> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :chromosome%20movement%20towards%20spindle%20pole .
+
+###  http://www.co-ode.org/ontologies/ont.owl#chromosome%20movement%20towards%20spindle%20pole
+<http://www.co-ode.org/ontologies/ont.owl#chromosome%20movement%20towards%20spindle%20pole> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0051305> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20chromosome%20number .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0004023> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :abnormal%20chromosome%20number ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20chromosome%20number .
+
+###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20chromosome%20number> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0004023> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .

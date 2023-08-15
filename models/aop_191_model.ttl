@@ -1,0 +1,78 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_191> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_191> <http://purl.org/dc/elements/1.1/title> "975    Type III iodotyrosine deiodinase (DIO3) inhibi...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/191> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000006482
+	<http://purl.obolibrary.org/obo/PR_000006482> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0003824
+	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_18258
+	<http://purl.obolibrary.org/obo/CHEBI_18258> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007552
+	<http://purl.obolibrary.org/obo/GO_0007552> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#type%20III%20iodothyronine%20deiodinase
+<http://www.co-ode.org/ontologies/ont.owl#type%20III%20iodothyronine%20deiodinase> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000006482> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity
+<http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003824> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :3%2C3%27%2C5-triiodo-L-thyronine ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :3%2C3%27%2C5-triiodo-L-thyronine ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :3%2C3%27%2C5-triiodo-L-thyronine ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :3%2C3%27%2C5-triiodo-L-thyronine .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine
+<http://www.co-ode.org/ontologies/ont.owl#3%2C3%27%2C5-triiodo-L-thyronine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_18258> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#metamorphosis
+<http://www.co-ode.org/ontologies/ont.owl#metamorphosis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007552> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#metamorphosis
+<http://www.co-ode.org/ontologies/ont.owl#metamorphosis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007552> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

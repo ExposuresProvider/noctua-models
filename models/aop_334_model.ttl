@@ -1,0 +1,132 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_334> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_334> <http://purl.org/dc/elements/1.1/title> "477    Glucocorticoid Receptor Agonism Leading to Imp...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/334> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000011406
+	<http://purl.obolibrary.org/obo/PR_000011406> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004883
+	<http://purl.obolibrary.org/obo/GO_0004883> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000030513
+	<http://purl.obolibrary.org/obo/PR_000030513> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0048179
+	<http://purl.obolibrary.org/obo/GO_0048179> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0032924
+	<http://purl.obolibrary.org/obo/GO_0032924> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CL_0000354
+	<http://purl.obolibrary.org/obo/CL_0000354> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0031101
+	<http://purl.obolibrary.org/obo/GO_0031101> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/NBO_0000371
+	<http://purl.obolibrary.org/obo/NBO_0000371> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000001
+	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000008
+	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000011406> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid%20receptor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid%20receptor%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004883> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#teratocarcinoma-derived%20growth%20factor%201
+<http://www.co-ode.org/ontologies/ont.owl#teratocarcinoma-derived%20growth%20factor%201> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000030513> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :activin%20receptor%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#activin%20receptor%20complex
+<http://www.co-ode.org/ontologies/ont.owl#activin%20receptor%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0048179> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :activin%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :activin%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :activin%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :activin%20receptor%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#activin%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#activin%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0032924> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :fin%20regeneration .
+
+###  http://www.co-ode.org/ontologies/ont.owl#blastemal%20cell
+<http://www.co-ode.org/ontologies/ont.owl#blastemal%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000354> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :fin%20regeneration .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fin%20regeneration
+<http://www.co-ode.org/ontologies/ont.owl#fin%20regeneration> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0031101> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :aquatic%20locomotion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#aquatic%20locomotion
+<http://www.co-ode.org/ontologies/ont.owl#aquatic%20locomotion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000371> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

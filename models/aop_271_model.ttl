@@ -1,0 +1,121 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_271> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_271> <http://purl.org/dc/elements/1.1/title> "615    Inhibition of thyroid peroxidase leading to im...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/271> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000016584
+	<http://purl.obolibrary.org/obo/PR_000016584> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004447
+	<http://purl.obolibrary.org/obo/GO_0004447> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_60311
+	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006590
+	<http://purl.obolibrary.org/obo/GO_0006590> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_16469
+	<http://purl.obolibrary.org/obo/CHEBI_16469> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D014819
+	<http://id.nlm.nih.gov/mesh/D014819> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/VT_1000294
+	<http://purl.obolibrary.org/obo/VT_1000294> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0009306
+	<http://purl.obolibrary.org/obo/GO_0009306> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000006100
+	<http://purl.obolibrary.org/obo/PR_000006100> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0070330
+	<http://purl.obolibrary.org/obo/GO_0070330> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0009299
+	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000016584> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :iodide%20peroxidase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :iodide%20peroxidase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004447> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006590> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :17beta-estradiol ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :17beta-estradiol ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :17beta-estradiol ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :17beta-estradiol .
+
+###  http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol
+<http://www.co-ode.org/ontologies/ont.owl#17beta-estradiol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16469> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> :vitellogenins ;
+	<http://purl.obolibrary.org/obo/RO_0002559> :vitellogenins .
+
+###  http://www.co-ode.org/ontologies/ont.owl#vitellogenins
+<http://www.co-ode.org/ontologies/ont.owl#vitellogenins> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D014819> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :egg%20quantity ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :egg%20quantity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#egg%20quantity
+<http://www.co-ode.org/ontologies/ont.owl#egg%20quantity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_1000294> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .

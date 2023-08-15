@@ -1,0 +1,114 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_120> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_120> <http://purl.org/dc/elements/1.1/title> "567    Inhibition of 5α-reductase leading to Leydig c...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/120> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_P31214
+	<http://purl.obolibrary.org/obo/PR_P31214> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0003824
+	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_81568
+	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CL_0000178
+	<http://purl.obolibrary.org/obo/CL_0000178> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0001152
+	<http://purl.obolibrary.org/obo/MP_0001152> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_17347
+	<http://purl.obolibrary.org/obo/CHEBI_17347> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0061370
+	<http://purl.obolibrary.org/obo/GO_0061370> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0002006
+	<http://purl.obolibrary.org/obo/MP_0002006> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-oxo-5-alpha-steroid%204-dehydrogenase%202%20%28rat%29
+<http://www.co-ode.org/ontologies/ont.owl#3-oxo-5-alpha-steroid%204-dehydrogenase%202%20%28rat%29> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_P31214> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :catalytic%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :catalytic%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity
+<http://www.co-ode.org/ontologies/ont.owl#catalytic%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003824> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :testosterone%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone
+<http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0061370> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Luteinizing%20hormone ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Luteinizing%20hormone ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Luteinizing%20hormone ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Luteinizing%20hormone .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone
+<http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Leydig%20cell%20hyperplasia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig%20cell%20hyperplasia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Leydig%20cell
+<http://www.co-ode.org/ontologies/ont.owl#Leydig%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000178> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :Leydig%20cell%20hyperplasia ;
+	<http://purl.obolibrary.org/obo/RO_0000053> :Leydig%20cell%20hyperplasia .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Leydig%20cell%20hyperplasia
+<http://www.co-ode.org/ontologies/ont.owl#Leydig%20cell%20hyperplasia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001152> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :neoplasm ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :neoplasm .
+
+###  http://www.co-ode.org/ontologies/ont.owl#neoplasm
+<http://www.co-ode.org/ontologies/ont.owl#neoplasm> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0002006> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

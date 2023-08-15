@@ -1,0 +1,75 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_349> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_349> <http://purl.org/dc/elements/1.1/title> "559    Inhibition of 11β-hydroxylase leading to decre...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/349> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/CHEBI_34133
+	<http://purl.obolibrary.org/obo/CHEBI_34133> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006702
+	<http://purl.obolibrary.org/obo/GO_0006702> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000001
+	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000008
+	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D005298
+	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone
+<http://www.co-ode.org/ontologies/ont.owl#11-Keto-testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_34133> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006702> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
+<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D005298> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#fertility
+<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D005298> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000008> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

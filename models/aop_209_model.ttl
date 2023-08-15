@@ -1,0 +1,142 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_209> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_209> <http://purl.org/dc/elements/1.1/title> "812    Perturbation of cholesterol and glutathione ho...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/209> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000021564
+	<http://purl.obolibrary.org/obo/PR_000021564> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0010467
+	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_27208
+	<http://purl.obolibrary.org/obo/CHEBI_27208> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006636
+	<http://purl.obolibrary.org/obo/GO_0006636> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000008293
+	<http://purl.obolibrary.org/obo/PR_000008293> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004363
+	<http://purl.obolibrary.org/obo/GO_0004363> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000029945
+	<http://purl.obolibrary.org/obo/PR_000029945> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004364
+	<http://purl.obolibrary.org/obo/GO_0004364> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_16856
+	<http://purl.obolibrary.org/obo/CHEBI_16856> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006750
+	<http://purl.obolibrary.org/obo/GO_0006750> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000008774
+	<http://purl.obolibrary.org/obo/PR_000008774> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0003857
+	<http://purl.obolibrary.org/obo/GO_0003857> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_16113
+	<http://purl.obolibrary.org/obo/CHEBI_16113> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%202%20proteolytic%20cleavage%20product> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000021564> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :unsaturated%20fatty%20acid%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid
+<http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_27208> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :unsaturated%20fatty%20acid%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#unsaturated%20fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006636> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :cholesterol .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
+<http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#glutathione
+<http://www.co-ode.org/ontologies/ont.owl#glutathione> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16856> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :glutathione%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#glutathione%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#glutathione%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006750> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :3-hydroxyacyl-CoA%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20type-2> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000008774> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :3-hydroxyacyl-CoA%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :3-hydroxyacyl-CoA%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#3-hydroxyacyl-CoA%20dehydrogenase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003857> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :cholesterol ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :cholesterol .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cholesterol
+<http://www.co-ode.org/ontologies/ont.owl#cholesterol> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16113> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#glutathione
+<http://www.co-ode.org/ontologies/ont.owl#glutathione> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_16856> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

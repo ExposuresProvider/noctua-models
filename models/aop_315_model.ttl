@@ -1,0 +1,115 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_315> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_315> <http://purl.org/dc/elements/1.1/title> "592    Inhibition of JAK3 leading to impairment of T-...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/315> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000009198
+	<http://purl.obolibrary.org/obo/PR_000009198> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0051098
+	<http://purl.obolibrary.org/obo/GO_0051098> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000001933
+	<http://purl.obolibrary.org/obo/PR_000001933> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006470
+	<http://purl.obolibrary.org/obo/GO_0006470> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0032993
+	<http://purl.obolibrary.org/obo/GO_0032993> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0043392
+	<http://purl.obolibrary.org/obo/GO_0043392> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000001391
+	<http://purl.obolibrary.org/obo/PR_000001391> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0032633
+	<http://purl.obolibrary.org/obo/GO_0032633> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0002286
+	<http://purl.obolibrary.org/obo/GO_0002286> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#tyrosine-protein%20kinase%20JAK3
+<http://www.co-ode.org/ontologies/ont.owl#tyrosine-protein%20kinase%20JAK3> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000009198> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20binding .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20binding
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0051098> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dephosphorylation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signal%20transducer%20and%20transcription%20activator%20STAT
+<http://www.co-ode.org/ontologies/ont.owl#signal%20transducer%20and%20transcription%20activator%20STAT> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000001933> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dephosphorylation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dephosphorylation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dephosphorylation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dephosphorylation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein%20dephosphorylation
+<http://www.co-ode.org/ontologies/ont.owl#protein%20dephosphorylation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006470> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :negative%20regulation%20of%20DNA%20binding .
+
+###  http://www.co-ode.org/ontologies/ont.owl#protein-DNA%20complex
+<http://www.co-ode.org/ontologies/ont.owl#protein-DNA%20complex> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0032993> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :negative%20regulation%20of%20DNA%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :negative%20regulation%20of%20DNA%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :negative%20regulation%20of%20DNA%20binding ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :negative%20regulation%20of%20DNA%20binding .
+
+###  http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20DNA%20binding
+<http://www.co-ode.org/ontologies/ont.owl#negative%20regulation%20of%20DNA%20binding> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0043392> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :interleukin-4%20production .
+
+###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-4> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000001391> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :interleukin-4%20production .
+
+###  http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production
+<http://www.co-ode.org/ontologies/ont.owl#interleukin-4%20production> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0032633> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :T%20cell%20activation%20involved%20in%20immune%20response .
+
+###  http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation%20involved%20in%20immune%20response
+<http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002286> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

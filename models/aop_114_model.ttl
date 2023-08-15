@@ -1,0 +1,144 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_114> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_114> <http://purl.org/dc/elements/1.1/title> "514    HPPD inhibition leading to corneal papillomas ...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/114> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_P32755
+	<http://purl.obolibrary.org/obo/PR_P32755> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0003868
+	<http://purl.obolibrary.org/obo/GO_0003868> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CHEBI_18186
+	<http://purl.obolibrary.org/obo/CHEBI_18186> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/CL_0000575
+	<http://purl.obolibrary.org/obo/CL_0000575> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008219
+	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006954
+	<http://purl.obolibrary.org/obo/GO_0006954> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008283
+	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D010212
+	<http://id.nlm.nih.gov/mesh/D010212> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20%28rat%29
+<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20%28rat%29> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_P32755> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :4-hydroxyphenylpyruvate%20dioxygenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :4-hydroxyphenylpyruvate%20dioxygenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :4-hydroxyphenylpyruvate%20dioxygenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :4-hydroxyphenylpyruvate%20dioxygenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#4-hydroxyphenylpyruvate%20dioxygenase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0003868> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :tyrosine ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :tyrosine ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :tyrosine ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :tyrosine .
+
+###  http://www.co-ode.org/ontologies/ont.owl#tyrosine
+<http://www.co-ode.org/ontologies/ont.owl#tyrosine> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_18186> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000575> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response .
+
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000575> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :inflammatory%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :inflammatory%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :inflammatory%20response ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :inflammatory%20response .
+
+###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0006954> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell
+<http://www.co-ode.org/ontologies/ont.owl#corneal%20epithelial%20cell> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CL_0000575> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008283> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :papilloma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :papilloma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :papilloma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :papilloma ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Carcinoma .
+
+###  http://www.co-ode.org/ontologies/ont.owl#papilloma
+<http://www.co-ode.org/ontologies/ont.owl#papilloma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D010212> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D002277> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

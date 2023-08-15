@@ -1,0 +1,99 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_204> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_204> <http://purl.org/dc/elements/1.1/title> "21    5-hydroxytryptamine transporter inhibition lea...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/204> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000015189
+	<http://purl.obolibrary.org/obo/PR_000015189> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0098810
+	<http://purl.obolibrary.org/obo/GO_0098810> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0051610
+	<http://purl.obolibrary.org/obo/GO_0051610> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/UBERON_0003978
+	<http://purl.obolibrary.org/obo/UBERON_0003978> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0050881
+	<http://purl.obolibrary.org/obo/GO_0050881> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0022414
+	<http://purl.obolibrary.org/obo/GO_0022414> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PCO_0000001
+	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0001820
+	<http://purl.obolibrary.org/obo/GO_0001820> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PCO_0000001> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0022414> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :population%20of%20organisms ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :population%20of%20organisms .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter
+<http://www.co-ode.org/ontologies/ont.owl#sodium-dependent%20serotonin%20transporter> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000015189> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :serotonin%20secretion ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :serotonin%20secretion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#serotonin%20secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001820> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#valve
+<http://www.co-ode.org/ontologies/ont.owl#valve> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/UBERON_0003978> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :musculoskeletal%20movement ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :musculoskeletal%20movement .
+
+###  http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement
+<http://www.co-ode.org/ontologies/ont.owl#musculoskeletal%20movement> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0050881> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .

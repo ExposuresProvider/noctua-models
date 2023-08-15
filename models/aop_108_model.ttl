@@ -1,0 +1,154 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_108> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_108> <http://purl.org/dc/elements/1.1/title> "605    Inhibition of pyruvate dehydrogenase kinase le...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/108> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://id.nlm.nih.gov/mesh/D000236
+	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D002277
+	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D006528
+	<http://id.nlm.nih.gov/mesh/D006528> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0008219
+	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0001909
+	<http://purl.obolibrary.org/obo/GO_0001909> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0003674
+	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000023575
+	<http://purl.obolibrary.org/obo/PR_000023575> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0004738
+	<http://purl.obolibrary.org/obo/GO_0004738> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_Q63065
+	<http://purl.obolibrary.org/obo/PR_Q63065> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0045333
+	<http://purl.obolibrary.org/obo/GO_0045333> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Pyruvate%20dehydrogenase%20%28acetyl-transferring%29%5D%20kinase%20isozyme%201%2C%20mitochondrial%20%28rat%29
+<http://www.co-ode.org/ontologies/ont.owl#Pyruvate%20dehydrogenase%20%28acetyl-transferring%29%5D%20kinase%20isozyme%201%2C%20mitochondrial%20%28rat%29> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_Q63065> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :pyruvate%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004738> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :pyruvate%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20%5Bubiquinone%5D
+<http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20%5Bubiquinone%5D> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000023575> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :pyruvate%20dehydrogenase%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :pyruvate%20dehydrogenase%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20activity
+<http://www.co-ode.org/ontologies/ont.owl#pyruvate%20dehydrogenase%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0004738> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20respiration .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cellular%20respiration
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20respiration> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0045333> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :oxidative%20stress .
+
+###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0003674> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :cell%20death ;
+	<http://purl.obolibrary.org/obo/RO_0004024> :leukocyte%20mediated%20cytotoxicity ;
+	<http://purl.obolibrary.org/obo/RO_0004021> :leukocyte%20mediated%20cytotoxicity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0008219> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hepatocellular%20carcinoma .
+
+###  http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity
+<http://www.co-ode.org/ontologies/ont.owl#leukocyte%20mediated%20cytotoxicity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001909> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Adenoma ;
+	<http://purl.obolibrary.org/obo/RO_0002234> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002233> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0000057> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0002332> :Carcinoma ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :hepatocellular%20carcinoma .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D002277> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D000236> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :hepatocellular%20carcinoma .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma
+<http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D006528> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .

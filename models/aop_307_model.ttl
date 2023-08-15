@@ -1,0 +1,87 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_307> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_307> <http://purl.org/dc/elements/1.1/title> "300    Decreased testosterone synthesis leading to sh...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/307> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/CHEBI_17347
+	<http://purl.obolibrary.org/obo/CHEBI_17347> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0061370
+	<http://purl.obolibrary.org/obo/GO_0061370> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/PR_000004191
+	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0010468
+	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/FMA_264621
+	<http://purl.obolibrary.org/obo/FMA_264621> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0030521
+	<http://purl.obolibrary.org/obo/GO_0030521> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone
+<http://www.co-ode.org/ontologies/ont.owl#testosterone> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/CHEBI_17347> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :testosterone%20biosynthetic%20process .
+
+###  http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process
+<http://www.co-ode.org/ontologies/ont.owl#testosterone%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0061370> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000004191> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20gene%20expression ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20gene%20expression .
+
+###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0010468> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :androgen%20receptor%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#Musculature%20of%20male%20perineum
+<http://www.co-ode.org/ontologies/ont.owl#Musculature%20of%20male%20perineum> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/FMA_264621> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :androgen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :androgen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :androgen%20receptor%20signaling%20pathway ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :androgen%20receptor%20signaling%20pathway .
+
+###  http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20signaling%20pathway
+<http://www.co-ode.org/ontologies/ont.owl#androgen%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0030521> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .

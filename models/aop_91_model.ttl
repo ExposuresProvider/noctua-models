@@ -1,0 +1,103 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_91> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_91> <http://purl.org/dc/elements/1.1/title> "899    Sodium channel inhibition leading to reduced s...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/91> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000002095
+	<http://purl.obolibrary.org/obo/PR_000002095> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019871
+	<http://purl.obolibrary.org/obo/GO_0019871> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0023052
+	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0001508
+	<http://purl.obolibrary.org/obo/GO_0001508> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/NBO_0000371
+	<http://purl.obolibrary.org/obo/NBO_0000371> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/NBO_0000079
+	<http://purl.obolibrary.org/obo/NBO_0000079> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0002120
+	<http://purl.obolibrary.org/obo/GO_0002120> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/VT_0005372
+	<http://purl.obolibrary.org/obo/VT_0005372> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000002095> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%20channel%20inhibitor%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019871> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000002095> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+
+###  http://www.co-ode.org/ontologies/ont.owl#signaling
+<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0023052> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :action%20potential .
+
+###  http://www.co-ode.org/ontologies/ont.owl#action%20potential
+<http://www.co-ode.org/ontologies/ont.owl#action%20potential> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0001508> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/NBO_0000079> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior
+<http://www.co-ode.org/ontologies/ont.owl#predatory%20behavior> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0002120> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> :life%20span%20trait .
+
+###  http://www.co-ode.org/ontologies/ont.owl#life%20span%20trait
+<http://www.co-ode.org/ontologies/ont.owl#life%20span%20trait> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/VT_0005372> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .

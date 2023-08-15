@@ -1,0 +1,109 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
+    @base <http://www.w3.org/2002/07/owl#> .
+
+    <https://noctua.apps.renci.org/model/AOP_96> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_96> <http://purl.org/dc/elements/1.1/title> "173    Axonal sodium channel modulation leading to ac...
+Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/96> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
+        
+
+#################################################################
+#   Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/PR_000002095
+	<http://purl.obolibrary.org/obo/PR_000002095> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0019871
+	<http://purl.obolibrary.org/obo/GO_0019871> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0051899
+	<http://purl.obolibrary.org/obo/GO_0051899> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0007269
+	<http://purl.obolibrary.org/obo/GO_0007269> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/GO_0006936
+	<http://purl.obolibrary.org/obo/GO_0006936> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0001393
+	<http://purl.obolibrary.org/obo/MP_0001393> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0001399
+	<http://purl.obolibrary.org/obo/MP_0001399> rdf:type owl:Class .
+
+###  http://purl.obolibrary.org/obo/MP_0000753
+	<http://purl.obolibrary.org/obo/MP_0000753> rdf:type owl:Class .
+
+###  http://id.nlm.nih.gov/mesh/D009026
+	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+
+
+
+#################################################################
+#   Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20protein%20type%201%20subunit%20alpha> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/PR_000002095> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002327> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002353> :sodium%20channel%20inhibitor%20activity ;
+	<http://purl.obolibrary.org/obo/RO_0002428> :sodium%20channel%20inhibitor%20activity .
+
+###  http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity
+<http://www.co-ode.org/ontologies/ont.owl#sodium%20channel%20inhibitor%20activity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0019871> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :membrane%20depolarization .
+
+###  http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20depolarization> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0051899> ;
+	<http://purl.obolibrary.org/obo/RO_0002410> :neurotransmitter%20secretion .
+
+###  http://www.co-ode.org/ontologies/ont.owl#neurotransmitter%20secretion
+<http://www.co-ode.org/ontologies/ont.owl#neurotransmitter%20secretion> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/GO_0007269> .
+
+###  http://www.co-ode.org/ontologies/ont.owl#ataxia
+<http://www.co-ode.org/ontologies/ont.owl#ataxia> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001393> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
+<http://www.co-ode.org/ontologies/ont.owl#hyperactivity> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0001399> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#paralysis
+<http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
+	<http://purl.obolibrary.org/obo/MP_0000753> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
+	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+
+###  http://www.co-ode.org/ontologies/ont.owl#mortality
+<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
+	<http://id.nlm.nih.gov/mesh/D009026> .
+
+
+
+#################################################################
+#   Object Statements
+#################################################################
+
+<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
