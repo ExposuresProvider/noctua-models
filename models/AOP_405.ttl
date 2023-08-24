@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_405> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_405> <http://purl.org/dc/elements/1.1/title> "783    Organo-Phosphate Chemicals induced inhibition ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_405> <http://purl.org/dc/elements/1.1/title> "Organo-Phosphate Chemicals induced inhibition of AChE leading to impaired cognitive function"^^xsd:string .
 <https://noctua.apps.renci.org/model/405> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

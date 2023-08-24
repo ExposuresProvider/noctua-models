@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_389> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_389> <http://purl.org/dc/elements/1.1/title> "5    Oxygen-evolving complex damage leading to popu...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_389> <http://purl.org/dc/elements/1.1/title> "Oxygen-evolving complex damage leading to population decline via inhibition of photosynthesis"^^xsd:string .
 <https://noctua.apps.renci.org/model/389> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

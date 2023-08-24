@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_128> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_128> <http://purl.org/dc/elements/1.1/title> "647    Kidney dysfunction by decreased thyroid hormone
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_128> <http://purl.org/dc/elements/1.1/title> "Kidney dysfunction by decreased thyroid hormone"^^xsd:string .
 <https://noctua.apps.renci.org/model/128> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

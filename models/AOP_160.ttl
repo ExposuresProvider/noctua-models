@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_160> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_160> <http://purl.org/dc/elements/1.1/title> "639    Ionotropic gamma-aminobutyric acid receptor ac...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_160> <http://purl.org/dc/elements/1.1/title> "Ionotropic gamma-aminobutyric acid receptor activation mediated neurotransmission inhibition leading to mortality"^^xsd:string .
 <https://noctua.apps.renci.org/model/160> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

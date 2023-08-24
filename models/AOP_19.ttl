@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_19> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_19> <http://purl.org/dc/elements/1.1/title> "109    Androgen receptor antagonism leading to advers...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_19> <http://purl.org/dc/elements/1.1/title> "Androgen receptor antagonism leading to adverse effects in the male foetus (mammals)"^^xsd:string .
 <https://noctua.apps.renci.org/model/19> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

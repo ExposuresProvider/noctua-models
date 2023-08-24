@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_398> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_398> <http://purl.org/dc/elements/1.1/title> "569    Inhibition of ALDH1A (RALDH) leading to impair...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_398> <http://purl.org/dc/elements/1.1/title> "Inhibition of ALDH1A (RALDH) leading to impaired fertility via disrupted meiotic initiation of fetal oogonia of the ovary"^^xsd:string .
 <https://noctua.apps.renci.org/model/398> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

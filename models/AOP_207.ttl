@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_207> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_207> <http://purl.org/dc/elements/1.1/title> "729    NADPH oxidase and P38 MAPK activation leading ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_207> <http://purl.org/dc/elements/1.1/title> "NADPH oxidase and P38 MAPK activation leading to reproductive failure in Caenorhabditis elegans"^^xsd:string .
 <https://noctua.apps.renci.org/model/207> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_216> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_216> <http://purl.org/dc/elements/1.1/title> "330    Deposition of energy leading to population dec...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_216> <http://purl.org/dc/elements/1.1/title> "Deposition of energy leading to population decline via DNA strand breaks and follicular atresia"^^xsd:string .
 <https://noctua.apps.renci.org/model/216> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

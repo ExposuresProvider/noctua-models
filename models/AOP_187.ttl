@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_187> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_187> <http://purl.org/dc/elements/1.1/title> "121    Anticoagulant rodenticide inhibition of vitami...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_187> <http://purl.org/dc/elements/1.1/title> "Anticoagulant rodenticide inhibition of vitamin K epoxide reductase resulting coagulopathy and hemorrhage"^^xsd:string .
 <https://noctua.apps.renci.org/model/187> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

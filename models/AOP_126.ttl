@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_126> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_126> <http://purl.org/dc/elements/1.1/title> "84    Alpha-noradrenergic antagonism leads to reduce...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_126> <http://purl.org/dc/elements/1.1/title> "Alpha-noradrenergic antagonism leads to reduced fecundity via delayed ovulation"^^xsd:string .
 <https://noctua.apps.renci.org/model/126> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

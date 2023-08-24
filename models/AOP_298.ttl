@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_298> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_298> <http://purl.org/dc/elements/1.1/title> "556    Increases in cellular reactive oxygen species ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_298> <http://purl.org/dc/elements/1.1/title> "Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer"^^xsd:string .
 <https://noctua.apps.renci.org/model/298> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

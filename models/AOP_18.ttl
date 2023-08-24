@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_18> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_18> <http://purl.org/dc/elements/1.1/title> "835    PPARα activation in utero leading to impaired ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_18> <http://purl.org/dc/elements/1.1/title> "PPARα activation in utero leading to impaired fertility in males"^^xsd:string .
 <https://noctua.apps.renci.org/model/18> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

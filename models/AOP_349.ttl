@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_349> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_349> <http://purl.org/dc/elements/1.1/title> "559    Inhibition of 11β-hydroxylase leading to decre...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_349> <http://purl.org/dc/elements/1.1/title> "Inhibition of 11β-hydroxylase leading to decresed population trajectory "^^xsd:string .
 <https://noctua.apps.renci.org/model/349> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

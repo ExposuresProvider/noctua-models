@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_213> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_213> <http://purl.org/dc/elements/1.1/title> "583    Inhibition of fatty acid beta oxidation leadin...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_213> <http://purl.org/dc/elements/1.1/title> "Inhibition of fatty acid beta oxidation leading to nonalcoholic steatohepatitis (NASH)"^^xsd:string .
 <https://noctua.apps.renci.org/model/213> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

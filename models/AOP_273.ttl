@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_273> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_273> <http://purl.org/dc/elements/1.1/title> "686    Mitochondrial complex inhibition leading to li...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_273> <http://purl.org/dc/elements/1.1/title> "Mitochondrial complex inhibition leading to liver injury"^^xsd:string .
 <https://noctua.apps.renci.org/model/273> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

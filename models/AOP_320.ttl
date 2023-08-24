@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_320> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_320> <http://purl.org/dc/elements/1.1/title> "197    Binding of SARS-CoV-2 to ACE2 receptor leading...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_320> <http://purl.org/dc/elements/1.1/title> "Binding of SARS-CoV-2 to ACE2 receptor leading to acute respiratory distress associated mortality"^^xsd:string .
 <https://noctua.apps.renci.org/model/320> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_111> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_111> <http://purl.org/dc/elements/1.1/title> "291    Decrease in androgen receptor activity leading...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_111> <http://purl.org/dc/elements/1.1/title> "Decrease in androgen receptor activity leading to Leydig cell tumors (in rat)"^^xsd:string .
 <https://noctua.apps.renci.org/model/111> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_162> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_162> <http://purl.org/dc/elements/1.1/title> "413    Enhanced hepatic clearance of thyroid hormones...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_162> <http://purl.org/dc/elements/1.1/title> "Enhanced hepatic clearance of thyroid hormones leading to thyroid follicular cell adenomas and carcinomas in the rat and mouse"^^xsd:string .
 <https://noctua.apps.renci.org/model/162> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

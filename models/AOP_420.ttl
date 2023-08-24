@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_420> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_420> <http://purl.org/dc/elements/1.1/title> "165    Aryl hydrocarbon receptor activation leading t...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_420> <http://purl.org/dc/elements/1.1/title> "Aryl hydrocarbon receptor activation leading to lung cancer through sustained NRF2 toxicity pathway"^^xsd:string .
 <https://noctua.apps.renci.org/model/420> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_200> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_200> <http://purl.org/dc/elements/1.1/title> "433    Estrogen receptor activation leading to breast...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_200> <http://purl.org/dc/elements/1.1/title> "Estrogen receptor activation leading to breast cancer "^^xsd:string .
 <https://noctua.apps.renci.org/model/200> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_121> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_121> <http://purl.org/dc/elements/1.1/title> "998    Urinary bladder calculi leading to urothelial ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_121> <http://purl.org/dc/elements/1.1/title> "Urinary bladder calculi leading to urothelial papillomas and carcinomas (in mouse and rat)"^^xsd:string .
 <https://noctua.apps.renci.org/model/121> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

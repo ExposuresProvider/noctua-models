@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_209> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_209> <http://purl.org/dc/elements/1.1/title> "812    Perturbation of cholesterol and glutathione ho...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_209> <http://purl.org/dc/elements/1.1/title> "Perturbation of cholesterol and glutathione homeostasis leading to hepatotoxicity: Integrated multi-OMICS approach for building AOP "^^xsd:string .
 <https://noctua.apps.renci.org/model/209> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

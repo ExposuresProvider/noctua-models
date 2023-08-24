@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_394> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_394> <http://purl.org/dc/elements/1.1/title> "877    SARS-CoV-2 infection of olfactory epithelium l...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_394> <http://purl.org/dc/elements/1.1/title> "SARS-CoV-2 infection of olfactory epithelium leading to impaired olfactory function (short-term anosmia)"^^xsd:string .
 <https://noctua.apps.renci.org/model/394> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

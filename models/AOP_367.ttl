@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_367> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_367> <http://purl.org/dc/elements/1.1/title> "245    Competitive binding to thyroid hormone carrier...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_367> <http://purl.org/dc/elements/1.1/title> "Competitive binding to thyroid hormone carrier protein thyroid binding globulin (TBG) leading to altered amphibian metamorphosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/367> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_94> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_94> <http://purl.org/dc/elements/1.1/title> "895    Sodium channel inhibition leading to congenita...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_94> <http://purl.org/dc/elements/1.1/title> "Sodium channel inhibition leading to congenital malformations"^^xsd:string .
 <https://noctua.apps.renci.org/model/94> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

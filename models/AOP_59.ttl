@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_59> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_59> <http://purl.org/dc/elements/1.1/title> "512    HNF4alpha suppression leading to hepatic steat...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_59> <http://purl.org/dc/elements/1.1/title> "HNF4alpha suppression leading to hepatic steatosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/59> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

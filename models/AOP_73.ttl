@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_73> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_73> <http://purl.org/dc/elements/1.1/title> "1014    Xenobiotic Inhibition of Dopamine-beta-Hydroxy...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_73> <http://purl.org/dc/elements/1.1/title> "Xenobiotic Inhibition of Dopamine-beta-Hydroxylase and subsequent reduced fecundity"^^xsd:string .
 <https://noctua.apps.renci.org/model/73> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

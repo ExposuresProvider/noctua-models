@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_72> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_72> <http://purl.org/dc/elements/1.1/title> "415    Epigenetic modification of PPARG leading to ad...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_72> <http://purl.org/dc/elements/1.1/title> "Epigenetic modification of PPARG leading to adipogenesis"^^xsd:string .
 <https://noctua.apps.renci.org/model/72> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

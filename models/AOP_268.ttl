@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_268> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_268> <http://purl.org/dc/elements/1.1/title> "987    Uncoupling of oxidative phosphorylation leadin...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_268> <http://purl.org/dc/elements/1.1/title> "Uncoupling of oxidative phosphorylation leading to growth inhibition via mitochondrial swelling"^^xsd:string .
 <https://noctua.apps.renci.org/model/268> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

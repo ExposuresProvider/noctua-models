@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_163> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_163> <http://purl.org/dc/elements/1.1/title> "833    PPARgamma activation leading to sarcomas in ra...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_163> <http://purl.org/dc/elements/1.1/title> "PPARgamma activation leading to sarcomas in rats, mice, and hamsters"^^xsd:string .
 <https://noctua.apps.renci.org/model/163> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_382> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_382> <http://purl.org/dc/elements/1.1/title> "113    Angiotensin II type 1 receptor (AT1R) agonism ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_382> <http://purl.org/dc/elements/1.1/title> "Angiotensin II type 1 receptor (AT1R) agonism leading to lung fibrosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/382> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

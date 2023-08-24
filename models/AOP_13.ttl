@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_13> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_13> <http://purl.org/dc/elements/1.1/title> "234    Chronic binding of antagonist to N-methyl-D-as...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_13> <http://purl.org/dc/elements/1.1/title> "Chronic binding of antagonist to N-methyl-D-aspartate receptors (NMDARs) during brain development induces impairment of learning and memory abilities"^^xsd:string .
 <https://noctua.apps.renci.org/model/13> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_329> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_329> <http://purl.org/dc/elements/1.1/title> "452    Excessive reactive oxygen species production l...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_329> <http://purl.org/dc/elements/1.1/title> "Excessive reactive oxygen species production leading to mortality (3)"^^xsd:string .
 <https://noctua.apps.renci.org/model/329> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

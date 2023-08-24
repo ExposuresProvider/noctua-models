@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_195> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_195> <http://purl.org/dc/elements/1.1/title> "16    5-hydroxytryptamine transporter (5-HTT) inhibi...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_195> <http://purl.org/dc/elements/1.1/title> "5-hydroxytryptamine transporter (5-HTT) inhibition leading to population increase"^^xsd:string .
 <https://noctua.apps.renci.org/model/195> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

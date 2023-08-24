@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_307> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_307> <http://purl.org/dc/elements/1.1/title> "300    Decreased testosterone synthesis leading to sh...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_307> <http://purl.org/dc/elements/1.1/title> "Decreased testosterone synthesis leading to short anogenital distance (AGD) in male (mammalian) offspring"^^xsd:string .
 <https://noctua.apps.renci.org/model/307> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

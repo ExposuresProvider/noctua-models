@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_176> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_176> <http://purl.org/dc/elements/1.1/title> "905    Sodium Iodide Symporter (NIS) Inhibition leadi...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_176> <http://purl.org/dc/elements/1.1/title> "Sodium Iodide Symporter (NIS) Inhibition leading to altered amphibian metamorphosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/176> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

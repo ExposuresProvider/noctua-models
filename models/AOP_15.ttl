@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_15> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_15> <http://purl.org/dc/elements/1.1/title> "78    Alkylation of DNA in male pre-meiotic germ cel...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_15> <http://purl.org/dc/elements/1.1/title> "Alkylation of DNA in male pre-meiotic germ cells leading to heritable mutations"^^xsd:string .
 <https://noctua.apps.renci.org/model/15> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

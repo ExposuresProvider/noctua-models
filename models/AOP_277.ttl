@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_277> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_277> <http://purl.org/dc/elements/1.1/title> "528    Impaired IL-1R1 signaling leading to Impaired ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_277> <http://purl.org/dc/elements/1.1/title> "Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response"^^xsd:string .
 <https://noctua.apps.renci.org/model/277> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

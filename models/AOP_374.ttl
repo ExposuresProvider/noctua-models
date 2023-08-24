@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_374> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_374> <http://purl.org/dc/elements/1.1/title> "187    Binding of Sars-CoV-2 spike protein to ACE 2 r...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_374> <http://purl.org/dc/elements/1.1/title> "Binding of Sars-CoV-2 spike protein to ACE 2 receptors expressed on brain cells (neuronal and non-neuronal) leads to neuroinflammation resulting in encephalitis"^^xsd:string .
 <https://noctua.apps.renci.org/model/374> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

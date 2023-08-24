@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_153> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_153> <http://purl.org/dc/elements/1.1/title> "142    Aromatase Inhibition leading to Ovulation Inhi...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_153> <http://purl.org/dc/elements/1.1/title> "Aromatase Inhibition leading to Ovulation Inhibition and Decreased Fertility in Female Rats"^^xsd:string .
 <https://noctua.apps.renci.org/model/153> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

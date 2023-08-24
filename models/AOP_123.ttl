@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_123> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_123> <http://purl.org/dc/elements/1.1/title> "993    Unknown MIE leading to reproductive dysfunctio...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_123> <http://purl.org/dc/elements/1.1/title> "Unknown MIE leading to reproductive dysfunction via increased HIF-1alpha transcription"^^xsd:string .
 <https://noctua.apps.renci.org/model/123> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,7 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_141> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_141> <http://purl.org/dc/elements/1.1/title> "Series([], Name: Title, dtype: object)"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_141> <http://purl.org/dc/elements/1.1/title> "AOP 141"^^xsd:string .
 <https://noctua.apps.renci.org/model/141> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

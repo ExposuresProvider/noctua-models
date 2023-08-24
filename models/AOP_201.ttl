@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_201> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_201> <http://purl.org/dc/elements/1.1/title> "643    Juvenile hormone receptor agonism leading to m...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_201> <http://purl.org/dc/elements/1.1/title> "Juvenile hormone receptor agonism leading to male offspring induction associated population decline"^^xsd:string .
 <https://noctua.apps.renci.org/model/201> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

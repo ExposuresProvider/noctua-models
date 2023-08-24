@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_116> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_116> <http://purl.org/dc/elements/1.1/title> "286    Cytotoxicity leading to renal tubular adenomas...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_116> <http://purl.org/dc/elements/1.1/title> "Cytotoxicity leading to renal tubular adenomas and carcinomas (in male rat) "^^xsd:string .
 <https://noctua.apps.renci.org/model/116> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

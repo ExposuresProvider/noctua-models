@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_144> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_144> <http://purl.org/dc/elements/1.1/title> "406    Endocytic lysosomal uptake leading to liver fi...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_144> <http://purl.org/dc/elements/1.1/title> "Endocytic lysosomal uptake leading to liver fibrosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/144> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

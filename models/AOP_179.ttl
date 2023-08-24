@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_179> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_179> <http://purl.org/dc/elements/1.1/title> "1002    Varroa mite infestation increases virus levels...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_179> <http://purl.org/dc/elements/1.1/title> "Varroa mite infestation increases virus levels leading to colony loss/failure"^^xsd:string .
 <https://noctua.apps.renci.org/model/179> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

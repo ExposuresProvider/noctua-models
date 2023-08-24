@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_331> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_331> <http://purl.org/dc/elements/1.1/title> "456    Formation of DNA photoproducts leading to grow...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_331> <http://purl.org/dc/elements/1.1/title> "Formation of DNA photoproducts leading to growth inhibition (1)"^^xsd:string .
 <https://noctua.apps.renci.org/model/331> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

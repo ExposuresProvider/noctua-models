@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_80> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_80> <http://purl.org/dc/elements/1.1/title> "755    Nicotinic acetylcholine receptor activation co...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_80> <http://purl.org/dc/elements/1.1/title> "Nicotinic acetylcholine receptor activation contributes to accumulation of damaged mitochondrial DNA and leads to colony loss/failure"^^xsd:string .
 <https://noctua.apps.renci.org/model/80> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

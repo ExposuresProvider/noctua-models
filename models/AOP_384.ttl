@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_384> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_384> <http://purl.org/dc/elements/1.1/title> "516    Hyperactivation of ACE/Ang-II/AT1R axis leadin...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_384> <http://purl.org/dc/elements/1.1/title> "Hyperactivation of ACE/Ang-II/AT1R axis leading to chronic kidney disease "^^xsd:string .
 <https://noctua.apps.renci.org/model/384> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

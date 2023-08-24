@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_46> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_46> <http://purl.org/dc/elements/1.1/title> "60    AFB1: Mutagenic Mode-of-Action leading to Hepa...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_46> <http://purl.org/dc/elements/1.1/title> "AFB1: Mutagenic Mode-of-Action leading to Hepatocellular Carcinoma (HCC)"^^xsd:string .
 <https://noctua.apps.renci.org/model/46> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_166> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_166> <http://purl.org/dc/elements/1.1/title> "826    PPARalpha activation leading to pancreatic aci...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_166> <http://purl.org/dc/elements/1.1/title> "PPARalpha activation leading to pancreatic acinar tumors in the rat and mouse"^^xsd:string .
 <https://noctua.apps.renci.org/model/166> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

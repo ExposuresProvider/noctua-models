@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_258> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_258> <http://purl.org/dc/elements/1.1/title> "865    Renal protein alkylation leading to kidney tox...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_258> <http://purl.org/dc/elements/1.1/title> "Renal protein alkylation leading to kidney toxicity"^^xsd:string .
 <https://noctua.apps.renci.org/model/258> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_183> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_183> <http://purl.org/dc/elements/1.1/title> "767    Nosema infection increases energetic demands l...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_183> <http://purl.org/dc/elements/1.1/title> "Nosema infection increases energetic demands leading to colony loss/failure"^^xsd:string .
 <https://noctua.apps.renci.org/model/183> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

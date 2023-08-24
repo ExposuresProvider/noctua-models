@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_21> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_21> <http://purl.org/dc/elements/1.1/title> "153    Aryl hydrocarbon receptor activation leading t...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_21> <http://purl.org/dc/elements/1.1/title> "Aryl hydrocarbon receptor activation leading to early life stage mortality, via increased COX-2"^^xsd:string .
 <https://noctua.apps.renci.org/model/21> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

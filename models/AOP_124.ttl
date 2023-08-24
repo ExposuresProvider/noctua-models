@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_124> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_124> <http://purl.org/dc/elements/1.1/title> "510    HMG-CoA reductase inhibition leading to decrea...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_124> <http://purl.org/dc/elements/1.1/title> "HMG-CoA reductase inhibition leading to decreased fertility"^^xsd:string .
 <https://noctua.apps.renci.org/model/124> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

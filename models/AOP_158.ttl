@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_158> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_158> <http://purl.org/dc/elements/1.1/title> "302    Deiodinase 1 inhibition leading to increased m...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_158> <http://purl.org/dc/elements/1.1/title> "Deiodinase 1 inhibition leading to increased mortality via reduced anterior swim bladder inflation"^^xsd:string .
 <https://noctua.apps.renci.org/model/158> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

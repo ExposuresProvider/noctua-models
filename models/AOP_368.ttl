@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_368> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_368> <http://purl.org/dc/elements/1.1/title> "282    Cytochrome oxidase inhibition leading to olfac...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_368> <http://purl.org/dc/elements/1.1/title> "Cytochrome oxidase inhibition leading to olfactory nasal lesions"^^xsd:string .
 <https://noctua.apps.renci.org/model/368> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

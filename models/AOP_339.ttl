@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_339> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_339> <http://purl.org/dc/elements/1.1/title> "371    DNA methyltransferase inhibition leading to po...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_339> <http://purl.org/dc/elements/1.1/title> "DNA methyltransferase inhibition leading to population decline (4)"^^xsd:string .
 <https://noctua.apps.renci.org/model/339> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

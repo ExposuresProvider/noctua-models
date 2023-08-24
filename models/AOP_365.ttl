@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_365> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_365> <http://purl.org/dc/elements/1.1/title> "954    Thyroperoxidase inhibition leading to altered ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_365> <http://purl.org/dc/elements/1.1/title> "Thyroperoxidase inhibition leading to altered visual function via altered photoreceptor patterning"^^xsd:string .
 <https://noctua.apps.renci.org/model/365> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

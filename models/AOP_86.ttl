@@ -7,8 +7,7 @@
     @base <http://www.w3.org/2002/07/owl#> .
 
     <https://noctua.apps.renci.org/model/AOP_86> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_86> <http://purl.org/dc/elements/1.1/title> "288    Decrease Glucose oxidase activity contributes ...
-Name: Title, dtype: object"^^xsd:string .
+<https://noctua.apps.renci.org/model/AOP_86> <http://purl.org/dc/elements/1.1/title> "Decrease Glucose oxidase activity contributes to reduction of antiseptic in food and leads to colony loss/failure"^^xsd:string .
 <https://noctua.apps.renci.org/model/86> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
