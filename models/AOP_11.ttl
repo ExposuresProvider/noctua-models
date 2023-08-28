@@ -15,4 +15,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_11> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, Ecdysone receptor agonism"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Percellome Toxicogenomics Approach for AOP Building: Case study on Pentachlorophenol"^^<http://www.w3.org/2001/XMLSchema#string> .

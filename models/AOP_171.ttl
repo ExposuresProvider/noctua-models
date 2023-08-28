@@ -54,4 +54,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_171> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Propagation, Oxidative stress"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Chronic cytotoxicity of the serous membrane leading to pleural/peritoneal mesotheliomas in the rat."^^<http://www.w3.org/2001/XMLSchema#string> .

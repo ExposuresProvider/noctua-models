@@ -80,4 +80,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_158> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, Renal pathology due to VTG deposition"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Deiodinase 1 inhibition leading to increased mortality via reduced anterior swim bladder inflation"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -75,4 +75,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_120> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, Cumulative fecundity and spawning"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of 5α-reductase leading to Leydig cell tumors (in rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -12,6 +12,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#life%20span%20trait> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/VT_0005372> .
 
-<https://noctua.apps.renci.org/model/AOP_242> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_242> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Cognitive Function, Decreased "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of lysyl oxidase leading to enhanced chronic fish toxicity"^^<http://www.w3.org/2001/XMLSchema#string> .

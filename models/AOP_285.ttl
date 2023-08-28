@@ -5,6 +5,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006915> .
 
-<https://noctua.apps.renci.org/model/AOP_285> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_285> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decrease of synaptogenesis"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of N-linked glycosylation leads to liver injury"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -91,6 +91,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#T%20cell%20activation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0042110> .
 
-<https://noctua.apps.renci.org/model/AOP_39> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_39> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Hippocampal anatomy, Altered "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Covalent Binding, Protein, leading to Increase, Allergic Respiratory Hypersensitivity Response"^^<http://www.w3.org/2001/XMLSchema#string> .

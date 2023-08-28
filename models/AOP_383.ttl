@@ -19,6 +19,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0003333> .
 
-<https://noctua.apps.renci.org/model/AOP_383> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_383> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Alterations in the fetal testis proteome"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of Angiotensin-converting enzyme 2 leading to liver fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> .

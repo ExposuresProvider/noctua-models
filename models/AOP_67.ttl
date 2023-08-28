@@ -29,4 +29,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_67> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Cell injury/death"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Modulation of Adult Leydig Cell Function Subsequent to Estradiaol Activation in the Fetal Testis"^^<http://www.w3.org/2001/XMLSchema#string> .

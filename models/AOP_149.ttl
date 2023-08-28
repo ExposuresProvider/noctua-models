@@ -133,4 +133,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_149> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, Prostaglandin E2 concentration"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Peptide Oxidation Leading to Hypertension"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -45,6 +45,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#mesothelioma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D008654> .
 
-<https://noctua.apps.renci.org/model/AOP_409> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_409> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "decreased DNA methylation of tyrosine hydroxylase"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Frustrated phagocytosis leads to malignant mesothelioma"^^<http://www.w3.org/2001/XMLSchema#string> .

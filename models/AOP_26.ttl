@@ -87,4 +87,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_26> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Binding of antagonist, PPAR alpha"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Calcium-mediated neuronal ROS production and energy imbalance"^^<http://www.w3.org/2001/XMLSchema#string> .

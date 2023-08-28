@@ -65,6 +65,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20I-kappaB%20kinase/NF-kappaB%20signaling> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0043122> .
 
-<https://noctua.apps.renci.org/model/AOP_377> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_377> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Increased estradiol"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Dysregulated prolonged Toll Like Receptor 9 (TLR9) activation leading to Multi Organ Failure involving Acute Respiratory Distress Syndrome (ARDS)"^^<http://www.w3.org/2001/XMLSchema#string> .

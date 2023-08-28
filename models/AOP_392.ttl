@@ -29,6 +29,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#vasodilation> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0042311> .
 
-<https://noctua.apps.renci.org/model/AOP_392> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_392> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased sperm quantity or quality in the adult, Decreased fertility "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Decreased fibrinolysis and activated bradykinin system leading to hyperinflammation"^^<http://www.w3.org/2001/XMLSchema#string> .

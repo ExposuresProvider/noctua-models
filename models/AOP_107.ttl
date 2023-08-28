@@ -90,4 +90,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_107> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Altered, Transcription of genes by AR"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Constitutive androstane receptor activation leading to hepatocellular adenomas and carcinomas in the mouse and the rat"^^<http://www.w3.org/2001/XMLSchema#string> .

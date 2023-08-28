@@ -77,4 +77,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_169> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "GnRH pulse disruption leading to pituitary adenomas and carcinomas in the SD rat."^^<http://www.w3.org/2001/XMLSchema#string> .

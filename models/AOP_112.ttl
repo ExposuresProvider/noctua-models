@@ -87,4 +87,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_112> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, COX-2 expression"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Increased dopaminergic activity leading to endometrial adenocarcinomas (in Wistar rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

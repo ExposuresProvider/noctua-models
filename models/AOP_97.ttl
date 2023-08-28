@@ -53,6 +53,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#locomotion> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0040011> .
 
-<https://noctua.apps.renci.org/model/AOP_97> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_97> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "impaired, Fertility"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "5-hydroxytryptamine transporter (5-HTT; SERT) inhibition leading to population decline"^^<http://www.w3.org/2001/XMLSchema#string> .

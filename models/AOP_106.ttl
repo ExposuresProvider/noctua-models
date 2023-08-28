@@ -73,4 +73,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_106> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Feminisation or incomplete development, Primary and accessory male sex organs"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Chemical binding to tubulin in oocytes leading to aneuploid offspring"^^<http://www.w3.org/2001/XMLSchema#string> .

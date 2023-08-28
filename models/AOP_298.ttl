@@ -71,4 +71,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_298> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Accumulation, Liver lipid"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer"^^<http://www.w3.org/2001/XMLSchema#string> .

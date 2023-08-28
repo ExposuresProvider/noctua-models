@@ -68,6 +68,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#keratinocyte%20activation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation> , <http://www.co-ode.org/ontologies/ont.owl#MHC%20protein%20complex%20assembly> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032980> .
 
-<https://noctua.apps.renci.org/model/AOP_40> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_40> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Hippocampal Physiology, Altered"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Covalent Protein binding leading to Skin Sensitisation"^^<http://www.w3.org/2001/XMLSchema#string> .

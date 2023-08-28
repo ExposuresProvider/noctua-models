@@ -31,6 +31,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#synaptic%20signaling> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0099536> .
 
-<https://noctua.apps.renci.org/model/AOP_429> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_429> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "N/A, Mitochondrial dysfunction 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "A cholesterol/glucose dysmetabolism initiated Tau-driven AOP toward memory loss (AO) in sporadic Alzheimers Disease with plausible MIEs plug-ins for environmental neurotoxicants"^^<http://www.w3.org/2001/XMLSchema#string> .

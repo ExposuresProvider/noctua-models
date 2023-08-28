@@ -9,6 +9,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#Translocation%2C%20Genetic> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D014178> .
 
-<https://noctua.apps.renci.org/model/AOP_202> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_202> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased, PPAR-alpha activation"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibitor binding to topoisomerase II leading to infant leukaemia"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -78,4 +78,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_334> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Activation, NRF2"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Glucocorticoid Receptor Agonism Leading to Impaired Fin Regeneration"^^<http://www.w3.org/2001/XMLSchema#string> .

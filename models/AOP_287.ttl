@@ -19,4 +19,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_287> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> " Thyroxine (T4) in serum, Decreased"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Mitochondrial complex III antagonism leading to growth inhibition (2)"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -28,6 +28,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005739> .
 
-<https://noctua.apps.renci.org/model/AOP_324> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_324> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Inhibition, FoxA2"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Thermal stress leading to population decline (1)"^^<http://www.w3.org/2001/XMLSchema#string> .

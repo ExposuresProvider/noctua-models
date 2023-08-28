@@ -105,6 +105,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#viral%20release%20from%20host%20cell> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0019076> .
 
-<https://noctua.apps.renci.org/model/AOP_430> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_430> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Impairment, Learning and memory"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Binding of SARS-CoV-2 to ACE2 leads to viral infection proliferation"^^<http://www.w3.org/2001/XMLSchema#string> .

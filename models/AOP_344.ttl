@@ -21,6 +21,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010468> .
 
-<https://noctua.apps.renci.org/model/AOP_344> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_344> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increased, ApoB100"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Androgen receptor (AR) antagonism leading to nipple retention (NR) in male (mammalian) offspring"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -67,4 +67,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_118> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, Plasma 17beta-estradiol concentrations"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Chronic cytotoxicity leading to hepatocellular adenomas and carcinomas (in mouse and rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

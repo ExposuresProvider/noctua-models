@@ -92,4 +92,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_130> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, Cumulative fecundity and spawning"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Phospholipase A2 (LPLA2) inhibitors leading to hepatotoxicity"^^<http://www.w3.org/2001/XMLSchema#string> .

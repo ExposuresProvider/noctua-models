@@ -64,4 +64,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_160> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Altered, Reproductive behaviour"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Ionotropic gamma-aminobutyric acid receptor activation mediated neurotransmission inhibition leading to mortality"^^<http://www.w3.org/2001/XMLSchema#string> .

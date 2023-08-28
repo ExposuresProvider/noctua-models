@@ -49,6 +49,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008213> .
 
-<https://noctua.apps.renci.org/model/AOP_258> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_258> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Impairment, Learning and memory"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Renal protein alkylation leading to kidney toxicity"^^<http://www.w3.org/2001/XMLSchema#string> .

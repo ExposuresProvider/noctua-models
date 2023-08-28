@@ -28,6 +28,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#androgen%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006702> .
 
-<https://noctua.apps.renci.org/model/AOP_349> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_349> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "systemic inflammation leading to hepatic steatosis"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of 11β-hydroxylase leading to decresed population trajectory "^^<http://www.w3.org/2001/XMLSchema#string> .

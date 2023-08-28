@@ -19,4 +19,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_419> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased, Cortical granule release/distribution upon fertilization"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Aryl hydrocarbon receptor activation leading to impaired lung function through P53 toxicity pathway"^^<http://www.w3.org/2001/XMLSchema#string> .

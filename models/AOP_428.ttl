@@ -29,6 +29,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#protein%20localization%20to%20cell%20surface> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034394> .
 
-<https://noctua.apps.renci.org/model/AOP_428> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_428> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Activation, Nicotinic acetylcholine receptor"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Binding of S-protein to ACE2 in enterocytes induces ACE2 dysregulation leading to gut dysbiosis "^^<http://www.w3.org/2001/XMLSchema#string> .

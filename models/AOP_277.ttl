@@ -21,6 +21,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001753> .
 
-<https://noctua.apps.renci.org/model/AOP_277> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_277> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increased, Vitellogenin synthesis"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -48,6 +48,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1903008> .
 
-<https://noctua.apps.renci.org/model/AOP_257> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_257> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "N/A, Mitochondrial dysfunction 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Receptor mediated endocytosis and lysosomal overload leading to kidney toxicity"^^<http://www.w3.org/2001/XMLSchema#string> .

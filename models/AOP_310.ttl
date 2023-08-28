@@ -120,6 +120,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#oocyte%20development> , <http://www.co-ode.org/ontologies/ont.owl#oocyte%20growth> , <http://www.co-ode.org/ontologies/ont.owl#protein%20secretion> , <http://www.co-ode.org/ontologies/ont.owl#receptor-mediated%20endocytosis> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D014819> .
 
-<https://noctua.apps.renci.org/model/AOP_310> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_310> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increased, Triglyceride formation"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Embryonic Activation of the AHR leading to Reproductive failure, via epigenetic down-regulation of GnRHR"^^<http://www.w3.org/2001/XMLSchema#string> .

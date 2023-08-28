@@ -21,6 +21,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004883> .
 
-<https://noctua.apps.renci.org/model/AOP_214> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_214> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, hepatocellular adenomas and carcinomas"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Network of SSRIs (selective serotonin reuptake inhibitors)"^^<http://www.w3.org/2001/XMLSchema#string> .

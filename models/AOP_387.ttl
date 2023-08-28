@@ -27,6 +27,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006754> .
 
-<https://noctua.apps.renci.org/model/AOP_387> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_387> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased Cholesterol, Decreased De Novo Biosynthesis of Choleseterol"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Deposition of ionising energy leading to population decline via mitochondrial dysfunction"^^<http://www.w3.org/2001/XMLSchema#string> .

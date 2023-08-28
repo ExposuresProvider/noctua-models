@@ -30,6 +30,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20I-kappaB%20kinase/NF-kappaB%20signaling> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0043122> .
 
-<https://noctua.apps.renci.org/model/AOP_382> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_382> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased sperm quantity / quality in the adult, Decreased fertility "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Angiotensin II type 1 receptor (AT1R) agonism leading to lung fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -16,6 +16,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16991> .
 
-<https://noctua.apps.renci.org/model/AOP_388> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_388> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased Cholesterol, Decreased Uptake of Lipoproteins"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Deposition of ionising energy leading to population decline via programmed cell death"^^<http://www.w3.org/2001/XMLSchema#string> .

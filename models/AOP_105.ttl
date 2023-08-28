@@ -76,4 +76,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_105> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Alteration, Wnt pathway"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Alpha2u-microglobulin cytotoxicity leading to renal tubular adenomas and carcinomas (in male rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

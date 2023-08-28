@@ -52,4 +52,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_164> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Antagonism, Estrogen receptor"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Beta-2 adrenergic agonist activity leading to mesovarian leiomyomas in the rat and mouse"^^<http://www.w3.org/2001/XMLSchema#string> .

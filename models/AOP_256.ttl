@@ -35,6 +35,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#toxicity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/Q000633> .
 
-<https://noctua.apps.renci.org/model/AOP_256> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_256> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of mitochondrial DNA polymerase gamma leading to kidney toxicity"^^<http://www.w3.org/2001/XMLSchema#string> .

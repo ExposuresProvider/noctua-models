@@ -49,6 +49,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0050665> .
 
-<https://noctua.apps.renci.org/model/AOP_86> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_86> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Binding, Thiol/seleno-proteins involved in protection against oxidative stress"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Decrease Glucose oxidase activity contributes to reduction of antiseptic in food and leads to colony loss/failure"^^<http://www.w3.org/2001/XMLSchema#string> .

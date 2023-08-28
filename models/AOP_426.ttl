@@ -9,4 +9,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_426> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Dysgensis of fetal Leydig cells"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "SARS-CoV-2 spike protein binding to ACE2 receptors expressed on pericytes leads to endothelial cell dysfunction, microvascular injury and myocardial infarction. "^^<http://www.w3.org/2001/XMLSchema#string> .

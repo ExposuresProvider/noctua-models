@@ -44,6 +44,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
 
-<https://noctua.apps.renci.org/model/AOP_303> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_303> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Up Regulation, CYP1A1"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Frustrated phagocytosis-induced lung cancer"^^<http://www.w3.org/2001/XMLSchema#string> .

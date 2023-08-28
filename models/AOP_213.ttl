@@ -5,6 +5,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
 
-<https://noctua.apps.renci.org/model/AOP_213> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_213> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, Clonal Expansion of Altered Hepatic Foci"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of fatty acid beta oxidation leading to nonalcoholic steatohepatitis (NASH)"^^<http://www.w3.org/2001/XMLSchema#string> .

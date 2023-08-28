@@ -12,6 +12,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032964> .
 
-<https://noctua.apps.renci.org/model/AOP_241> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_241> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Thyroxine (T4) in neuronal tissue, Decreased "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Latent Transforming Growth Factor beta1 activation leads to pulmonary fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> .

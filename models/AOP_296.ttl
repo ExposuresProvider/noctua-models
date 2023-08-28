@@ -41,6 +41,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20response%20to%20reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1901031> .
 
-<https://noctua.apps.renci.org/model/AOP_296> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_296> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Oxidative DNA damage leading to chromosomal aberrations and mutations"^^<http://www.w3.org/2001/XMLSchema#string> .

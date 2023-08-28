@@ -76,6 +76,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20biosynthetic%20process> , <http://www.co-ode.org/ontologies/ont.owl#cholesterol%20transport> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035357> .
 
-<https://noctua.apps.renci.org/model/AOP_323> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_323> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increased, Liver Steatosis"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "PPARalpha Agonism Leading to Decreased Viable Offspring via Decreased 11-Ketotestosterone"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -39,6 +39,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000007628> .
 
-<https://noctua.apps.renci.org/model/AOP_425> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_425> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Increased COUP-TFII in fetal Leydig cells"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Oxidative Stress Leading to Decreased Lung Function via Decreased FOXJ1"^^<http://www.w3.org/2001/XMLSchema#string> .

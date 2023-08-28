@@ -62,6 +62,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#paralysis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0000753> .
 
-<https://noctua.apps.renci.org/model/AOP_312> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_312> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Up Regulation, SCD-1"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Acetylcholinesterase Inhibition leading to Acute Mortality via Impaired Coordination & Movement​"^^<http://www.w3.org/2001/XMLSchema#string> .

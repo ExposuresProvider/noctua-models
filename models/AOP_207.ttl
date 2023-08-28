@@ -97,4 +97,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_207> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased, Mitochondrial fatty acid beta-oxidation"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "NADPH oxidase and P38 MAPK activation leading to reproductive failure in Caenorhabditis elegans"^^<http://www.w3.org/2001/XMLSchema#string> .

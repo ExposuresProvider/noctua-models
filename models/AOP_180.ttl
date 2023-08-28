@@ -17,4 +17,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_180> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Induction, Liver “Dysfunctional” Changes by CGA 330050"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Varroa mite infestation contributes to abnormal foraging leading to colony loss/failure"^^<http://www.w3.org/2001/XMLSchema#string> .

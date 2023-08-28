@@ -16,6 +16,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005739> .
 
-<https://noctua.apps.renci.org/model/AOP_325> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_325> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased, Mitochondrial fatty acid beta-oxidation"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Thermal stress leading to population decline (2)"^^<http://www.w3.org/2001/XMLSchema#string> .

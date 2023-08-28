@@ -65,4 +65,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_96> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Activation, PPARα"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Axonal sodium channel modulation leading to acute mortality"^^<http://www.w3.org/2001/XMLSchema#string> .

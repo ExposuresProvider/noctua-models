@@ -73,6 +73,6 @@
 	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#protein%20tyrosine%20kinase%20activity> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_Q6EWH2> .
 
-<https://noctua.apps.renci.org/model/AOP_399> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_399> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Stimulation of adult Leydig cells via the Adrenal Corticosterone, Increased Glucocorticoid"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Inhibition of Fyna leading to increased mortality via decreased eye size (Microphthalmos)"^^<http://www.w3.org/2001/XMLSchema#string> .

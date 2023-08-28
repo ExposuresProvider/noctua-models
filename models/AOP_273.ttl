@@ -44,6 +44,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D057165> .
 
-<https://noctua.apps.renci.org/model/AOP_273> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_273> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, Cholesterol transport in mitochondria"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Mitochondrial complex inhibition leading to liver injury"^^<http://www.w3.org/2001/XMLSchema#string> .

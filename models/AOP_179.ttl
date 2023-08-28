@@ -15,4 +15,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_179> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Production, Critical Metabolites (CGA 330050 and CGA 265307)"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Varroa mite infestation increases virus levels leading to colony loss/failure"^^<http://www.w3.org/2001/XMLSchema#string> .

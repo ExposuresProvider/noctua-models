@@ -118,4 +118,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_144> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increase, Inflammation"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Endocytic lysosomal uptake leading to liver fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> .

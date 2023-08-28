@@ -85,4 +85,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_117> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Androgen receptor activation leading to hepatocellular adenomas and carcinomas (in mouse and rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

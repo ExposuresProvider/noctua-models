@@ -26,6 +26,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#ecdysis%2C%20chitin-based%20cuticle> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#mortality> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0018990> .
 
-<https://noctua.apps.renci.org/model/AOP_361> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_361> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased sperm quantity or quality in the adult, Decreased fertility "^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Sulfonylureareceptor binding leading to mortality"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -37,4 +37,4 @@
 
 <https://noctua.apps.renci.org/model/AOP_153> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "N/A, Reproductive failure"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Aromatase Inhibition leading to Ovulation Inhibition and Decreased Fertility in Female Rats"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -29,6 +29,6 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#protein%20localization%20to%20cell%20surface> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034394> .
 
-<https://noctua.apps.renci.org/model/AOP_385> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_385> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Dysgenesis of fetal Leydig cells"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Viral spike protein interaction with ACE2 leads to microvascular dysfunction, via ACE2 dysregulation"^^<http://www.w3.org/2001/XMLSchema#string> .

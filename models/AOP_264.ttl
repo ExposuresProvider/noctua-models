@@ -55,6 +55,6 @@
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0051881> .
 
-<https://noctua.apps.renci.org/model/AOP_264> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_264> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Binding of agonist, Ionotropic glutamate receptors"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Uncoupling of oxidative phosphorylation leading to growth inhibition via ATP depletion associated cell death"^^<http://www.w3.org/2001/XMLSchema#string> .
