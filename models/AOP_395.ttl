@@ -1,46 +1,20 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_395> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_395> <http://purl.org/dc/elements/1.1/title> "Decreased steroidogenesis, Increased Apoptosis of Adult Leydig Cells"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_395> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_395> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0075509
-	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002020
-	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0002020> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0038191
-	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0038191> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CL_0000233
-	<http://purl.obolibrary.org/obo/CL_0000233> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0075509> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/HP_0004936
-	<http://purl.obolibrary.org/obo/HP_0004936> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CL_0000233> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/HP_0004936> a <http://www.w3.org/2002/07/owl#Class> .
 
-
-#################################################################
-#   Individuals
-#################################################################
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_395> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Binding of Sars-CoV-2 spike protein to ACE 2 receptors expressed on pericytes leads to disseminated intravascular coagulation resulting in cerebrovascular disease (stroke)"^^<http://www.w3.org/2001/XMLSchema#string> .

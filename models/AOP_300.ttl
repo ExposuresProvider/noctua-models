@@ -1,103 +1,55 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_300> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_300> <http://purl.org/dc/elements/1.1/title> "Increased, FA Influx"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_300> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_300> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002421
-	<http://purl.obolibrary.org/obo/UBERON_0002421> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0010468
-	<http://purl.obolibrary.org/obo/GO_0010468> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007420
-	<http://purl.obolibrary.org/obo/GO_0007420> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0045202
-	<http://purl.obolibrary.org/obo/GO_0045202> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007268
-	<http://purl.obolibrary.org/obo/GO_0007268> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0010468> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0007611
-	<http://purl.obolibrary.org/obo/GO_0007611> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#brain%20development> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010468> .
 
-###  http://purl.obolibrary.org/obo/GO_0050890
-	<http://purl.obolibrary.org/obo/GO_0050890> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0007268> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0007420> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0007611> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0045202> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hippocampal%20formation
-<http://www.co-ode.org/ontologies/ont.owl#hippocampal%20formation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :regulation%20of%20gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :regulation%20of%20gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :regulation%20of%20gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :regulation%20of%20gene%20expression .
+<http://purl.obolibrary.org/obo/GO_0050890> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010468> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :brain%20development .
+<http://purl.obolibrary.org/obo/UBERON_0002421> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hippocampal%20formation
-<http://www.co-ode.org/ontologies/ont.owl#hippocampal%20formation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002421> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :brain%20development ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :brain%20development ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :brain%20development ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :brain%20development .
+<http://www.co-ode.org/ontologies/ont.owl#brain%20development> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007420> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#brain%20development
-<http://www.co-ode.org/ontologies/ont.owl#brain%20development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007420> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :chemical%20synaptic%20transmission .
+<http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cognition> , <http://www.co-ode.org/ontologies/ont.owl#learning%20or%20memory> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007268> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#synapse
-<http://www.co-ode.org/ontologies/ont.owl#synapse> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0045202> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :chemical%20synaptic%20transmission ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :chemical%20synaptic%20transmission ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :chemical%20synaptic%20transmission ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :chemical%20synaptic%20transmission .
+<http://www.co-ode.org/ontologies/ont.owl#cognition> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0050890> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission
-<http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007268> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :learning%20or%20memory ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cognition .
+<http://www.co-ode.org/ontologies/ont.owl#hippocampal%20formation> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#brain%20development> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#brain%20development> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#brain%20development> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#brain%20development> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0002421> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#learning%20or%20memory
-<http://www.co-ode.org/ontologies/ont.owl#learning%20or%20memory> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007611> .
+<http://www.co-ode.org/ontologies/ont.owl#learning%20or%20memory> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007611> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cognition
-<http://www.co-ode.org/ontologies/ont.owl#cognition> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050890> .
+<http://www.co-ode.org/ontologies/ont.owl#synapse> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#chemical%20synaptic%20transmission> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0045202> .
 
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_300> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Thyroid Receptor Antagonism and Subsequent Adverse Neurodevelopmental Outcomes in Mammals"^^<http://www.w3.org/2001/XMLSchema#string> .

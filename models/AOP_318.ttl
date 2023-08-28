@@ -1,84 +1,54 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_318> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_318> <http://purl.org/dc/elements/1.1/title> "Accumulation, Fatty acid"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_318> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_318> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011406
-	<http://purl.obolibrary.org/obo/PR_000011406> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004883
-	<http://purl.obolibrary.org/obo/GO_0004883> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_35366
-	<http://purl.obolibrary.org/obo/CHEBI_35366> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006635
-	<http://purl.obolibrary.org/obo/GO_0006635> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17855
-	<http://purl.obolibrary.org/obo/CHEBI_17855> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_17855> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011406> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid%20receptor%20activity .
+<http://purl.obolibrary.org/obo/CHEBI_35366> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004883> .
+<http://purl.obolibrary.org/obo/GO_0004883> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :fatty%20acid%20beta-oxidation .
+<http://purl.obolibrary.org/obo/GO_0006635> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006635> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :triglyceride ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :triglyceride .
+<http://purl.obolibrary.org/obo/PR_000011406> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#triglyceride
-<http://www.co-ode.org/ontologies/ont.owl#triglyceride> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_17855> .
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_35366> .
 
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#triglyceride> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#triglyceride> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#triglyceride> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#triglyceride> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006635> .
 
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011406> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004883> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#triglyceride> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_17855> .
+
+<https://noctua.apps.renci.org/model/AOP_318> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Glucocorticoid Receptor activation leading to hepatic steatosis"^^<http://www.w3.org/2001/XMLSchema#string> .

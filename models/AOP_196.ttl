@@ -1,337 +1,155 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_196> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_196> <http://purl.org/dc/elements/1.1/title> "Accumulation, Triglyceride"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_196> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_196> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000001065
-	<http://purl.obolibrary.org/obo/PR_000001065> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_39124
-	<http://purl.obolibrary.org/obo/CHEBI_39124> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006816
-	<http://purl.obolibrary.org/obo/GO_0006816> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0001759
-	<http://purl.obolibrary.org/obo/UBERON_0001759> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002559> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0043179
-	<http://purl.obolibrary.org/obo/GO_0043179> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002566> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_80308
-	<http://purl.obolibrary.org/obo/CHEBI_80308> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0005184
-	<http://purl.obolibrary.org/obo/GO_0005184> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0001645
-	<http://purl.obolibrary.org/obo/UBERON_0001645> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0060004
-	<http://purl.obolibrary.org/obo/GO_0060004> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D003371
-	<http://id.nlm.nih.gov/mesh/D003371> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D012130
-	<http://id.nlm.nih.gov/mesh/D012130> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0023052> .
 
-###  http://id.nlm.nih.gov/mesh/D004417
-	<http://id.nlm.nih.gov/mesh/D004417> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D003371> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0001004
-	<http://purl.obolibrary.org/obo/UBERON_0001004> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D004417> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0006954
-	<http://purl.obolibrary.org/obo/GO_0006954> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D012130> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_80337
-	<http://purl.obolibrary.org/obo/CHEBI_80337> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D012912> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D012912
-	<http://id.nlm.nih.gov/mesh/D012912> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_39124> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_80311
-	<http://purl.obolibrary.org/obo/CHEBI_80311> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_80308> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/CHEBI_80311> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/CHEBI_80337> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0005184> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#transient%20receptor%20potential%20cation%20channel%20TRPV1
-<http://www.co-ode.org/ontologies/ont.owl#transient%20receptor%20potential%20cation%20channel%20TRPV1> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001065> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/GO_0006816> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :calcium%20ion%20transport .
+<http://purl.obolibrary.org/obo/GO_0006954> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_39124> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :calcium%20ion%20transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :calcium%20ion%20transport .
+<http://purl.obolibrary.org/obo/GO_0043179> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport
-<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006816> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :rhythmic%20excitation .
+<http://purl.obolibrary.org/obo/GO_0060004> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vagus%20nerve
-<http://www.co-ode.org/ontologies/ont.owl#vagus%20nerve> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001759> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :rhythmic%20excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :rhythmic%20excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :rhythmic%20excitation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :rhythmic%20excitation .
+<http://purl.obolibrary.org/obo/PR_000001065> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation
-<http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0043179> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reflex .
+<http://purl.obolibrary.org/obo/UBERON_0001004> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Substance%20P
-<http://www.co-ode.org/ontologies/ont.owl#Substance%20P> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_80308> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :neuropeptide%20hormone%20activity .
+<http://purl.obolibrary.org/obo/UBERON_0001645> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity
-<http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005184> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough .
+<http://purl.obolibrary.org/obo/UBERON_0001759> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Calcitonin%20gene-related%20peptide%201
-<http://www.co-ode.org/ontologies/ont.owl#Calcitonin%20gene-related%20peptide%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_80337> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :neuropeptide%20hormone%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#Calcitonin%20gene-related%20peptide%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_80337> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity
-<http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005184> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough .
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_39124> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Neurokinin%20A
-<http://www.co-ode.org/ontologies/ont.owl#Neurokinin%20A> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_80311> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :neuropeptide%20hormone%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :neuropeptide%20hormone%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#calcium%20ion%20transport> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006816> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity
-<http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005184> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough .
+<http://www.co-ode.org/ontologies/ont.owl#cough> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D003371> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20system
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20system> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001004> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#Dyspnea> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D004417> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006954> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#cough> , <http://www.co-ode.org/ontologies/ont.owl#Dyspnea> , <http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006954> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cough
-<http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D003371> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#Neurokinin%20A> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_80311> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20system
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20system> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001004> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#cough> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#cough> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#cough> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#cough> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005184> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006954> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#reflex> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0060004> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cough
-<http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D003371> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D012130> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20system
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20system> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001004> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :inflammatory%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20system> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0001004> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006954> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0043179> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cough
-<http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D003371> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :cough ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Respiratory%20Hypersensitivity ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Dyspnea ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Dyspnea .
+<http://www.co-ode.org/ontologies/ont.owl#sneezing> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D012912> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#trigeminal%20nerve
-<http://www.co-ode.org/ontologies/ont.owl#trigeminal%20nerve> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0001645> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :reflex .
+<http://www.co-ode.org/ontologies/ont.owl#Substance%20P> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#neuropeptide%20hormone%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_80308> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reflex
-<http://www.co-ode.org/ontologies/ont.owl#reflex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060004> .
+<http://www.co-ode.org/ontologies/ont.owl#transient%20receptor%20potential%20cation%20channel%20TRPV1> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001065> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cough
-<http://www.co-ode.org/ontologies/ont.owl#cough> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D003371> .
+<http://www.co-ode.org/ontologies/ont.owl#trigeminal%20nerve> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#reflex> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0001645> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity
-<http://www.co-ode.org/ontologies/ont.owl#Respiratory%20Hypersensitivity> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D012130> .
+<http://www.co-ode.org/ontologies/ont.owl#vagus%20nerve> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#rhythmic%20excitation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0001759> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Dyspnea
-<http://www.co-ode.org/ontologies/ont.owl#Dyspnea> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D004417> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#sneezing
-<http://www.co-ode.org/ontologies/ont.owl#sneezing> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D012912> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :reflex ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :reflex .
-
-###  http://www.co-ode.org/ontologies/ont.owl#reflex
-<http://www.co-ode.org/ontologies/ont.owl#reflex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060004> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_196> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Volatile Organic Chemicals Activate TRPA1 Receptor to Induce Sensory Pulmonary Irritation"^^<http://www.w3.org/2001/XMLSchema#string> .

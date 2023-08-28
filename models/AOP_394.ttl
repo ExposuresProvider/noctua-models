@@ -1,50 +1,18 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_394> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_394> <http://purl.org/dc/elements/1.1/title> "Decreased steroidogenesis, Decreased Activity of Steroidogenic Enzymes in Adult Leydig cells"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_394> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_394> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0002020> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0075509
-	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0038191> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0002020
-	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0075509> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0038191
-	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0075509> .
 
+<http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0038191> .
 
+<http://www.co-ode.org/ontologies/ont.owl#protease%20binding> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002020> .
 
-#################################################################
-#   Individuals
-#################################################################
-
-###  http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell
-<http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0075509> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#protease%20binding
-<http://www.co-ode.org/ontologies/ont.owl#protease%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002020> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding
-<http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0038191> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
+<https://noctua.apps.renci.org/model/AOP_394> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "SARS-CoV-2 infection of olfactory epithelium leading to impaired olfactory function (short-term anosmia)"^^<http://www.w3.org/2001/XMLSchema#string> .

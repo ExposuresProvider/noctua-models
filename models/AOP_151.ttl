@@ -1,153 +1,75 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_151> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_151> <http://purl.org/dc/elements/1.1/title> "Reduction, Eggshell thickness"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_151> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_151> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000003858
-	<http://purl.obolibrary.org/obo/PR_000003858> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004874
-	<http://purl.obolibrary.org/obo/GO_0004874> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0046983
-	<http://purl.obolibrary.org/obo/GO_0046983> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000004303
-	<http://purl.obolibrary.org/obo/PR_000004303> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000008555
-	<http://purl.obolibrary.org/obo/PR_000008555> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000017284
-	<http://purl.obolibrary.org/obo/PR_000017284> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0010467
-	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0008469
-	<http://purl.obolibrary.org/obo/MP_0008469> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0010467> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010467> .
 
+<http://purl.obolibrary.org/obo/GO_0004874> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0046983> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003858> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :aryl%20hydrocarbon%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :aryl%20hydrocarbon%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :aryl%20hydrocarbon%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :aryl%20hydrocarbon%20receptor%20activity .
+<http://purl.obolibrary.org/obo/PR_000003858> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity
-<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004874> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
+<http://purl.obolibrary.org/obo/PR_000004303> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003858> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> , <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000003858> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
-<http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004874> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator
-<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004303> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000004303> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
-<http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :protein%20dimerization%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> , <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0046983> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000008555> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
+<http://purl.obolibrary.org/obo/PR_000008555> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
-<http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20protein%20level .
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000008555> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator
-<http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor%20nuclear%20translocator> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000004303> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :protein%20dimerization%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :protein%20dimerization%20activity .
+<http://purl.obolibrary.org/obo/MP_0008469> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity
-<http://www.co-ode.org/ontologies/ont.owl#protein%20dimerization%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046983> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20protein%20level .
+<http://purl.obolibrary.org/obo/PR_000017284> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A
-<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000017284> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0008469> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
-<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> .
+<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000017284> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A
-<http://www.co-ode.org/ontologies/ont.owl#vascular%20endothelial%20growth%20factor%20A> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000017284> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20protein%20level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20protein%20level .
-
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal%20protein%20level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0008469> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_151> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "AhR activation leading to preeclampsia"^^<http://www.w3.org/2001/XMLSchema#string> .

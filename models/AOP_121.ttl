@@ -1,120 +1,70 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_121> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_121> <http://purl.org/dc/elements/1.1/title> "Reduction, Plasma vitellogenin concentrations"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_121> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_121> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D002137
-	<http://id.nlm.nih.gov/mesh/D002137> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008283> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0011625
-	<http://purl.obolibrary.org/obo/MP_0011625> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000731
-	<http://purl.obolibrary.org/obo/CL_0000731> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008283
-	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D006965
-	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://id.nlm.nih.gov/mesh/D000236
-	<http://id.nlm.nih.gov/mesh/D000236> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D002277
-	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Calculi
-<http://www.co-ode.org/ontologies/ont.owl#Calculi> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002137> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :cystolithiasis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :cystolithiasis .
+<http://id.nlm.nih.gov/mesh/D006965> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cystolithiasis
-<http://www.co-ode.org/ontologies/ont.owl#cystolithiasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0011625> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :cell%20death .
+<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Adenoma> , <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D006965> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000731> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+<http://purl.obolibrary.org/obo/CL_0000731> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
-<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+<http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000731> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000731> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008219> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#urothelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000731> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hyperplasia .
+<http://id.nlm.nih.gov/mesh/D000236> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Adenoma ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Carcinoma .
+<http://id.nlm.nih.gov/mesh/D002277> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Adenoma
-<http://www.co-ode.org/ontologies/ont.owl#Adenoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D000236> .
+<http://www.co-ode.org/ontologies/ont.owl#Adenoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D000236> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002277> .
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002277> .
 
+<http://id.nlm.nih.gov/mesh/D002137> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0011625> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#Calculi> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#cystolithiasis> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#cystolithiasis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002137> .
 
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#cystolithiasis> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0011625> .
+
+<https://noctua.apps.renci.org/model/AOP_121> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Urinary bladder calculi leading to urothelial papillomas and carcinomas (in mouse and rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

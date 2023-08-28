@@ -1,215 +1,127 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_103> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_103> <http://purl.org/dc/elements/1.1/title> "Malformation, Male reproductive tract"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_103> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_103> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013427
-	<http://purl.obolibrary.org/obo/PR_000013427> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004666
-	<http://purl.obolibrary.org/obo/GO_0004666> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013428
-	<http://purl.obolibrary.org/obo/PR_000013428> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15551
-	<http://purl.obolibrary.org/obo/CHEBI_15551> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D007987
-	<http://id.nlm.nih.gov/mesh/D007987> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002559> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_81568
-	<http://purl.obolibrary.org/obo/CHEBI_81568> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002566> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26764
-	<http://purl.obolibrary.org/obo/CHEBI_26764> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0003707
-	<http://purl.obolibrary.org/obo/GO_0003707> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_Q9VNE1
-	<http://purl.obolibrary.org/obo/PR_Q9VNE1> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000008> .
 
-###  http://purl.obolibrary.org/obo/GO_1902426
-	<http://purl.obolibrary.org/obo/GO_1902426> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007059
-	<http://purl.obolibrary.org/obo/GO_0007059> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0022414
-	<http://purl.obolibrary.org/obo/GO_0022414> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0000003
-	<http://purl.obolibrary.org/obo/GO_0000003> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
+<http://www.co-ode.org/ontologies/ont.owl#signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0023052> .
 
+<http://purl.obolibrary.org/obo/GO_0022414> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0022414> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013427> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://purl.obolibrary.org/obo/GO_0000003> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin%20E2 .
+<http://www.co-ode.org/ontologies/ont.owl#reproduction> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000003> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013428> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://purl.obolibrary.org/obo/PR_000013428> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin%20E2 ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin%20E2 .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013428> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15551> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Gonadotropin%20Releasing%20Hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Gonadotropin%20Releasing%20Hormone .
+<http://purl.obolibrary.org/obo/CHEBI_81568> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone
-<http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D007987> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :Luteinizing%20hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :Luteinizing%20hormone .
+<http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> <http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_81568> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_81568> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :steroid%20hormone ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :steroid%20hormone .
+<http://purl.obolibrary.org/obo/CHEBI_15551> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/GO_0004666> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :steroid%20hormone%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :steroid%20hormone%20receptor%20activity .
+<http://purl.obolibrary.org/obo/PR_000013427> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity
-<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0003707> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004666> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26764> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20E2> <http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15551> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013427> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#MAD2%20like%20protein%20%28fruit%20fly%29
-<http://www.co-ode.org/ontologies/ont.owl#MAD2%20like%20protein%20%28fruit%20fly%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_Q9VNE1> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint .
+<http://id.nlm.nih.gov/mesh/D007987> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint
-<http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1902426> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :chromosome%20segregation .
+<http://purl.obolibrary.org/obo/CHEBI_26764> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chromosome%20segregation
-<http://www.co-ode.org/ontologies/ont.owl#chromosome%20segregation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007059> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
+<http://purl.obolibrary.org/obo/GO_0003707> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
-<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#Gonadotropin%20Releasing%20Hormone> <http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#Luteinizing%20hormone> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D007987> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproduction
-<http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26764> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#steroid%20hormone%20receptor%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003707> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
-<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
+<http://purl.obolibrary.org/obo/GO_0007059> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_1902426> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_Q9VNE1> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#chromosome%20segregation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> , <http://www.co-ode.org/ontologies/ont.owl#reproduction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007059> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#chromosome%20segregation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1902426> .
+
+<http://www.co-ode.org/ontologies/ont.owl#MAD2%20like%20protein%20%28fruit%20fly%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#deactivation%20of%20mitotic%20spindle%20assembly%20checkpoint> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_Q9VNE1> .
+
+<https://noctua.apps.renci.org/model/AOP_103> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Cyclooxygenase inhibition leading to reproductive dysfunction via interference with spindle assembly checkpoint"^^<http://www.w3.org/2001/XMLSchema#string> .

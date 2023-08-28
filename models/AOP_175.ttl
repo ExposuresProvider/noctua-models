@@ -1,91 +1,57 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_175> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_175> <http://purl.org/dc/elements/1.1/title> "Increase, RBC congestion in liver"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_175> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_175> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000016584
-	<http://purl.obolibrary.org/obo/PR_000016584> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004447
-	<http://purl.obolibrary.org/obo/GO_0004447> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_60311
-	<http://purl.obolibrary.org/obo/CHEBI_60311> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006590
-	<http://purl.obolibrary.org/obo/GO_0006590> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_30660
-	<http://purl.obolibrary.org/obo/CHEBI_30660> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0005475
-	<http://purl.obolibrary.org/obo/MP_0005475> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007552
-	<http://purl.obolibrary.org/obo/GO_0007552> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/CHEBI_30660> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/CHEBI_60311> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0006590> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000016584> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :iodide%20peroxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :iodide%20peroxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :iodide%20peroxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :iodide%20peroxidase%20activity .
+<http://purl.obolibrary.org/obo/GO_0007552> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004447> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thyroid%20hormone%20generation .
+<http://purl.obolibrary.org/obo/MP_0005475> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_60311> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :thyroid%20hormone%20generation .
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005475> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation
-<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006590> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :abnormal%20circulating%20thyroxine%20level .
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_60311> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thyroxine
-<http://www.co-ode.org/ontologies/ont.owl#thyroxine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_30660> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :abnormal%20circulating%20thyroxine%20level ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :abnormal%20circulating%20thyroxine%20level .
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006590> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level
-<http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005475> .
+<http://www.co-ode.org/ontologies/ont.owl#thyroxine> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20circulating%20thyroxine%20level> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_30660> .
 
+<http://purl.obolibrary.org/obo/GO_0004447> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000016584> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#thyroid%20hormone%20generation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004447> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#thyroid%20peroxidase> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#iodide%20peroxidase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000016584> .
+
+<https://noctua.apps.renci.org/model/AOP_175> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Thyroperoxidase inhibition leading to altered amphibian metamorphosis"^^<http://www.w3.org/2001/XMLSchema#string> .

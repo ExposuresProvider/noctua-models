@@ -1,83 +1,41 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_220> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_220> <http://purl.org/dc/elements/1.1/title> "Tissue resident cell activation"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_220> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_220> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/CL_0000235> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0034599
-	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000235
-	<http://purl.obolibrary.org/obo/CL_0000235> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#macrophage> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000235> .
 
-###  http://purl.obolibrary.org/obo/GO_0002281
-	<http://purl.obolibrary.org/obo/GO_0002281> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000008555
-	<http://purl.obolibrary.org/obo/PR_000008555> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0005039
-	<http://purl.obolibrary.org/obo/MP_0005039> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0002281> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000017294
-	<http://purl.obolibrary.org/obo/PR_000017294> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0034599> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/MP_0005039> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000008555> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PR_000017294> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress
-<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0034599> .
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034599> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#macrophage
-<http://www.co-ode.org/ontologies/ont.owl#macrophage> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000235> ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :macrophage%20activation%20involved%20in%20immune%20response .
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005039> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response
-<http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002281> .
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000008555> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000008555> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia .
+<http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002281> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005039> .
+<http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000017294> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor
-<http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000017294> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hypoxia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :hypoxia .
-
-###  http://www.co-ode.org/ontologies/ont.owl#hypoxia
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005039> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_220> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Cyp2E1 Activation Leading to Liver Cancer"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,189 +1,108 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_61> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_61> <http://purl.org/dc/elements/1.1/title> "Impairment, Learning and memory"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_61> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_61> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011170
-	<http://purl.obolibrary.org/obo/PR_000011170> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011396
-	<http://purl.obolibrary.org/obo/PR_000011396> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011391
-	<http://purl.obolibrary.org/obo/PR_000011391> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013056
-	<http://purl.obolibrary.org/obo/PR_000013056> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0003824> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0035357
-	<http://purl.obolibrary.org/obo/GO_0035357> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000008778
-	<http://purl.obolibrary.org/obo/PR_000008778> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0010467> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0003824
-	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> , <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> , <http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0023052> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_35366
-	<http://purl.obolibrary.org/obo/CHEBI_35366> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_17855> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0006635
-	<http://purl.obolibrary.org/obo/GO_0006635> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_35366> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000011395
-	<http://purl.obolibrary.org/obo/PR_000011395> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006635> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000015611
-	<http://purl.obolibrary.org/obo/PR_000015611> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> , <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_35366> .
 
-###  http://purl.obolibrary.org/obo/GO_0032933
-	<http://purl.obolibrary.org/obo/GO_0032933> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006635> .
 
-###  http://purl.obolibrary.org/obo/PR_000003392
-	<http://purl.obolibrary.org/obo/PR_000003392> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0035357> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000004145
-	<http://purl.obolibrary.org/obo/PR_000004145> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000013056> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0010467
-	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013056> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_17855
-	<http://purl.obolibrary.org/obo/CHEBI_17855> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035357> .
 
-###  http://purl.obolibrary.org/obo/GO_0009058
-	<http://purl.obolibrary.org/obo/GO_0009058> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0009058> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0006633
-	<http://purl.obolibrary.org/obo/GO_0006633> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006633> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0032933> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000011395> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PR_000015611> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nuclear%20factor%20erythroid%202-related%20factor%202
-<http://www.co-ode.org/ontologies/ont.owl#nuclear%20factor%20erythroid%202-related%20factor%202> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011170> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006633> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011395> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011396> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032933> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway .
+<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000015611> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nuclear%20receptor%20subfamily%200%20group%20B%20member%202
-<http://www.co-ode.org/ontologies/ont.owl#nuclear%20receptor%20subfamily%200%20group%20B%20member%202> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011391> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/PR_000011396> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :SREBP%20signaling%20pathway .
+<http://www.co-ode.org/ontologies/ont.owl#bile%20acid%20receptor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011396> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013056> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway .
+<http://purl.obolibrary.org/obo/PR_000003392> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator%20activated%20receptor%20signaling%20pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035357> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
+<http://purl.obolibrary.org/obo/PR_000004145> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-alpha
-<http://www.co-ode.org/ontologies/ont.owl#oxysterols%20receptor%20LXR-alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011395> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/PR_000008778> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :fatty%20acid%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/PR_000011170> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20beta-oxidation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :fatty%20acid%20beta-oxidation .
+<http://purl.obolibrary.org/obo/PR_000011391> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006635> .
+<http://www.co-ode.org/ontologies/ont.owl#nuclear%20factor%20erythroid%202-related%20factor%202> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011170> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201
-<http://www.co-ode.org/ontologies/ont.owl#sterol%20regulatory%20element-binding%20protein%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000015611> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :SREBP%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :SREBP%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :SREBP%20signaling%20pathway ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :SREBP%20signaling%20pathway .
+<http://www.co-ode.org/ontologies/ont.owl#nuclear%20receptor%20subfamily%200%20group%20B%20member%202> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011391> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway
-<http://www.co-ode.org/ontologies/ont.owl#SREBP%20signaling%20pathway> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032933> .
-
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_35366> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :fatty%20acid%20biosynthetic%20process .
-
-###  http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006633> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_61> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "NFE2L2/FXR activation leading to hepatic steatosis"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,37 +1,14 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_368> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_368> <http://purl.org/dc/elements/1.1/title> "Altered, Neurophysiology"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_368> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_368> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0005386
-	<http://purl.obolibrary.org/obo/UBERON_0005386> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0002006
-	<http://purl.obolibrary.org/obo/MP_0002006> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0002006> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/UBERON_0005386> a <http://www.w3.org/2002/07/owl#Class> .
 
-
-#################################################################
-#   Individuals
-#################################################################
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_368> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Cytochrome oxidase inhibition leading to olfactory nasal lesions"^^<http://www.w3.org/2001/XMLSchema#string> .

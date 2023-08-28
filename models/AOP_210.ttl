@@ -1,111 +1,64 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_210> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_210> <http://purl.org/dc/elements/1.1/title> "Activation, PPARα"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_210> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_210> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0003674
-	<http://purl.obolibrary.org/obo/MP_0003674> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D048031
-	<http://id.nlm.nih.gov/mesh/D048031> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_O16850
-	<http://purl.obolibrary.org/obo/PR_O16850> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_1990909
-	<http://purl.obolibrary.org/obo/GO_1990909> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0003674> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0009790
-	<http://purl.obolibrary.org/obo/GO_0009790> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0003674> .
 
-###  http://purl.obolibrary.org/obo/GO_0000003
-	<http://purl.obolibrary.org/obo/GO_0000003> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_1990909> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress
-<http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003674> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1990909> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#JNK%20Mitogen-Activated%20Protein%20Kinases
-<http://www.co-ode.org/ontologies/ont.owl#JNK%20Mitogen-Activated%20Protein%20Kinases> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D048031> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#signaling> , <http://www.co-ode.org/ontologies/ont.owl#embryo%20development> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0023052> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
+<http://purl.obolibrary.org/obo/GO_0000003> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20O%20%28Caenorhabditis%20elegans%29
-<http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20O%20%28Caenorhabditis%20elegans%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_O16850> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://www.co-ode.org/ontologies/ont.owl#reproduction> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000003> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :signaling .
+<http://id.nlm.nih.gov/mesh/D048031> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome
-<http://www.co-ode.org/ontologies/ont.owl#Wnt%20signalosome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1990909> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/GO_0009790> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :embryo%20development .
+<http://purl.obolibrary.org/obo/PR_O16850> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#embryo%20development
-<http://www.co-ode.org/ontologies/ont.owl#embryo%20development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009790> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
+<http://www.co-ode.org/ontologies/ont.owl#embryo%20development> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#reproduction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0009790> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproduction
-<http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> .
+<http://www.co-ode.org/ontologies/ont.owl#forkhead%20box%20protein%20O%20%28Caenorhabditis%20elegans%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_O16850> .
 
+<http://www.co-ode.org/ontologies/ont.owl#JNK%20Mitogen-Activated%20Protein%20Kinases> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D048031> .
 
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_210> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Activation of c-Jun N-terminal kinase (JNK) and Forkhead box O (FOXO) and reduction of WNT pathways leading to reproductive failure: Integrated multi-OMICS approach for AOP building"^^<http://www.w3.org/2001/XMLSchema#string> .

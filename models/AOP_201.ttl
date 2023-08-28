@@ -1,122 +1,88 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_201> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_201> <http://purl.org/dc/elements/1.1/title> "Disruption, Membrane integrity"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_201> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_201> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_24943
-	<http://purl.obolibrary.org/obo/CHEBI_24943> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_P23023
-	<http://purl.obolibrary.org/obo/PR_P23023> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0010467
-	<http://purl.obolibrary.org/obo/GO_0010467> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/VT_1000189
-	<http://purl.obolibrary.org/obo/VT_1000189> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0003101
-	<http://purl.obolibrary.org/obo/UBERON_0003101> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002559> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0003135
-	<http://purl.obolibrary.org/obo/UBERON_0003135> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002566> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D020387
-	<http://id.nlm.nih.gov/mesh/D020387> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000008> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#juvenile%20hormone
-<http://www.co-ode.org/ontologies/ont.owl#juvenile%20hormone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_24943> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :signaling .
+<http://purl.obolibrary.org/obo/GO_0010467> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#signaling
-<http://www.co-ode.org/ontologies/ont.owl#signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0023052> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :gene%20expression .
+<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010467> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20doublesex%20%28fruit%20fly%29
-<http://www.co-ode.org/ontologies/ont.owl#protein%20doublesex%20%28fruit%20fly%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P23023> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :gene%20expression ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :gene%20expression .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#gene%20expression
-<http://www.co-ode.org/ontologies/ont.owl#gene%20expression> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0010467> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :male%20reproductive%20organ ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :male%20reproductive%20organ ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :male%20reproductive%20organ ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :male%20reproductive%20organ .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ
-<http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003135> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :offspring%20quantity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :offspring%20quantity ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :male%20organism ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :male%20organism .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity
-<http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_1000189> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :population%20growth%20rate ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#male%20organism
-<http://www.co-ode.org/ontologies/ont.owl#male%20organism> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0003101> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/UBERON_0003135> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
-<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
+<http://www.co-ode.org/ontologies/ont.owl#male%20reproductive%20organ> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity> ;
+	<http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#male%20organism> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#male%20organism> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0003135> .
 
+<http://www.co-ode.org/ontologies/ont.owl#signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0023052> .
 
+<http://id.nlm.nih.gov/mesh/D020387> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_24943> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/PR_P23023> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003101> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/VT_1000189> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.co-ode.org/ontologies/ont.owl#juvenile%20hormone> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_24943> .
+
+<http://www.co-ode.org/ontologies/ont.owl#male%20organism> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0003101> .
+
+<http://www.co-ode.org/ontologies/ont.owl#offspring%20quantity> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/VT_1000189> .
+
+<http://www.co-ode.org/ontologies/ont.owl#protein%20doublesex%20%28fruit%20fly%29> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#gene%20expression> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_P23023> .
+
+<https://noctua.apps.renci.org/model/AOP_201> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Juvenile hormone receptor agonism leading to male offspring induction associated population decline"^^<http://www.w3.org/2001/XMLSchema#string> .

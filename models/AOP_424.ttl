@@ -1,90 +1,56 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_424> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_424> <http://purl.org/dc/elements/1.1/title> "Decreased testosterone by the fetal Leydig cells, Hypermethylation in the fetal testis"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_424> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_424> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0005254
-	<http://purl.obolibrary.org/obo/GO_0005254> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0035963
-	<http://purl.obolibrary.org/obo/UBERON_0035963> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/VT_0001947
-	<http://purl.obolibrary.org/obo/VT_0001947> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0031514
-	<http://purl.obolibrary.org/obo/GO_0031514> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/HP_0012262
-	<http://purl.obolibrary.org/obo/HP_0012262> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/VT_0002327
-	<http://purl.obolibrary.org/obo/VT_0002327> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/VT_0002327> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/VT_0002327> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0005254> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity
-<http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0005254> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :epithelial%20lining%20fluid ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :epithelial%20lining%20fluid ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :epithelial%20lining%20fluid ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :epithelial%20lining%20fluid .
+<http://www.co-ode.org/ontologies/ont.owl#chloride%20channel%20activity> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005254> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid
-<http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0035963> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+<http://purl.obolibrary.org/obo/GO_0031514> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#motile%20cilium
-<http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0031514> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :Abnormal%20ciliary%20motility ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :Abnormal%20ciliary%20motility .
+<http://purl.obolibrary.org/obo/HP_0012262> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility
-<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/HP_0012262> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :mucociliary%20clearance%20trait ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mucociliary%20clearance%20trait .
+<http://purl.obolibrary.org/obo/VT_0001947> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait
-<http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_0001947> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :respiratory%20function%20trait ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :respiratory%20function%20trait .
+<http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/HP_0012262> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/VT_0002327> .
+<http://www.co-ode.org/ontologies/ont.owl#motile%20cilium> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0031514> .
 
+<http://www.co-ode.org/ontologies/ont.owl#mucociliary%20clearance%20trait> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#respiratory%20function%20trait> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/VT_0001947> .
 
+<http://purl.obolibrary.org/obo/UBERON_0035963> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20lining%20fluid> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#Abnormal%20ciliary%20motility> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0035963> .
 
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_424> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Oxidative stress Leading to Decreased Lung Function via CFTR dysfunction"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,119 +1,73 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_38> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_38> <http://purl.org/dc/elements/1.1/title> "Induction, Upregulation of glucuronyltransferase activity"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_38> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_38> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002107
-	<http://purl.obolibrary.org/obo/UBERON_0002107> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0003333
-	<http://purl.obolibrary.org/obo/MP_0003333> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008213
-	<http://purl.obolibrary.org/obo/GO_0008213> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000632
-	<http://purl.obolibrary.org/obo/CL_0000632> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0035733
-	<http://purl.obolibrary.org/obo/GO_0035733> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_3815
-	<http://purl.obolibrary.org/obo/CHEBI_3815> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_3815> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0032964
-	<http://purl.obolibrary.org/obo/GO_0032964> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0032964> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0002263
-	<http://purl.obolibrary.org/obo/GO_0002263> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#collagen> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_3815> .
 
-###  http://purl.obolibrary.org/obo/GO_0002526
-	<http://purl.obolibrary.org/obo/GO_0002526> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032964> .
 
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008219> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0008213> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation
-<http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008213> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20death .
+<http://www.co-ode.org/ontologies/ont.owl#protein%20alkylation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008213> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
-<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20activation%20involved%20in%20immune%20response .
+<http://purl.obolibrary.org/obo/GO_0002526> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
-<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002263> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :acute%20inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002526> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002526> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hepatic%20stellate%20cell%20activation .
+<http://purl.obolibrary.org/obo/CL_0000632> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell
-<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000632> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :hepatic%20stellate%20cell%20activation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :hepatic%20stellate%20cell%20activation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hepatic%20stellate%20cell%20activation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :hepatic%20stellate%20cell%20activation .
+<http://purl.obolibrary.org/obo/GO_0002263> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation
-<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0035733> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :collagen%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0035733> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#collagen
-<http://www.co-ode.org/ontologies/ont.owl#collagen> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_3815> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :collagen%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/MP_0003333> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032964> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :liver%20fibrosis .
+<http://purl.obolibrary.org/obo/UBERON_0002107> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#liver
-<http://www.co-ode.org/ontologies/ont.owl#liver> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002107> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :liver%20fibrosis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :liver%20fibrosis .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002263> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis
-<http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0003333> .
+<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000632> .
 
+<http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035733> .
 
+<http://www.co-ode.org/ontologies/ont.owl#liver> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0002107> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0003333> .
 
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_38> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Protein Alkylation leading to Liver Fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> .

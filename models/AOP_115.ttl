@@ -1,110 +1,62 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_115> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_115> <http://purl.org/dc/elements/1.1/title> "Agonism, Androgen receptor"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_115> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_115> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000066
-	<http://purl.obolibrary.org/obo/CL_0000066> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008283> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0008219
-	<http://purl.obolibrary.org/obo/GO_0008219> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0006954
-	<http://purl.obolibrary.org/obo/GO_0006954> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008283
-	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0005493
-	<http://purl.obolibrary.org/obo/MP_0005493> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D010212
-	<http://id.nlm.nih.gov/mesh/D010212> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://id.nlm.nih.gov/mesh/D002277
-	<http://id.nlm.nih.gov/mesh/D002277> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000052> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000066> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20death ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20death .
+<http://purl.obolibrary.org/obo/GO_0006954> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20death
-<http://www.co-ode.org/ontologies/ont.owl#cell%20death> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008219> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006954> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006954> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+<http://purl.obolibrary.org/obo/CL_0000066> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000066> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20proliferation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20proliferation .
+<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> , <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
+	<http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000066> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :stomach%20epithelial%20hyperplasia .
+<http://purl.obolibrary.org/obo/GO_0008219> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell
-<http://www.co-ode.org/ontologies/ont.owl#epithelial%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000066> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :stomach%20epithelial%20hyperplasia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :stomach%20epithelial%20hyperplasia .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20death> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008219> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0005493> ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :papilloma ;
-	<http://purl.obolibrary.org/obo/RO_0000052> :Carcinoma .
+<http://id.nlm.nih.gov/mesh/D002277> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#papilloma
-<http://www.co-ode.org/ontologies/ont.owl#papilloma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D010212> .
+<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D002277> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Carcinoma
-<http://www.co-ode.org/ontologies/ont.owl#Carcinoma> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D002277> .
+<http://id.nlm.nih.gov/mesh/D010212> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#papilloma> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D010212> .
 
+<http://purl.obolibrary.org/obo/MP_0005493> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#stomach%20epithelial%20hyperplasia> <http://purl.obolibrary.org/obo/RO_0000052> <http://www.co-ode.org/ontologies/ont.owl#Carcinoma> , <http://www.co-ode.org/ontologies/ont.owl#papilloma> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005493> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_115> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Epithelial cytotoxicity leading to forestomach tumors (in mouse and rat)"^^<http://www.w3.org/2001/XMLSchema#string> .

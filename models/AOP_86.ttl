@@ -1,92 +1,54 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_86> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_86> <http://purl.org/dc/elements/1.1/title> "Binding, Thiol/seleno-proteins involved in protection against oxidative stress"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_86> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_86> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://id.nlm.nih.gov/mesh/D056631> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16217
-	<http://purl.obolibrary.org/obo/CHEBI_16217> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0046562
-	<http://purl.obolibrary.org/obo/GO_0046562> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> a <http://id.nlm.nih.gov/mesh/D056631> , <http://www.w3.org/2002/07/owl#NamedIndividual> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16240
-	<http://purl.obolibrary.org/obo/CHEBI_16240> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0050665
-	<http://purl.obolibrary.org/obo/GO_0050665> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/NBO_0000079
-	<http://purl.obolibrary.org/obo/NBO_0000079> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002164
-	<http://purl.obolibrary.org/obo/GO_0002164> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D056631
-	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/GO_0002164> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#larval%20development> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002164> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/CHEBI_16217> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#D-glucono-1%2C5-lactone
-<http://www.co-ode.org/ontologies/ont.owl#D-glucono-1%2C5-lactone> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16217> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :glucose%20oxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :glucose%20oxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :glucose%20oxidase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :glucose%20oxidase%20activity .
+<http://purl.obolibrary.org/obo/CHEBI_16240> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0046562> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :hydrogen%20peroxide%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0046562> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide
-<http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16240> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :hydrogen%20peroxide%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0050665> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0050665> .
+<http://purl.obolibrary.org/obo/NBO_0000079> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior
-<http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000079> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :larval%20development .
+<http://www.co-ode.org/ontologies/ont.owl#D-glucono-1%2C5-lactone> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16217> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#larval%20development
-<http://www.co-ode.org/ontologies/ont.owl#larval%20development> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002164> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :colony%20collapse .
+<http://www.co-ode.org/ontologies/ont.owl#feeding%20behavior> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#larval%20development> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/NBO_0000079> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D056631> .
+<http://www.co-ode.org/ontologies/ont.owl#glucose%20oxidase%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0046562> .
 
+<http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16240> .
 
+<http://www.co-ode.org/ontologies/ont.owl#hydrogen%20peroxide%20biosynthetic%20process> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0050665> .
 
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_86> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Decrease Glucose oxidase activity contributes to reduction of antiseptic in food and leads to colony loss/failure"^^<http://www.w3.org/2001/XMLSchema#string> .

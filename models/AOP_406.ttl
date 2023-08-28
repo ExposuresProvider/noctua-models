@@ -1,217 +1,110 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_406> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_406> <http://purl.org/dc/elements/1.1/title> "increased adipogenesis"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_406> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_406> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0075509
-	<http://purl.obolibrary.org/obo/GO_0075509> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0002020
-	<http://purl.obolibrary.org/obo/GO_0002020> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0038191
-	<http://purl.obolibrary.org/obo/GO_0038191> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0031381
-	<http://purl.obolibrary.org/obo/GO_0031381> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0039694
-	<http://purl.obolibrary.org/obo/GO_0039694> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0039690
-	<http://purl.obolibrary.org/obo/GO_0039690> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
 
-###  http://purl.obolibrary.org/obo/GO_0072516
-	<http://purl.obolibrary.org/obo/GO_0072516> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0002020> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019074
-	<http://purl.obolibrary.org/obo/GO_0019074> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0009299> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019024
-	<http://purl.obolibrary.org/obo/GO_0019024> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019024> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0009299
-	<http://purl.obolibrary.org/obo/GO_0009299> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019074> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0019081
-	<http://purl.obolibrary.org/obo/GO_0019081> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0019081> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_26523
-	<http://purl.obolibrary.org/obo/CHEBI_26523> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0031381> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0034599
-	<http://purl.obolibrary.org/obo/GO_0034599> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0038191> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0000302
-	<http://purl.obolibrary.org/obo/GO_0000302> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0039690> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0072559
-	<http://purl.obolibrary.org/obo/GO_0072559> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0039694> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0044546
-	<http://purl.obolibrary.org/obo/GO_0044546> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0072516> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0075509> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0075509> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0009299> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell
-<http://www.co-ode.org/ontologies/ont.owl#endocytosis%20involved%20in%20viral%20entry%20into%20host%20cell> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0075509> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20translation .
+<http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0038191> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#protease%20binding
-<http://www.co-ode.org/ontologies/ont.owl#protease%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002020> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20translation .
+<http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0039690> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding
-<http://www.co-ode.org/ontologies/ont.owl#neuropilin%20binding> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0038191> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :viral%20translation .
+<http://www.co-ode.org/ontologies/ont.owl#protease%20binding> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002020> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex
-<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0031381> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20RNA%20genome%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20RNA%20genome%20replication .
+<http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> , <http://www.co-ode.org/ontologies/ont.owl#viral%20translation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0019024> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication
-<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0039694> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#viral%20assembly%20compartment> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0072516> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex
-<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0031381> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :positive%20stranded%20viral%20RNA%20replication ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :positive%20stranded%20viral%20RNA%20replication .
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA-directed%20RNA%20polymerase%20complex> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> , <http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0031381> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication
-<http://www.co-ode.org/ontologies/ont.owl#positive%20stranded%20viral%20RNA%20replication> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0039690> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0019074> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20assembly%20compartment
-<http://www.co-ode.org/ontologies/ont.owl#viral%20assembly%20compartment> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0072516> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20RNA%20genome%20packaging ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20RNA%20genome%20packaging .
+<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20replication> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0039694> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging
-<http://www.co-ode.org/ontologies/ont.owl#viral%20RNA%20genome%20packaging> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019074> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#viral%20translation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> , <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0019081> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome
-<http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019024> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :mRNA%20transcription ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :mRNA%20transcription .
+<http://purl.obolibrary.org/obo/GO_0034599> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription
-<http://www.co-ode.org/ontologies/ont.owl#mRNA%20transcription> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0009299> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034599> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome
-<http://www.co-ode.org/ontologies/ont.owl#ssRNA%20viral%20genome> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019024> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :viral%20translation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :viral%20translation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :viral%20translation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :viral%20translation .
+<http://purl.obolibrary.org/obo/GO_0000302> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#viral%20translation
-<http://www.co-ode.org/ontologies/ont.owl#viral%20translation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0019081> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :response%20to%20reactive%20oxygen%20species .
+<http://purl.obolibrary.org/obo/GO_0044546> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cellular%20response%20to%20oxidative%20stress ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cellular%20response%20to%20oxidative%20stress .
+<http://purl.obolibrary.org/obo/GO_0072559> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress
-<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0034599> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :NLRP3%20inflammasome%20complex%20assembly .
+<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0072559> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_26523> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :response%20to%20reactive%20oxygen%20species ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :response%20to%20reactive%20oxygen%20species .
+<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0044546> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species
-<http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000302> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :NLRP3%20inflammasome%20complex%20assembly .
+<http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000302> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex
-<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0072559> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :NLRP3%20inflammasome%20complex%20assembly ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :NLRP3%20inflammasome%20complex%20assembly .
-
-###  http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly
-<http://www.co-ode.org/ontologies/ont.owl#NLRP3%20inflammasome%20complex%20assembly> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0044546> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_406> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "SARS-CoV-2 infection leading to hyperinflammation"^^<http://www.w3.org/2001/XMLSchema#string> .

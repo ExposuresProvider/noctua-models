@@ -1,116 +1,66 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_16> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_16> <http://purl.org/dc/elements/1.1/title> "Increase, Fushi tarazu factor-1 gene expression"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_16> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_16> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D009026
-	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000003626
-	<http://purl.obolibrary.org/obo/PR_000003626> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D009026> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0003990
-	<http://purl.obolibrary.org/obo/GO_0003990> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15355
-	<http://purl.obolibrary.org/obo/CHEBI_15355> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0001954
-	<http://purl.obolibrary.org/obo/MP_0001954> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#mortality> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D009026> .
 
-###  http://purl.obolibrary.org/obo/MP_0001393
-	<http://purl.obolibrary.org/obo/MP_0001393> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001399
-	<http://purl.obolibrary.org/obo/MP_0001399> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0000753
-	<http://purl.obolibrary.org/obo/MP_0000753> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000008> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acetylcholine
-<http://www.co-ode.org/ontologies/ont.owl#acetylcholine> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15355> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :ataxia ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :ataxia ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :hyperactivity ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :hyperactivity ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :paralysis ;
-	<http://purl.obolibrary.org/obo/RO_0000053> :paralysis .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#ataxia
-<http://www.co-ode.org/ontologies/ont.owl#ataxia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001393> .
+<http://purl.obolibrary.org/obo/CHEBI_15355> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hyperactivity
-<http://www.co-ode.org/ontologies/ont.owl#hyperactivity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001399> .
+<http://purl.obolibrary.org/obo/GO_0003990> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#paralysis
-<http://www.co-ode.org/ontologies/ont.owl#paralysis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0000753> .
+<http://purl.obolibrary.org/obo/MP_0000753> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001954> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+<http://purl.obolibrary.org/obo/MP_0001393> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress
-<http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001954> ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :mortality ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :mortality .
+<http://purl.obolibrary.org/obo/MP_0001399> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mortality
-<http://www.co-ode.org/ontologies/ont.owl#mortality> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009026> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/PR_000003626> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#acetylcholine> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#ataxia> , <http://www.co-ode.org/ontologies/ont.owl#hyperactivity> , <http://www.co-ode.org/ontologies/ont.owl#paralysis> ;
+	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#ataxia> , <http://www.co-ode.org/ontologies/ont.owl#hyperactivity> , <http://www.co-ode.org/ontologies/ont.owl#paralysis> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15355> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
-<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
+<http://www.co-ode.org/ontologies/ont.owl#ataxia> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001393> .
 
+<http://www.co-ode.org/ontologies/ont.owl#hyperactivity> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001399> .
 
+<http://www.co-ode.org/ontologies/ont.owl#paralysis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0000753> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://purl.obolibrary.org/obo/MP_0001954> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#respiratory%20distress> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#mortality> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#mortality> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001954> .
+
+<https://noctua.apps.renci.org/model/AOP_16> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Acetylcholinesterase inhibition leading to acute mortality"^^<http://www.w3.org/2001/XMLSchema#string> .

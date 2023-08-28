@@ -1,36 +1,10 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_233> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_233> <http://purl.org/dc/elements/1.1/title> "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_233> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_233> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0060081> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0060081
-	<http://purl.obolibrary.org/obo/GO_0060081> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0060081> .
 
-
-
-#################################################################
-#   Individuals
-#################################################################
-
-###  http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization
-<http://www.co-ode.org/ontologies/ont.owl#membrane%20hyperpolarization> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0060081> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
+<https://noctua.apps.renci.org/model/AOP_233> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Mu Opioid Receptor Agonism leading to Analgesia via K Channel Opening"^^<http://www.w3.org/2001/XMLSchema#string> .

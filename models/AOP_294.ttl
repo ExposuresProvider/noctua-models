@@ -1,144 +1,75 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_294> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_294> <http://purl.org/dc/elements/1.1/title> "Inhibition, Mitochondrial fatty acid beta-oxidation"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_294> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_294> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_16991
-	<http://purl.obolibrary.org/obo/CHEBI_16991> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0008283> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D009154
-	<http://id.nlm.nih.gov/mesh/D009154> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D001943
-	<http://id.nlm.nih.gov/mesh/D001943> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0008283
-	<http://purl.obolibrary.org/obo/GO_0008283> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002263
-	<http://purl.obolibrary.org/obo/GO_0002263> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002526
-	<http://purl.obolibrary.org/obo/GO_0002526> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> .
 
-###  http://purl.obolibrary.org/obo/CL_0000738
-	<http://purl.obolibrary.org/obo/CL_0000738> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D006965
-	<http://id.nlm.nih.gov/mesh/D006965> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20activation%20involved%20in%20immune%20response .
+<http://purl.obolibrary.org/obo/CHEBI_16991> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mutation .
+<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#mutation> ;
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16991> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mutation
-<http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009154> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+<http://id.nlm.nih.gov/mesh/D001943> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+<http://id.nlm.nih.gov/mesh/D006965> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid
-<http://www.co-ode.org/ontologies/ont.owl#deoxyribonucleic%20acid> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_16991> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :mutation .
+<http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D001943> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#mutation
-<http://www.co-ode.org/ontologies/ont.owl#mutation> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D009154> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cell%20proliferation .
+<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D006965> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hyperplasia
-<http://www.co-ode.org/ontologies/ont.owl#hyperplasia> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D006965> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :Breast%20Neoplasms .
+<http://id.nlm.nih.gov/mesh/D009154> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms
-<http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D001943> .
+<http://www.co-ode.org/ontologies/ont.owl#mutation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D009154> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
-<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002263> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :acute%20inflammatory%20response .
+<http://purl.obolibrary.org/obo/GO_0002526> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
-<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002263> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :acute%20inflammatory%20response .
+<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002526> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002526> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :Breast%20Neoplasms ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :Breast%20Neoplasms ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :Breast%20Neoplasms ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :Breast%20Neoplasms .
+<http://purl.obolibrary.org/obo/GO_0002263> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#leukocyte
-<http://www.co-ode.org/ontologies/ont.owl#leukocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000738> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :cell%20activation%20involved%20in%20immune%20response ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :cell%20activation%20involved%20in%20immune%20response .
+<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002263> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response
-<http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002263> .
+<http://purl.obolibrary.org/obo/CL_0000738> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation
-<http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0008283> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hyperplasia .
+<http://www.co-ode.org/ontologies/ont.owl#leukocyte> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000738> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms
-<http://www.co-ode.org/ontologies/ont.owl#Breast%20Neoplasms> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D001943> .
-
-
-
-#################################################################
-#   Object Statements
-#################################################################
-
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_294> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Increased reactive oxygen and nitrogen species (RONS) leading to increased risk of breast cancer"^^<http://www.w3.org/2001/XMLSchema#string> .

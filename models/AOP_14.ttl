@@ -1,138 +1,93 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_14> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_14> <http://purl.org/dc/elements/1.1/title> "Decrease, Abdominal muscle contraction"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_14> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_14> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000011406
-	<http://purl.obolibrary.org/obo/PR_000011406> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004883
-	<http://purl.obolibrary.org/obo/GO_0004883> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000001753
-	<http://purl.obolibrary.org/obo/PR_000001753> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007249
-	<http://purl.obolibrary.org/obo/GO_0007249> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0002534
-	<http://purl.obolibrary.org/obo/GO_0002534> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CL_0000542
-	<http://purl.obolibrary.org/obo/CL_0000542> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000003292
-	<http://purl.obolibrary.org/obo/PR_000003292> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007252
-	<http://purl.obolibrary.org/obo/GO_0007252> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D004198
-	<http://id.nlm.nih.gov/mesh/D004198> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0004883> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002405
-	<http://purl.obolibrary.org/obo/UBERON_0002405> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000011406> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0044414
-	<http://purl.obolibrary.org/obo/GO_0044414> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011406> .
 
+<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004883> .
 
+<http://purl.obolibrary.org/obo/GO_0007249> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PR_000001753> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000011406> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :glucocorticoid%20receptor%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :glucocorticoid%20receptor%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007249> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity
-<http://www.co-ode.org/ontologies/ont.owl#glucocorticoid%20receptor%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004883> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :I-kappaB%20phosphorylation .
+<http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001753> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#NF-kappa-B%20inhibitor
-<http://www.co-ode.org/ontologies/ont.owl#NF-kappa-B%20inhibitor> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000003292> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :I-kappaB%20phosphorylation ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :I-kappaB%20phosphorylation ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :I-kappaB%20phosphorylation ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :I-kappaB%20phosphorylation .
+<http://purl.obolibrary.org/obo/GO_0002534> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation
-<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007252> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :I-kappaB%20kinase%2FNF-kappaB%20signaling .
+<http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#lymphocyte> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#lymphocyte> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#lymphocyte> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#lymphocyte> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002534> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit
-<http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000001753> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :I-kappaB%20kinase%2FNF-kappaB%20signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :I-kappaB%20kinase%2FNF-kappaB%20signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :I-kappaB%20kinase%2FNF-kappaB%20signaling ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :I-kappaB%20kinase%2FNF-kappaB%20signaling .
+<http://purl.obolibrary.org/obo/GO_0044414> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling
-<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007249> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cytokine%20production%20involved%20in%20inflammatory%20response .
+<http://purl.obolibrary.org/obo/UBERON_0002405> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response
-<http://www.co-ode.org/ontologies/ont.owl#cytokine%20production%20involved%20in%20inflammatory%20response> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0002534> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :lymphocyte ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :lymphocyte ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :lymphocyte ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :lymphocyte .
+<http://www.co-ode.org/ontologies/ont.owl#immune%20system> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0002405> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#lymphocyte
-<http://www.co-ode.org/ontologies/ont.owl#lymphocyte> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CL_0000542> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :suppression%20of%20host%20defenses .
+<http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0044414> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#immune%20system
-<http://www.co-ode.org/ontologies/ont.owl#immune%20system> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002405> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :suppression%20of%20host%20defenses .
+<http://id.nlm.nih.gov/mesh/D004198> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses
-<http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0044414> .
+<http://purl.obolibrary.org/obo/CL_0000542> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0007252> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_000003292> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007252> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#lymphocyte> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000542> .
+
+<http://www.co-ode.org/ontologies/ont.owl#NF-kappa-B%20inhibitor> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20phosphorylation> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000003292> .
+
+<https://noctua.apps.renci.org/model/AOP_14> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Glucocorticoid Receptor Activation Leading to Increased Disease Susceptibility"^^<http://www.w3.org/2001/XMLSchema#string> .

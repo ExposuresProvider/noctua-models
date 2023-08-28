@@ -1,220 +1,134 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_187> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_187> <http://purl.org/dc/elements/1.1/title> "N/A, Unknown"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_187> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_187> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0007599
-	<http://purl.obolibrary.org/obo/GO_0007599> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MP_0001914
-	<http://purl.obolibrary.org/obo/MP_0001914> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0042060
-	<http://purl.obolibrary.org/obo/GO_0042060> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000007299
-	<http://purl.obolibrary.org/obo/PR_000007299> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/MI_1139
-	<http://purl.obolibrary.org/obo/MI_1139> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000004191> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_P70375
-	<http://purl.obolibrary.org/obo/PR_P70375> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D009026> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_P16294
-	<http://purl.obolibrary.org/obo/PR_P16294> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002610> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_O88947
-	<http://purl.obolibrary.org/obo/PR_O88947> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D001779> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_33284
-	<http://purl.obolibrary.org/obo/CHEBI_33284> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D061205> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0006810
-	<http://purl.obolibrary.org/obo/GO_0006810> rdf:type owl:Class .
+<http://id.nlm.nih.gov/mesh/D064417> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_1990748
-	<http://purl.obolibrary.org/obo/GO_1990748> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_15422> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0001577
-	<http://purl.obolibrary.org/obo/MP_0001577> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_28384> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D001779
-	<http://id.nlm.nih.gov/mesh/D001779> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/CHEBI_33284> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_28384
-	<http://purl.obolibrary.org/obo/CHEBI_28384> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0003824> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0042373
-	<http://purl.obolibrary.org/obo/GO_0042373> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006754> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000004191
-	<http://purl.obolibrary.org/obo/PR_000004191> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0006810> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0023052
-	<http://purl.obolibrary.org/obo/GO_0023052> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0007599> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D064417
-	<http://id.nlm.nih.gov/mesh/D064417> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0017077> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0003824
-	<http://purl.obolibrary.org/obo/GO_0003824> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0023052> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0003031
-	<http://purl.obolibrary.org/obo/MP_0003031> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0042060> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0010128
-	<http://purl.obolibrary.org/obo/MP_0010128> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0042373> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0000062
-	<http://purl.obolibrary.org/obo/UBERON_0000062> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_0043687> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/VT_1000152
-	<http://purl.obolibrary.org/obo/VT_1000152> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/GO_1990748> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D009026
-	<http://id.nlm.nih.gov/mesh/D009026> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MI_1139> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0000066> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15422
-	<http://purl.obolibrary.org/obo/CHEBI_15422> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0001577> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0006754
-	<http://purl.obolibrary.org/obo/GO_0006754> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0001914> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0017077
-	<http://purl.obolibrary.org/obo/GO_0017077> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0003031> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/MP_0000066
-	<http://purl.obolibrary.org/obo/MP_0000066> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/MP_0010128> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002049
-	<http://purl.obolibrary.org/obo/UBERON_0002049> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://id.nlm.nih.gov/mesh/D061205
-	<http://id.nlm.nih.gov/mesh/D061205> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000007299> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_000030444
-	<http://purl.obolibrary.org/obo/PR_000030444> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_000030444> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0043687
-	<http://purl.obolibrary.org/obo/GO_0043687> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_O88947> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/PR_P19788
-	<http://purl.obolibrary.org/obo/PR_P19788> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PR_P16294> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_P19788> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/PR_P70375> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0003303> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hemostasis
-<http://www.co-ode.org/ontologies/ont.owl#hemostasis> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0007599> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :hemorrhage ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :wound%20healing .
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prothrombin
-<http://www.co-ode.org/ontologies/ont.owl#prothrombin> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000007299> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_1139> .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29
-<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P70375> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
+<http://purl.obolibrary.org/obo/UBERON_0000062> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_1139> .
+<http://purl.obolibrary.org/obo/UBERON_0002049> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29
-<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_P16294> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
+<http://purl.obolibrary.org/obo/VT_1000152> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_1139> .
+<http://www.co-ode.org/ontologies/ont.owl#anemia> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001577> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29
-<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_O88947> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :carboxylation%20reaction .
+<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MI_1139> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction
-<http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MI_1139> .
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1990748> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#hemorrhage
-<http://www.co-ode.org/ontologies/ont.owl#hemorrhage> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001914> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :cellular%20detoxification ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :cellular%20detoxification ;
-	<http://purl.obolibrary.org/obo/RO_0003303> :anemia ;
-	<http://purl.obolibrary.org/obo/RO_0002610> :anemia .
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20IX%20%28mouse%29> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_P16294> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#wound%20healing
-<http://www.co-ode.org/ontologies/ont.owl#wound%20healing> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0042060> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :cellular%20detoxification ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :anemia .
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20VII%20%28mouse%29> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_P70375> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#nutrient
-<http://www.co-ode.org/ontologies/ont.owl#nutrient> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_33284> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :transport ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :transport .
+<http://www.co-ode.org/ontologies/ont.owl#coagulation%20factor%20X%20%28mouse%29> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_O88947> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#transport
-<http://www.co-ode.org/ontologies/ont.owl#transport> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0006810> .
+<http://www.co-ode.org/ontologies/ont.owl#hemorrhage> <http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#anemia> ;
+	<http://purl.obolibrary.org/obo/RO_0003303> <http://www.co-ode.org/ontologies/ont.owl#anemia> ;
+	<http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> , <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> , <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001914> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification
-<http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_1990748> .
+<http://www.co-ode.org/ontologies/ont.owl#hemostasis> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#wound%20healing> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#hemorrhage> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007599> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#anemia
-<http://www.co-ode.org/ontologies/ont.owl#anemia> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0001577> .
+<http://www.co-ode.org/ontologies/ont.owl#nutrient> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_33284> .
 
+<http://www.co-ode.org/ontologies/ont.owl#prothrombin> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#carboxylation%20reaction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000007299> .
 
+<http://www.co-ode.org/ontologies/ont.owl#transport> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006810> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://www.co-ode.org/ontologies/ont.owl#wound%20healing> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#cellular%20detoxification> , <http://www.co-ode.org/ontologies/ont.owl#transport> ;
+	<http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#anemia> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0042060> .
 
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0003303> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002610> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
+<https://noctua.apps.renci.org/model/AOP_187> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Anticoagulant rodenticide inhibition of vitamin K epoxide reductase resulting coagulopathy and hemorrhage"^^<http://www.w3.org/2001/XMLSchema#string> .

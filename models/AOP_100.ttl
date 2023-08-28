@@ -1,149 +1,95 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_100> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_100> <http://purl.org/dc/elements/1.1/title> "Reduction, Testosterone synthesis in Leydig cells"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_100> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_100> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013427
-	<http://purl.obolibrary.org/obo/PR_000013427> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0004666
-	<http://purl.obolibrary.org/obo/GO_0004666> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PR_000013428
-	<http://purl.obolibrary.org/obo/PR_000013428> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/CHEBI_15553
-	<http://purl.obolibrary.org/obo/CHEBI_15553> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0001516
-	<http://purl.obolibrary.org/obo/GO_0001516> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002559> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D005298
-	<http://id.nlm.nih.gov/mesh/D005298> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002566> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/NBO_0000280
-	<http://purl.obolibrary.org/obo/NBO_0000280> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/PCO_0000008> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/GO_0022414
-	<http://purl.obolibrary.org/obo/GO_0022414> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0000003
-	<http://purl.obolibrary.org/obo/GO_0000003> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000008> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000008
-	<http://purl.obolibrary.org/obo/PCO_0000008> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013427> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin%20biosynthetic%20process .
+<http://id.nlm.nih.gov/mesh/D005298> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PR_000013428> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin-endoperoxide%20synthase%20activity ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :prostaglandin-endoperoxide%20synthase%20activity .
+<http://www.co-ode.org/ontologies/ont.owl#fertility> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D005298> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0004666> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :prostaglandin%20biosynthetic%20process .
+<http://purl.obolibrary.org/obo/GO_0022414> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :prostaglandin%20biosynthetic%20process .
+<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0022414> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0001516> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :prostaglandin%20F2alpha ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :prostaglandin%20F2alpha ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :prostaglandin%20F2alpha ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :prostaglandin%20F2alpha .
+<http://purl.obolibrary.org/obo/GO_0000003> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#fertility
-<http://www.co-ode.org/ontologies/ont.owl#fertility> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D005298> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :attraction-related%20behavior .
+<http://www.co-ode.org/ontologies/ont.owl#reproduction> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000003> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproductive%20process
-<http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0022414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/PR_000013428> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#reproduction
-<http://www.co-ode.org/ontologies/ont.owl#reproduction> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0000003> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :population%20growth%20rate .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%202> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013428> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :population%20growth%20rate .
+<http://purl.obolibrary.org/obo/GO_0004666> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate
-<http://www.co-ode.org/ontologies/ont.owl#population%20growth%20rate> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000008> .
+<http://purl.obolibrary.org/obo/PR_000013427> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior
-<http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000280> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproductive%20process ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :reproduction .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004666> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha
-<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/CHEBI_15553> ;
-	<http://purl.obolibrary.org/obo/RO_0002566> :fertility ;
-	<http://purl.obolibrary.org/obo/RO_0002559> :fertility .
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20G/H%20synthase%201> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin-endoperoxide%20synthase%20activity> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013427> .
 
+<http://purl.obolibrary.org/obo/CHEBI_15553> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/GO_0001516> a <http://www.w3.org/2002/07/owl#Class> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://purl.obolibrary.org/obo/NBO_0000280> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002566> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002559> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
+<http://www.co-ode.org/ontologies/ont.owl#attraction-related%20behavior> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#reproductive%20process> , <http://www.co-ode.org/ontologies/ont.owl#reproduction> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/NBO_0000280> .
+
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0001516> .
+
+<http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20F2alpha> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#prostaglandin%20biosynthetic%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0002559> <http://www.co-ode.org/ontologies/ont.owl#fertility> ;
+	<http://purl.obolibrary.org/obo/RO_0002566> <http://www.co-ode.org/ontologies/ont.owl#fertility> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15553> .
+
+<https://noctua.apps.renci.org/model/AOP_100> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Cyclooxygenase inhibition leading to reproductive dysfunction via inhibition of female spawning behavior"^^<http://www.w3.org/2001/XMLSchema#string> .

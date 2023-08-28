@@ -1,103 +1,71 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
-    @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_84> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_84> <http://purl.org/dc/elements/1.1/title> "Dysregulation of heart rate and vascular tone"^^xsd:string .
-<https://noctua.apps.renci.org/model/AOP_84> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
-        
+<https://noctua.apps.renci.org/model/AOP_84> a <http://www.w3.org/2002/07/owl#Ontology> .
 
-#################################################################
-#   Classes
-#################################################################
+<http://id.nlm.nih.gov/mesh/D056631> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://purl.obolibrary.org/obo/UBERON_0002405
-	<http://purl.obolibrary.org/obo/UBERON_0002405> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0044414
-	<http://purl.obolibrary.org/obo/GO_0044414> rdf:type owl:Class .
+<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> a <http://id.nlm.nih.gov/mesh/D056631> , <http://www.w3.org/2002/07/owl#NamedIndividual> .
 
-###  http://purl.obolibrary.org/obo/MP_0002418
-	<http://purl.obolibrary.org/obo/MP_0002418> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/GO_0032502
-	<http://purl.obolibrary.org/obo/GO_0032502> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/PCO_0000001
-	<http://purl.obolibrary.org/obo/PCO_0000001> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002353> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://purl.obolibrary.org/obo/NBO_0000051
-	<http://purl.obolibrary.org/obo/NBO_0000051> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://id.nlm.nih.gov/mesh/D056631
-	<http://id.nlm.nih.gov/mesh/D056631> rdf:type owl:Class .
+<http://purl.obolibrary.org/obo/RO_0004021> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0004024> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0019000> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-#################################################################
-#   Individuals
-#################################################################
+<http://purl.obolibrary.org/obo/RO_0000057> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#immune%20system
-<http://www.co-ode.org/ontologies/ont.owl#immune%20system> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/UBERON_0002405> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002327> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002353> :suppression%20of%20host%20defenses ;
-	<http://purl.obolibrary.org/obo/RO_0002428> :suppression%20of%20host%20defenses .
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses
-<http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0044414> ;
-	<http://purl.obolibrary.org/obo/RO_0019000> :increased%20susceptibility%20to%20viral%20infection .
+<http://purl.obolibrary.org/obo/RO_0002234> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#increased%20susceptibility%20to%20viral%20infection
-<http://www.co-ode.org/ontologies/ont.owl#increased%20susceptibility%20to%20viral%20infection> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/MP_0002418> ;
-	<http://purl.obolibrary.org/obo/RO_0004024> :developmental%20process ;
-	<http://purl.obolibrary.org/obo/RO_0004021> :developmental%20process .
+<http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#developmental%20process
-<http://www.co-ode.org/ontologies/ont.owl#developmental%20process> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/GO_0032502> ;
-	<http://purl.obolibrary.org/obo/RO_0002234> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002233> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0000057> :population%20of%20organisms ;
-	<http://purl.obolibrary.org/obo/RO_0002332> :population%20of%20organisms .
+<http://purl.obolibrary.org/obo/PCO_0000001> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms
-<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/PCO_0000001> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :thermoregulation%20behavior .
+<http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PCO_0000001> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior
-<http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior> rdf:type owl:NamedIndividual ,
-	<http://purl.obolibrary.org/obo/NBO_0000051> ;
-	<http://purl.obolibrary.org/obo/RO_0002410> :colony%20collapse .
+<http://purl.obolibrary.org/obo/GO_0032502> a <http://www.w3.org/2002/07/owl#Class> .
 
-###  http://www.co-ode.org/ontologies/ont.owl#colony%20collapse
-<http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> rdf:type owl:NamedIndividual ,
-	<http://id.nlm.nih.gov/mesh/D056631> .
+<http://www.co-ode.org/ontologies/ont.owl#developmental%20process> <http://purl.obolibrary.org/obo/RO_0000057> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002234> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	<http://purl.obolibrary.org/obo/RO_0002332> <http://www.co-ode.org/ontologies/ont.owl#population%20of%20organisms> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0032502> .
 
+<http://purl.obolibrary.org/obo/NBO_0000051> a <http://www.w3.org/2002/07/owl#Class> .
 
+<http://www.co-ode.org/ontologies/ont.owl#thermoregulation%20behavior> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#colony%20collapse> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/NBO_0000051> .
 
-#################################################################
-#   Object Statements
-#################################################################
+<http://purl.obolibrary.org/obo/GO_0044414> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://purl.obolibrary.org/obo/RO_0002331> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002327> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002428> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0019000> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004024> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0004021> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002233> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0000057> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002332> rdf:type owl:ObjectProperty .
-<http://purl.obolibrary.org/obo/RO_0002410> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/MP_0002418> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002405> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.co-ode.org/ontologies/ont.owl#immune%20system> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0002405> .
+
+<http://www.co-ode.org/ontologies/ont.owl#increased%20susceptibility%20to%20viral%20infection> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#developmental%20process> ;
+	<http://purl.obolibrary.org/obo/RO_0004024> <http://www.co-ode.org/ontologies/ont.owl#developmental%20process> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0002418> .
+
+<http://www.co-ode.org/ontologies/ont.owl#suppression%20of%20host%20defenses> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#increased%20susceptibility%20to%20viral%20infection> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0044414> .
+
+<https://noctua.apps.renci.org/model/AOP_84> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "Suppression of immune system contributes to impaired development and leads to colony loss/failure"^^<http://www.w3.org/2001/XMLSchema#string> .
