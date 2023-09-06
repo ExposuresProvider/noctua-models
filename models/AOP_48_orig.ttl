@@ -6,8 +6,8 @@
     @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
     @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_48> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_48> <http://purl.org/dc/elements/1.1/title> "Binding of agonists to ionotropic glutamate receptors in adult brain causes excitotoxicity that mediates neuronal cell death, contributing to learning and memory impairment."^^xsd:string .
+    <https://noctua.apps.renci.org/model/AOP_48_orig> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_48_orig> <http://purl.org/dc/elements/1.1/title> "Binding of agonists to ionotropic glutamate receptors in adult brain causes excitotoxicity that mediates neuronal cell death, contributing to learning and memory impairment."^^xsd:string .
 <https://noctua.apps.renci.org/model/48> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

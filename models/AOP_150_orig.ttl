@@ -6,8 +6,8 @@
     @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
     @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_150> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_150> <http://purl.org/dc/elements/1.1/title> "Aryl hydrocarbon receptor activation leading to early life stage mortality, via reduced VEGF"^^xsd:string .
+    <https://noctua.apps.renci.org/model/AOP_150_orig> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_150_orig> <http://purl.org/dc/elements/1.1/title> "Aryl hydrocarbon receptor activation leading to early life stage mortality, via reduced VEGF"^^xsd:string .
 <https://noctua.apps.renci.org/model/150> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

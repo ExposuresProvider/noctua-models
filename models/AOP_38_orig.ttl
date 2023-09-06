@@ -6,8 +6,8 @@
     @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
     @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_38> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_38> <http://purl.org/dc/elements/1.1/title> "Protein Alkylation leading to Liver Fibrosis"^^xsd:string .
+    <https://noctua.apps.renci.org/model/AOP_38_orig> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_38_orig> <http://purl.org/dc/elements/1.1/title> "Protein Alkylation leading to Liver Fibrosis"^^xsd:string .
 <https://noctua.apps.renci.org/model/38> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

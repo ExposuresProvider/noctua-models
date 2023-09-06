@@ -6,8 +6,8 @@
     @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
     @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_156> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_156> <http://purl.org/dc/elements/1.1/title> "Deiodinase 2 inhibition leading to increased mortality via reduced anterior swim bladder inflation"^^xsd:string .
+    <https://noctua.apps.renci.org/model/AOP_156_orig> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_156_orig> <http://purl.org/dc/elements/1.1/title> "Deiodinase 2 inhibition leading to increased mortality via reduced anterior swim bladder inflation"^^xsd:string .
 <https://noctua.apps.renci.org/model/156> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 

@@ -6,8 +6,8 @@
     @prefix : <http://www.co-ode.org/ontologies/ont.owl#> .
     @base <http://www.w3.org/2002/07/owl#> .
 
-    <https://noctua.apps.renci.org/model/AOP_6> a owl:Ontology .
-<https://noctua.apps.renci.org/model/AOP_6> <http://purl.org/dc/elements/1.1/title> "Antagonist binding to PPARα leading to body-weight loss"^^xsd:string .
+    <https://noctua.apps.renci.org/model/AOP_6_orig> a owl:Ontology .
+<https://noctua.apps.renci.org/model/AOP_6_orig> <http://purl.org/dc/elements/1.1/title> "Antagonist binding to PPARα leading to body-weight loss"^^xsd:string .
 <https://noctua.apps.renci.org/model/6> <http://geneontology.org/lego/modelstate> "review"^^xsd:string .
         
 
