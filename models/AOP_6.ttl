@@ -1,6 +1,8 @@
 
 <https://noctua.apps.renci.org/model/AOP_6> a <http://www.w3.org/2002/07/owl#Ontology> .
 
+<http://geneontology.org/lego/modelstate> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
 <http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -16,15 +18,20 @@
 <http://purl.obolibrary.org/obo/GO_0006635> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#ketosis> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006635> .
+	<http://geneontology.org/lego/hint/layout/x> "413.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "513.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006635> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/PR_000013056> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013056> .
+<http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> , <https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000001> ;
+	<http://geneontology.org/lego/hint/layout/x> "152.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "913.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000013056> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0035624> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -48,18 +55,95 @@
 
 <http://purl.obolibrary.org/obo/PR_000011048> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0002118> .
+<http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis> <http://geneontology.org/lego/hint/layout/x> "749.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "208"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0002118> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#ketone%20body> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_73693> .
+<http://www.co-ode.org/ontologies/ont.owl#ketone%20body> <http://geneontology.org/lego/hint/layout/x> "103.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "276"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_73693> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#ketosis> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#abnormal%20lipid%20homeostasis> , <http://www.co-ode.org/ontologies/ont.owl#ketone%20body> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D007662> .
+	<http://geneontology.org/lego/hint/layout/x> "453.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "296.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D007662> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#ketosis> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035624> .
+	<http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	<http://geneontology.org/lego/hint/layout/x> "549.88330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "648.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035624> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#weight%20loss> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001263> .
+<http://www.co-ode.org/ontologies/ont.owl#weight%20loss> <http://geneontology.org/lego/hint/layout/x> "448"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "10"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001263> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <https://noctua.apps.renci.org/model/AOP_6> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Antagonist binding to PPARα leading to body-weight loss"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Antagonist binding to PPARα leading to body-weight loss"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/y> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000001> <http://geneontology.org/lego/hint/layout/x> "549"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "884"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0048019> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000002> <http://geneontology.org/lego/hint/layout/x> "291"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "744"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011048> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000003> <http://geneontology.org/lego/hint/layout/x> "804"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "741"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000011047> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000004> <http://geneontology.org/lego/hint/layout/x> "538"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "735"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003714> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000005> <http://geneontology.org/lego/hint/layout/x> "442"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "96"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0030163> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+_:t2458 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#peroxisome%20proliferator-activated%20receptor%20alpha> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <https://noctua.apps.renci.org/model/AOP_6/64ecbbe400000001> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t2459 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#receptor%20transactivation> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#fatty%20acid%20beta-oxidation> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-08"^^<http://www.w3.org/2001/XMLSchema#string> .
