@@ -18,9 +18,10 @@
 <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
 	<http://geneontology.org/lego/hint/layout/x> "472.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "448.25001525878906"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0004009> <http://www.co-ode.org/ontologies/ont.owl#cell> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008283> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/CHEBI_15422> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -30,26 +31,25 @@
 
 <http://purl.obolibrary.org/obo/GO_0005739> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#ATP> <http://geneontology.org/lego/hint/layout/x> "930.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "777.7499847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#ATP> <http://geneontology.org/lego/hint/layout/x> "836.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "702.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15422> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#ATP> ;
-	<http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> <http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "687.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002213> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://purl.obolibrary.org/obo/RO_0004008> <http://www.co-ode.org/ontologies/ont.owl#ATP> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006754> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> <http://geneontology.org/lego/hint/layout/x> "503.6299133300781"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "1315.9842224121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.obolibrary.org/obo/RO_0001015> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> , <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> , <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005739> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0040007> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -59,14 +59,14 @@
 	<http://geneontology.org/lego/hint/layout/y> "459.00001525878906"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0040007> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#multicellular%20organism> <http://geneontology.org/lego/hint/layout/x> "198.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "651.2499847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002503> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/UBERON_0000468> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0005623> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -74,39 +74,41 @@
 
 <http://purl.obolibrary.org/obo/GO_1901691> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#cell> <http://geneontology.org/lego/hint/layout/x> "916.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "474.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.obolibrary.org/obo/RO_0002352> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+<http://www.co-ode.org/ontologies/ont.owl#cell> <http://geneontology.org/lego/hint/layout/x> "477.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "301.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005623> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> <http://geneontology.org/lego/hint/layout/x> "231.99359130859375"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "1020.7378540039062"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002213> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0017077> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> <http://geneontology.org/lego/hint/layout/x> "500.7485046386719"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "1026.7399597167969"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002213> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1901691> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> <http://geneontology.org/lego/hint/layout/x> "750.2428283691406"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "1016.7328796386719"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> <http://geneontology.org/lego/hint/layout/x> "775.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "1037.7333374023438"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002212> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0051881> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_263> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_263> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Uncoupling of oxidative phosphorylation leading to growth inhibition via decreased cell proliferation"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -116,11 +118,13 @@
 
 <http://purl.obolibrary.org/obo/RO_0002212> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://purl.obolibrary.org/obo/RO_0001015> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
-<http://purl.obolibrary.org/obo/RO_0002352> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000066> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://purl.obolibrary.org/obo/RO_0002503> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/RO_0004009> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/RO_0004008> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -128,72 +132,72 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t4460 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell> ;
+_:t4763 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4461 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
+_:t4764 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4462 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0001015> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
-	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> ;
-	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-_:t4463 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0001015> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
-	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> ;
-	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-_:t4464 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0001015> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
-	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
-	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-_:t4465 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
-	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
-	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-_:t4466 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002353> ;
+_:t4765 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004008> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#ATP> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-10-16"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4467 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002503> ;
+_:t4766 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004009> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4767 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002503> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#multicellular%20organism> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#growth> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4468 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
+_:t4768 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4769 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20phosphorylation%20uncoupler%20activity> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4469 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
+_:t4770 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4771 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#proton%20binding> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4772 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20mitochondrial%20membrane%20potential> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .

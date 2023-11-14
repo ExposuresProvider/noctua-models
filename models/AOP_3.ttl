@@ -31,12 +31,12 @@
 
 <http://purl.obolibrary.org/obo/RO_0002332> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.co-ode.org/ontologies/ont.owl#protein> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
-	<http://geneontology.org/lego/hint/layout/x> "56.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "741.7500152587891"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#protein> <http://geneontology.org/lego/hint/layout/x> "123.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "752.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002503> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_36080> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0005739> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -45,7 +45,7 @@
 	<http://geneontology.org/lego/hint/layout/y> "943.7144165039062"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005739> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://id.nlm.nih.gov/mesh/D057165> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -62,21 +62,21 @@
 	<http://geneontology.org/lego/hint/layout/y> "1118.2500610351562"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000031316> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> <http://purl.obolibrary.org/obo/RO_0002428> <https://noctua.apps.renci.org/model/AOP_3/64ecbbe400000021> ;
 	<http://geneontology.org/lego/hint/layout/x> "329.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "1112"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0008137> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> <http://geneontology.org/lego/hint/layout/x> "437.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "740.5000152587891"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0003304> <http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D057165> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/CL_0000127> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -89,44 +89,44 @@
 	<http://geneontology.org/lego/hint/layout/y> "725.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000127> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> <http://geneontology.org/lego/hint/layout/x> "831.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "532.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0003304> <http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0001847> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#microglial%20cell> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> ;
 	<http://geneontology.org/lego/hint/layout/x> "946.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "724.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000129> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://id.nlm.nih.gov/mesh/D020734> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://purl.obolibrary.org/obo/MP_0003244> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> <http://purl.obolibrary.org/obo/RO_0000052> <http://www.co-ode.org/ontologies/ont.owl#Parkinsonian%20disorders> ;
-	<http://geneontology.org/lego/hint/layout/x> "441.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> <http://geneontology.org/lego/hint/layout/x> "441.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "489.24998474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0003304> <http://www.co-ode.org/ontologies/ont.owl#Parkinsonian%20disorders> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0003244> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#Parkinsonian%20disorders> <http://geneontology.org/lego/hint/layout/x> "432.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "331"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D020734> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_3> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_3> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Inhibition of the mitochondrial complex I of nigro-striatal neurons leads to parkinsonian motor deficits"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -134,12 +134,14 @@
 
 <http://purl.obolibrary.org/obo/RO_0003304> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002503> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
 <https://noctua.apps.renci.org/model/AOP_3/64ecbbe400000021> <http://purl.obolibrary.org/obo/RO_0019000> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
 	<http://geneontology.org/lego/hint/layout/x> "446.7364196777344"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "927.9835357666016"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006120> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -147,56 +149,63 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t4452 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t4843 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#astrocyte> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-21"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4453 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t4844 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <https://noctua.apps.renci.org/model/AOP_3/64ecbbe400000021> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4454 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t4845 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002503> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#protein> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4455 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
+_:t4846 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#NADH%20dehydrogenase%20%28ubiquinone%29%20activity> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <https://noctua.apps.renci.org/model/AOP_3/64ecbbe400000021> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-10-23"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4456 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
+_:t4847 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-21"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4457 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
+_:t4848 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-21"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4458 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t4849 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#loss%20of%20dopaminergic%20neurons> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Parkinsonian%20disorders> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4850 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#microglial%20cell> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#brain%20inflammation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-21"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4459 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0019000> ;
+_:t4851 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0019000> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <https://noctua.apps.renci.org/model/AOP_3/64ecbbe400000021> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Proteostasis%20deficiencies> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;

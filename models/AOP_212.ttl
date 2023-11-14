@@ -32,7 +32,7 @@
 	<http://purl.obolibrary.org/obo/RO_0011003> <http://www.co-ode.org/ontologies/ont.owl#spermatocyte> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006915> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0004857> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -43,14 +43,14 @@
 	<http://purl.obolibrary.org/obo/RO_0002212> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004857> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201> <http://geneontology.org/lego/hint/layout/x> "894.8833465576172"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "962.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0002352> <http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000008478> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/CHEBI_15358> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -61,14 +61,14 @@
 	<http://geneontology.org/lego/hint/layout/y> "783.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15358> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cell%20cycle> ;
 	<http://geneontology.org/lego/hint/layout/x> "512.7499847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "770"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0031399> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/CL_0000017> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -85,40 +85,40 @@
 	<http://geneontology.org/lego/hint/layout/y> "598.9999847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000029191> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cell%20cycle> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> ;
 	<http://geneontology.org/lego/hint/layout/x> "498.8833465576172"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "602.7499847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0051726> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#spermatocyte> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> ;
 	<http://geneontology.org/lego/hint/layout/x> "498.74998474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "308.24998474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000017> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> <http://geneontology.org/lego/hint/layout/x> "499.8833465576172"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "205"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0004020> <http://www.co-ode.org/ontologies/ont.owl#Testis> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/HP_0000029> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#Testis> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> ;
-	<http://geneontology.org/lego/hint/layout/x> "109.99998474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#Testis> <http://geneontology.org/lego/hint/layout/x> "109.99998474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "195.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/FMA_7210> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <https://noctua.apps.renci.org/model/AOP_212> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Histone deacetylase inhibition leading to testicular atrophy"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -130,55 +130,57 @@
 
 <http://purl.obolibrary.org/obo/RO_0011003> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0004020> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
 <http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t4492 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
-	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Testis> ;
-	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> ;
-	a <http://www.w3.org/2002/07/owl#Axiom> ;
-	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-_:t4493 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+_:t5008 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#histone> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-07"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4494 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t5009 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#spermatocyte> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-20"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4495 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0011003> ;
+_:t5010 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004020> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Testicular%20atrophy> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Testis> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-08"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t5011 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0011003> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#spermatocyte> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-20"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4496 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+_:t5012 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell%20cycle-related%20cyclin> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cell%20cycle> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-20"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4497 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
+_:t5013 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20protein%20modification%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-09-20"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t4498 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
+_:t5014 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#histone%20deacetylase%201> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#enzyme%20inhibitor%20activity> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
