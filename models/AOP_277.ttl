@@ -1,6 +1,8 @@
 
 <https://noctua.apps.renci.org/model/AOP_277> a <http://www.w3.org/2002/07/owl#Ontology> .
 
+<http://geneontology.org/lego/modelstate> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
 <http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://purl.obolibrary.org/obo/RO_0002331> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -13,14 +15,38 @@
 
 <http://purl.obolibrary.org/obo/PR_000001753> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007249> .
+<http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> <http://geneontology.org/lego/hint/layout/x> "86"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "165"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0007249> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-03"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase%2FNF-kappaB%20signaling> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001753> .
+<http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> ;
+	<http://geneontology.org/lego/hint/layout/x> "271.875"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000001753> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-03"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_277> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_277> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-11-03"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/y> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+_:t4358 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#transcription%20factor%20NF-kappa-B%20subunit> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#I-kappaB%20kinase/NF-kappaB%20signaling> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-09-21"^^<http://www.w3.org/2001/XMLSchema#string> .

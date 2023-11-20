@@ -1,12 +1,20 @@
 
 <https://noctua.apps.renci.org/model/AOP_220> a <http://www.w3.org/2002/07/owl#Ontology> .
 
+<http://geneontology.org/lego/modelstate> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
 <http://purl.obolibrary.org/obo/CL_0000235> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://purl.obolibrary.org/obo/RO_0002327> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://www.co-ode.org/ontologies/ont.owl#macrophage> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000235> .
+	<http://geneontology.org/lego/hint/layout/x> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000235> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/RO_0000053> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
@@ -22,20 +30,64 @@
 
 <http://purl.obolibrary.org/obo/PR_000017294> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034599> .
+<http://www.co-ode.org/ontologies/ont.owl#cellular%20response%20to%20oxidative%20stress> <http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0034599> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005039> .
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia> <http://geneontology.org/lego/hint/layout/x> "862.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/MP_0005039> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000008555> .
+<http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	<http://geneontology.org/lego/hint/layout/x> "873.4998931884766"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "337.2499771118164"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000008555> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002281> .
+<http://www.co-ode.org/ontologies/ont.owl#macrophage%20activation%20involved%20in%20immune%20response> <http://geneontology.org/lego/hint/layout/x> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0002281> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> <http://purl.obolibrary.org/obo/RO_0000053> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
-	<http://purl.obolibrary.org/obo/RO_0002610> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000017294> .
+<http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	<http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000017294> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <https://noctua.apps.renci.org/model/AOP_220> <http://geneontology.org/lego/modelstate> "development"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Cyp2E1 Activation Leading to Liver Cancer"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Cyp2E1 Activation Leading to Liver Cancer"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/y> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+_:t4052 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002410> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hypoxia-inducible%20factor%201-alpha> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t4053 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002410> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#von%20Hippel-Lindau%20disease%20tumor%20suppressor> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hypoxia> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2023-10-25"^^<http://www.w3.org/2001/XMLSchema#string> .
