@@ -159,11 +159,11 @@
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_144> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_144> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Endocytic lysosomal uptake leading to liver fibrosis"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -183,70 +183,70 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t5829 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6247 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#leukocyte> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5830 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
+_:t6248 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5831 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6249 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#lysosome> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#organelle%20disassembly> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5832 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
+_:t6250 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5833 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
+_:t6251 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#acute%20inflammatory%20response> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5834 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004020> ;
+_:t6252 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004020> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell%20death> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrion> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5835 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
+_:t6253 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cell%20activation%20involved%20in%20immune%20response> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5836 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
+_:t6254 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002213> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20stellate%20cell%20activation> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5837 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004020> ;
+_:t6255 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004020> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#collagen%20biosynthetic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-01-31"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5838 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004025> ;
+_:t6256 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004025> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#liver%20fibrosis> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#liver> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;

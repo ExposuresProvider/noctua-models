@@ -37,12 +37,12 @@
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> <http://geneontology.org/lego/hint/layout/x> "271.875"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> <http://geneontology.org/lego/hint/layout/x> "370"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "444"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/RO_0003304> <http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0072574> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0006281> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -75,10 +75,10 @@
 
 <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> ;
 	<http://geneontology.org/lego/hint/layout/x> "68"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "488.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "576"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000182> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/FMA_67194> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -98,11 +98,11 @@
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_46> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_46> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "AFB1: Mutagenic Mode-of-Action leading to Hepatocellular Carcinoma (HCC)"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -129,49 +129,49 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t5403 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6233 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hepatocyte> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-27"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5404 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002304> ;
+_:t6234 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002304> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#mutation> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-27"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5405 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
+_:t6235 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Nuclear%20deoxyribonucleic%20acid> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#DNA%20alkylation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5406 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
+_:t6236 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002352> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Nuclear%20deoxyribonucleic%20acid> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#DNA%20repair> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-27"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5407 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0017003> ;
+_:t6237 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0017003> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#cellular%20tumor%20antigen%20p53> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mutation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-27"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5408 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
+_:t6238 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hepatocyte%20proliferation> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-27"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5409 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002610> ;
+_:t6239 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002610> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <https://noctua.apps.renci.org/model/AOP_46/64ecbbe400000029> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#DNA%20alkylation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;

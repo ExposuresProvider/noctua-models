@@ -1,6 +1,8 @@
 
 <https://noctua.apps.renci.org/model/AOP_298> a <http://www.w3.org/2002/07/owl#Ontology> .
 
+<http://geneontology.org/lego/modelstate> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
 <http://purl.obolibrary.org/obo/RO_0002410> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://purl.obolibrary.org/obo/CHEBI_26523> a <http://www.w3.org/2002/07/owl#Class> .
@@ -13,18 +15,23 @@
 
 <http://purl.obolibrary.org/obo/RO_0002428> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> .
+<http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> ;
+	<http://geneontology.org/lego/hint/layout/x> "271.875"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "1606.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_26523> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_1903409> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://purl.obolibrary.org/obo/GO_0000302> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://www.co-ode.org/ontologies/ont.owl#response%20to%20reactive%20oxygen%20species> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000302> .
+	<http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "1300"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000302> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/GO_0001837> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -40,35 +47,66 @@
 
 <http://purl.obolibrary.org/obo/PR_000030936> a <http://www.w3.org/2002/07/owl#Class> .
 
-<http://www.co-ode.org/ontologies/ont.owl#beta-catenin-TCF%20complex> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1990907> .
+<http://www.co-ode.org/ontologies/ont.owl#beta-catenin-TCF%20complex> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
+	<http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "993.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1990907> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#cellular_component> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005575> .
+	<http://geneontology.org/lego/hint/layout/x> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "687.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005575> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cellular%20response%20to%20drug> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0001837> .
+	<http://geneontology.org/lego/hint/layout/x> "280.87498474121094"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "385.2499694824219"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0001837> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine> <http://purl.obolibrary.org/obo/RO_0002327> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
-	<http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
-	<http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
-	<http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000030936> .
+<http://www.co-ode.org/ontologies/ont.owl#protein-serine%20O-palmitoleoyltransferase%20porcupine> <http://purl.obolibrary.org/obo/RO_0002428> <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> ;
+	<http://geneontology.org/lego/hint/layout/x> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "1300"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/PR_000030936> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#epithelial%20to%20mesenchymal%20transition> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1904863> .
+	<http://geneontology.org/lego/hint/layout/x> "468.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "687.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_1904863> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cellular%20response%20to%20drug> a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_2001038> .
+<http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20cellular%20response%20to%20drug> <http://geneontology.org/lego/hint/layout/x> "271.875"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_2001038> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#Wnt%20protein%20secretion> <http://purl.obolibrary.org/obo/RO_0002410> <http://www.co-ode.org/ontologies/ont.owl#regulation%20of%20beta-catenin-TCF%20complex%20assembly> ;
-	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0061355> .
+	<http://geneontology.org/lego/hint/layout/x> "67.98863220214844"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "971.7411499023438"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0061355> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-02-22"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_298> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_298> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
-	<http://purl.org/dc/elements/1.1/title> "Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/title> "Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-5167-9928"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/y> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .

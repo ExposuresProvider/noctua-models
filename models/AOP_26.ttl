@@ -67,18 +67,18 @@
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#ATP> <http://purl.obolibrary.org/obo/RO_0002353> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
-	<http://geneontology.org/lego/hint/layout/x> "881.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "957.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/x> "859"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "1010.0000305175781"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15422> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> <http://geneontology.org/lego/hint/layout/x> "869.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "799"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> <http://geneontology.org/lego/hint/layout/x> "875"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "835.0000305175781"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.obolibrary.org/obo/BFO_0000066> <http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20respiratory%20chain> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0006754> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://purl.obolibrary.org/obo/CHEBI_16480> a <http://www.w3.org/2002/07/owl#Class> .
 
@@ -104,11 +104,11 @@
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://www.co-ode.org/ontologies/ont.owl#long-term%20synaptic%20potentiation> <http://geneontology.org/lego/hint/layout/x> "61.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "463"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<http://www.co-ode.org/ontologies/ont.owl#long-term%20synaptic%20potentiation> <http://geneontology.org/lego/hint/layout/x> "107"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "420"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0060291> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20respiratory%20chain> <http://geneontology.org/lego/hint/layout/x> "462.63330078125"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "817.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
@@ -117,17 +117,17 @@
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> <http://purl.obolibrary.org/obo/RO_0002331> <http://www.co-ode.org/ontologies/ont.owl#long-term%20synaptic%20potentiation> ;
-	<http://geneontology.org/lego/hint/layout/x> "63"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "670.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/x> "74"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "642"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16480> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_26> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_26> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Calcium-mediated neuronal ROS production and energy imbalance"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -145,42 +145,42 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t5480 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+_:t6173 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#ATP%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20respiratory%20chain> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5481 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0011002> ;
+_:t6174 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0011002> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#calcium%20ion> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20respiratory%20chain> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5482 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6175 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#long-term%20synaptic%20potentiation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5483 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+_:t6176 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#mitochondrial%20respiratory%20chain> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5484 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002332> ;
+_:t6177 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002332> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#nitric%20oxide> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2023-11-28"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t5485 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
+_:t6178 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003304> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#reactive%20oxygen%20species%20biosynthetic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#oxidative%20stress> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;

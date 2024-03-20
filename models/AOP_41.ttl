@@ -94,11 +94,11 @@
 <http://purl.obolibrary.org/obo/GO_0019725> a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://www.co-ode.org/ontologies/ont.owl#Bile%20Duct%20Neoplasms> <http://purl.obolibrary.org/obo/RO_0004021> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
-	<http://geneontology.org/lego/hint/layout/x> "700.5000152587891"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://geneontology.org/lego/hint/layout/y> "587"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/x> "777.9999847412109"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "507"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://id.nlm.nih.gov/mesh/D001650> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://www.co-ode.org/ontologies/ont.owl#cellular%20homeostasis> <http://geneontology.org/lego/hint/layout/x> "857.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://geneontology.org/lego/hint/layout/y> "1133.75"^^<http://www.w3.org/2001/XMLSchema#string> ;
@@ -136,11 +136,11 @@
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<https://noctua.apps.renci.org/model/AOP_41> <http://geneontology.org/lego/modelstate> "review"^^<http://www.w3.org/2001/XMLSchema#string> ;
+<https://noctua.apps.renci.org/model/AOP_41> <http://geneontology.org/lego/modelstate> "production"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	a <http://www.w3.org/2002/07/owl#Ontology> ;
 	<http://purl.org/dc/elements/1.1/title> "Sustained AhR Activation leading to Rodent Liver Tumours"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://purl.org/dc/elements/1.1/date> "2024-03-11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
@@ -156,98 +156,98 @@
 
 <http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-_:t6056 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
+_:t6216 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Bile%20Duct%20Neoplasms> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6057 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
+_:t6217 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6058 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
+_:t6218 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002327> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#aryl%20hydrocarbon%20receptor> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6059 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6219 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hepatic%20oval%20stem%20cell> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6060 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
+_:t6220 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6061 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6221 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#intrahepatic%20bile%20duct%20epithelial%20cell> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6062 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
+_:t6222 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0003302> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hepatocellular%20carcinoma> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6063 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
+_:t6223 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002212> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#apoptotic%20process> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6064 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
+_:t6224 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002428> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#signaling> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cellular%20homeostasis> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6065 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
+_:t6225 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Bile%20Duct%20Neoplasms> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6066 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002610> ;
+_:t6226 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002610> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#hyperplasia> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6067 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
+_:t6227 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004021> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cellular%20homeostasis> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6068 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004024> ;
+_:t6228 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0004024> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Liver%20Diseases> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
 	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9356-3475"^^<http://www.w3.org/2001/XMLSchema#string> ;
 	<http://purl.org/dc/elements/1.1/date> "2024-02-06"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-_:t6069 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
+_:t6229 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002331> ;
 	<http://www.w3.org/2002/07/owl#annotatedSource> <http://www.co-ode.org/ontologies/ont.owl#Liver%20cell> ;
 	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.co-ode.org/ontologies/ont.owl#cell%20proliferation> ;
 	a <http://www.w3.org/2002/07/owl#Axiom> ;
